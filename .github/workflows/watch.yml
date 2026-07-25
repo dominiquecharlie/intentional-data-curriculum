@@ -1,0 +1,42 @@
+name: Research Watch
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Mondays 08:00 America/Chicago during CDT
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: research-watch
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Fetch candidates
+        run: python -m src.fetch
+      - name: Score candidates
+        run: python -m src.score
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Build and send digest
+        run: python -m src.digest --send
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+      - name: Commit state
+        run: |
+          git config user.name "research-watch"
+          git config user.email "actions@github.com"
+          git add data output
+          git diff --staged --quiet || git commit -m "Research Watch: weekly run $(date -u +%Y-%m-%d)"
+          git push
