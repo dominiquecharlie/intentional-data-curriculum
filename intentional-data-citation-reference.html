@@ -141,6 +141,26 @@ body { background: #FAF9F7; margin: 0; position: relative; overflow-x: hidden; }
 .bar-research { background: #8CC63E; }
 .dot-research { background: #8CC63E; }
 
+.foundations { font-family: var(--font-sans); padding: 0 1.25rem 1.75rem; }
+.fnd-label {
+  font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em;
+  color: #E87722; margin-bottom: 4px;
+}
+.fnd-title { font-size: 17px; font-weight: 600; color: #2D6A2F; margin-bottom: 5px; }
+.fnd-intro {
+  font-size: 12px; color: var(--text-secondary); line-height: 1.6;
+  padding-bottom: 11px; border-bottom: 0.5px solid var(--border);
+}
+.fnd-row { display: flex; gap: 14px; padding: 10px 0; border-bottom: 0.5px solid var(--border); }
+.fnd-row:last-child { border-bottom: none; }
+.fnd-name { flex: 0 0 170px; font-size: 12px; font-weight: 600; color: #1E4A20; line-height: 1.4; }
+.fnd-body { flex: 1; font-size: 12px; color: var(--text-secondary); line-height: 1.55; }
+.fnd-meta { display: block; color: var(--text-muted); font-size: 11px; margin-top: 1px; }
+@media (max-width: 620px) {
+  .fnd-row { flex-direction: column; gap: 3px; }
+  .fnd-name { flex: none; }
+}
+
 </style>
 </head>
 <body>
@@ -170,8 +190,69 @@ body { background: #FAF9F7; margin: 0; position: relative; overflow-x: hidden; }
   <div class="session-title-display" id="session-title-display"></div>
   <div class="segments" id="segments-container"></div>
 </div>
+
+<div class="foundations">
+  <div class="fnd-label">Foundational sources</div>
+  <div class="fnd-title">The nine sources the curriculum is built on</div>
+  <div class="fnd-intro">The segment map above shows where material is adapted, segment by segment. This list is the underlying evidence base. All links verified July 2026.</div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">SAILS</div>
+    <div class="fnd-body">Validated AI literacy instrument. Basis for the AI Literacy Diagnostic and for pre and post measurement.
+      <span class="fnd-meta">Scheibenzuber et al., British Journal of Educational Technology, 2026. <a class="cite-link" href="https://doi.org/10.1111/bjet.70065">doi.org/10.1111/bjet.70065</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">Theory of Interrogative Reasoning</div>
+    <div class="fnd-body">Reframes ethical AI as a question of power, belief, and timing rather than technical design. The basis for moving from human in the loop to communities in the loop.
+      <span class="fnd-meta">Styles, Williams, Teran, and Johnson. Just Tech, Social Science Research Council, June 10, 2026. <a class="cite-link" href="https://just-tech.ssrc.org/articles/interrogative-reasoning-and-the-problem-with-the-human-in-the-loop/">just-tech.ssrc.org</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">CARE Model&trade; and Communities in the Loop</div>
+    <div class="fnd-body">Community accountability as a structural element of governance design rather than a consultation step. Source for the community anchor and community impact threads.
+      <span class="fnd-meta">Measure. <a class="cite-link" href="https://wemeasure.org">wemeasure.org</a> &middot; <a class="cite-link" href="https://communityintheloop.org">communityintheloop.org</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">NIST AI Risk Management Framework</div>
+    <div class="fnd-body">Voluntary risk management framework. Named as the safe harbor standard under Texas TRAIGA.
+      <span class="fnd-meta">AI RMF 1.0, NIST, January 2023. Currently under revision. <a class="cite-link" href="https://www.nist.gov/itl/ai-risk-management-framework">nist.gov</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">ISO/IEC 42001</div>
+    <div class="fnd-body">The first AI management system standard. Reference point for the governance architecture options.
+      <span class="fnd-meta">ISO/IEC 42001:2023, published December 2023. <a class="cite-link" href="https://www.iso.org/standard/42001">iso.org</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">Australia's 8 AI Ethics Principles</div>
+    <div class="fnd-body">Plain-language ethics scaffold covering fairness, privacy, transparency, contestability, and accountability.
+      <span class="fnd-meta">Australian Government, Department of Industry, Science and Resources. <a class="cite-link" href="https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles">industry.gov.au</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">The AI Governance Stack</div>
+    <div class="fnd-body">Five-layer governance architecture: policy, oversight, controls, audit, and disclosure. Source for the governance architecture options and the maturity framing.
+      <span class="fnd-meta">William Fedorich, June 18, 2026. <a class="cite-link" href="https://williamfedorich.substack.com/p/the-ai-governance-stack-a-framework">williamfedorich.substack.com</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">Policy on the AI Exponential</div>
+    <div class="fnd-body">The pace of change argument behind the why now framing.
+      <span class="fnd-meta">Anthropic. <a class="cite-link" href="https://www.anthropic.com/policy-on-the-ai-exponential">anthropic.com</a></span></div>
+  </div>
+
+  <div class="fnd-row">
+    <div class="fnd-name">What is California's AI safety law?</div>
+    <div class="fnd-body">Analysis of SB 53, used as the pattern for state-level AI regulation that nonprofits should expect to see spread.
+      <span class="fnd-meta">Alikhani and Kane, Brookings, December 2025. <a class="cite-link" href="https://www.brookings.edu/articles/what-is-californias-ai-safety-law/">brookings.edu</a></span></div>
+  </div>
+</div>
+
 <div class="footer-note">
-  Sources: EqualAI Trainer's Guide and companion curricula · SAILS (Scheibenzuber et al., BJET 2026, LMU Munich) · Theory of Interrogative Reasoning (Styles, Williams, Teran, Johnson) · CARE Model&trade; and Communities in the Loop (Measure) · Australia's 8 AI Ethics Principles · NIST AI RMF · ISO/IEC 42001.<br>
+  Curriculum sources: EqualAI Trainer's Guide and companion curricula, together with the nine foundational sources listed above.<br>
   <span class="brand">Intentional Data · Ethical and Efficient</span> · intentionaldata.org
 </div>
 </div>
