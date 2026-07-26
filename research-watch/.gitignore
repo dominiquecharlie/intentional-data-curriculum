@@ -1,3 +1,24 @@
+# The curriculum repo is PUBLIC. Everything listed here stays local.
+
+# Competitor and market intelligence. Named companies, pricing, credibility
+# observations. Publishing this would be indefensible.
+landscape/
+
+# Long-form source reads. They carry curriculum design decisions, positioning
+# judgements, and tension analysis. Internal working notes.
+digests/
+
+# Build orientation. Positioning plus the state of all three work streams.
+BUILD-BRIEF.md
+
+# Internal stream view. Reveals the Rootwork and case management roadmap.
+output/streams.md
+
+# Local only
+.DS_Store
+.venv/
 __pycache__/
 *.pyc
+*.bak
+data/*.bak
 .env

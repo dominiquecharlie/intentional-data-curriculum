@@ -80,6 +80,29 @@ python -m src.digest --send
 
 ## Step 4. Push the code to GitHub
 
+**Read this before you copy anything.** The curriculum repo is public. Since these
+instructions were first written, the folder gained three things that must never appear
+there: `landscape/` (competitor teardowns with pricing and credibility observations about
+named companies), `digests/` (long-form source reads carrying curriculum design decisions
+and positioning), and `BUILD-BRIEF.md` plus `output/streams.md` (the state and roadmap of
+all three work streams).
+
+`.gitignore` now excludes all four. Verify before your first push:
+
+```bash
+cd ~/Desktop/intentional-data-curriculum
+git status --short          # landscape/, digests/, BUILD-BRIEF.md must NOT appear
+git check-ignore -v research-watch/landscape research-watch/digests
+```
+
+If any of them show up as untracked files ready to commit, stop and fix `.gitignore`
+before continuing.
+
+The consequence of excluding them is that they live only on your Desktop with no backup.
+If you would rather have everything versioned, make the repo private instead and delete
+those four lines from `.gitignore`. GitHub Pages works on private repos on paid plans only,
+so check that before switching.
+
 If you already have the repo cloned, copy this folder into it. If not:
 
 ```bash
@@ -154,6 +177,12 @@ Two things worth knowing:
 every run, so your research pipeline is visible to anyone. That suits a curriculum
 whose citations are already published. Make the repo private if you would rather it
 were not.
+
+One consequence of the three-stream schema: `registry.json` now carries `applies_to`
+notes for Rootwork and case management, and those become public along with the file.
+The notes describe why a source matters to each line of work, which is closer to strategy
+than to citation. Either accept that, or move the two non-curriculum streams into a
+separate ignored file before you push. Worth a decision before the first run.
 
 **The first two weeks will be noisy.** Tier A records baselines on run one, and the
 Tier B queries are untuned. Reject freely. Every rejection is remembered in

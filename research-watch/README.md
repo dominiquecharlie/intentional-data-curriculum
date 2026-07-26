@@ -11,9 +11,44 @@ discovers and drafts. A human decides.
 
 ## What it watches
 
-Ten records sit in `data/registry.json`: the nine foundational sources plus TRAIGA,
-which is watched for change and held out of the published sources list because it is
-law the curriculum references, not a source it is built on.
+Eleven records sit in `data/registry.json`: the ten foundational and standards sources
+plus TRAIGA, which is watched for change and held out of the published sources list
+because it is law the curriculum references and not a source it is built on.
+
+## Three streams
+
+Every record carries an `applies_to` map keyed by line of work. A stream is omitted
+when it does not apply, so absence is meaningful.
+
+```json
+"applies_to": {
+  "curriculum":      { "refs": ["W2-S1", "toolkit-rubric"], "note": "" },
+  "rootwork":        { "refs": [], "note": "Why this matters to infrastructure work." },
+  "case_management": { "refs": [], "note": "Why this matters to the software line." }
+}
+```
+
+`curriculum` uses the segment vocabulary (`W1-S1` through `W3-S2`, `toolkit-*`). The other
+two are tagged at stream level for now, with the note carrying the specifics, until those
+work streams have a defined component structure. Adding refs later needs no migration.
+
+Curriculum keeps its explanation in the top-level `why_it_matters`, which is the line the
+public page renders. The per-stream `note` fields are internal.
+
+```bash
+python -m src.render     # public: output/reference.md + foundations.html, curriculum only
+python -m src.streams    # internal: output/streams.md, all three streams
+```
+
+## Three folders, three jobs
+
+- `data/` and `output/` are the watch loop. Machine-maintained, publicly rendered.
+- `digests/` holds long-form reads of individual sources. Human-written, never rendered.
+- `landscape/` holds competitor and market intelligence. Human-written, deliberately
+  excluded from public output. See `landscape/README.md` for the rule.
+
+`BUILD-BRIEF.md` is the orientation file for whoever starts building the curriculum.
+Read that first.
 
 Tier A checks the existing base for revisions, errata, and retractions. Tier B searches
 arXiv, OpenAlex, and Semantic Scholar for new work on AI literacy, governance in
