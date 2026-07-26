@@ -11,6 +11,6 @@
 
 **Why it matters.** {{ r.why_it_matters }}
 
-Curriculum segments: {{ r.curriculum_segments | join(', ') or 'unassigned' }}. Type: {{ r.type }}. Last verified {{ r.last_verified }}.
+Curriculum segments: {{ r.applies_to.curriculum.refs | join(', ') or 'unassigned' }}. Type: {{ r.type }}. Last verified {{ r.last_verified }}.
 
 {% endfor %}
