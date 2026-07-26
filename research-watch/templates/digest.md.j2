@@ -1,0 +1,46 @@
+# Research Watch, {{ date }}
+
+{{ total }} item(s) for review.
+
+{% if changes %}
+## Changes to the existing evidence base
+
+{% for c in changes %}
+- **{{ c.title }}**
+  {{ c.note }}
+  {{ c.url }}
+{% endfor %}
+{% endif %}
+{% if recommended %}
+## Recommended
+
+{% for i in recommended %}
+### {{ i.title }} ({{ i.relevance_score }}/10)
+
+{{ i.authors }}{% if i.venue %}, {{ i.venue }}{% endif %}{% if i.year %}, {{ i.year }}{% endif %}
+{{ i.url }}
+
+{{ i.summary }}
+
+Why this scored well: {{ i.score_rationale }}
+Suggested segments: {{ i.suggested_segments | join(', ') or 'none suggested' }}
+Found via: {{ i.discovered_via }}
+
+{% endfor %}
+{% endif %}
+{% if worth %}
+## Worth a look
+
+{% for i in worth %}
+- **{{ i.title }}** ({{ i.relevance_score }}/10) {{ i.url }}
+  {{ i.score_rationale }}
+{% endfor %}
+{% endif %}
+{% if not changes and not recommended and not worth %}
+Nothing new this week.
+{% endif %}
+
+To decide on these, run `python -m src.approve` in the research-watch directory.
+Nothing enters the evidence base without that step.
+
+{{ branding.org_name }}. {{ branding.tagline }}.

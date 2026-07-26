@@ -1,0 +1,16 @@
+# {{ branding.series_name }}: evidence base
+
+{{ count }} sources. Maintained by {{ branding.org_name }} Research Watch. Last regenerated {{ generated }}.
+
+{% for r in records %}
+## {{ r.title }}
+
+{{ r.authors }}{% if r.venue %}, {{ r.venue }}{% endif %}{% if r.year %}, {{ r.year }}{% endif %}.{% if r.url %} <{{ r.url }}>{% endif %}
+
+{{ r.summary }}
+
+**Why it matters.** {{ r.why_it_matters }}
+
+Curriculum segments: {{ r.curriculum_segments | join(', ') or 'unassigned' }}. Type: {{ r.type }}. Last verified {{ r.last_verified }}.
+
+{% endfor %}

@@ -1,0 +1,13 @@
+<div class="foundations">
+  <div class="fnd-label">Foundational sources</div>
+  <div class="fnd-title">The {{ count }} sources the curriculum is built on</div>
+  <div class="fnd-intro">The segment map above shows where material is adapted, segment by segment. This list is the underlying evidence base, maintained by Intentional Data Research Watch. Last regenerated {{ generated }}.</div>
+
+{% for r in records %}
+  <div class="fnd-row">
+    <div class="fnd-name">{{ r.title }}</div>
+    <div class="fnd-body">{{ r.why_it_matters }}
+      <span class="fnd-meta">{{ r.authors }}{% if r.venue %}, {{ r.venue }}{% endif %}{% if r.year %}, {{ r.year }}{% endif %}.{% if r.url %} <a class="cite-link" href="{{ r.url }}">{{ r.url | replace('https://', '') | replace('http://', '') | truncate(52, true, '') }}</a>{% endif %}</span></div>
+  </div>
+{% endfor %}
+</div>
