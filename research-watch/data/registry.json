@@ -1,109 +1,5 @@
 [
   {
-    "id": "australia-principles",
-    "title": "Australia's 8 AI Ethics Principles",
-    "authors": "Department of Industry, Science and Resources",
-    "venue": "Australian Government",
-    "year": 2019,
-    "url": "https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles",
-    "doi": "",
-    "type": "foundational",
-    "curriculum_segments": [
-      "W1-S2",
-      "W3-S1",
-      "toolkit-sorting"
-    ],
-    "summary": "Eight plain-language principles covering wellbeing, human-centred values, fairness, privacy, reliability, transparency, contestability, and accountability.",
-    "why_it_matters": "Its plain language makes it the scaffold participants use when sorting scenarios, without needing a legal background.",
-    "added": "2026-07-25",
-    "last_verified": "2026-07-25",
-    "status": "active",
-    "superseded_by": null
-  },
-  {
-    "id": "care-model",
-    "title": "CARE Model and Communities in the Loop",
-    "authors": "Measure",
-    "venue": "Measure",
-    "year": 2026,
-    "url": "https://communityintheloop.org/",
-    "doi": "",
-    "type": "foundational",
-    "curriculum_segments": [
-      "W1-S2",
-      "W3-S1",
-      "toolkit-rubric"
-    ],
-    "summary": "A practice model treating community accountability as a structural element of governance design.",
-    "why_it_matters": "It supplies the community anchor exercise and the community impact category scored in the tool evaluation rubric.",
-    "added": "2026-07-25",
-    "last_verified": "2026-07-25",
-    "status": "active",
-    "superseded_by": null
-  },
-  {
-    "id": "fedorich-stack",
-    "title": "The AI Governance Stack: A Framework for the Next Three Years",
-    "authors": "William Fedorich",
-    "venue": "AI Governance for Leaders",
-    "year": 2026,
-    "url": "https://williamfedorich.substack.com/p/the-ai-governance-stack-a-framework",
-    "doi": "",
-    "type": "foundational",
-    "curriculum_segments": [
-      "W2-S2",
-      "toolkit-charter"
-    ],
-    "summary": "A five-layer governance architecture covering policy, oversight, controls, audit, and disclosure.",
-    "why_it_matters": "It is the structure behind the governance charter and the maturity assessment leadership commits to.",
-    "added": "2026-07-25",
-    "last_verified": "2026-07-25",
-    "status": "active",
-    "superseded_by": null
-  },
-  {
-    "id": "sails-2026",
-    "title": "Scenario-Based AI Literacy Scale (SAILS)",
-    "authors": "Scheibenzuber et al.",
-    "venue": "British Journal of Educational Technology",
-    "year": 2026,
-    "url": "https://doi.org/10.1111/bjet.70065",
-    "doi": "10.1111/bjet.70065",
-    "type": "foundational",
-    "curriculum_segments": [
-      "toolkit-diagnostic",
-      "toolkit-report",
-      "W1-S1"
-    ],
-    "summary": "A validated instrument that measures AI literacy through eight anchored scenarios across two subscales, critical-reflective and instrumental.",
-    "why_it_matters": "It is the basis of the literacy diagnostic and the reason upskilling can be measured before and after delivery instead of surveyed.",
-    "added": "2026-07-25",
-    "last_verified": "2026-07-25",
-    "status": "active",
-    "superseded_by": null
-  },
-  {
-    "id": "tir-2026",
-    "title": "Interrogative Reasoning and the Problem with the Human in the Loop",
-    "authors": "Styles, Williams, Teran, and Johnson",
-    "venue": "Just Tech, Social Science Research Council",
-    "year": 2026,
-    "url": "https://just-tech.ssrc.org/articles/interrogative-reasoning-and-the-problem-with-the-human-in-the-loop/",
-    "doi": "",
-    "type": "foundational",
-    "curriculum_segments": [
-      "W2-S2",
-      "W3-S1",
-      "toolkit-sorting"
-    ],
-    "summary": "Reframes ethical AI as a question of power, belief, and timing, and shows why a single human reviewer fails to catch the harms a community would see.",
-    "why_it_matters": "It is the basis for moving from human in the loop to communities in the loop, and it is credited to Measure, the curriculum's partner.",
-    "added": "2026-07-25",
-    "last_verified": "2026-07-25",
-    "status": "active",
-    "superseded_by": null
-  },
-  {
     "id": "anthropic-exponential",
     "title": "Policy on the AI Exponential, including the Advanced AI Framework",
     "authors": "Anthropic",
@@ -112,12 +8,43 @@
     "url": "https://www.anthropic.com/policy-on-the-ai-exponential",
     "doi": "",
     "type": "policy",
-    "curriculum_segments": [
-      "W2-S1",
-      "toolkit-charter"
-    ],
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S1",
+          "toolkit-charter"
+        ],
+        "note": ""
+      }
+    },
     "summary": "Two policy proposals. The Advanced AI Framework sets out four categories of catastrophic risk: biological, cyber, loss of control, and automated research and development.",
     "why_it_matters": "Its four risk categories are the taxonomy the governance charter uses, and it supplies the pace of change argument behind the why now framing.",
+    "added": "2026-07-25",
+    "last_verified": "2026-07-25",
+    "status": "active",
+    "superseded_by": null
+  },
+  {
+    "id": "australia-principles",
+    "title": "Australia's 8 AI Ethics Principles",
+    "authors": "Department of Industry, Science and Resources",
+    "venue": "Australian Government",
+    "year": 2019,
+    "url": "https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles",
+    "doi": "",
+    "type": "foundational",
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W1-S2",
+          "W3-S1",
+          "toolkit-sorting"
+        ],
+        "note": ""
+      }
+    },
+    "summary": "Eight plain-language principles covering wellbeing, human-centred values, fairness, privacy, reliability, transparency, contestability, and accountability.",
+    "why_it_matters": "Its plain language makes it the scaffold participants use when sorting scenarios, without needing a legal background.",
     "added": "2026-07-25",
     "last_verified": "2026-07-25",
     "status": "active",
@@ -132,11 +59,125 @@
     "url": "https://www.brookings.edu/articles/what-is-californias-ai-safety-law/",
     "doi": "",
     "type": "policy",
-    "curriculum_segments": [
-      "W2-S1"
-    ],
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S1"
+        ],
+        "note": ""
+      },
+      "case_management": {
+        "refs": [],
+        "note": "Comparative signal on where US state AI law is heading for software vendors."
+      }
+    },
     "summary": "An analysis of California SB 53, covering transparency duties and its whistleblower protections.",
     "why_it_matters": "SB 53 is the pattern for state-level AI regulation, and its whistleblower provisions are modelled directly in the governance charter.",
+    "added": "2026-07-25",
+    "last_verified": "2026-07-25",
+    "status": "active",
+    "superseded_by": null
+  },
+  {
+    "id": "care-model",
+    "title": "CARE Model and Communities in the Loop",
+    "authors": "Measure",
+    "venue": "Measure",
+    "year": 2026,
+    "url": "https://communityintheloop.org/",
+    "doi": "",
+    "type": "foundational",
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W1-S2",
+          "W3-S1",
+          "toolkit-rubric"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "The practice model Rootwork implements. Community accountability as a structural property of the infrastructure instead of a consultation step bolted on afterward."
+      }
+    },
+    "summary": "A practice model treating community accountability as a structural element of governance design.",
+    "why_it_matters": "It supplies the community anchor exercise and the community impact category scored in the tool evaluation rubric.",
+    "added": "2026-07-25",
+    "last_verified": "2026-07-25",
+    "status": "active",
+    "superseded_by": null
+  },
+  {
+    "id": "civic-ai-6pack",
+    "title": "Civic AI: 6-Pack of Care",
+    "authors": "Audrey Tang and Caroline Emmer De Albuquerque Green",
+    "venue": "Oxford Institute for Ethics in AI, Accelerator Fellowship Programme",
+    "year": 2026,
+    "url": "https://civic.ai/",
+    "doi": "",
+    "type": "foundational",
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W1-S1",
+          "W1-S2",
+          "W2-S1",
+          "W2-S2",
+          "W3-S1",
+          "toolkit-sorting",
+          "toolkit-rubric",
+          "toolkit-commitment"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "The strongest architectural source we hold. Pack 6 is a written specification for bounded, sunset-ready, community-owned infrastructure: purpose bounds, resource caps, named shutdown authority, succession obligations, handover tests. Pack 5 supplies portability and exit rights. Put these criteria into design docs and contract templates."
+      },
+      "case_management": {
+        "refs": [],
+        "note": "Ownership transfer language. The Engagement Contract's four headings, the exit readiness measure, and the override ledger pattern all translate into clauses for the handover a client receives."
+      }
+    },
+    "summary": "Six design principles translating Joan Tronto's care ethics into governance machinery an institution can build and inspect, each carrying one headline public measure and an explicit statement of what that measure refuses to reward.",
+    "why_it_matters": "It supplies named, gaming-resistant measures for governance commitments, six gate questions that work as a pre-screen before the tool evaluation rubric, and an independent scholarly arrival at community accountability as structure. Released CC0, so it can be reproduced and adapted inside workshop materials without permission or fee.",
+    "added": "2026-07-26",
+    "last_verified": "2026-07-26",
+    "status": "active",
+    "superseded_by": null,
+    "license": "CC0",
+    "digest": "digests/civic-ai-6pack.md",
+    "related": [
+      "care-model",
+      "tir-2026",
+      "australia-principles"
+    ]
+  },
+  {
+    "id": "fedorich-stack",
+    "title": "The AI Governance Stack: A Framework for the Next Three Years",
+    "authors": "William Fedorich",
+    "venue": "AI Governance for Leaders",
+    "year": 2026,
+    "url": "https://williamfedorich.substack.com/p/the-ai-governance-stack-a-framework",
+    "doi": "",
+    "type": "foundational",
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S2",
+          "toolkit-charter"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "Layer structure for the governance component of an infrastructure build."
+      }
+    },
+    "summary": "A five-layer governance architecture covering policy, oversight, controls, audit, and disclosure.",
+    "why_it_matters": "It is the structure behind the governance charter and the maturity assessment leadership commits to.",
     "added": "2026-07-25",
     "last_verified": "2026-07-25",
     "status": "active",
@@ -151,10 +192,23 @@
     "url": "https://www.iso.org/standard/42001",
     "doi": "",
     "type": "standard",
-    "curriculum_segments": [
-      "W2-S2",
-      "toolkit-charter"
-    ],
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S2",
+          "toolkit-charter"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "Clauses 4 to 10 give a recognised management system skeleton for infrastructure a partner will operate after we leave."
+      },
+      "case_management": {
+        "refs": [],
+        "note": "The standard buyers and funders ask about by name. Alignment language for procurement conversations without claiming certification."
+      }
+    },
     "summary": "The first management system standard for artificial intelligence, covering the structures an organization puts around AI use.",
     "why_it_matters": "It gives the governance architecture options a recognised external reference an auditor or funder will know.",
     "added": "2026-07-25",
@@ -171,12 +225,93 @@
     "url": "https://www.nist.gov/itl/ai-risk-management-framework",
     "doi": "",
     "type": "standard",
-    "curriculum_segments": [
-      "W2-S2",
-      "toolkit-charter"
-    ],
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S2",
+          "toolkit-charter"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "Risk framing for infrastructure design decisions."
+      },
+      "case_management": {
+        "refs": [],
+        "note": "The TRAIGA safe harbour. Directly material to software sold to Texas organisations."
+      }
+    },
     "summary": "A voluntary risk management framework covering govern, map, measure, and manage functions. Version 1.0 is under revision.",
     "why_it_matters": "Texas TRAIGA names it as the safe harbor standard, which makes it the reference point for organizations operating in Texas.",
+    "added": "2026-07-25",
+    "last_verified": "2026-07-25",
+    "status": "active",
+    "superseded_by": null
+  },
+  {
+    "id": "sails-2026",
+    "title": "Scenario-Based AI Literacy Scale (SAILS)",
+    "authors": "Scheibenzuber et al.",
+    "venue": "British Journal of Educational Technology",
+    "year": 2026,
+    "url": "https://doi.org/10.1111/bjet.70065",
+    "doi": "10.1111/bjet.70065",
+    "type": "foundational",
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "toolkit-diagnostic",
+          "toolkit-report",
+          "W1-S1"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "Handover readiness. Before infrastructure transfers to a community partner, the diagnostic measures whether the people receiving it can actually run it, and gives a pre and post record that the transfer worked."
+      },
+      "case_management": {
+        "refs": [],
+        "note": "Same instrument, applied to client staff before and after a system handover. Turns 'they own it outright' into a claim with evidence behind it."
+      }
+    },
+    "summary": "A validated instrument that measures AI literacy through eight anchored scenarios across two subscales, critical-reflective and instrumental.",
+    "why_it_matters": "It is the basis of the literacy diagnostic and the reason upskilling can be measured before and after delivery instead of surveyed.",
+    "added": "2026-07-25",
+    "last_verified": "2026-07-25",
+    "status": "active",
+    "superseded_by": null
+  },
+  {
+    "id": "tir-2026",
+    "title": "Interrogative Reasoning and the Problem with the Human in the Loop",
+    "authors": "Styles, Williams, Teran, and Johnson",
+    "venue": "Just Tech, Social Science Research Council",
+    "year": 2026,
+    "url": "https://just-tech.ssrc.org/articles/interrogative-reasoning-and-the-problem-with-the-human-in-the-loop/",
+    "doi": "",
+    "type": "foundational",
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S2",
+          "W3-S1",
+          "toolkit-sorting"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "Sets who reviews and with what standing when community data infrastructure makes a call. The single-reviewer critique is a design constraint on every human checkpoint we build."
+      },
+      "case_management": {
+        "refs": [],
+        "note": "Every case management build has human review points. TIR is the argument for why one caseworker signing off is insufficient, and it shapes where we put escalation."
+      }
+    },
+    "summary": "Reframes ethical AI as a question of power, belief, and timing, and shows why a single human reviewer fails to catch the harms a community would see.",
+    "why_it_matters": "It is the basis for moving from human in the loop to communities in the loop, and it is credited to Measure, the curriculum's partner.",
     "added": "2026-07-25",
     "last_verified": "2026-07-25",
     "status": "active",
@@ -191,9 +326,22 @@
     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
     "doi": "",
     "type": "context",
-    "curriculum_segments": [
-      "W2-S1"
-    ],
+    "applies_to": {
+      "curriculum": {
+        "refs": [
+          "W2-S1"
+        ],
+        "note": ""
+      },
+      "rootwork": {
+        "refs": [],
+        "note": "Applies to community data infrastructure deployed in Texas."
+      },
+      "case_management": {
+        "refs": [],
+        "note": "Sharpest bite is here. This is law affecting a product we sell, effective 1 January 2026, with NIST AI RMF as the safe harbour. Currently filed as curriculum context, and the case management sale is where it actually costs money to get wrong."
+      }
+    },
     "summary": "Texas legislation governing AI use, effective 1 January 2026, with NIST AI RMF as a safe harbor.",
     "why_it_matters": "It is the law that applies to organizations in the curriculum's home market, which makes governance a compliance matter as well as an ethical one.",
     "added": "2026-07-25",
