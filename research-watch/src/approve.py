@@ -92,7 +92,8 @@ def main(argv=None) -> int:
                     "authors": item.get("authors", ""), "venue": item.get("venue", ""),
                     "year": item.get("year"), "url": item.get("url", ""),
                     "doi": item.get("doi", ""), "type": "supporting",
-                    "curriculum_segments": segs, "summary": item.get("summary", ""),
+                    "applies_to": {"curriculum": {"refs": segs, "note": ""}},
+                    "summary": item.get("summary", ""),
                     "why_it_matters": input("  why it matters (1 sentence): ").strip(),
                     "added": today(), "last_verified": today(),
                     "status": "active", "superseded_by": None})
