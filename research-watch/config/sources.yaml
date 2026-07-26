@@ -1,0 +1,77 @@
+# Tier A: watch the existing evidence base for change.
+tier_a:
+  - id: sails-2026
+    label: "SAILS (Scheibenzuber et al., BJET 2026)"
+    method: crossref
+    doi: "10.1111/bjet.70065"
+  - id: sails-citations
+    label: "Work citing SAILS"
+    method: semantic_scholar_citations
+    doi: "10.1111/bjet.70065"
+  - id: tir-2026
+    label: "Theory of Interrogative Reasoning (Styles, Williams, Teran, Johnson)"
+    method: page_hash
+    url: "https://just-tech.ssrc.org/articles/interrogative-reasoning-and-the-problem-with-the-human-in-the-loop/"
+  - id: tir-search
+    label: "New work referencing interrogative reasoning"
+    method: semantic_scholar_search
+    query: '"interrogative reasoning" Styles'
+  - id: care-model
+    label: "Measure CARE Model and Communities in the Loop"
+    method: page_hash
+    url: "https://wemeasure.org/"
+  - id: communities-in-the-loop
+    label: "Communities in the Loop"
+    method: page_hash
+    url: "https://communityintheloop.org/"
+  - id: australia-principles
+    label: "Australia's 8 AI Ethics Principles"
+    method: page_hash
+    url: "https://www.industry.gov.au/publications/australias-artificial-intelligence-ethics-principles"
+  - id: nist-airmf
+    label: "NIST AI Risk Management Framework"
+    method: page_hash
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+  - id: iso-42001
+    label: "ISO/IEC 42001"
+    method: page_hash
+    url: "https://www.iso.org/standard/42001"
+  - id: fedorich-stack
+    label: "The AI Governance Stack (Fedorich)"
+    method: page_hash
+    url: "https://williamfedorich.substack.com/p/the-ai-governance-stack-a-framework"
+  - id: anthropic-exponential
+    label: "Anthropic Policy on the AI Exponential"
+    method: page_hash
+    url: "https://www.anthropic.com/policy-on-the-ai-exponential"
+  - id: brookings-sb53
+    label: "Brookings on California SB 53"
+    method: page_hash
+    url: "https://www.brookings.edu/articles/what-is-californias-ai-safety-law/"
+  - id: traiga
+    label: "TRAIGA, Texas HB 149"
+    method: page_hash
+    url: "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149"
+
+# Tier B: discover new work.
+tier_b:
+  arxiv_categories: ["cs.CY", "cs.AI"]
+  lookback_days: 30
+  max_per_query: 15
+  queries:
+    - '"AI literacy" AND (nonprofit OR "community organization" OR mission-driven)'
+    - '"AI governance" AND (nonprofit OR board OR fiduciary)'
+    - '"participatory AI" OR "community-led AI" OR "communities in the loop"'
+    - '"AI literacy scale" OR "AI literacy assessment" OR "AI literacy instrument"'
+    - '"co-production" AND (algorithm OR "artificial intelligence") AND community'
+    - '"AI procurement" AND (rubric OR checklist OR "responsible AI")'
+    - 'state AI legislation nonprofit compliance'
+
+scoring:
+  model: "claude-haiku-4-5-20251001"
+  recommend_threshold: 7
+  worth_a_look_threshold: 5
+
+digest:
+  to: "dominique.charlie@intentionaldata.org"
+  subject_template: "Research Watch: {n} new items for the curriculum"

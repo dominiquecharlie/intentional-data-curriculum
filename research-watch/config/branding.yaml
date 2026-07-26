@@ -1,0 +1,21 @@
+series_name: "Co-Produced AI Governance"
+org_name: "Intentional Data"
+tagline: "Ethical and Efficient"
+contact: "dominique.charlie@intentionaldata.org"
+colors:
+  forest: "#2D6A2F"
+  forest_dark: "#1E4A20"
+  lime: "#8CC63E"
+  lime_soft: "#F2F8E6"
+  orange: "#E87722"
+  sage: "#9DBFA5"
+  sage_soft: "#EEF4EF"
+  paper: "#FAF9F7"
+  ink: "#1D1D1B"
+  ink_2: "#4A4A46"
+  ink_3: "#85857E"
+  line: "#E3E1DB"
+fonts:
+  head: "'Poppins', 'Segoe UI', Calibri, sans-serif"
+  body: "Calibri, Carlito, 'Segoe UI', 'Poppins', sans-serif"
+banned_strings: ["VIDA", "ARCH", "Equity-Centered"]
