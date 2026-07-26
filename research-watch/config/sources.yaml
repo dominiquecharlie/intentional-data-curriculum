@@ -59,13 +59,18 @@ tier_b:
   lookback_days: 30
   max_per_query: 15
   queries:
-    - '"AI literacy" AND (nonprofit OR "community organization" OR mission-driven)'
-    - '"AI governance" AND (nonprofit OR board OR fiduciary)'
-    - '"participatory AI" OR "community-led AI" OR "communities in the loop"'
-    - '"AI literacy scale" OR "AI literacy assessment" OR "AI literacy instrument"'
-    - '"co-production" AND (algorithm OR "artificial intelligence") AND community'
-    - '"AI procurement" AND (rubric OR checklist OR "responsible AI")'
-    - 'state AI legislation nonprofit compliance'
+    # Workshop 1 and the literacy diagnostic
+    - '"AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)'
+    - '"AI literacy" AND (workforce OR staff OR employee OR "professional development")'
+    - '"AI upskilling" OR "AI reskilling" OR "AI training program"'
+    # Workshop 2 and the governance charter
+    - '"AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")'
+    - '"AI regulation" OR "state AI legislation" AND (compliance OR "small organization")'
+    # Workshop 3 and the tool evaluation rubric
+    - '"AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)'
+    - '"algorithmic impact assessment" OR "AI impact assessment"'
+    # The co-production thread, running through every workshop
+    - '"participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"'
 
 scoring:
   model: "claude-haiku-4-5-20251001"
