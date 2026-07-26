@@ -1,3 +1,445 @@
 {
-  "fingerprints": {}
+  "fingerprints": {
+    "url:arxiv.org/abs/2509.23363v1": {
+      "title": "AI Education in Higher Education: A Taxonomy for Curriculum Reform and the Mission of Knowledge",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.64169/dje.213": {
+      "title": "Assessing the AI Literacy in Higher Education: A Comparative Study",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.3390/educsci16071099": {
+      "title": "Middle School Girls’ Attitudes and Engagement in Generative AI Cybersecurity Summer Camp",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.32629/jher.v7i3.5309": {
+      "title": "Research on the Dilemmas and Solutions of College Students' AI-Assisted Writing Competence",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.63498/injelps93": {
+      "title": "Accepting or rejecting AI: A mixed-methods study on undergraduate students’ perception of Artificial Intelligence in education",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.32674/h87eaz23": {
+      "title": "The AI-mediated cookbook",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.3126/irj.v5i1.97105": {
+      "title": "Generative AI in Academic Writing: A Systematic Review of Faculty Expectations, Emerging Practices, and Higher Education Implications",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.26034/fr.jehe.2026.9459": {
+      "title": "Ethical Dilemmas of Generative AI in Higher Education Implications for Academic Integrity",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2512.14902v2": {
+      "title": "How frontier AI companies could implement an internal audit function",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2407.21281v1": {
+      "title": "Unlocking the Potential of Binding Corporate Rules (BCRs) in Health Data Transfers",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1108/jiabr-03-2025-0141": {
+      "title": "Shariah governance standard on generative AI for Islamic financial institutions",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.4324/9781003682530": {
+      "title": "AI Governance",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.5281/zenodo.21349755": {
+      "title": "Governance Signal Convergence: A Framework for Cross-Mechanism Pattern Detection in Enterprise AI Governance",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.5281/zenodo.20668398": {
+      "title": "Governance Signal Convergence: A Framework for Cross-Mechanism Pattern Detection in Enterprise AI Governance",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.4324/9781003609513-3": {
+      "title": "The entanglement of theories underpinning PR – historical and future perspectives",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.31181/jscda41202683": {
+      "title": "Artificial Intelligence and the Future of the Labour Economy:A Multi-Criteria Expert Evaluation of Institutional Models of Adaptation",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1007/s11135-026-02987-5": {
+      "title": "A migrant village: social networks, moral obligations, and the culture of migration among the Kurds in Iran: the case of Qalla Rash village",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1007/978-3-032-29532-3_10": {
+      "title": "BEADS: Bias Evaluation Across Domains",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.36602/jsras.2026.3.2.7": {
+      "title": "تكيف القمح مع البيئات التي تعاني من نقص المياه: استراتيجيات التربية للمناطق المعتمدة على الأمطار والمناطق شبه القاحلة",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2603.20220v1": {
+      "title": "Development and Validation of a Faculty Artificial Intelligence Literacy and Competency (FALCON-AI) Scale for Higher Education",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.6084/m9.figshare.32973218.v1": {
+      "title": "TMAILS (Technology acceptance model with metacognitive strategies and AI literacy scale)",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.6084/m9.figshare.32973218": {
+      "title": "TMAILS (Technology acceptance model with metacognitive strategies and AI literacy scale)",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.21203/rs.3.rs-10012281/v1": {
+      "title": "From Objective AI Literacy Assessment to Training Needs Mapping in Greek Secondary Education",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.66069/ojspub.1137260609": {
+      "title": "Multimodal Diagnosis of AI Literacy Among University Teachers and Students under the Background of Big Data",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.4018/979-8-2600-3204-6.ch012": {
+      "title": "An Empirical Study From Odisha State of India for Studying the Knowledge and AI Literacy of Pre-Service Teachers",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.37185/lns.1.1.955": {
+      "title": "Artificial Intelligence Literacy Among Undergraduate Dental Students: A Cross Sectional Study from a Single Academic Institute in Lahore",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.52131/jer.2026.v7i1.3184": {
+      "title": "Rethinking Assessment in the Age of Generative AI: A Theoretical Framework for Academic Integrity, Deep Learning, and Responsible AI Use in Higher Education",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1007/s42321-026-00244-4": {
+      "title": "Teaching with Technology, Leading with Values: ELT Teachers and the Future of AI in Education",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.21203/rs.3.rs-10117781/v1": {
+      "title": "The potential roles and risks of Artificial Intelligence in public health: A scoping review",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.36253/jep-20880": {
+      "title": "Understanding the role of artificial intelligence in luxury brand management",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.3390/rel17070801": {
+      "title": "Technology and Theology, as Artificial Intelligence Comes of Age",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1016/j.pubrev.2026.102729": {
+      "title": "Agency, artificial intelligence, and the non-anthropocentric turn in public relations",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.3389/fvets.2026.1877756": {
+      "title": "Characterization of goat rumen-derived isolates and their effects on in vitro ruminal fermentation properties",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1371/journal.pdig.0001493": {
+      "title": "Evaluating the quality, reliability and readability of digital and artificial intelligence resources for adults with cancer who have significant caregiving responsibilities for children",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.21203/rs.3.rs-10189689/v1": {
+      "title": "Thinking-Visibility: An Interventionist Reconceptualisation of Assessment in the Age of AI Co-Production",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1080/09589236.2026.2704607": {
+      "title": "The morally responsible transgender citizen: mediated self-representation and gender co-production on Chinese social media",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.18231/j.ijor.18023.1782796739": {
+      "title": "Artificial intelligence and deep learning in rheumatologic musculoskeletal imaging: Implications for surgical decision-making and structural damage prevention",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:openalex.org/w7169689205": {
+      "title": "Global Index on Responsible AI: 2026 Report",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.33215/ys2h9974": {
+      "title": "From Readiness to Performance: Modelling AI-Enabled HR Analytics Adoption Capability as a Second-Order Formative Construct in Nigerian SMEs",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.70917/ijcisim-2026-2999": {
+      "title": "The AI-Native University: A Conceptual Framework and Maturity Model for AI Transformation in Higher Education",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.65150/ep-jsshrs/v2e6/2026-30": {
+      "title": "Artificial Intelligence and Adventism: Opportunities, Ethical Tensions, And Theological Examination",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1007/s43681-026-01226-9": {
+      "title": "AI risk: structuring the debate",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1136/leader-2025-001513": {
+      "title": "Radiographers’ readiness for artificial intelligence (AI) leadership: confidence, challenges and role expectations in the UK",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.15837/aijjs.v20i1.7666": {
+      "title": "AI IN CROSS-BORDER PROCUREMENT: LAW AND ETHICS",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.46787/ijaipil.v1i1.7610": {
+      "title": "The Assessment Tetrahedron",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.25125/ijoear-jun-2026-6": {
+      "title": "Role of Artificial Intelligence and Machine Learning in Indian Agriculture: A Review",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.21203/rs.3.rs-10412655/v1": {
+      "title": "Beyond the AI Panic: A Blueprint for Evidence Based EdTech Policy",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21577v1": {
+      "title": "Synthetic data generation framework for quality control automation in gravure printing",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21557v1": {
+      "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21534v1": {
+      "title": "Generative AI Availability, Grades, and Student Satisfaction at a Large University",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21530v1": {
+      "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21529v1": {
+      "title": "ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21522v1": {
+      "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21503v1": {
+      "title": "Agentic Context Management: Solving Agent Memory and Cost by Treating Them as Lifecycle and Architecture Problems",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21488v1": {
+      "title": "Compact Latent Coordination for Autonomous Vehicles at Unsignalized Intersections",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2607.21468v1": {
+      "title": "Thinkink: 2D Spatial Ink-native Interaction with LLMs",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "url:openalex.org/w7169633089": {
+      "title": "Underwriting the Agent Economy: The Blueprint for an AI Insurance Stack",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.71131/0rqvry57": {
+      "title": "CIVIL AND CRIMINAL LIABILITY OF DEEPFAKE AI PLATFORM PROVIDERS IN VIOLATIONS OF THE RIGHT TO REPUTATION",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.3390/jcs10070367": {
+      "title": "Life Cycle Assessment of 3D Concrete Printed Buildings: A Review of Methodologies, Standards and EPBD Compliance",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1016/j.chbah.2026.100359": {
+      "title": "AI-Generated Fake Review Detection in E-Commerce: A Unified Taxonomy and Multi-Stakeholder Roadmap",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.60079/ajeb.v4i3.936": {
+      "title": "Analysis of Factors Affecting the Quality of Internal Audits in the Indonesian Government Sector: A Case Study of the Inspectorate of the Ministry of the State Secretariat",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1177/14705931261467859": {
+      "title": "Markets, inequality, and poverty under finance capitalism",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.25810/1b4k-rk18": {
+      "title": "Communications Law and Policy: Cases and Materials (Edition 9.0)",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1007/s10755-026-09934-0": {
+      "title": "Strategists, Contrarians, Enthusiasts, and Advocates: A Q Methodology Study of Views on Institutional Accreditation",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1017/s1062798726100799": {
+      "title": "Reflections on Risks and Regulation in Higher Education",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.3389/fvets.2026.1851630": {
+      "title": "How can we change behavior to bolster biosecurity? A scoping review and recommendations",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.1017/9781009785600": {
+      "title": "Federalism, Trumpism, and Democracy in America",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    },
+    "doi:10.38140/jjs.v51i1.9326": {
+      "title": "Transformation through the lens of South Africa’s Competition Act 89 of 1998",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-26"
+    }
+  },
+  "crossref:sails-2026": {
+    "indexed": "2026-04-11T06:51:24Z",
+    "updates": 0,
+    "checked": "2026-07-26"
+  },
+  "hash:tir-2026": {
+    "hash": "ac8a98b442742616507676f8315da475aa691c8f9d614ade8260bc8a26a750aa",
+    "checked": "2026-07-26"
+  },
+  "hash:care-model": {
+    "hash": "e31f8311ceabf6474fff5067abde2218a8bda010145b3480d888946b7fd5d20d",
+    "checked": "2026-07-26"
+  },
+  "hash:communities-in-the-loop": {
+    "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
+    "checked": "2026-07-26"
+  },
+  "hash:nist-airmf": {
+    "hash": "d205d92c54a069f73ae158c32a39dee39702f68b55673e62cfd6fdef84f63b84",
+    "checked": "2026-07-26"
+  },
+  "hash:anthropic-exponential": {
+    "hash": "715c178cf02293a60c57dcf2c8b529a1b934296708529d3b5ac9e72291473737",
+    "checked": "2026-07-26"
+  },
+  "hash:brookings-sb53": {
+    "hash": "93a74af3397dbe66a434243ab2c1f526372925c8df3c278e8d9aa1c99f2e839a",
+    "checked": "2026-07-26"
+  },
+  "hash:traiga": {
+    "hash": "4a937a2f999d32627a7261bf4fc6a61befe685e95cc9d242b9f8c60f907ba11a",
+    "checked": "2026-07-26"
+  }
 }
