@@ -407,39 +407,249 @@
       "score": 2,
       "reason": "below threshold",
       "date": "2026-07-26"
+    },
+    "url:arxiv.org/abs/2606.13734v1": {
+      "title": "AI Receptivity or AI Adoption Breadth? A Tool-Specific Reanalysis of the Lower-Literacy/Higher-Usage Link",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2511.15728v1": {
+      "title": "The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:openalex.org/w7166287535": {
+      "title": "Leading IT Projects in the Age of AI: New Competencies for Project Leaders",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.17605/osf.io/g5j7h": {
+      "title": "How and When Personal AI Learning Triggers Knowledge Hiding",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.64388/irev9i12-1719307": {
+      "title": "Multiple Entry and Exit Framework in NEP 2020:A Paradigm Shift in Indian Education",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2601.14512v2": {
+      "title": "Aiming for AI Interoperability: Challenges and Opportunities",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.5281/zenodo.21182457": {
+      "title": "DIGITAL AND AI GOVERNANCE IN INDIA: CHALLENGES OF DATA PRIVACY AND ACCOUNTABILITY",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2607.21300v1": {
+      "title": "Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2606.15662v1": {
+      "title": "The Digital Omnibus on AI, Legislative Legitimacy and the Dynamics of AI Regulation",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2606.14748v1": {
+      "title": "Is My Vision-Language Data in Your AI? Membership Inference Test (MINT) Demo 2",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2606.03330v1": {
+      "title": "FLIPS: Instance-Fingerprinting for LLMs via Pseudo-random Sequences",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2606.02282v1": {
+      "title": "POIROT: Interrogating Agents for Failure Detection in Multi-Agent Systems",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2605.12255v1": {
+      "title": "Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2604.23065v2": {
+      "title": "What Should Frontier AI Developers Disclose About Internal Deployments?",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2604.17602v1": {
+      "title": "Polarization and Integration in Global AI Research",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2603.23471v2": {
+      "title": "Regulating AI Agents",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2603.01245v1": {
+      "title": "Insights for an AI Whistleblower Office from 30 Case Studies",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.33422/worldte.v5i1.1979": {
+      "title": "From AI Dependence to AI Literacy",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:openalex.org/w7166900748": {
+      "title": "Expert Evaluation of Clinical AI Tools on Real Point-of-Care Clinical Queries",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1007/s00586-026-10130-z": {
+      "title": "Scoping review: artificial intelligence in patient education for scoliosis",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:openalex.org/w7169688174": {
+      "title": "Does Multi-Agent Debate Improve AI Feedback on Research Papers?",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1007/s10502-026-09553-w": {
+      "title": "Archivists’ use of AI: practices and impacts",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1057/s41599-026-08387-2": {
+      "title": "From prompts to profiles: how AI literacy profiles and genre-based writing tasks relate to linguistic complexity in L2 writing",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.21203/rs.3.rs-10173609/v1": {
+      "title": "Auditing the Algorithmic Boardroom: A Four-Layer Framework for Ethical Ai Oversight in C-Suite Decision-Making with Contextual Application to Peru",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2606.12418v1": {
+      "title": "Divination by Prompt: LLM-Mediated Xuanxue on Chinese Social Media",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "url:arxiv.org/abs/2601.14190v1": {
+      "title": "Analyzing Far-Right Telegram Channels as Constituents of Information Autocracy in Russia",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1016/j.desal.2026.120515": {
+      "title": "Photothermally enhanced tri-phase interface engineering for photocatalytic production of hydrogen peroxide and 2,5-diformylfuran in seawater",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.58079/16j4t": {
+      "title": "The Co-production of Judaism, Christianity, and Islam",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.6084/m9.figshare.33033191.v1": {
+      "title": "Data for Co-production Barriers and Institutional Responses in Social Care",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.6084/m9.figshare.33033191": {
+      "title": "Data for Co-production Barriers and Institutional Responses in Social Care",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1016/j.jece.2026.124188": {
+      "title": "Continuous syngas bioconversion for co-production of hydroxyectoine and microbial protein",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.82161/jztw-rz36": {
+      "title": "Improving physiotherapy by co-production for persons living with long-term conditions",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.82161/e1ym-yj72": {
+      "title": "IMPROVING SEXUAL HEALTH REHABILITATION THROUGH CO-PRODUCTION - THE ROLE OF THE PHYSIOTHERAPIST",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1016/j.cosust.2026.101683": {
+      "title": "Co-governing multifunctional landscapes: heritage, rights, and knowledge co-production",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
+    },
+    "doi:10.1016/j.physio.2026.102270": {
+      "title": "Co-production for practice-based interprofessional learning: beyond saying “hello”",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-07-27"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-07-26"
+    "checked": "2026-07-27"
   },
   "hash:tir-2026": {
     "hash": "ac8a98b442742616507676f8315da475aa691c8f9d614ade8260bc8a26a750aa",
-    "checked": "2026-07-26"
+    "checked": "2026-07-27"
   },
   "hash:care-model": {
-    "hash": "e31f8311ceabf6474fff5067abde2218a8bda010145b3480d888946b7fd5d20d",
-    "checked": "2026-07-26"
+    "hash": "e5fe8896fbc6c6d9f3a6172084f20875de6de15908cdac8ca5faf32f033745e4",
+    "checked": "2026-07-27"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-07-26"
+    "checked": "2026-07-27"
   },
   "hash:nist-airmf": {
-    "hash": "d205d92c54a069f73ae158c32a39dee39702f68b55673e62cfd6fdef84f63b84",
-    "checked": "2026-07-26"
+    "hash": "6503ad1e9236fed9cf8299d71f233d7cfbd84843ab1d4da9728ec2628013c44a",
+    "checked": "2026-07-27"
   },
   "hash:anthropic-exponential": {
-    "hash": "715c178cf02293a60c57dcf2c8b529a1b934296708529d3b5ac9e72291473737",
-    "checked": "2026-07-26"
+    "hash": "57970b5c7a08bc63cce27fba732f64087380c4d851b2587a004eddb940ad4e21",
+    "checked": "2026-07-27"
   },
   "hash:brookings-sb53": {
-    "hash": "93a74af3397dbe66a434243ab2c1f526372925c8df3c278e8d9aa1c99f2e839a",
-    "checked": "2026-07-26"
+    "hash": "23bbf31f8007e861ac63eea9fc522e32f4aeb3dc24e47fe6e220456967e672b6",
+    "checked": "2026-07-27"
   },
   "hash:traiga": {
     "hash": "4a937a2f999d32627a7261bf4fc6a61befe685e95cc9d242b9f8c60f907ba11a",
-    "checked": "2026-07-26"
+    "checked": "2026-07-27"
   }
 }
