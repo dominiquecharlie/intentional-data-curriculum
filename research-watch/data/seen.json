@@ -617,39 +617,87 @@
       "score": 3,
       "reason": "below threshold",
       "date": "2026-07-27"
+    },
+    "doi:10.3390/bs16071198": {
+      "title": "Entrepreneurial Team Flourishing Amidst AI Revolution: The Influence of AI Literacy on Hedonic and Eudaimonic Well-Being Through Efficacy and Anxiety",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "doi:10.20897/ejelr/18945": {
+      "title": "Multimodal vocabulary instruction for English language learners: From interactive whiteboards to artificial intelligence",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "doi:10.4324/9781003770596": {
+      "title": "The AI Strategy Playbook",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "doi:10.63011/iconels.v3i1.122": {
+      "title": "A Study on the Application of Artificial Intelligence in Chinese Language Teaching in Indonesia",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "doi:10.12688/f1000research.186817.1": {
+      "title": "Building a Living, Ontology-Informed and Large Language Model-Assisted Knowledge Base for Cancer Screening Implementation: A Study Protocol",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "url:arxiv.org/abs/2407.10236v2": {
+      "title": "AI and the Iterable Epistopics of Risk",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "url:arxiv.org/abs/2107.09546v2": {
+      "title": "Responsible and Regulatory Conform Machine Learning for Medicine: A Survey of Challenges and Solutions",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-03"
+    },
+    "doi:10.24818/aras/2026/7/2.03": {
+      "title": "Pockets of Excellence in Romanian Municipalities Between the New European Bauhaus and the AI Act",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-03"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-07-27"
+    "checked": "2026-08-03"
   },
   "hash:tir-2026": {
     "hash": "ac8a98b442742616507676f8315da475aa691c8f9d614ade8260bc8a26a750aa",
-    "checked": "2026-07-27"
+    "checked": "2026-08-03"
   },
   "hash:care-model": {
-    "hash": "e5fe8896fbc6c6d9f3a6172084f20875de6de15908cdac8ca5faf32f033745e4",
-    "checked": "2026-07-27"
+    "hash": "050bd2629a68df13ea9ebcc2b65eb57adafac7693a584602c6d493c3b9d2ad5e",
+    "checked": "2026-08-03"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-07-27"
+    "checked": "2026-08-03"
   },
   "hash:nist-airmf": {
-    "hash": "6503ad1e9236fed9cf8299d71f233d7cfbd84843ab1d4da9728ec2628013c44a",
-    "checked": "2026-07-27"
+    "hash": "962ffc594fd9a51286af460255ad0d0f03f9e02aeeee4c4ef74b5c80187af61e",
+    "checked": "2026-08-03"
   },
   "hash:anthropic-exponential": {
-    "hash": "57970b5c7a08bc63cce27fba732f64087380c4d851b2587a004eddb940ad4e21",
-    "checked": "2026-07-27"
+    "hash": "83309600eec8ee679b4625b68581169d361164d751b00a683a6afad564a3fa4a",
+    "checked": "2026-08-03"
   },
   "hash:brookings-sb53": {
-    "hash": "23bbf31f8007e861ac63eea9fc522e32f4aeb3dc24e47fe6e220456967e672b6",
-    "checked": "2026-07-27"
+    "hash": "a2bd5649c1a84f89847c99b7edbf1eace17dd258fd2b85a4965e5d0acad5f862",
+    "checked": "2026-08-03"
   },
   "hash:traiga": {
     "hash": "4a937a2f999d32627a7261bf4fc6a61befe685e95cc9d242b9f8c60f907ba11a",
-    "checked": "2026-07-27"
+    "checked": "2026-08-03"
   }
 }
