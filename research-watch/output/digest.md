@@ -1,10 +1,14 @@
-# Research Watch, 2026-08-03
+# Research Watch, 2026-08-10
 
-144 item(s) for review.
+142 item(s) for review.
 
 
 ## Changes to the existing evidence base
 
+
+- **Change detected: Theory of Interrogative Reasoning (Styles, Williams, Teran, Johnson)**
+  The page content changed since the last check. Review for a new edition, errata, or a revision.
+  https://just-tech.ssrc.org/articles/interrogative-reasoning-and-the-problem-with-the-human-in-the-loop/
 
 - **Change detected: Measure CARE Model and Communities in the Loop**
   The page content changed since the last check. Review for a new edition, errata, or a revision.
@@ -27,16 +31,52 @@
 ## Recommended
 
 
+### AI Literacy Among Pre-Service Teachers: A New Dimension of Teacher Professional Development (9/10)
+
+Asshar Ahmad, Zenodo (CERN European Organization for Nuclear Research), 2026
+https://doi.org/10.5281/zenodo.21383145
+
+Systematic review of AI literacy competencies among pre-service teachers, identifying gaps in pedagogical integration and problem-solving skills. Positions AI literacy as core professional development for teacher education programs.
+
+Why this scored well: Systematic narrative review of AI literacy in teacher education directly addresses curriculum fit for schools and workforce development. Peer-reviewed synthesis with rigorous methodology (15 studies, multiple databases). Identifies specific competency gaps in pedagogical integration. Pre-service teachers are mission-driven organizational staff. Actionable findings on what teacher preparation programs should teach about AI governance and classroom deployment.
+Suggested segments: W1-S1, W1-S2
+Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
+
+
 ### Traceable, Enforceable, and Compensable Participation: A Participation Ledger for People-Centered AI Governance (9/10)
 
 Rashid Mushkani, arXiv preprint, 2026
 http://arxiv.org/abs/2602.10916v1
 
-Proposes Participation Ledger framework making community contributions to AI systems traceable, enforceable, and compensable. Operationalizes co-production through influence graphs, evidence standards, and capability vouchers.
+Framework for making community participation in AI governance traceable, enforceable, and compensable through machine-readable ledgers linking contributions to system changes.
 
-Why this scored well: Directly addresses co-production grounding and community accountability in AI governance. Operationalizes traceable participation with enforceable mechanisms. Highly relevant to mission-driven organizations adopting participatory governance. Preprint status limits rigor slightly, but framework is actionable and would strengthen curriculum on community involvement and governance architecture.
+Why this scored well: Directly addresses co-production grounding and community accountability in AI governance for mission-driven organizations. Participation Ledger framework operationalizes durable influence and enforceable rights, core curriculum needs. Preprint status limits rigor slightly, but methodology appears rigorous. Highly actionable for governance architecture and tool evaluation components.
 Suggested segments: W2-S2, W3-S2, toolkit-charter
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
+
+
+### AI literacy in undergraduate medical education: a competency-based interpretive framework for curriculum and assessment (9/10)
+
+Chao Fu, Jingjing Li, Jingjing Li, Haoyi Fan, Frontiers in Medicine, 2026
+https://doi.org/10.3389/fmed.2026.1871524
+
+Competency-based framework for AI literacy in medical education. Identifies five domains: foundational knowledge, clinical application, data literacy, ethics/law, and human-AI interaction. Informs curriculum design and assessment.
+
+Why this scored well: Directly addresses AI literacy curriculum design for education sector using competency-based framework. Peer-reviewed narrative synthesis with rigorous methodology. Highly actionable for curriculum development. Limited co-production evidence, but strong on literacy pedagogy and assessment. Directly informs W1-S1 teaching content and toolkit-rubric development.
+Suggested segments: W1-S1, toolkit-rubric
+Found via: OpenAlex: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
+
+
+### Beyond the AI Panic: A Blueprint for Evidence Based EdTech Policy (9/10)
+
+Sayed Mahbub Hasan Amiri, OpenAlex, 2026
+https://doi.org/10.24108/preprints-3115952
+
+Mixed-methods study of unregulated AI adoption in Bangladeshi K-12 schools. Integrates policy analysis, surveys of 230 educators and parents, media analysis, and case studies. Reveals perception-reality gaps and lack of algorithmic audits. Proposes evidence-based governance framework.
+
+Why this scored well: Excellent fit for mission-driven education governance. Mixed-methods study with 230+ respondents including teachers, parents, and officers directly informs AI governance architecture and tool evaluation. Benchmarks against EU AI Act and NIST framework. Treats affected stakeholders as structural participants in evidence gathering. Rigorous methodology produces actionable policy blueprint for schools lacking AI oversight.
+Suggested segments: W1-S1, W1-S2, W2-S1, W2-S2, W3-S1, toolkit-diagnostic, toolkit-rubric
+Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 
 
 ### AI From the Margins (AIM): Rethinking Participatory AI Design Through the Lived Experience of Minoritized Communities (9/10)
@@ -44,10 +84,10 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Tijs Portegies, Laureanne Willems, Maaike Harbers, Giovanni Sileno, arXiv preprint, 2026
 http://arxiv.org/abs/2606.01171v2
 
-Proposes AIM framework ensuring marginalized communities reshape AI system purpose, not merely participate in predetermined designs. Uses narrative elicitation, co-rule-making, and policy dialogue with Dutch healthcare workers and women/non-binary people of color.
+Methodological framework for centering minoritized communities in AI design from problem definition onward. Uses narrative elicitation, co-constructed rules, and participant determination of AI involvement. Tested with healthcare and policy workers.
 
-Why this scored well: Directly addresses co-production grounding by centering lived experience of marginalized communities in AI governance from problem definition onward. Provides concrete methodology (BNIM, co-constructed rule-making, participant determination) applicable to mission-driven organizations serving vulnerable populations. Preprint status limits rigor slightly, but methodological innovation and healthcare context demonstrate actionability for governance curriculum.
-Suggested segments: W2-S1, W3-S2, toolkit-charter
+Why this scored well: Strong fit for co-production governance in mission-driven settings. AIM methodology directly addresses how affected communities shape AI problem definition and success criteria, not just react to predetermined systems. Narrative elicitation and co-constructed rule-making exemplify structural participation. Healthcare and policy contexts transfer to nonprofit and public agency governance. Preprint status limits rigor slightly, but methodological innovation and lived-experience centering strengthen actionability for curriculum and toolkit development.
+Suggested segments: W2-S1, W2-S2, W3-S1, toolkit-diagnostic, toolkit-charter
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -56,11 +96,23 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Eugene Kim, Vaibhav Balloli, Berelian Karimian, Elizabeth Bondi-Kelly, arXiv preprint, 2025
 http://arxiv.org/abs/2508.20176v1
 
-Empirical analysis of recruitment strategies in 37 participatory AI projects, identifying structural barriers to meaningful stakeholder engagement. Provides taxonomy and practical guidance for organizations building participatory governance.
+Empirical study of recruitment practices in 37 participatory AI projects, identifying challenges in identifying and engaging stakeholders. Offers strategies for equitable engagement and evidence-based recruitment design.
 
-Why this scored well: Directly addresses co-production grounding, the core tension in participatory AI governance. Analyzes recruitment methodology across 37 projects with interviews, providing actionable insights for mission-driven organizations implementing participatory practices. Rigorous empirical study on a foundational governance question.
-Suggested segments: W2-S2, W3-S1, toolkit-charter
+Why this scored well: Directly addresses co-production in AI governance with empirical analysis of 37 projects and researcher interviews. Examines recruitment methodology, equity, and stakeholder engagement, core to community accountability. Preprint status prevents perfect score, but rigorous empirical methodology and clear actionability for governance practitioners.
+Suggested segments: W2-S2, W3-S2, toolkit-charter
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
+
+
+### Rethinking Generative AI Literacy: An Integrative, Developmental, and Dialectical Framework for K-12 Teacher Education (8/10)
+
+Shahin Hossain, Sima Ahmadi, Leqi Li, Idowu David Awoyemi, arXiv preprint, 2026
+http://arxiv.org/abs/2608.01705v1
+
+RAIL-Ed framework for K-12 teacher GenAI literacy integrating technical, ethical, and agency dimensions. Systematic review of 67 studies grounds six interdependent pillars treating ethics as constitutive, not supplementary.
+
+Why this scored well: Directly addresses AI literacy for educators in K-12 settings, a core curriculum component. RAIL-Ed framework integrates ethics structurally rather than peripherally, aligns with co-production principles through human-centered design traditions, and provides actionable pedagogical guidance. Preprint status and lack of empirical validation with the target audience limit rigor slightly.
+Suggested segments: W1-S1, W1-S2
+Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
 ### Four Types of LLM Reliance and Their Predictors Among Undergraduate Writers: A Mixed-Methods Study at a Minority-Serving R1 University (8/10)
@@ -68,11 +120,23 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Shahin Hossain, arXiv preprint, 2026
 http://arxiv.org/abs/2606.28749v2
 
-Mixed-methods study validating a four-type LLM reliance taxonomy for undergraduates, grounded in AI literacy framework. Shows AI literacy predicts reliance type while value-cost beliefs predict intensity. Reveals limitations of frequency-based assessment metrics.
+Develops validated four-type taxonomy of undergraduate LLM reliance, showing AI literacy predicts reliance type while value beliefs predict intensity. Reveals limits of frequency-based assessment for institutional governance.
 
-Why this scored well: Directly addresses AI literacy assessment and student governance of AI use in educational settings. Validated mixed-methods instrument distinguishes reliance types beyond frequency metrics. Minority-serving university context ensures relevance to mission-driven education. Identifies differentiated support needs and reveals limitations of standard measures. Actionable for curriculum design and student-centered governance.
+Why this scored well: Mixed-methods study with validated typology of student LLM reliance at minority-serving institution directly addresses AI literacy assessment and differentiated governance support. Identifies that frequency-based measures miss qualitative distinctions. Grounded in established frameworks. Preprint status limits rigor slightly, but methodology and population fit strongly.
 Suggested segments: W1-S2, W2-S1, toolkit-diagnostic
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
+
+
+### AI Literacy as a Core 21st Century Competency in Secondary Education: A Systematic Review and Conceptual Framework (8/10)
+
+Shefali Sharma, Dr. Jyoti Kumari, Zenodo (CERN European Organization for Nuclear Research), 2026
+https://doi.org/10.5281/zenodo.21719975
+
+Integrative review of AI literacy frameworks and measurement instruments for secondary students. Maps convergence on five key constructs, identifies conceptual tensions around creation and affect, documents measurement gaps in validated scales.
+
+Why this scored well: Systematic review of AI literacy frameworks and validated instruments directly informs curriculum design for secondary education and workforce contexts. Identifies measurement gaps and conceptual tensions the curriculum must navigate. Rigorous methodology across 29 sources. High actionability for curriculum architecture and literacy component design.
+Suggested segments: W1-S1, W1-S2
+Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
 ### Beyond Detection: Redesigning Assessment and Governande of Generative AI at the Universidad Politécnica de Madrid (UPM) (8/10)
@@ -80,35 +144,11 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Jessica Díaz, Sonia Linio, Fernando Pescador, Daniel Martin-Fabiani, arXiv preprint, 2026
 http://arxiv.org/abs/2607.01255v1
 
-UPM case study rejects AI detection focus in favor of coordinated GenAI governance through course-level rules, authentic assessment redesign, and AI literacy treating students as co-creators rather than passive users.
+University response to generative AI should prioritize assessment redesign, course-level policies, and AI literacy over detection. Frames students as critical co-creators rather than passive users.
 
-Why this scored well: Strong fit for higher education governance and AI literacy curriculum. Preprint from credible institutional source. Treats students as co-creators in governance. Moves beyond detection toward assessment redesign and structured policy. Directly actionable for curriculum design and institutional adoption frameworks. Addresses community accountability through student engagement as critical participants.
-Suggested segments: W1-S1, W2-S1, W3-S2, toolkit-charter
-Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
-
-
-### An integrated AI literacy framework for higher‑education teachers: a critical review and conceptual synthesis (8/10)
-
-Andrew E. Williams, Cogent Education, 2026
-https://doi.org/10.1080/2331186x.2026.2698137
-
-Systematic review identifying eight dimensions of teacher AI literacy: foundational knowledge, pedagogical integration, critical evaluation, innovation, ethics, epistemic understanding, legal governance, and professional wellbeing. Framework applicable across educational mission-driven settings.
-
-Why this scored well: Peer-reviewed systematic synthesis directly addressing AI literacy for educators in higher education. Eight-dimension framework covers foundational knowledge, evaluation, ethics, and governance. Highly actionable for curriculum design. Gap: limited focus on community-affected populations as governance participants, though institutional support dimension touches governance architecture.
-Suggested segments: W1-S1, W1-S2, W2-S1, toolkit-diagnostic
-Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
-
-
-### Clarifying the Conceptual Landscape in AI Literacy Measurement: A Large Language Model Based Approach (8/10)
-
-Xinyi He, Xiaoya Zhang, Cixiao Wang, Feng Ji, OpenAlex, 2026
-https://doi.org/10.31234/osf.io/hz4ak_v2
-
-LLM-based analysis mapping 11 AI literacy scales reveals consolidated cognitive-technical core with weaker affective and collaborative integration. Supports clearer instrument selection and curriculum alignment.
-
-Why this scored well: Directly addresses AI literacy measurement across instruments through rigorous semantic analysis of 11 validated scales. Highly actionable for curriculum design: clarifies construct definitions, identifies measurement gaps in affective and collaborative dimensions, and supports development of better assessment tools. Audience fit is strong for educational and organizational contexts.
-Suggested segments: W1-S1, toolkit-diagnostic
-Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
+Why this scored well: Direct fit for educational mission-driven organizations. Moves beyond detection to governance architecture and AI literacy. Treats students as co-creators in assessment redesign. Preprint status lowers rigor slightly, but the framework is actionable for curriculum design and institutional policy. Strong on authentic assessment and learner autonomy.
+Suggested segments: W2-S1, W2-S2, W3-S1
+Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
 ### Learning AI Without a STEM Background: Mixed-Methods Evidence from a Diverse, Mixed-Cohort AIED Program (8/10)
@@ -116,22 +156,22 @@ Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument 
 Valentina Kuskova, Dmitry Zaytsev, Richard Johnson, arXiv preprint, 2026
 http://arxiv.org/abs/2604.20870v2
 
-NSF-funded program teaching AI literacy to non-STEM undergraduates and adults via ethical reasoning and socio-technical judgment. Mixed-methods evidence shows confidence gains and emphasis on responsibility over technical mastery.
+NSF-funded study of mixed-cohort AI education integrating non-STEM adults and undergraduates. Demonstrates confidence gains and ethical reasoning development through shared learning centered on judgment rather than technical mastery.
 
-Why this scored well: Strong fit for AI literacy curriculum targeting diverse learners beyond STEM. Mixed-methods rigor with validated confidence measures. Addresses co-production through ethical reasoning and community context. Preprint status limits to 1 rigor point, but NSF-funded program and mixed-cohort design directly inform curriculum development for mission-driven organizations serving non-technical staff and boards.
-Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
+Why this scored well: Strong fit for AI literacy curriculum in mission-driven settings. Mixed-cohort model with non-STEM adults directly serves workforce development and nonprofit staff contexts. Preprint status limits rigor slightly, but mixed-methods design with validated measures and NSF funding strengthen credibility. Actionable insights on teaching AI ethics and judgment without technical prerequisites could reshape curriculum delivery.
+Suggested segments: W1-S1, W1-S2, W2-S1
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
-### Prompt Engineering for Responsible Generative AI Use in African Education: A Report from a Three-Day Training Series (8/10)
+### GenAITEd Ghana: A First-of-Its-Kind Context-Aware and Curriculum-Aligned Conversational AI Agent for Teacher Education (8/10)
 
-Benjamin Quarshie, Vanessa Willemse, Macharious Nabang, Bismark Nyaaba Akanzire, arXiv preprint, 2026
-http://arxiv.org/abs/2601.06121v1
+Matthew Nyaaba, Patrick Kyeremeh, Macharious Nabang, Bismark Nyaaba Akanzire, arXiv preprint, 2025
+http://arxiv.org/abs/2601.06093v2
 
-Case report of three-day GenAI prompt engineering training for 468 African educators and researchers. Documents scaffolded curriculum from foundational to ethical prompt design, analyzed through participant surveys, interaction records, and transcripts.
+Design science study of context-aware conversational AI for Ghanaian teacher education. Operationalizes responsible AI through curriculum alignment, ethical constraints, and teacher-in-the-loop oversight embedded at system and interaction levels.
 
-Why this scored well: Strong fit across audience, curriculum, and rigor. Directly serves educators in resource-constrained settings through validated training program with 468 participants. Demonstrates AI literacy instruction with ethical grounding. Co-production evidence limited: no mention of participant voice in curriculum design, though interaction records suggest some engagement capture. Actionable for W1 content on prompt engineering literacy and ethical framing.
-Suggested segments: W1-S1, W1-S2
+Why this scored well: Strong fit for teacher education governance in mission-driven settings. Demonstrates co-production through design science with local stakeholders and embeds governance constraints (curriculum boundaries, ethical enforcement, teacher oversight) into system architecture. Preprint status prevents perfect rigor score. Highly actionable for governance architecture and tool evaluation modules.
+Suggested segments: W2-S1, W2-S2, toolkit-diagnostic, toolkit-rubric
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -140,22 +180,10 @@ Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professi
 Asshar Ahmad, Zenodo (CERN European Organization for Nuclear Research), 2026
 https://doi.org/10.5281/zenodo.21383146
 
-Systematic review of AI literacy among pre-service teachers. Identifies moderate awareness but weak pedagogical-integration competencies. Supports teacher professional development curriculum design and identifies gaps in current training.
+Systematic review of AI literacy among pre-service teachers. Identifies moderate awareness but weak pedagogical-integration competencies. Supports curriculum development for educator AI literacy and professional development.
 
-Why this scored well: Systematic review of AI literacy in teacher education directly supports curriculum content on AI literacy for staff. Pre-service teacher training is education delivery; findings on pedagogical integration and problem-solving competencies are actionable. Peer-reviewed synthesis with policy grounding. Community accountability dimension underdeveloped.
+Why this scored well: Systematic review of AI literacy in teacher education directly serves curriculum audience (educators, schools, colleges). Addresses core curriculum need: AI literacy for staff. Peer-reviewed synthesis methodology. Gap identification actionable: pre-service teachers lack pedagogical-integration competencies. Teachers as mission-driven practitioners. Limited co-production evidence in abstract.
 Suggested segments: W1-S1, W1-S2
-Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
-
-
-### AI Literacy Among Pre-Service Teachers: A New Dimension of Teacher Professional Development (8/10)
-
-Asshar Ahmad, Zenodo (CERN European Organization for Nuclear Research), 2026
-https://doi.org/10.5281/zenodo.21383145
-
-Systematic review of AI literacy among pre-service teachers, identifying gaps in pedagogical-integration and problem-solving competencies. Informs design of AI literacy curricula for education staff and boards.
-
-Why this scored well: Peer-reviewed systematic narrative review on AI literacy for pre-service teachers in education settings. Directly addresses curriculum fit in AI literacy and governance architecture. Strong rigor and actionability for teacher professional development. Moderate co-production grounding; does not center student or community voice in defining AI literacy competencies.
-Suggested segments: W1-S1, W1-S2, W2-S1
 Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -164,35 +192,11 @@ Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "profe
 Mathalege Srimal Hemantha Samarasooriya, Darshana Samaraweera, Open MIND, 2026
 https://doi.org/10.17605/osf.io/32jst
 
-Validated AI literacy instrument for teachers with multidimensional competency framework, demographic and equity analysis, and context adaptation methodology applicable to national curriculum implementation in mission-driven education settings.
+Validates a multidimensional AI literacy instrument for teachers across a national school system, identifying demographic and institutional factors shaping competency distribution and equity gaps during curriculum implementation.
 
-Why this scored well: Directly addresses AI literacy measurement for teachers in an educational system implementing AI curriculum. Develops and validates a context-appropriate instrument measuring multidimensional AI competency across a teaching workforce. Mixed-methods design examines equity distribution. Highly actionable for curriculum design and teacher readiness assessment. Geographic focus (Sri Lanka) doesn't reduce score; instrument methodology transfers broadly.
+Why this scored well: Directly measures AI literacy among teachers in a school system implementing AI curriculum. Develops and validates a measurement instrument applicable across workforce settings. Examines equity distribution across demographics and geography. Strong rigor through mixed-methods design. Actionable for curriculum design and teacher readiness assessment. Limited by geographic specificity to Sri Lanka, though methodology transfers internationally.
 Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
 Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
-
-
-### Artificial Intelligence Competence Levels Among Secondary Mathematics Teachers in Northern Samar, Philippines (8/10)
-
-Levi V. Calubag, Journal of Research in Education and Pedagogy., 2026
-https://doi.org/10.70232/jrep.v3i3.197
-
-Survey of 215 secondary math teachers' AI competence using UNESCO framework. Examines relationships between teaching profile and AI competence in resource-limited Philippine schools.
-
-Why this scored well: Directly measures AI literacy among K-12 teachers using a validated UNESCO framework in an education setting. Identifies baseline competence and profile factors affecting adoption. Resource-constrained context mirrors many curriculum users. High rigor and actionability for staff development planning. Limited co-production element; affects teachers rather than students or communities.
-Suggested segments: W1-S1, W1-S2
-Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
-
-
-### Prompt Engineering Competency Enhances Employee Productivity through Human AI Collaboration in Modern Organizations (8/10)
-
-Muhlisah Lubis, Darwin Nasution, Involvement International Journal of Business, 2026
-https://doi.org/10.62569/iijb.v3i3.296
-
-Multi-dimensional prompt engineering competency framework developed through case study of 24 organizational staff. Identifies literacy components: contextual formulation, iterative refinement, output evaluation, ethical use. Positions AI literacy as strategic organizational capability.
-
-Why this scored well: Qualitative case study with 24 participants across organizational roles directly addresses AI literacy and human-AI collaboration for mission-driven staff. Prompt engineering competency framework and ethical AI utilization are actionable curriculum components. Thematic analysis provides rigor. Limited by focus on productivity metrics rather than governance architecture or community accountability.
-Suggested segments: W1-S1, W1-S2, W2-S1
-Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 
 
 ### Open Veins of Algorithmic Auditing: Why AI Assessment Lags Behind Its Deployment in the Global South (8/10)
@@ -200,22 +204,10 @@ Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 Gemma Galdon Clavell, Alexandra Magaard, arXiv preprint, 2026
 http://arxiv.org/abs/2607.21317v1
 
-Decade of AI audits across Latin America, Africa, and Asia Pacific reveals critical gaps in algorithmic assessment for deployed public systems affecting welfare, employment, and vulnerable populations. Documents four cross-cutting bias patterns and governance failures.
+Documents patterns in sparse AI governance field across Global South through decade of audit practice. Shows why evaluation rarely occurs despite rapid deployment. Identifies cross-cutting audit failures.
 
-Why this scored well: Directly addresses AI governance gaps in mission-driven organizational contexts across the Global South. Empirical audit practice grounded in real deployments in public welfare, employment, and social sectors. Documents why evaluation lags and offers patterns for governance architecture. Preprint status limits to 1 on rigor, but practitioner-grounded evidence and recognized expert authors strengthen actionability for curriculum on tool evaluation and community accountability.
+Why this scored well: Strong audience fit for mission-driven organizations in Global South contexts. Directly strengthens governance architecture and tool evaluation by documenting audit gaps and evaluation patterns. Grounded in decade of practitioner experience including co-produced audits. Preprint limits rigor slightly. Highly actionable for curriculum on why evaluation fails and what patterns to watch.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic, toolkit-rubric
-Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems (8/10)
-
-Hannah M. Liu, Rhea Saxena, Shiv Asthana, arXiv preprint, 2026
-http://arxiv.org/abs/2607.09586v1
-
-Validated risk-tiering framework for internally-created agentic AI systems. Twelve-dimension rubric with governance output and control recommendations. Applicable across enterprise and public-sector contexts.
-
-Why this scored well: Strong fit for governance architecture and tool evaluation segments. The ARC framework directly addresses risk classification for agentic systems that mission-driven organizations increasingly deploy. Preprint status limits rigor slightly, but the structured rubric and multi-dimensional approach are immediately actionable. Community iteration signals openness to co-production refinement.
-Suggested segments: W2-S1, W2-S2, toolkit-rubric, toolkit-diagnostic
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
@@ -224,10 +216,10 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Jeroen Janssen, arXiv preprint, 2026
 http://arxiv.org/abs/2607.01913v1
 
-Red teaming model for board-level AI governance. Six components: assumption register, adversarial mandate, independence, evidence grading, decision record, follow-up mechanism. Structures uncertainty inspection before operational deployment.
+Reframes red teaming as structured adversarial testing of governance assumptions about AI systems. Proposes six-component model for board-level oversight connecting strategy, accountability, and evidence.
 
-Why this scored well: Strong fit for governance architecture curriculum. Proposes actionable board-level discipline with six concrete components. Treats organizational decision-making as the unit of analysis. Preprint status limits rigor slightly, but conceptual contribution and design artifacts are substantive. Missing empirical validation and limited community accountability framing prevent higher score.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
+Why this scored well: Strong fit for governance architecture curriculum. Proposes actionable board-level framework with six concrete components for testing AI strategy assumptions. Preprint limits rigor score but conceptual design and explicit non-claims about validation are honest. Direct applicability to mission-driven organization decision-making. Limited co-production grounding; treats governance as internal process rather than stakeholder-inclusive.
+Suggested segments: W2-S2, toolkit-charter
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
@@ -236,10 +228,10 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Muneera Bano, Didar Zowghi, arXiv preprint, 2026
 http://arxiv.org/abs/2606.30652v1
 
-Empirical study of 92 Australian government AI transparency statements using stakeholder-differentiated RCIN framework. Shows compliance documents often miss transparency needs of higher-risk stakeholder groups, directly informing governance architecture for mission-driven organizations.
+Empirical study of Australian government AI transparency statements reveals compliance artifacts often fail different stakeholder classes. Introduces RCIN framework to differentiate transparency needs by risk, control, and involvement.
 
-Why this scored well: Strong fit for governance architecture and community accountability. Empirical analysis of 92 real transparency statements with a stakeholder-differentiated framework directly informs how mission-driven organizations structure AI accountability. RCIN framework operationalizes co-production principles by distinguishing stakeholder classes by risk and control. Preprint limits rigor slightly, but methodology and scale support actionability for curriculum and toolkit development.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic, toolkit-rubric
+Why this scored well: Directly addresses governance architecture for public-sector AI, distinguishing compliance from stakeholder accountability. The RCIN framework operationalizes co-production by differentiating stakeholder needs and risk exposure. Empirical analysis of 92 real statements grounds findings. Preprint status slightly limits rigor. Highly actionable for governance rubric design and community accountability integration.
+Suggested segments: W2-S1, W3-S2, toolkit-rubric, toolkit-diagnostic
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
@@ -248,9 +240,9 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Erika Fille Legara, Elmo Domino Jose, Paula Joy Martinez, arXiv preprint, 2026
 http://arxiv.org/abs/2605.17203v1
 
-Framework for assessing institutional readiness to deploy AI in public systems. Moves beyond model evaluation to cover approvals, data, oversight, capacity, fiscal continuity, and legal clarity. Validated through education system cases.
+Five-dimensional institutional readiness framework for public sector AI deployment. Addresses governance gaps between technical viability and responsible rollout in resource-constrained settings, validated through education system cases.
 
-Why this scored well: Directly addresses governance architecture for mission-driven organizations (public education). Institutional Readiness framework fills a critical curriculum gap: evaluating deployment feasibility beyond technical metrics. Grounded in real cases from resource-constrained public systems. Preprint status prevents perfect score; actionability high for tool evaluation and governance design.
+Why this scored well: Strong fit for governance architecture and tool evaluation in mission-driven organizations. IAR framework directly addresses deployment readiness across approvals, data, oversight, capacity, and legal clarity. Grounded in public education cases. Preprint status and incomplete abstract prevent perfect score, but actionable for practitioners assessing institutional capacity before AI adoption.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
@@ -260,10 +252,10 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Erina Seh-Young Moon, Matthew Tamura, Angelina Zhai, Nuzaira Habib, arXiv preprint, 2026
 http://arxiv.org/abs/2601.15163v1
 
-Canadian child welfare agency study of LLM case tracking. Demonstrates tool limitations in discretionary judgment areas where workers need support. Includes roadmap for participatory co-design with public sector.
+Study with Canadian child welfare agency shows LLMs can flag case progress deviations but fail at discretionary judgments requiring social work training. Offers governance roadmap for public sector AI adoption grounded in practitioner expertise.
 
-Why this scored well: Strong fit for public sector governance audience (child welfare agency). Directly addresses tool evaluation and AI literacy for government workers. Rigorous empirical study with practitioner collaboration showing both capabilities and failure modes. Identifies gaps where discretionary judgment matters. Roadmap for participatory co-design strengthens community accountability grounding. Actionable findings for governance decisions.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic, toolkit-rubric
+Why this scored well: Strong fit across multiple dimensions. Public sector agency (child welfare) is core audience. Directly addresses governance architecture and tool evaluation through practitioner collaboration. Co-production grounding is substantial: authors worked with agency staff to identify where LLMs fail and succeed, treating practitioners as structural participants. Rigorous empirical study with real-world deployment data. Provides actionable insights on when to adopt versus resist automation and pathway for participatory design.
+Suggested segments: W2-S1, W2-S2, W3-S1, toolkit-rubric, toolkit-diagnostic
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
@@ -272,47 +264,11 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Angie Holzer, ScholarsArchive  (Brigham Young University), 2026
 https://openalex.org/W7172181992
 
-UN scientific panel report analyzed for civil society. Documents accelerating AI capability, concentrated private control, and disproportionate harms to women, children, and Global South communities.
+UN scientific assessment of AI capabilities, risks, and concentrated control. Examines benefits and harms for civil society, highlighting disparate impacts on women, children, and Global South communities.
 
-Why this scored well: Directly addresses nonprofit leaders and civil society governance of AI. Translates UN scientific assessment into actionable intelligence about control, harms concentration, and equity gaps. Strong rigor from peer-reviewed UN panel. Primary gap: unclear whether it treats affected communities as structural participants in governance design.
-Suggested segments: W1-S1, W2-S1, toolkit-diagnostic
-Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### Anticipatory AI Governance in the Age of Supercomputing: A Mixed-Methods Multistakeholder Approach in the Basque Country (8/10)
-
-Igor Calzada, Itziar Eizaguirre, Big Data and Cognitive Computing, 2026
-https://doi.org/10.3390/bdcc10070229
-
-Mixed-methods study of anticipatory AI governance in Basque public sector involving six civil society groups, seven directorates, and eleven municipalities. Identifies four interrelated governance mechanisms for operationalizing accountability in advancing computational infrastructure contexts.
-
-Why this scored well: Mixed-methods study with genuine multistakeholder participation (civil society, government, citizens) directly addresses anticipatory governance and democratic accountability. Public sector focus and participatory action research ground it in co-production. Peer-reviewed venue and validated empirical approach. Highly actionable for governance architecture curriculum. Limited by geographic specificity and abstract computational infrastructure focus.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
-Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### Board-level AI literacy as a missing governance capability: a pilot study of boards and executives (8/10)
-
-Darko Tipurić, Domagoj Hruškа, Ivana Kovač, Frontiers in Artificial Intelligence, 2026
-https://doi.org/10.3389/frai.2026.1872783
-
-Pilot study of 26 board and executive members reveals significant AI literacy gap at board level, with board auditing and ethical oversight capacities near floor. Establishes measurement baseline for board-level AI governance capability gaps.
-
-Why this scored well: Directly addresses board-level AI literacy, a core curriculum gap. Peer-reviewed empirical study with validated measurement instruments and statistical rigor. Documents specific competency deficits (auditing capacity, ethical oversight) that should inform board curricula. Limited by small pilot sample and corporate focus, though findings apply to nonprofit and public sector boards facing identical oversight challenges.
-Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
-Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### One Bad NOFO? AI Governance in Federal Grantmaking (8/10)
-
-Dan Bateyko, Karen Levy, arXiv preprint, 2025
-http://arxiv.org/abs/2505.08133v2
-
-Analysis of how U.S. federal agencies use grant policy to govern AI adoption by grantees. Examines 40K+ notices of funding opportunity to reveal hidden levers shaping organizational AI use across public, nonprofit, and educational sectors.
-
-Why this scored well: Directly relevant to mission-driven organizations that receive federal grants and must navigate AI governance requirements. Empirical analysis of how federal policy shapes organizational AI adoption. Strong rigor (peer-reviewed preprint, novel dataset of 40K+ documents). Actionable for understanding governance architecture and policy environments. Limited only by lack of explicit co-production methodology.
+Why this scored well: Directly addresses nonprofit leader concerns about AI governance, control, and equity impacts. UN Panel findings provide authoritative baseline. Identifies disproportionate harms to vulnerable populations, core to community accountability. Rigor via international scientific panel. Actionability: informs governance architecture and community impact assessment within tool rubric.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
-Found via: arXiv: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
+Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
 ### Legacy Procurement Practices Shape How U.S. Cities Govern AI: Understanding Government Employees' Practices, Challenges, and Needs (8/10)
@@ -320,10 +276,10 @@ Found via: arXiv: "AI procurement" OR "AI tool evaluation" AND (rubric OR criter
 Nari Johnson, Elise Silva, Harrison Leon, Motahhare Eslami, arXiv preprint, 2024
 http://arxiv.org/abs/2411.04994v3
 
-Empirical study of how 7 U.S. cities' procurement practices shape AI adoption decisions. Identifies legacy infrastructure constraints and three key challenges in public sector AI procurement.
+Empirical study of how legacy procurement laws and norms shape AI adoption decisions in U.S. cities. Identifies three key challenges in current procurement reform efforts through interviews with 19 city employees across 7 cities.
 
-Why this scored well: Directly addresses governance architecture for public agencies acquiring AI tools. Empirical study of procurement decision-making with actionable challenges. Semi-structured interviews ground findings in practitioner experience. Preprint status prevents higher rigor score, but content is highly relevant to curriculum's focus on tool evaluation and governance structures.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
+Why this scored well: Directly addresses governance architecture for public sector AI adoption through empirical study of procurement practices. Highly relevant to public agencies and schools in curriculum audience. Identifies structural barriers and emerging adaptations. Grounded in practitioner interviews. Preprint status limits rigor slightly, but methodology and specificity support actionable governance insights.
+Suggested segments: W2-S1, W2-S2, toolkit-charter
 Found via: arXiv: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
 
 
@@ -332,22 +288,22 @@ Found via: arXiv: "AI procurement" OR "AI tool evaluation" AND (rubric OR criter
 Tom Zick, Mason Kortz, David Eaves, Finale Doshi-Velez, arXiv preprint, 2024
 http://arxiv.org/abs/2404.14660v1
 
-Comparative study of AI procurement procedures in Brazil, Singapore, and Canada. Examines tension between governance safeguards and implementation feasibility in resource-constrained public agencies. Risk categorization and disclosure frameworks directly inform government AI adoption.
+Examines procurement checklists and risk frameworks from Brazil, Singapore, and Canada to inform U.S. government AI governance, balancing ethical safeguards with resource constraints in public sector adoption.
 
-Why this scored well: Directly addresses AI governance in public sector with actionable procurement guidance. Authors are recognized governance experts. Preprint status limits rigor slightly, but comparative international analysis of regulatory implementation is highly relevant to curriculum tool evaluation and governance architecture. Marginalized community impact concern aligns with community accountability framing.
+Why this scored well: Directly addresses AI procurement and governance for public sector organizations. Comparative analysis of implemented regulatory frameworks provides actionable guidance for government adoption. Preprint limits rigor slightly, but author team includes recognized AI governance experts. Strong fit for tool evaluation and governance architecture curriculum segments.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic, toolkit-rubric
 Found via: arXiv: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
 
 
-### AI literacy in undergraduate medical education: a competency-based interpretive framework for curriculum and assessment (8/10)
+### Designing a modular digital health curriculum for pharmacy education: a stakeholder-driven expert workshop study (8/10)
 
-Chao Fu, Jingjing Li, Jingjing Li, Haoyi Fan, Frontiers in Medicine, 2026
-https://doi.org/10.3389/fmed.2026.1871524
+Mélanie Raimundo Maia, João Gregório, Frontiers in Public Health, 2026
+https://doi.org/10.3389/fpubh.2026.1888486
 
-Systematic synthesis of AI literacy competencies for medical education using CBME framework. Identifies five teachable domains spanning knowledge, clinical application, data literacy, ethics, and professional responsibility.
+European expert workshop co-designed modular digital health curriculum for pharmacy education. Identified AI, EHR, ethics, and digital literacy as core competencies through stakeholder-driven process using validated instructional design models.
 
-Why this scored well: Strong audience fit for education settings and direct curriculum relevance to AI literacy. Competency-based framework is actionable for curriculum design. Rigorous synthesis methodology with peer review. Co-production dimension limited: addresses learner outcomes but not community accountability or affected populations in governance.
-Suggested segments: W1-S1, W1-S2, W2-S1
+Why this scored well: Pharmacy education is workforce development within mission-driven healthcare systems. The work systematically co-designs curriculum with stakeholders using structured methodology (ADDIE, DECODE framework). It directly addresses AI literacy and governance architecture for healthcare organizations. Strong community participation in design process. Published in peer-reviewed venue. Highly actionable for educational institutions adopting digital health curricula.
+Suggested segments: W1-S1, W2-S1, W3-S1
 Found via: OpenAlex: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
 
 
@@ -356,10 +312,10 @@ Found via: OpenAlex: "AI procurement" OR "AI tool evaluation" AND (rubric OR cri
 Dipto Das, Matthew Tamura, Syed Ishtiaque Ahmed, Shion Guha, arXiv preprint, 2026
 http://arxiv.org/abs/2606.13071v1
 
-Mixed-methods study of Canada's visa algorithm examining gaps between institutional accountability design and applicants' actual experiences. Identifies epistemic, jurisdictional, and temporal asymmetries in how algorithmic governance is experienced across borders.
+Canadian visa algorithm case study identifies epistemic, jurisdictional, and temporal asymmetries between institutional accountability design and applicant experience. Centers affected people's collective sensemaking as governance evidence.
 
-Why this scored well: Directly addresses public sector algorithmic governance with strong co-production grounding: applicants' lived experiences structure the analysis alongside institutional artifacts. Rigorous mixed-methods study using validated frameworks (ADMAPS). Identifies actionable asymmetries that governance design must address. Highly relevant to mission-driven organizations in public/education sectors managing algorithmic systems.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
+Why this scored well: Directly examines public sector algorithmic governance with strong co-production grounding—applicants as structural participants in understanding system impacts. Rigorous mixed-methods study using validated ADMAPS framework. Highly actionable for governance architecture and community accountability modules. Addresses asymmetries mission-driven organizations must navigate when implementing or advocating for algorithmic systems.
+Suggested segments: W2-S2, W3-S2, toolkit-diagnostic
 Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 
 
@@ -368,10 +324,10 @@ Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 Dipto Das, Matthew Tamura, Syed Ishtiaque Ahmed, Shion Guha, OpenAlex, 2026
 https://doi.org/10.1145/3811242.3819106
 
-Academic study of Canada's algorithmic visa triage system revealing asymmetries between institutional accountability design and applicant experiences. Uses ADMAPS framework and Reddit discourse analysis to show epistemic, jurisdictional, and temporal gaps in how governance functions across borders.
+Analyzes Canada's visa triage algorithm through institutional design and applicants' collective sensemaking. Reveals epistemic, jurisdictional, and temporal asymmetries between official accountability structures and lived experience.
 
-Why this scored well: Strong fit across multiple dimensions. Directly examines public sector algorithmic governance (Canadian immigration agency), treats affected applicants as primary evidence sources through collective sensemaking analysis, and identifies structural asymmetries in accountability. Peer-reviewed academic work with rigorous mixed-methods approach. Provides concrete framework (ADMAPS) and actionable insights about gap between institutional design and lived experience. Highly relevant to governance architecture and community accountability curriculum components.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic, toolkit-rubric
+Why this scored well: Directly examines public sector algorithmic governance with institutional and community perspectives. Shows how affected people make sense of opaque systems through peer knowledge. Identifies structural asymmetries in accountability experience. High rigor (peer venue, mixed methods). Immediately actionable for teaching co-production and community accountability in AI governance.
+Suggested segments: W2-S2, W3-S2, toolkit-diagnostic
 Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 
 
@@ -380,9 +336,9 @@ Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 Haris Alibašić, Systems, 2026
 https://doi.org/10.3390/systems14070879
 
-Palantir case study analyzing how proprietary AI platforms displace public sector capacity to define and contest administrative categories. Identifies epistemic capture mechanisms relevant to algorithmic accountability and governance architecture.
+Examines how proprietary AI platforms migrate sovereign classification authority to vendors, eroding public sector capacity to define and contest administrative categories. Identifies categorical opacity, contestation displacement, and substitutive dependency as governance failure markers.
 
-Why this scored well: Directly addresses AI governance in public administration, a mission-driven sector. Examines opacity and contestation as barriers to accountability, core governance concerns. Strong rigor through structured documentary analysis and integrative literature review. Actionable for procurement and impact assessment design. Limited by focus on vendor dependency rather than community participation in governance.
+Why this scored well: Directly addresses public sector AI governance and loss of institutional capacity for contestation, a core co-production concern. Rigorous documentary case analysis grounded in public administration theory. Identifies how vendor infrastructure displaces accountability mechanisms. Actionable for procurement policy and governance architecture. Main gap: limited explicit connection to practitioner-level governance or community participation structures.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 
@@ -392,46 +348,22 @@ Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 Sayed Mahbub Hasan Amiri, Preprints.org, 2026
 https://doi.org/10.20944/preprints202607.1523.v1
 
-Bangladesh K-12 AI governance study combining policy analysis, surveys of 230 education stakeholders, media analysis, and case studies. Reveals perception-reality gap and produces evidence-based policy recommendations including mandatory algorithmic audits.
+Evidence-based policy blueprint for K-12 AI governance in Bangladesh. Surveys teachers, parents, officials; benchmarks against EU AI Act, NIST framework. Identifies need for mandatory audits and impact assessments.
 
-Why this scored well: Mixed-methods study directly addressing K-12 AI governance in a mission-driven education context. Integrates stakeholder perspectives (teachers, parents, officers) as structural participants. Evidence-based policy blueprint benchmarked against international frameworks. Preprint status limits rigor slightly, but methodology is robust and immediately actionable for education leaders and policymakers.
-Suggested segments: W1-S2, W2-S1, W3-S2, toolkit-diagnostic
+Why this scored well: Mixed-methods study of AI governance in education with direct input from teachers, parents, and officials. Addresses policy gaps, algorithmic audits, and impact assessment. Preprint status limits rigor slightly, but methodology is robust and findings actionable for governance architecture. Bangladesh context enriches global curriculum.
+Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 
 
-### AI-DRIVEN DECISION MAKING IN PUBLIC ADMINISTRATION: ETHICS, ACCOUNTABILITY, AND GOVERNANCE (8/10)
+### Voices in the Loop: Mapping Participatory AI (8/10)
 
-Ankit Singh Bisen, Zenodo (CERN European Organization for Nuclear Research), 2026
-https://doi.org/10.5281/zenodo.21468319
+Rashid Mushkani, arXiv preprint, 2026
+http://arxiv.org/abs/2605.16827v1
 
-Comparative analysis of AI governance gaps in high-stakes public administration domains including welfare, tax assessment, and bail decisions. Examines legal accountability frameworks and ethical guardrails across India, UK, US, and Australia systems.
+Interactive atlas mapping participatory AI initiatives globally, with reproducible protocols for discovery and harmonization. Shows participation concentrated at problem formulation, evaluation, and governance stages. Operationalizes participatory-by-default infrastructure design.
 
-Why this scored well: Directly addresses AI governance in public sector contexts mission-driven organizations must navigate. Comprehensive analysis of accountability mechanisms, ethical frameworks, and governance gaps across welfare, tax, and criminal justice. High rigor from established venue. Actionable for curriculum on governance architecture and community impact assessment. Strong audience fit for public agencies and nonprofits implementing or evaluating AI systems.
-Suggested segments: W2-S1, W2-S2, toolkit-rubric
-Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
-
-
-### AI-DRIVEN DECISION MAKING IN PUBLIC ADMINISTRATION: ETHICS, ACCOUNTABILITY, AND GOVERNANCE (8/10)
-
-Ankit Singh Bisen, Zenodo (CERN European Organization for Nuclear Research), 2026
-https://doi.org/10.5281/zenodo.21468318
-
-Comparative analysis of AI decision systems in welfare, tax, and bail across multiple countries. Examines regulatory gaps and accountability mechanisms in high-stakes public administration contexts.
-
-Why this scored well: Strong fit for public agency audience and governance architecture curriculum. Comprehensive analysis of real AI systems in high-stakes domains directly relevant to accountability and evaluation frameworks. Rigorous doctrinal and comparative approach. High actionability for governance design. Co-production dimension present but not fully structural in described scope.
-Suggested segments: W2-S1, W2-S2, toolkit-rubric
-Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
-
-
-### Editorial Alignment: A Participatory Approach to Engaging Editorial Expertise in LLM-mediated Knowledge Dissemination (8/10)
-
-Simon Aagaard Enni, Malthe Stavning Erslev, Karl-Emil Kjær Bilstrup, Kristoffer Laigaard Nielbo, arXiv preprint, 2026
-http://arxiv.org/abs/2606.20258v1
-
-Case study embedding editorial expertise into LLM interface design through participatory workshops. Frames alignment as design practice translating institutional values into technical objectives, enabling ongoing stakeholder agency.
-
-Why this scored well: Strong fit for governance architecture and community accountability. Participatory approach with domain experts (editors) as structural participants in AI alignment. Public institution case study directly applicable to mission-driven orgs. Preprint limits rigor slightly, but methodology and design practice framework are actionable for curriculum.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
+Why this scored well: Open repository and atlas of participatory AI initiatives directly support co-production grounding in governance. Reproducible protocol for mapping participation tiers and lifecycle loci provides actionable framework for curriculum. Preprint status and corpus-level patterns on where participation occurs inform toolkit design. High relevance for mission-driven organizations implementing community accountability.
+Suggested segments: W2-S2, toolkit-charter, toolkit-diagnostic
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -440,10 +372,10 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Sanaz Sadat Hosseini, Mona Azarbayjani, Mohammad Pourhomayoun, Hamed Tabkhi, arXiv preprint, 2026
 http://arxiv.org/abs/2604.17755v1
 
-Participatory framework for integrating AI into wildfire risk assessment. Communities shape literacy-building and explainability design before deployment. Early findings on trust, fairness perceptions, and local context inform governance practice.
+Community-led framework for integrating AI into wildfire risk assessment. Emphasizes early resident engagement, value alignment, and participatory evaluation. Demonstrates how affected populations drive governance decisions on transparency, fairness, and trust.
 
-Why this scored well: Strong community co-production grounding with early participatory engagement in AI governance. Directly addresses AI literacy, explainability, and trust-building for mission-driven contexts (emergency management, public agencies). Preprint limits rigor slightly, but validated participatory framework and clear actionability for governance architecture and community accountability strengthen the score.
-Suggested segments: W2-S1, W2-S2, W3-S2, toolkit-diagnostic
+Why this scored well: Strong fit across multiple dimensions. PALEI framework treats affected residents as structural participants in AI governance from design through evaluation, not as afterthought consultants. Directly applicable to mission-driven organizations serving high-risk communities. Addresses AI literacy, tool evaluation, and community accountability. Preprint status limits rigor slightly, but validated participatory methodology with real community engagement compensates.
+Suggested segments: W1-S2, W2-S2, W3-S2, toolkit-diagnostic, toolkit-rubric
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -452,10 +384,34 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Stella Suge, Sarah W. Spencer, Nyalleng Moorosi, Helen McElhinney, arXiv preprint, 2026
 http://arxiv.org/abs/2604.06219v1
 
-Critical examination of participatory AI methods in humanitarian contexts using Kakuma Refugee Camp pilot data. Identifies participation washing risks and power dynamics that threaten meaningful community governance in crisis-affected settings.
+Empirical study of participatory AI methods in refugee camp settings. Identifies risks of participation-washing and algorithmic harm when applying Global North co-design approaches in humanitarian crises, informing governance architecture for mission-driven organizations.
 
-Why this scored well: Directly addresses co-production governance in vulnerable populations with empirical evidence from refugee camps. Identifies participation washing risks, core to governance architecture. Preprint status and limited actionability details prevent perfect score. Highly relevant for community accountability and equity considerations in AI governance.
+Why this scored well: Directly addresses co-production in AI governance with empirical evidence from vulnerable populations. Identifies participation-washing risks, critical for curriculum on community accountability. Preprint status limits rigor slightly. Actionable findings on participatory methods' limitations in resource-constrained, crisis settings where many mission-driven orgs operate.
 Suggested segments: W2-S2, toolkit-charter
+Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
+
+
+### Three Lessons from Citizen-Centric Participatory AI Design (8/10)
+
+Eike Schneiders, Sarah Kiden, Beining Zhang, Bruno Rafael Queiros Arcanjo, arXiv preprint, 2026
+http://arxiv.org/abs/2602.08554v2
+
+Participatory workshop study identifies three challenges in citizen-centric AI design: enabling sustained engagement, establishing shared language between experts and public, translating speculative input into implementation. Provides concrete insights for community-centered governance.
+
+Why this scored well: Strong co-production grounding from participatory workshops with citizens and stakeholders using constructive design methods. Directly applicable to governance architecture and community accountability. Addresses sustained engagement, expert-lay communication, and implementation translation - all critical for mission-driven organizations. Preprint status limits rigor slightly, but methodology and findings are immediately actionable for curriculum design.
+Suggested segments: W2-S2, toolkit-charter
+Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
+
+
+### Lost in Translation: Policymakers are not really listening to Citizen Concerns about AI (8/10)
+
+Susan Ariel Aaronson, Michael Moreno, arXiv preprint, 2025
+http://arxiv.org/abs/2510.20568v1
+
+Comparative study of citizen participation in AI policymaking across Australia, Colombia, and US. Documents gaps between participatory promises and practice, showing less than one percent participation and limited official responsiveness to public input.
+
+Why this scored well: Directly addresses co-production and community accountability in AI governance across three jurisdictions. Rigor: peer-reviewed preprint with comparative landscape analysis. Highly actionable for curriculum on participatory governance and community accountability mechanisms. Audience fit strong for mission-driven organizations navigating stakeholder engagement in AI decisions.
+Suggested segments: W2-S2, W3-S2, toolkit-charter
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -464,10 +420,10 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Shahin Hossain, Tukhbita Afroz Nawmi, arXiv preprint, 2026
 http://arxiv.org/abs/2607.14301v1
 
-Validated scale measuring four types of student reliance on GenAI in academic writing, including critical evaluation and dependent patterns. Developed with diverse undergraduate sample using rigorous psychometric methods.
+Validated 20-item scale measuring four types of student reliance on generative AI in academic writing. Developed at minority-serving institution with diverse sample. Supports assessment of AI literacy and academic integrity governance in schools.
 
-Why this scored well: Validated measurement instrument for AI reliance in academic writing with rigorous psychometric development. Directly applicable to AI literacy in educational settings. Strong rigor through multi-source validation at MSI. Preprint status limits slightly. Actionable for assessing student relationships with GenAI tools, informing curriculum on critical evaluation and responsible use.
-Suggested segments: W1-S1, W1-S2, W3-S1
+Why this scored well: Validated measurement instrument for AI reliance in academic writing, directly applicable to educational governance contexts. Addresses AI literacy and tool evaluation for schools and colleges. Preprint status and education focus limit slightly. Strong methodological rigor supports broader governance decision-making beyond writing specifically.
+Suggested segments: W1-S1, W2-S1, toolkit-diagnostic
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -476,10 +432,10 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Mengqian Wu, arXiv preprint, 2026
 http://arxiv.org/abs/2607.00211v1
 
-Epistemic AI Literacy framework identifies how students think through GenAI interactions. Reveals students lack verification and explanation-seeking behaviors. Operationalized constructs enable assessment design for AI literacy curricula.
+Develops Epistemic AI Literacy framework identifying how students regulate GenAI use in programming. Maps observable epistemic aims and processes including verification-seeking and prompt monitoring. Operationalizes constructs from interaction data.
 
-Why this scored well: Directly addresses AI literacy through epistemic thinking in GenAI use, a core curriculum component. Introduces validated conceptual framework (EAIL) with operationalized constructs and large dialogue dataset. Strong rigor despite preprint status. Actionable for literacy curriculum design. Limited by focus on programming context and no explicit co-production or community accountability dimension.
-Suggested segments: W1-S1, W2-S1
+Why this scored well: Strong fit for AI literacy curriculum with validated epistemic framework applied to student-AI interaction. Identifies observable dimensions of knowledge-seeking behavior in programming contexts. Preprint status and education focus (students, not mission-driven orgs directly) prevent higher score. Actionable for literacy assessment design.
+Suggested segments: W1-S2, W2-S1
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -488,10 +444,22 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Narges Zare, Divya Ramesh, Cori Faklaris, arXiv preprint, 2026
 http://arxiv.org/abs/2606.20994v1
 
-Maps how AI curricula integrate technical knowledge, societal harms, and workforce competencies. Finds technical content strong but ethical and workforce dimensions unevenly taught. Supports designing cohesive AI literacy for mission-driven organizations.
+Curriculum mapping framework connecting technical AI, societal harms, and workforce competencies. Analysis of 335 courses reveals strong technical coverage but weak workforce assessment and uneven harm integration. Informs AI literacy curriculum design.
 
-Why this scored well: Strong fit for AI literacy and governance architecture segments. Preprint status limits rigor somewhat, but the curriculum mapping framework and empirical analysis of 335 courses provide actionable intelligence. Early findings on fragmented technical-ethical-workforce teaching directly inform how to structure literacy content. Community accountability integration appears limited; focus is educator-side rather than co-produced with affected populations.
+Why this scored well: Work-in-progress preprint directly addresses AI literacy curriculum design for educators across institutional and external courses. Framework maps technical knowledge, societal harms, and workforce competencies, providing actionable gaps (weak workforce assessment, uneven harm integration). Relevant to mission-driven educators and workforce programs. Lacks co-production grounding and final validation, but early findings offer concrete curriculum redesign direction.
 Suggested segments: W1-S1, W1-S2, W2-S1, toolkit-diagnostic
+Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
+
+
+### From Novelty to Normalisation: Tracking Changing Perceptions of AI in Higher Education, 2024-2026 (7/10)
+
+Juliana Gerard, Morgan Macleod, Kelly Norwood, Aisling Reid, arXiv preprint, 2026
+http://arxiv.org/abs/2607.16223v2
+
+Three-year longitudinal survey tracking AI perception shifts among 1,665 students, doctoral researchers, and staff at Ulster University. Students normalized AI use rapidly; staff expressed persistent concerns about integrity and critical thinking. Reveals policy-practice gaps.
+
+Why this scored well: Longitudinal study of AI perceptions across higher education roles directly informs curriculum for colleges and universities. Tracks evolution of attitudes and behaviors, revealing student-staff gaps. Rigorous methodology (n=1,665, multi-wave design). Actionable for governance architecture and staff AI literacy. Limited co-production element: measures perceptions but doesn't center affected populations in governance design.
+Suggested segments: W1-S1, W2-S1, toolkit-diagnostic
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -500,10 +468,10 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Olya Kudina, arXiv preprint, 2026
 http://arxiv.org/abs/2606.16626v1
 
-Survey of 100 engineering students reveals LLM use patterns, misconceptions about oracle/tutor metaphors, and literacy gaps. Argues for purpose-driven, context-sensitive AI integration emphasizing critical thinking and verification skills.
+Survey of 100 engineering students shows LLM use for writing and coding, but reveals misaligned expectations about authority and accuracy. Supports teaching critical AI literacy and realistic capability assessment.
 
-Why this scored well: Strong fit for AI literacy curriculum in education settings. Empirical study (n=100) identifies how students perceive LLM capabilities and limitations, revealing gaps between expectations and reality. Actionable insights on critical literacy needs. Preprint status and education-specific focus limit rigor slightly. Limited co-production framing; students surveyed but not structurally involved in governance design.
-Suggested segments: W1-S1, W1-S2
+Why this scored well: Strong fit for AI literacy curriculum in education settings. Empirical study of student perceptions reveals tensions between LLM capabilities and student needs, informing how to teach critical evaluation. Preprint status and education-specific focus limit rigor slightly. Limited community co-production evidence, though student voice is central.
+Suggested segments: W1-S2, W2-S1
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -512,10 +480,10 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Nicholas Micallef, Olga Petrovska, arXiv preprint, 2026
 http://arxiv.org/abs/2606.13389v1
 
-Task-specific GenAI declaration framework for higher education. Moves beyond binary disclosure to nuanced cognitive categorization. Supports academic integrity policy while building student AI literacy through reflective practice.
+Task-specific GenAI declaration framework for higher education. Moves beyond binary disclosure to nuanced categories across writing and coding, encouraging student reflection on learning and academic integrity boundaries.
 
-Why this scored well: Strong fit for higher education governance and AI literacy. Develops a validated instrument (declaration framework) with rigorous design methodology. Treats students as participants in transparency structures. Actionable for curriculum and policy. Preprint status limits rigor slightly. Less direct relevance to non-education mission-driven sectors.
-Suggested segments: W1-S2, W2-S2, toolkit-diagnostic
+Why this scored well: Strong fit for higher education governance and AI literacy. Framework design addresses tool evaluation and community accountability by centering student reflection. Preprint status limits rigor. Highly actionable for colleges adopting GenAI policies. Treats transparency as learning opportunity, not surveillance.
+Suggested segments: W2-S1, W2-S2, toolkit-charter
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -524,10 +492,10 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Eduardo Oliveira, Narelle English, Tracii Ryan, Kamila Misiejuk, arXiv preprint, 2026
 http://arxiv.org/abs/2607.05411v1
 
-Psychometric study reveals divergent AI literacy pathways between students and staff. Students often master creative applications before foundational concepts, creating fragile fluency. Findings reshape how institutions should scaffold GenAI skills across roles.
+Psychometric analysis reveals divergent AI literacy pathways between students and academics, with students mastering application before foundational concepts. Challenges linear progression assumptions in GenAI curriculum design.
 
-Why this scored well: Strong fit for AI literacy curriculum in higher education settings. Psychometric rigor (Rasch analysis, validated instrument) directly informs how to teach diverse learner profiles. The skill bypass finding challenges linear assumptions and offers actionable insights for curriculum design. Preprint status limits score slightly. Limited engagement with community accountability or governance architecture beyond literacy.
-Suggested segments: W1-S1, W1-S2
+Why this scored well: Directly addresses AI literacy measurement for higher education staff and students using a validated psychometric instrument (Rasch theory). Challenges linear assumptions about skill progression, relevant to curriculum design. Preprint status and limited sample size (n=158) prevent higher score. Strong actionability for literacy assessment design.
+Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -536,23 +504,23 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Yukyeong Song, Seoyeon Choi, Jinhee Kim, Yeongje Kim, arXiv preprint, 2026
 http://arxiv.org/abs/2607.05406v1
 
-Framework and validation study showing how K-12 teachers develop AI literacy and design competency through creating LLM-powered learning technologies with structured guidance. Learning-by-creating approach demonstrates staff upskilling pathway.
+GAIDE framework guides K-12 teachers in creating AI-powered learning tech via vibe coding. Validated study shows AI literacy gains through design-based learning. Supports teacher upskilling and technology integration.
 
-Why this scored well: Strong fit for AI literacy and teacher professional development in educational settings. GAIDE framework directly supports educators designing AI tools, addressing curriculum gaps in how staff gain hands-on AI competency. Preprint status and validated methodology through interaction analysis provide credible grounding. Primary limitation: focuses on tool creation rather than broader governance, and teachers-as-designers addresses only one stakeholder role in institutional AI decisions.
+Why this scored well: K-12 teachers are mission-driven educators; vibe coding and learning-by-creating directly support AI literacy curriculum. Framework is validated through empirical study with teachers. Community participation appears limited to teacher-designer role rather than structuring governance with affected students. Actionable for professional development and literacy instruction.
 Suggested segments: W1-S2, W2-S1
 Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
-### Awareness of Technological Isomorphism: Integrating AI into Elementary Mathematics Teaching on Data and Prediction,A Case Study of the Compound Line Graph (7/10)
+### AI anxiety and AI dependence among undergraduates: a moderated mediation model of AI self-efficacy and AI literacy (7/10)
 
-Li Li, Yu Cao, arXiv preprint, 2026
-http://arxiv.org/abs/2606.09598v1
+Houyu Wu, Haiyang Ni, Jiaqi He, Eng Hoe Wee, Frontiers in Psychology, 2026
+https://doi.org/10.3389/fpsyg.2026.1884382
 
-Introduces Awareness of Technological Isomorphism as metacognitive concept linking students' mathematical operations to AI logic. Offers three-stage pedagogical pathway and framework for instructors to identify disciplinary entry points for AI literacy.
+Cross-sectional study of 400 undergraduates examining how AI anxiety drives dependence through self-efficacy, moderated by AI literacy. Validates scales for measuring AI literacy and identifies psychological mechanisms affecting AI adoption readiness.
 
-Why this scored well: Strong fit for AI literacy curriculum in education settings. Proposes validated conceptual framework (Awareness of Technological Isomorphism) grounded in transfer and metacognitive theory for teaching AI comprehension through mathematics. Actionable for instructors identifying isomorphic interfaces. Preprint status limits rigor slightly. Less emphasis on governance or community co-production.
+Why this scored well: Peer-reviewed study with validated instruments measuring AI literacy and self-efficacy in higher education. Directly applicable to curriculum on AI literacy assessment and staff/board capability building. Moderated mediation model provides actionable insight into psychological barriers to AI adoption. Higher education fits audience. Limited by focus on anxiety pathways rather than governance architecture or community accountability.
 Suggested segments: W1-S1, W1-S2
-Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
+Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
 ### Designing pedagogical AI agents as digital twins of teachers: insights from a multi-cohort training program (7/10)
@@ -560,10 +528,10 @@ Found via: arXiv: "AI literacy" AND (assessment OR measurement OR instrument OR 
 Jie-Shu Hwang, Marissa Yi-Hsuan Wu, Yu‐Ju Lan, Nian‐Shing Chen, Interactive Learning Environments, 2026
 https://doi.org/10.1080/10494820.2026.2689532
 
-Multi-cohort study of 81 teachers in PAIA training. Teachers showed strong AI literacy but weak creation and design skills. Reveals need for sustained scaffolding in moving from productivity to pedagogical AI integration.
+Multi-cohort study of 81 educators in a two-day AI agent design training program. Uses validated AI literacy and TPACK measures to identify gaps in teachers' creation and integration competencies, and documents need for sustained support.
 
-Why this scored well: Strong fit for AI literacy curriculum in education settings. Peer-reviewed study with validated instruments (AI literacy, TPACK scales). Identifies actionable gaps: teachers need better scaffolding for pedagogical AI design, not just productivity use. Limited on co-production; teachers are subjects rather than governance participants. Directly informs how to teach AI literacy to educators.
-Suggested segments: W1-S2
+Why this scored well: Strong fit for AI literacy and workforce development in education settings. Peer-reviewed empirical study with validated instruments (AI literacy, TPACK scales). Teachers as mission-driven practitioners. Identifies actionable gaps: creation skills, pedagogical integration support, sustained scaffolding. Limited community co-production; focuses on teacher competencies rather than student/stakeholder participation in governance.
+Suggested segments: W1-S2, W2-S1
 Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -572,10 +540,22 @@ Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument 
 Stamatios Papadakis, Anastasia Vatou, Zacharias Andreadakis, Education Sciences, 2026
 https://doi.org/10.3390/educsci16071117
 
-Validated nine-factor AI literacy scale for educators. Confirmatory factor analysis with 475 participants. Demonstrates measurement invariance across linguistic contexts. Supports staff competency assessment in mission-driven organizations.
+Validated Meta-AI Literacy Scale for Greek early childhood educators, establishing nine-factor structure with strong internal consistency and validity evidence. Enables systematic assessment of educator AI competence across knowledge, skills, attitudes, and ethical dimensions.
 
-Why this scored well: Validated AI literacy measurement instrument directly applicable to educational staff governance. Early childhood educators represent mission-driven audience. Strong methodological rigor with confirmatory factor analysis and reliability testing. Actionable for curriculum assessment and staff development programming. Limited by focus on Greece and early childhood specificity, though methodology transfers to other educator populations.
-Suggested segments: W1-S1, W2-S1, toolkit-diagnostic
+Why this scored well: Validates an AI literacy measurement instrument for educators in mission-driven settings (early childhood education). Strong rigor through confirmatory factor analysis with adequate sample sizes and established psychometric properties. Directly supports curriculum's AI literacy component. Limited by lack of measurement invariance testing and geographic specificity to Greece, reducing cross-context applicability.
+Suggested segments: W1-S1, W1-S2
+Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
+
+
+### The Scale for AI Literacy in Health Care Workers: Development and Validation (7/10)
+
+Chin‐Siang Ang, Sakura Ito, Saumya Bajaj, Minyang Chow, Journal of Medical Internet Research, 2026
+https://doi.org/10.2196/92373
+
+Peer-reviewed validation of an AI literacy scale for health care workers across conceptual domains. Combines literature review, expert review, and psychometric testing on 425 participants.
+
+Why this scored well: SAIL-HCW is a validated instrument measuring AI literacy in a practice-relevant context. Health care organizations are mission-driven settings. The scale informs W2-S1 AI literacy instruction. Rigor is strong (peer-reviewed, psychometric validation, expert review). Primary limitation: health care worker specificity requires adaptation for other mission-driven sectors like nonprofits and schools.
+Suggested segments: W2-S1
 Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -584,10 +564,10 @@ Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument 
 Ihsan Ayyub Qazi, Ayesha Ali, Muhammad Ammar Faisal, Izza Shahid, Open MIND, 2026
 https://doi.org/10.17605/osf.io/247za
 
-Validated GenAI literacy instrument measuring Understand-Apply-Create competencies via self-report and vocabulary assessment, with machine-learning feature selection to identify predictive items.
+Develops and validates a GenAI literacy measurement instrument across Understand-Apply-Create levels, tested with 200 students and professionals. Combines self-reported statements with vocabulary assessment, using ML for item optimization.
 
-Why this scored well: Develops a validated AI literacy measurement instrument applicable across mission-driven settings (education, workforce). Directly supports curriculum component on AI literacy for staff and boards. Ground-truth validation via MCQs and performance tasks adds rigor. Study population differs from target audience but instrument methodology transfers. Limited co-production framing; community input in design not evident. High actionability for diagnostic and assessment activities.
-Suggested segments: W1-S1, toolkit-diagnostic
+Why this scored well: Validated literacy instrument directly applicable to curriculum's AI literacy pillar. Competency framework alignment (UNESCO) strengthens rigor. Study population (students and working professionals) matches curriculum audience. Self-report and vocabulary components are actionable. Limited by focus on measurement rather than governance integration or community co-production in instrument design.
+Suggested segments: W1-S1, W1-S2
 Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
@@ -596,21 +576,21 @@ Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument 
 Sergey S. Strelnikov, Olga M. Ushakova, Н. С. Брынза, О. П. Горбунова, Vrach i informacionnye tehnologii, 2026
 https://doi.org/10.25881/18110193_2026_2_50
 
-Russian validation of SNAIL questionnaire measuring AI literacy in healthcare professionals and IT students. Demonstrates good internal consistency and discriminant validity across populations.
+Validation of SNAIL questionnaire measuring AI literacy in Russian healthcare professionals. Demonstrates good psychometric properties and discriminant validity across professional and student samples.
 
-Why this scored well: Peer-reviewed validation of an AI literacy instrument applicable to mission-driven sectors (healthcare, education). Rigorous psychometric methodology strengthens curriculum's literacy assessment component. Healthcare professionals are mission-aligned audience. Limited by geographic/language focus and lack of governance or community co-production elements.
-Suggested segments: W1-S1, W1-S2
+Why this scored well: Validated measurement instrument for AI literacy in a mission-relevant sector (healthcare). Demonstrates rigorous psychometric validation across populations. Directly strengthens curriculum on AI literacy assessment. Actionable for adapting the tool to mission-driven contexts. Limited by healthcare-specific focus rather than broader mission-driven organizations, and no co-production framing.
+Suggested segments: W1-S1, toolkit-diagnostic
 Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
 
-### Clarifying the Conceptual Landscape in AI Literacy Measurement: A Large Language Model Based Approach (7/10)
+### Measuring How Students Rely on Generative AI in Academic Writing: Development and Multi-Source Validation of the Generative AI Reliance Types Scale (GenAI-RTS) (7/10)
 
-Xiaoya Zhang, Cixiao Wang, Feng Ji, Xinyi He, PsyArXiv (OSF Preprints), 2026
-https://openalex.org/W7167652174
+Shahin Hossain, Tukhbita Afroz Nawmi, arXiv (Cornell University), 2026
+https://doi.org/10.48550/arxiv.2607.14301
 
-Semantic analysis of 11 AI literacy scales maps construct definitions and items, identifying consolidated cognitive-technical core versus weaker affective-collaborative integration across instruments.
+Validated 20-item scale measuring four types of student reliance on generative AI in academic writing. Developed with minority-serving institution students. Supports AI literacy assessment and institutional governance.
 
-Why this scored well: Preprint analyzing 11 AI literacy instruments through semantic mapping directly addresses curriculum needs for measuring staff and board competence. LLM-based analysis of construct definitions and items reveals measurement landscape clarity. Strong rigor for a preprint; actionability high for curriculum designers evaluating which literacy constructs to teach. Limited co-production grounding.
+Why this scored well: Validated measurement instrument directly applicable to AI literacy in education settings. Distinguishes reliance types beyond simple use/non-use, supporting governance decisions about student support and academic integrity. Preprint status and education-specific population limit slightly. Actionable for curriculum on AI literacy and institutional policy development.
 Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
 Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
@@ -620,9 +600,9 @@ Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument 
 Shahin Hossain, Tukhbita Afroz Nawmi, arXiv (Cornell University), 2026
 https://openalex.org/W7169688257
 
-Validated 20-item scale measuring four types of GenAI reliance in student writing. Developed with diverse sample at minority-serving institution. Supports AI literacy curriculum and tool evaluation frameworks.
+Validated 20-item scale measuring four types of student reliance on GenAI in writing: Strategic, Instrumental, Dependent, and Dialogic. Developed with 382 undergraduates at minority-serving institution and qualitative interviews. Supports AI literacy assessment for education governance.
 
-Why this scored well: Validated measurement instrument directly applicable to AI literacy assessment in educational settings. Addresses how students engage with GenAI tools, informing governance of academic integrity and equity. Preprint status and education focus (undergraduates, not staff/boards) limit slightly. Strong rigor and actionability for curriculum development.
+Why this scored well: Validated measurement instrument for AI reliance types in academic writing, directly applicable to AI literacy curriculum for education settings. Rigorous psychometric development with diverse sample (MSI) and qualitative grounding. Strong actionability for assessing student understanding and governance of AI use. Limited by focus on individual reliance rather than institutional governance architecture.
 Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
 Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument OR scale OR validation)
 
@@ -632,10 +612,10 @@ Found via: OpenAlex: "AI literacy" AND (assessment OR measurement OR instrument 
 Carlos J. Costa, Joao Tiago Aparício, Manuela Aparício, arXiv preprint, 2026
 http://arxiv.org/abs/2605.27398v1
 
-Conceptual framework connecting organizational GenAI investment to employee-level adoption through AI literacy and responsible use. Develops measurement approaches for tracking democratization outcomes.
+Conceptual framework connecting organizational GenAI investment to employee-level adoption through AI literacy, usefulness perception, and responsible use. Applicable to workforce development and organizational governance.
 
-Why this scored well: Strong fit for AI literacy and governance architecture in mission-driven orgs. Framework linking employee adoption, AI literacy, and responsible use directly informs curriculum. Preprint status and commercial competitive advantage framing limit rigor. Actionable for staff training and governance design. Limited community co-production grounding.
-Suggested segments: W1-S2, W2-S1, toolkit-diagnostic
+Why this scored well: Strong fit for AI literacy and governance architecture in mission-driven organizations. The framework linking investment, democratization, and employee adoption directly informs staff capability building. Preprint status and absence of validated instruments limit rigor. Limited community accountability grounding. Actionable for designing internal adoption policies and literacy programs.
+Suggested segments: W2-S1, W2-S2
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -644,10 +624,10 @@ Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professi
 Mary Webb, Matt Bower, Ana Amélia Carvalho, Fredrik Mørk Røkenes, arXiv preprint, 2026
 http://arxiv.org/abs/2601.08380v1
 
-Working group report on AI literacy for educators covering curriculum design, professional development, classroom applications, and policy. Directly applicable to teaching AI literacy in schools and workforce settings.
+Working group synthesis on AI literacy strategy for teachers. Covers curriculum design, professional development, classroom integration, and policy. Actionable for education administrators and workforce programs building staff capacity.
 
-Why this scored well: Strong fit for AI literacy curriculum segment. Addresses teacher professional development and classroom integration directly. Preprint status limits rigor slightly. Missing co-production grounding: no evidence that students or affected communities shaped the working group's approach to AI literacy design.
-Suggested segments: W1-S1, W2-S1
+Why this scored well: Directly addresses AI literacy for educators in schools and colleges, a core curriculum component. Preprint status limits rigor slightly. Covers curriculum design, professional development, and classroom applications actionable for education leaders. No explicit co-production grounding evident, though teacher agency suggests practitioner input. Strong fit for W2 governance literacy and staff upskilling.
+Suggested segments: W2-S1, W2-S2
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -656,10 +636,22 @@ Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professi
 Alok Khatri, Bishesh Khanal, arXiv preprint, 2026
 http://arxiv.org/abs/2601.06500v2
 
-Proposes AI Pyramid framework organizing workforce capability into three interdependent layers: AI Native (baseline), Foundation (system building), and Deep (frontier). Challenges assumptions about who needs AI literacy and offers structure for mission-driven organizations designing upskilling programs.
+Conceptual framework distinguishing three AI capability layers (Native, Foundation, Deep) as system-level distribution rather than career ladder. Argues traditional AI literacy insufficient for white-collar workforce impact.
 
-Why this scored well: Strong conceptual contribution to AI literacy curriculum design with direct relevance to workforce development in mission-driven settings. The AI Pyramid framework clarifies capability distribution beyond traditional digital literacy models. Preprint status and incomplete abstract limit rigor slightly. Actionable for curriculum design but needs validation evidence and practitioner implementation guidance.
-Suggested segments: W1-S1, W1-S2, W2-S1
+Why this scored well: Strong fit for AI literacy curriculum development. The AI Pyramid framework directly addresses workforce capability stratification and challenges conventional literacy approaches, valuable for organizations designing staff training. Co-production grounding is minimal. Preprint status limits rigor. Actionability is high: the framework could reshape how organizations think about AI capability needs across staff roles.
+Suggested segments: W1-S2, W2-S1
+Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
+
+
+### Prompt Engineering for Responsible Generative AI Use in African Education: A Report from a Three-Day Training Series (7/10)
+
+Benjamin Quarshie, Vanessa Willemse, Macharious Nabang, Bismark Nyaaba Akanzire, arXiv preprint, 2026
+http://arxiv.org/abs/2601.06121v1
+
+Case report of three-day GenAI training for 468 African educators and researchers. Scaffolded from foundational to ethical prompt engineering. Foundational for AI literacy content; limited governance architecture application.
+
+Why this scored well: Strong fit for AI literacy curriculum segment. Preprint from credible African-focused initiative documenting structured training with 468 participants across multiple countries. Addresses prompt engineering as ethical practice. Limited on co-production: appears to document training delivery rather than treating educators as structural governance participants. Actionable for curriculum design.
+Suggested segments: W1-S1, W1-S2
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -668,22 +660,10 @@ Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professi
 Shan Zhang, Ruiwei Xiao, Anthony F. Botelho, Guanze Liao, arXiv preprint, 2026
 http://arxiv.org/abs/2601.06101v1
 
-Validated self-report and objective-based AI literacy measures for teachers show low correlation, with six distinct competency profiles. Framework and misalignment findings improve assessment design for educational settings.
+Validated self-report and objective AI literacy measures reveal systematic misalignment. Identifies teacher profiles including overestimation and underestimation, enabling targeted professional development.
 
-Why this scored well: Peer-reviewed preprint on validated AI literacy assessment directly applicable to curriculum. Measures teacher competencies across Concept, Use, Evaluate, Ethics framework. K-12 context maps to education sector within audience. Strong methodological rigor with CFA and latent profile analysis. Actionable for designing better assessment tools and understanding misalignment between perceived and actual competency.
-Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
-Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
-
-
-### GenAITEd Ghana: A First-of-Its-Kind Context-Aware and Curriculum-Aligned Conversational AI Agent for Teacher Education (7/10)
-
-Matthew Nyaaba, Patrick Kyeremeh, Macharious Nabang, Bismark Nyaaba Akanzire, arXiv preprint, 2025
-http://arxiv.org/abs/2601.06093v2
-
-Prototype conversational AI for teacher education in Ghana, designed with curriculum alignment and ethical guardrails using Design Science Research. Models responsible AI operationalization in Global South education contexts with system-level oversight.
-
-Why this scored well: Strong fit for teacher education governance and AI literacy. Design Science Research approach with curriculum alignment and ethical constraints shows rigor. Context-aware development in Global South addresses underrepresented settings. Preprint status and limited detail on community participation in design reduce score slightly. Directly actionable for educational institutions implementing responsible AI.
-Suggested segments: W1-S1, W2-S1, W3-S1, toolkit-diagnostic
+Why this scored well: Rigorous validation of AI literacy measurement instruments directly supports curriculum design for staff and boards. Preprint status limits rigor slightly. The mismatch between self-reported and objective measures has immediate actionability for diagnostic tools. K-12 teacher focus translates well to workforce development and organizational staff contexts.
+Suggested segments: W1-S1, toolkit-diagnostic
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -692,23 +672,11 @@ Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professi
 Shaouna Shoaib Lodhi, Shoaib Lodhi, arXiv preprint, 2025
 http://arxiv.org/abs/2510.19196v1
 
-Framework for responsible AI integration in K-12 STEM with professional development model, bias audits, and equity-centered design. Identifies ethical challenges and implementation roadmap for educators.
+Framework for responsible AI integration in K-12 STEM. Proposes three-phase implementation roadmap with professional development model emphasizing equity-centered design, bias audits, and ethical reasoning alongside technical literacy.
 
-Why this scored well: K-12 STEM education fits curriculum audience through school settings. Addresses AI literacy and tool evaluation directly. Proposes professional development model and equity-centered design framework actionable by educators. Preprint status limits rigor. Lacks evidence of co-production with students or affected communities in governance structure.
-Suggested segments: W1-S2, W2-S1, toolkit-diagnostic
+Why this scored well: Strong fit for K-12 educators and school districts implementing AI. Addresses governance gaps (bias audits, implementation frameworks, professional development). Preprint status limits rigor slightly. Equity-centered design and ethical reasoning strengthen curriculum alignment. Framework actionability is clear, though co-production grounding could be stronger if it included student or community input in governance design.
+Suggested segments: W2-S1, W2-S2, toolkit-rubric
 Found via: arXiv: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
-
-
-### AI Literacy, Workforce Readiness, and Higher Education Transformation (7/10)
-
-Viktor Wang, International Journal of AI in Pedagogy Innovation and Learning Futures, 2026
-https://doi.org/10.46787/ijaipil.v1i1.7592
-
-Mixed-methods study of 288 survey and 60 interview participants in Chinese higher education. SEM demonstrates AI literacy influences workforce readiness through confidence, ethics, and institutional preparedness. Addresses key curriculum themes of literacy and governance readiness.
-
-Why this scored well: Mixed-methods study with validated SEM methodology directly addresses AI literacy for higher education, a key curriculum audience. Examines workforce readiness and ethical awareness through rigorous quantitative and qualitative design. Strong on rigor and audience fit. Less directly actionable for governance architecture or tool evaluation; community accountability dimension unclear from abstract.
-Suggested segments: W1-S1, W1-S2
-Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
 ### From Digital Literacy to AI Literacy: New Directions for Language Teacher Professional Development (7/10)
@@ -716,10 +684,22 @@ Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "profe
 Mohamed Ouhejjou, OpenAlex, 2026
 https://doi.org/10.35542/osf.io/d8eg5_v1
 
-Proposes multidimensional AI literacy framework for language teachers, reconceptualizing digital literacy to address GenAI challenges in pedagogy, ethics, and epistemology.
+Proposes reconceptualizing digital literacy as AI literacy for language teacher professional development. Examines LLM disruption to pedagogy and professional agency. Builds multidimensional competence framework for educators.
 
-Why this scored well: Strong fit for AI literacy curriculum segment. Addresses teacher professional development and competency frameworks directly relevant to mission-driven education settings. Theoretical framework on AI literacy reconceptualization is actionable for curriculum design. Limited by lack of empirical validation or co-production evidence with affected teachers in governance decisions.
+Why this scored well: Directly addresses AI literacy for educators in a structured profession with clear governance implications. Theoretical framework-building is rigorous but lacks empirical validation or actionable tools. High fit for curriculum's AI literacy component. Gaps: no community co-production angle, limited practical application for organizational governance beyond teacher training.
 Suggested segments: W1-S1, W1-S2
+Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
+
+
+### Developing an AI/ML Workforce: Curriculum Design and Professional Development in the AIM-AHEAD Research Fellowship Program (7/10)
+
+Kimberly Huynh, Jessica Lyons, Lesly Balanzar Torres, Wyatt P. Bensken, Zenodo (CERN European Organization for Nuclear Research), 2026
+https://doi.org/10.5281/zenodo.21795544
+
+Fellowship program curriculum integrating technical AI/ML training with ethics, regulatory compliance, and professional development through cross-functional partnerships. Models governance infrastructure for research institutions.
+
+Why this scored well: Strong curriculum design for AI/ML workforce development with integrated ethical and regulatory training. Addresses AI literacy and governance architecture relevant to mission-driven research organizations. Partnership-driven approach models cross-functional governance. Biomedical focus limits generalizability to broader mission-driven sector. Zenodo publication suggests emerging work; rigor details unclear from abstract.
+Suggested segments: W2-S1, W2-S2, W3-S1
 Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -728,10 +708,10 @@ Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "profe
 Wang Miao, Yun TianYing, English Language Teaching, 2026
 https://doi.org/10.5539/elt.v19n8p27
 
-Develops validated five-dimension AI literacy framework for college English teachers through interviews and thematic analysis. Contextualizes competencies beyond generic models. Directly usable for designing educator training in mission-driven institutions.
+Contextualized AI literacy framework for college English teachers across five dimensions: cognitive understanding, application, pedagogical integration, reflection, and ethics. Qualitatively derived from interviews and established competency models.
 
-Why this scored well: Strong fit for AI literacy curriculum segment. Rigor: peer-reviewed framework development with qualitative validation. Actionability: five dimensions and 15 domains directly inform staff training design. Audience fit: college educators, applicable to mission-driven education settings. Limitation: discipline-specific to English language teaching; limited community co-production evidence in abstract.
-Suggested segments: W1-S1, W2-S1
+Why this scored well: Framework development for teacher AI literacy directly supports curriculum's AI literacy segment. Discipline-specific approach and grounding in established competency frameworks provide rigor. College setting matches audience. Semi-structured interviews with practitioners show some co-production grounding, though limited to teacher voice without student/community perspective. High actionability for developing staff training curricula.
+Suggested segments: W1-S1, W1-S2
 Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
 
@@ -740,21 +720,9 @@ Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "profe
 Kritikka Kunte, Sunil Sankathala, Krutika Patre, Susanta Das, Advances in computational intelligence and robotics book series, 2026
 https://doi.org/10.4018/979-8-2600-3204-6.ch005
 
-Examines AI literacy, pedagogical skills, and ethical awareness needed for academic professionals. Emphasizes institutional learning capacity and teacher development in higher education contexts.
+Chapter on AI literacy and professional development for university educators. Covers intelligent tutoring systems, adaptive platforms, automated grading, and governance through institutional training programs and lifelong learning.
 
-Why this scored well: Directly addresses AI literacy and professional development for educators in higher education, a mission-driven sector. Covers institutional capacity, ethical awareness, and digital competencies. Rigor limited by forthcoming publication status. Actionable framework for teacher training programs. Lacks explicit co-production or community voice integration.
-Suggested segments: W1-S1, W2-S1
-Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
-
-
-### AI-Supported Staff Development in Higher Education: A Systematic Literature Review of Digital Leadership and Responsible Governance (7/10)
-
-Efrita Norman, Enah Pahlawati, Adrian Adha, MES Management Journal, 2026
-https://doi.org/10.56709/mesman.v5i2.1148
-
-Systematic literature review synthesizing evidence on AI staff development in higher education, covering AI literacy, digital leadership, institutional readiness, and inclusive design across 28 studies.
-
-Why this scored well: Systematic review of AI-supported staff development in higher education directly addresses AI literacy and governance architecture for educational institutions. PRISMA-oriented methodology provides rigor. Strong fit for college/university audiences. Limited by incomplete abstract preventing assessment of co-production grounding and specific actionability for curriculum tools.
+Why this scored well: Direct fit for higher education institutions adopting AI tools. Addresses AI literacy and governance architecture through educator professional development. Focuses on institutional capacity and teacher competencies rather than co-production with affected communities. Peer-reviewed book chapter strengthens rigor. Actionable for curriculum design around staff upskilling and ethical awareness.
 Suggested segments: W1-S2, W2-S1
 Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
 
@@ -764,11 +732,59 @@ Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "profe
 Nyiramukama Diana Kashaka, NEWPORT INTERNATIONAL JOURNAL OF LAW COMMUNICATION AND LANGUAGES, 2026
 https://doi.org/10.59298/nijlcl/2026/6.2.180000
 
-Reviews AI literacy curriculum models and evaluation frameworks emphasizing critical thinking, ethical reasoning, and civic participation. Addresses misinformation, bias, and digital citizenship through culturally responsive and inquiry-based approaches.
+Examines AI literacy curriculum models and evaluation frameworks emphasizing critical thinking, ethical reasoning, and democratic participation. Reviews inquiry-based, competency-based, interdisciplinary, and culturally responsive approaches.
 
-Why this scored well: Strong fit for AI literacy and community accountability. Examines curriculum models and evaluation frameworks directly applicable to mission-driven organizations. Culturally responsive and inquiry-based approaches align with co-production principles. Peer-reviewed venue supports rigor. Actionable for curriculum design. Limited by focus on general learners rather than specific mission-driven sector contexts.
-Suggested segments: W1-S1, W1-S2, toolkit-diagnostic
+Why this scored well: Strong fit for AI literacy curriculum segment with civic engagement framing. Examines multiple pedagogical models and evaluation approaches directly applicable to mission-driven organizations. Peer-reviewed venue. Community participation concept present but appears underdeveloped as structural governance feature rather than core mechanism.
+Suggested segments: W1-S1, W1-S2
 Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
+
+
+### Governing the Unseen: A Systematic Review of AI Literacy among Language Teachers in Higher Education (7/10)
+
+Yanyao Deng, Ferdi Çelık, Volkan Duran, Computers and Education Artificial Intelligence, 2026
+https://doi.org/10.1016/j.caeai.2026.100658
+
+Systematic review of 32 studies on AI literacy among language teachers. Finds competency models underexplore critical dimensions, professional development lacks structure, assessment relies on self-report. Identifies institutional support gaps relevant to governance frameworks.
+
+Why this scored well: Systematic review of AI literacy in higher education directly informs curriculum design for staff and board learning. Rigorous methodology (PRISMA 2020, thematic synthesis) and peer-reviewed venue. Identifies gaps in critical dimensions and assessment. Limited by focus on language teachers specifically, though findings transfer to broader staff literacy. Actionable for developing institutional AI literacy frameworks.
+Suggested segments: W1-S1, W1-S2, W2-S1
+Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "professional development")
+
+
+### The Influence of AI Training Program and AI Literacy on Ethical AI Use among AI-Trained Undergraduate Students: Evidence from Higher Education in Cambodia (7/10)
+
+Chhayna Cheng, Borey Ngoeurn, Journal of Social Knowledge Education (JSKE), 2026
+https://doi.org/10.37251/jske.v7i4.3683
+
+PLS-SEM study of 300 undergraduate students shows AI training programs significantly enhance AI literacy and ethical use, with literacy mediating the relationship. Provides validated evidence for curriculum effectiveness.
+
+Why this scored well: Strong fit for AI literacy curriculum component with validated quantitative methodology (PLS-SEM). Demonstrates that training programs improve both literacy and ethical use, with literacy as mediator. Higher education audience overlaps curriculum scope. Actionable evidence for curriculum design. Limited by single institution, convenience sampling, and lack of co-production in program design itself.
+Suggested segments: W1-S1, W1-S2, W2-S1
+Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
+
+
+### Artificial Intelligence Competence Levels Among Secondary Mathematics Teachers in Northern Samar, Philippines (7/10)
+
+Levi V. Calubag, Journal of Research in Education and Pedagogy., 2026
+https://doi.org/10.70232/jrep.v3i3.197
+
+Survey of 215 secondary math teachers' AI competence using UNESCO's validated AI Competency Framework. Identifies profile factors associated with competence in resource-constrained public school settings.
+
+Why this scored well: Directly measures AI literacy among teachers in public schools using a validated UNESCO framework. Strong rigor and clear actionability for curriculum on staff competence assessment. Audience fit is excellent. Limited by modest community accountability grounding; focuses on teacher competence rather than co-production with affected populations.
+Suggested segments: W1-S1, W2-S1, toolkit-diagnostic
+Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
+
+
+### MENYEIMBANGKAN AUTOMASI DAN HUMANISASI: PERAN KEPEMIMPINAN VISIONER DALAM MENJAGA KESEJAHTERAAN PSIKOLOGIS KARYAWAN (7/10)
+
+Kartika Dyah Nurwiani, Fatkhur Rohman Albanjari, Dar El-Falah Jurnal Ilmu-ilmu Sosial Keagamaan dan Humaniora, 2026
+https://doi.org/10.67409/3ex97s98
+
+Empirical study showing visionary leadership and human-centered AI orientation protect employee psychological well-being during automation. Relevant to workforce governance and organizational change management.
+
+Why this scored well: Directly addresses workforce impact of AI automation with rigorous quantitative methodology (SEM-PLS on 203 employees). Visionary leadership framing and psychological job security connect to governance accountability. Less directly actionable for curriculum tool design; focuses on leadership traits rather than governance structures or community participation in decisions.
+Suggested segments: W2-S1, W2-S2
+Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 
 
 ### The Future of Work in the Age of Artificial Intelligence: Assessing the Role of AI in Recruitment, Workforce Reskilling, Labour Regulations, and Human Capital Management (7/10)
@@ -776,10 +792,10 @@ Found via: OpenAlex: "AI literacy" AND (workforce OR staff OR employee OR "profe
 Pratima Jeggumantri Siddhi Shaji, Journal of Intelligent Decision Making and Information Science, 2026
 https://doi.org/10.59543/jidmis.v3.949
 
-Systematic review examining AI applications in recruitment, workforce reskilling, labor regulation, and human capital management. Addresses algorithmic bias, transparency, and privacy concerns across organizational and policy dimensions.
+Systematic review examining AI applications across recruitment, workforce reskilling, labor regulation, and human capital management. Addresses fairness, adaptability, compliance, and ethical considerations relevant to organizational governance of workplace AI.
 
-Why this scored well: Systematic review of AI in recruitment, reskilling, and labor regulation directly serves mission-driven organizations managing workforce programs. Peer-reviewed venue and comprehensive scope across ethical considerations and policy frameworks provide rigor. Strong fit for governance architecture and tool evaluation curriculum segments. Community accountability grounding appears limited based on abstract; unclear if affected workers participate in analysis.
-Suggested segments: W2-S1, W2-S2, toolkit-rubric
+Why this scored well: Systematic review of AI in recruitment, reskilling, and labor regulation directly serves mission-driven organizations managing workforce AI. Peer-reviewed venue and comprehensive scope strengthen rigor. Limited by lack of explicit co-production framing and no clear actionable tools or activities for practitioners, though ethical considerations and implementation challenges support curriculum development.
+Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 
 
@@ -788,10 +804,22 @@ Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 Lukman Setiawan, Annisa Anwar Muthaher, Moh. Akhtar Setia Ramadhan Eka Diningrat, Burhan, Cogent Business & Management, 2026
 https://doi.org/10.1080/23311975.2026.2705610
 
-Indonesian case study showing workforce transformation in AI integration extends beyond skills to adaptive capacity and human-AI collaboration. Informs understanding of organizational change in mission-driven contexts.
+Qualitative study of AI workforce transformation across education, finance, and digital service organizations in Indonesia. Reframes human capital development as dynamic, relational, and adaptive process beyond skills acquisition.
 
-Why this scored well: Qualitative multi-case study from emerging economy context directly addresses workforce transformation in AI-driven organizations. Treats human capital dynamically beyond reskilling. Relevant to mission-driven organizations in education and finance sectors. Limited by lack of explicit co-production framework and actionability for governance practice.
-Suggested segments: W2-S1, W2-S2
+Why this scored well: Qualitative study of AI workforce transformation in mission-relevant sectors (education, finance, digital services) in emerging economy context. Directly addresses human capital development beyond reskilling, treating it as dynamic and relational. Strong rigor (peer-reviewed, multiple-case design, 37 participants). Limited by abstract framing that requires translation to governance practice; unclear how findings shape specific curriculum activities or tools.
+Suggested segments: W1-S1, W2-S1, toolkit-diagnostic
+Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
+
+
+### Peer Review Report For: A Comparative Analysis of AI HRM Governance Approaches Across African Countries: Continental Patterns and Divergences [version 1; peer review: 1 approved with reservations] (7/10)
+
+Samuel Bangura, Melanie Elisabeth Lourens, OpenAlex, 2026
+https://doi.org/10.5256/f1000research.203410.r499598
+
+Comparative analysis of AI governance in HRM across 11 African countries. Examines legislative, professional, infrastructure, philosophical, and civil society dimensions. Identifies continental patterns relevant to governance architecture in non-Western organizational contexts.
+
+Why this scored well: Strong audience fit for mission-driven organizations operating across Africa. Qualitative comparative analysis of governance approaches directly strengthens governance architecture curriculum. Civil society mechanisms signal co-production grounding. Peer-reviewed with reservations indicates rigor. Actionability depends on whether results provide specific governance models or principles applicable to organizational decision-making.
+Suggested segments: W2-S1, W2-S2, toolkit-charter
 Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 
 
@@ -800,11 +828,35 @@ Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 Samuel Bangura, Melanie Elisabeth Lourens, OpenAlex, 2026
 https://doi.org/10.5256/f1000research.203410.r499600
 
-Comparative analysis of AI governance in HR across African countries reveals three governance patterns. Addresses legislative, professional, infrastructure, and civil society dimensions. Directly relevant for mission-driven organizations implementing workforce AI tools.
+Comparative analysis of AI governance in HRM across 11 African countries examining legislative architecture, professional standards, digital infrastructure, and civil society mechanisms. Identifies three governance patterns with practitioner input.
 
-Why this scored well: Strong fit for mission-driven organizations in African contexts adopting AI for workforce management. Qualitative comparative analysis across governance dimensions directly informs curriculum architecture and tool evaluation. Regional patterns help organizations contextualize governance choices. Co-production evidence limited; civil society inclusion mentioned but depth unclear. Peer-reviewed preprint strengthens rigor.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
+Why this scored well: Strong audience fit for mission-driven organizations in African contexts. Addresses governance architecture directly through comparative analysis of legislative, professional, and civil society mechanisms. Qualitative methodology with expert practitioners grounds findings. Limited explicit co-production detail; abstract cuts off before full results. High actionability for curriculum localization.
+Suggested segments: W2-S1, W2-S2
 Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
+
+
+### Prompt Engineering Competency Enhances Employee Productivity through Human AI Collaboration in Modern Organizations (7/10)
+
+Muhlisah Lubis, Darwin Nasution, Involvement International Journal of Business, 2026
+https://doi.org/10.62569/iijb.v3i3.296
+
+Identifies prompt engineering as multidimensional competency built through iterative learning and organizational support. Documents how employees combine AI efficiency with human judgment, contextual knowledge, and ethical reasoning in daily work.
+
+Why this scored well: Qualitative study of how workers develop prompt engineering competency through human-AI collaboration. Strong fit for AI literacy curriculum and staff training. Empirical grounding across diverse roles. Actionable findings on competency dimensions and organizational support. Limited co-production evidence; treats employees as research subjects rather than governance participants.
+Suggested segments: W1-S1, W1-S2, W2-S1
+Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
+
+
+### "Death by a thousand taxonomies?": AI Risk Classification In Practice (7/10)
+
+Glen Berman, Ned Cooper, Angel Hsing-Chi Hwang, Wesley Hanwen Deng, arXiv preprint, 2026
+http://arxiv.org/abs/2608.06831v1
+
+Empirical analysis of 25 interviews reveals why AI risk taxonomies fail in governance practice: design choices remain invisible to users, and harms lack accountability linkages. Directly applicable to organizational risk assessment and governance framework design.
+
+Why this scored well: Empirical study of risk taxonomy design and use directly informs governance architecture choices for mission-driven organizations. Interview-based research with diverse stakeholders provides actionable insights on classification frameworks. Preprint status and focus on structural/accountability gaps in existing taxonomies strengthen curriculum relevance. Limited community co-production in the study itself slightly reduces score.
+Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
+Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
 ### Anticipatory Data Governance in the Age of AI: Emerging Signals in Data Access, Reuse, and Sovereignty (7/10)
@@ -812,10 +864,22 @@ Found via: OpenAlex: "AI upskilling" OR "AI reskilling" OR "AI training program"
 Adam Zable, Stefaan Verhulst, arXiv preprint, 2026
 http://arxiv.org/abs/2607.27029v1
 
-Participatory foresight study identifying seven convergent signals in data governance under AI pressure, including ecosystem fragmentation and sovereignty concerns. Directly informs governance architecture for organizations managing data systems.
+Structured expert foresight identifies seven convergent signals reshaping data governance in AI contexts, including sovereignty concerns, ecosystem fragmentation, and benefit-sharing needs relevant to organizational governance design.
 
-Why this scored well: Rigorous participatory foresight study with 19 senior practitioners directly addressing data governance challenges affecting mission-driven organizations. The seven signals, especially AI-mediation, governance fragmentation, and sovereignty concerns, are actionable for governance architecture design. Preprint status and abstract-only access prevent higher score. Limited direct community accountability framing.
+Why this scored well: Participatory foresight study with 19 senior practitioners across relevant sectors identifies governance signals directly applicable to mission-driven organizations managing data and AI. Strong co-production grounding and rigor offset limited immediate actionability. Governance architecture and community accountability dimensions are clear.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
+Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
+
+
+### TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems (7/10)
+
+Hannah M. Liu, Rhea Saxena, Shiv Asthana, arXiv preprint, 2026
+http://arxiv.org/abs/2607.09586v1
+
+Structured, repeatable risk classification instrument for agentic AI systems with twelve-dimension rubric and tiered governance outputs. Designed for practitioners and regulators across enterprise and public sectors.
+
+Why this scored well: Strong fit for governance architecture and tool evaluation segments. Preprint status limits rigor slightly. The twelve-dimension rubric, autonomy framework, and tiered control recommendations directly support curriculum tool evaluation and governance design. Applicable to public-sector contexts. Community iteration signals openness but lacks evidence of co-production with affected populations in current design.
+Suggested segments: W2-S1, W2-S2, toolkit-rubric
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
@@ -824,10 +888,10 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Omir Kumar, Krishnan Narayanan, arXiv preprint, 2026
 http://arxiv.org/abs/2606.19975v1
 
-Mixed-methods study of algorithmic management in Indian gig economy. Proposes Algorithmic Human Manager framework integrating technological efficiency with human accountability. Centers worker perspectives on fairness, transparency, and dignity.
+Mixed-methods study of algorithmic management in Indian gig economy. Proposes hybrid governance model balancing automation with human accountability. Directly relevant to workforce program governance and worker dignity considerations.
 
-Why this scored well: Strong fit for workforce development and community accountability segments. Rigorous mixed-methods study with worker voices centered. Preprint status slightly limits rigor score. Directly informs tool evaluation and governance architecture for mission-driven organizations using algorithmic systems. Actionable framework for human-centered AI governance.
-Suggested segments: W2-S1, W3-S2, toolkit-rubric
+Why this scored well: Strong community accountability focus grounded in worker interviews. Proposes practical governance framework (Algorithmic Human Manager) applicable to mission-driven organizations managing gig work programs. Preprint status and developing-world focus limit rigor score. Excellent curriculum fit for governance architecture and community participation modules.
+Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
@@ -836,9 +900,9 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Abidemi Kuburat Adedeji, Franklin Tchakounte, Sulaiman Oluwasegun Yusuff, arXiv preprint, 2026
 http://arxiv.org/abs/2604.27708v1
 
-Pan-African framework integrating AI ethics, literacy, and decolonial pedagogy into primary and secondary education. Addresses cultural contextualization and Ubuntu-grounded governance across age bands.
+Culturally contextualized AI ethics curriculum framework for African schools, grounded in decolonial pedagogy and Ubuntu principles. Six guiding principles, four domains, five competencies, age-banded progression.
 
-Why this scored well: Strong fit for AI literacy curriculum in educational settings with explicit cultural contextualization and ethical grounding. Rigorous conceptual synthesis of policy and scholarship. Limited immediate actionability for mission-driven organizations outside African education systems, though decolonial and Ubuntu-grounded governance principles are broadly relevant. Co-production elements not detailed in abstract.
+Why this scored well: Pan-African framework with explicit decolonial and Ubuntu-grounded governance principles directly addresses community-centered AI literacy for education systems. Conceptual synthesis of policy and scholarship provides actionable curriculum structure. Preprint status and primary/secondary focus (beyond core audience) prevent higher score, though workforce pipeline relevance is significant.
 Suggested segments: W1-S1, W1-S2
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
@@ -848,35 +912,11 @@ Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR 
 Fabio Correa Xavier, arXiv preprint, 2026
 http://arxiv.org/abs/2604.06215v1
 
-Public sector AI governance requires adaptive risk management and scenario planning under uncertainty. Addresses institutional design, organizational routines, accountability structures, and evidence gaps. Relevant for public agency and education sector governance architecture.
+Public sector AI governance through adaptive risk management and scenario planning. Addresses institutional design, evidence gaps, and organizational capacity for frontier AI under uncertainty through 2030.
 
-Why this scored well: Strong fit for governance architecture and public sector AI literacy. Preprint status limits rigor slightly. Emphasizes institutional design, uncertainty, and adaptive management directly applicable to public agency governance. Treats policy capacity as structural challenge. Limited explicit co-production framing; community participation not central to the argument.
+Why this scored well: Strong fit for governance architecture and policy capacity building in public agencies. Preprint status and focus on institutional design rather than technical performance directly supports curriculum on decision-making under uncertainty. Treats public sector as structural participant. Limited actionability for specific tool evaluation or community accountability elements.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### The Social Responsibility Stack: A Control-Theoretic Architecture for Governing Socio-Technical AI (7/10)
-
-Otman A. Basir, arXiv preprint, 2025
-http://arxiv.org/abs/2512.16873v1
-
-Control-theoretic framework embedding societal values as enforceable constraints across AI system lifecycle. Covers design-time safeguards, runtime monitoring, institutional oversight. Six-layer stack model translates principles into operational governance for clinical, autonomous vehicle, and public-sector deployments.
-
-Why this scored well: Preprint proposing governance architecture with control-theoretic rigor directly applicable to mission-driven organizations deploying AI in high-stakes domains (clinical, public sector). Strong on governance architecture and enforcement mechanisms. Limited co-production evidence; community accountability embedded as constraint rather than structural participation. Case studies strengthen actionability for practitioners designing governance processes.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
-Found via: arXiv: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### A Taxonomy of AI Governance Approaches: Distinguishing Visibility, Alignment, and Authorization (7/10)
-
-Edward Meyman, Zenodo (CERN European Organization for Nuclear Research), 2026
-https://doi.org/10.5281/zenodo.18275969
-
-Taxonomy distinguishing visibility, alignment, and authorization in AI governance. Defines deterministic governance with verifiable artifacts. Maps vendor claims to actual problems solved. Clarifies governance architecture distinctions.
-
-Why this scored well: Strong conceptual framework for governance architecture distinguishing visibility, alignment, and authorization. Directly applicable to tool evaluation and governance design for mission-driven organizations. Formal taxonomy clarifies vendor claims. Preprint status and lack of community co-production input prevent higher score. Actionable for curriculum on governance architecture and tool evaluation.
-Suggested segments: W2-S1, W2-S2, toolkit-rubric
-Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
 ### AI governance in African higher education: Status, challenges, and a future-proof policy framework (7/10)
@@ -884,9 +924,9 @@ Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board 
 Sixbert Sangwa, Dennis NGOBI, Emmanuel Ekosse, Placide Mutabazi, OpenAlex, 2026
 https://doi.org/10.62617/aie2054
 
-Meta-synthesis of 30+ documents examining AI governance status, readiness, and risks in African higher education. Proposes future-proof framework aligning institutional and national strategies across varying contexts.
+Meta-synthesis of 30+ institutional and national AI policy documents across African HEIs. Maps governance maturity, policy-practice gaps, and proposes future-proof framework aligned with national strategies.
 
-Why this scored well: Strong audience fit for African higher education institutions and governance architects. Addresses governance architecture comprehensively through policy framework analysis. Rigorous desk-based meta-synthesis of 30+ documents across institutional and national levels. Limited co-production grounding; treats institutions as subjects rather than involving affected stakeholders in framework design. High actionability for curriculum on governance readiness assessment and policy alignment.
+Why this scored well: Directly addresses AI governance in educational institutions with policy framework development. Meta-synthesis of institutional documents provides actionable governance architecture insights. African HE context differs from curriculum's primary audience but governance principles transfer. Document analysis methodology is rigorous; no co-production of affected stakeholders limits score. Findings on policy readiness and alignment inform governance design.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
@@ -896,9 +936,9 @@ Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board 
 Claire R. Leibowicz, Policy & Internet, 2026
 https://doi.org/10.1002/poi3.70049
 
-Qualitative analysis of 23 stakeholder interviews examining how civil society, industry, media, and policy actors conceptualize and implement synthetic media governance. Identifies temporal perspectives and trust as critical governance mediators.
+Qualitative study of 23 stakeholder interviews examining how civil society, industry, media, and policy actors govern synthetic media. Reveals temporal perspectives and trust dynamics in multistakeholder governance, with findings on limitations of technical transparency approaches.
 
-Why this scored well: Strong fit for governance architecture and community accountability. Qualitative study of multistakeholder processes governing synthetic media directly informs how mission-driven organizations structure AI governance involving civil society, industry, and affected audiences. Peer-reviewed, rigorous methodology. Primary limitation: focuses on synthetic media specifically rather than broader AI tool evaluation.
+Why this scored well: Directly addresses multistakeholder governance of AI with qualitative evidence from civil society, industry, media, and policy actors. Semi-structured interviews and real-world case analysis provide rigor. Highly relevant to community accountability and governance architecture. Some limitation: synthetic media focus narrows direct application to broader AI governance contexts mission-driven organizations navigate.
 Suggested segments: W2-S1, W2-S2, toolkit-charter
 Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
@@ -908,9 +948,9 @@ Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board 
 Linda John Obiorah, Banavath Ananditha, Mrinalini Menon, Paridhi Passi, Zenodo (CERN European Organization for Nuclear Research), 2026
 https://doi.org/10.5281/zenodo.21479013
 
-Comparative case study of AI governance frameworks and institutional capacity in public sector systems across three countries, identifying lessons for building governance structures and skill development.
+Comparative study of AI governance frameworks and institutional readiness in India, Nigeria, and South Korea. Identifies practical lessons for building governance structures and institutional foundations for responsible public sector AI adoption.
 
-Why this scored well: Public sector governance is directly relevant to the curriculum's audience. The comparative framework across India, Nigeria, and South Korea provides actionable insights on institutional readiness and governance architecture. Community accountability receives limited treatment. Zenodo publication suggests rigor, though peer-review status is unclear. Could strengthen governance architecture and institutional design sections.
+Why this scored well: Strong fit for public sector governance architecture curriculum. Comparative case study of India and Nigeria directly addresses how institutions build AI governance capacity. Qualitative methodology and institutional focus applicable to mission-driven public agencies. South Korea benchmark adds rigor. Limited on community co-production and tool evaluation; primary value is governance framework analysis.
 Suggested segments: W2-S1, W2-S2
 Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
@@ -920,59 +960,47 @@ Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board 
 Linda John Obiorah, Banavath Ananditha, Mrinalini Menon, Paridhi Passi, Zenodo (CERN European Organization for Nuclear Research), 2026
 https://doi.org/10.5281/zenodo.21479014
 
-Qualitative comparative analysis of AI governance frameworks in India, Nigeria, and South Korea. Examines institutional readiness, skills development, and governance structures for public sector AI adoption. Identifies lessons for building governance foundations in developing contexts.
+Comparative study of AI governance frameworks in India, Nigeria, and South Korea. Identifies institutional prerequisites and governance structures for responsible public sector AI adoption, with lessons for building capacity.
 
-Why this scored well: Strong fit for public sector audience and governance architecture curriculum. Comparative case study rigor examining frameworks and institutional capacity directly supports curriculum content on governance structures. Limited co-production grounding; treats government as primary actor rather than service recipients as structural participants. Actionable for understanding governance models across contexts.
+Why this scored well: Directly addresses governance architecture in public sector institutions, a core curriculum component. Comparative framework offers actionable insights on building institutional capacity for AI. Qualitative case study rigor is solid. Public agencies are core audience. Limited by focus on national-level strategy rather than practitioner-level implementation guidance that mission-driven organizations need.
 Suggested segments: W2-S1, W2-S2
 Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
 
 
-### Towards Agentic AI Governance: A Preliminary Assessment (7/10)
+### Mapping the landscape of AI governance in higher education (7/10)
 
-Mubarak Raji, Masooda Bashir, arXiv (Cornell University), 2026
-https://openalex.org/W7167981370
+Magezi Samuel Khoza, Samuel Fosso Wamba, Serge Nyawa, Assessment & Evaluation in Higher Education, 2026
+https://doi.org/10.1080/02602938.2026.2712521
 
-Systematic review synthesizing governance priorities and mechanisms for agentic AI systems. Identifies stakeholder roles and governance features distinguishing autonomous agents from generative AI, informing organizational governance architecture decisions.
+Qualitative analysis of 43 university AI governance documents reveals convergence around fairness, transparency, accountability and shift toward proactive policies. Documents institutional structures, implementation strategies, and adaptive governance approaches.
 
-Why this scored well: Systematic review on agentic AI governance directly serves mission-driven organizations adopting AI systems. Identifies governance mechanisms and stakeholder roles applicable to governance architecture curriculum. Preprint status limits rigor score. Limited explicit co-production grounding. Strong actionability for updating governance frameworks as agentic systems emerge.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
-Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### A Taxonomy of AI Governance Approaches: Distinguishing Visibility, Alignment, and Authorization (7/10)
-
-Meyman, Edward, Zenodo (CERN European Organization for Nuclear Research), 2026
-https://doi.org/10.5281/zenodo.21186024
-
-Taxonomy distinguishing visibility, alignment, and authorization in AI governance. Defines deterministic governance as pre-execution authorization with verifiable artifacts. Clarifies vendor claims and evidence standards.
-
-Why this scored well: Strong conceptual clarity on a governance architecture problem directly relevant to tool evaluation and authorization workflows. Formal taxonomy helps practitioners distinguish what governance actually covers. Preprint status and lack of empirical validation with mission-driven orgs limits rigor. High actionability for curriculum: clarifies what to audit for and what governance claims mean.
-Suggested segments: W2-S2, toolkit-diagnostic, toolkit-rubric
-Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
-
-
-### The Governance Inversion Hypothesis: Why More AI Regulation May Produce Less Organisational Control (7/10)
-
-Victor Frimpong, arXiv preprint, 2026
-http://arxiv.org/abs/2606.26117v1
-
-Conceptual framework explaining how regulatory complexity can paradoxically reduce organizational AI control through authority fragmentation, symbolic compliance, externalization, and paralysis. Challenges standard assumptions about stronger regulation improving oversight.
-
-Why this scored well: Preprint addressing a core governance architecture challenge directly relevant to mission-driven organizations implementing AI. Challenges assumptions about regulatory frameworks and organizational control. Theoretically grounded but not yet peer-reviewed. Actionable for governance design but lacks practical implementation guidance or community accountability framing.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
-Found via: arXiv: "AI regulation" OR "state AI legislation" AND (compliance OR "small organization")
-
-
-### Designing a modular digital health curriculum for pharmacy education: a stakeholder-driven expert workshop study (7/10)
-
-Mélanie Raimundo Maia, João Gregório, Frontiers in Public Health, 2026
-https://doi.org/10.3389/fpubh.2026.1888486
-
-Co-designed modular digital health curriculum framework for pharmacy education, identifying four competency pillars including AI, EHR, ethics, and digital literacy through structured stakeholder workshops across 13 European countries.
-
-Why this scored well: Strong audience fit for pharmacy education and healthcare workforce development. Co-production grounding is structural, with stakeholder-driven expert workshops shaping curriculum design. ADDIE and DECODE framework provide rigor. Actionability high for pharmacy programs. Less direct fit for broader mission-driven org governance, though healthcare org applications exist.
+Why this scored well: Direct fit for higher education audiences and governance architecture. Comparative analysis of actual institutional frameworks provides actionable governance structures and principles. Document analysis grounds findings in real practices. Primary limitation: focuses on universities rather than broader mission-driven sector, and lacks community accountability perspective in governance design.
 Suggested segments: W2-S1, W2-S2
-Found via: OpenAlex: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
+Found via: OpenAlex: "AI governance" AND (nonprofit OR "public sector" OR board OR fiduciary OR "civil society")
+
+
+### One Bad NOFO? AI Governance in Federal Grantmaking (7/10)
+
+Dan Bateyko, Karen Levy, arXiv preprint, 2025
+http://arxiv.org/abs/2505.08133v2
+
+Analysis of how federal agencies use grant requirements to shape AI adoption by state, local, and nonprofit grantees. Documents hidden governance lever affecting billions in funding to mission-driven organizations.
+
+Why this scored well: Directly relevant to mission-driven organizations receiving federal grants, which include nonprofits, public agencies, schools, and workforce programs. Rigorous dataset analysis of grant policy mechanisms. Actionable for understanding AI governance pressure points. Preprint status and incomplete abstract prevent higher score. Limited explicit co-production framing.
+Suggested segments: W2-S1, W2-S2
+Found via: arXiv: "AI procurement" OR "AI tool evaluation" AND (rubric OR criteria OR checklist)
+
+
+### Agent-Supported Foresight for AI Systemic Risks: AI Agents for Breadth, Experts for Judgment (7/10)
+
+Leon Fröhling, Alessandro Giaconia, Edyta Paulina Bogucka, Daniele Quercia, arXiv preprint, 2026
+http://arxiv.org/abs/2602.08565v1
+
+Introduces scalable foresight method combining AI agents and human judgment to identify systemic AI risks. Validates hybrid approach with 290 experts and 42 laypeople. Applicable to organizational AI impact assessment and community perspective integration.
+
+Why this scored well: Strong rigor and actionability for AI governance in mission-driven settings. Preprint status limits rigor slightly. Directly applicable to tool evaluation and community accountability through hybrid human-agent foresight methods. Demonstrates structured approach to eliciting non-expert perspectives on systemic AI risks, aligning with co-production principles. Limited audience fit because focus on methodology rather than implementation within specific organizational contexts.
+Suggested segments: W2-S2, toolkit-diagnostic
+Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 
 
 ### Assessing employment and labour issues implicated by using AI (7/10)
@@ -980,9 +1008,9 @@ Found via: OpenAlex: "AI procurement" OR "AI tool evaluation" AND (rubric OR cri
 Thijs Willems, Darion Jin Hotan, Jiawen Cheryl Tang, Norakmal Hakim bin Norhashim, arXiv preprint, 2025
 http://arxiv.org/abs/2504.06322v1
 
-Proposes holistic framework for assessing AI's employment impact beyond automation rates. Emphasizes context, interdependence, and human-centric evaluation. Relevant for workforce programs evaluating AI adoption effects on staff and participants.
+Systemic critique of AI labor impact assessment. Proposes ethnographic and relational methods to move beyond task-level automation prediction. Human-centric framework supports organizational governance decisions on AI adoption and workforce change.
 
-Why this scored well: Strong fit for workforce contexts and governance architecture, especially task evaluation and community accountability. Preprint status limits rigor. Actionable framework for assessing AI's labor impact, but lacks concrete tools mission-driven organizations can immediately deploy. Ethnographic approach valuable for understanding workplace reconfiguration.
+Why this scored well: Strong fit for governance architecture and community accountability. Preprint status limits rigor slightly. Ethnographic and relational methods ground assessment in workplace realities, supporting co-produced governance. Actionable framework for AI impact assessment directly informs organizational decision-making and policy. Workforce context is central.
 Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 
@@ -992,10 +1020,22 @@ Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 Stefan Buijsman, Herman Veluwenkamp, arXiv preprint, 2025
 http://arxiv.org/abs/2504.05007v1
 
-Framework for justifying metric selection in AI impact assessments through conceptual engineering. Helps organizations articulate values (fairness conceptions) before choosing metrics, strengthening governance rigor and assessment validity.
+Framework for justifying metric selection in AI impact assessments by first establishing conceptual grounding (e.g., fairness conception) then fitting metrics to that conception. Helps organizations evaluate AI tools with transparent value choices.
 
-Why this scored well: Strong fit for tool evaluation and governance architecture. Preprint limits rigor to 1, but methodology is rigorous and directly addresses how mission-driven organizations should justify metrics in AI assessments. Two-step framework (conception then metric) is actionable. Community impact measurement is core curriculum content. Limited by not addressing co-production or community participation in metric selection.
+Why this scored well: Directly applicable to governance architecture and tool evaluation for mission-driven organizations assessing AI systems. Preprint status limits rigor slightly, but the framework for justifying metrics in impact assessments is methodologically sound and immediately actionable. Strong fit for curriculum on evaluating AI before adoption and governance decisions. Less directly addresses co-production or community accountability.
 Suggested segments: W2-S2, toolkit-rubric
+Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
+
+
+### Assessing AI Impact Assessments: A Classroom Study (7/10)
+
+Nari Johnson, Hoda Heidari, arXiv preprint, 2023
+http://arxiv.org/abs/2311.11193v1
+
+Empirical evaluation of three AI impact assessment instruments through classroom study with role-based team exercises. Finds AIIAs influence risk perception and responsibility attribution among participants.
+
+Why this scored well: Directly evaluates AIIA tools used in governance decisions. Classroom study with role assignments provides actionable evidence on assessment instrument effectiveness. Preprint status and limited sample (N=38, university context) prevent higher score. Highly relevant to tool evaluation curriculum segment and governance architecture.
+Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
 Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 
 
@@ -1004,10 +1044,22 @@ Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 Kimon Kieslich, Nicholas Diakopoulos, Natali Helberger, arXiv preprint, 2023
 http://arxiv.org/abs/2310.06361v2
 
-Participatory scenario study capturing stakeholder expectations about generative AI impacts in news. Three groups (consumers, developers, creators) identify potential harms and mitigation strategies through co-produced foresight methodology.
+Participatory foresight study mapping generative AI impacts on news through scenarios from consumers, developers, and creators. Identifies potential harms and mitigation strategies across stakeholder groups.
 
-Why this scored well: Strong co-production methodology with three stakeholder groups including affected parties (news consumers, creators). Participatory foresight and scenario writing directly inform governance architecture and community accountability frameworks. Preprint limits rigor slightly. Highly actionable for curriculum segments on stakeholder engagement and impact anticipation, though news environment focus requires translation to broader mission-driven contexts.
-Suggested segments: W2-S1, W2-S2, toolkit-diagnostic
+Why this scored well: Strong co-production methodology (scenario writing with three stakeholder groups) directly applicable to governance decision-making. Preprint limits rigor slightly. Highly relevant to community accountability in AI evaluation. Less direct fit for AI literacy or governance architecture curriculum segments, though valuable for understanding stakeholder perspectives in tool assessment.
+Suggested segments: W2-S2, toolkit-rubric
+Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
+
+
+### Dynamic Documentation for AI Systems (7/10)
+
+Soham Mehta, Anderson Rogers, Thomas Krendl Gilbert, arXiv preprint, 2023
+http://arxiv.org/abs/2303.10854v1
+
+Proposes dynamic documentation paradigm for AI systems, comparing Environmental Impact Statement frameworks to algorithmic documentation standards. Directly informs governance tool design and AI system evaluation protocols for organizations.
+
+Why this scored well: Strong fit for governance architecture and tool evaluation segments. Preprint limits rigor score. Argues for dynamic documentation paradigm applicable to mission-driven organizations adopting AI systems. EIS framework comparison provides actionable governance insights. Limited co-production grounding; focuses on documentation design rather than affected communities as structural participants.
+Suggested segments: W2-S1, W2-S2, toolkit-rubric
 Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 
 
@@ -1016,47 +1068,11 @@ Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
 Jacob Metcalf, Emanuel Moss, Ranjit Singh, Emnet Tafese, arXiv preprint, 2022
 http://arxiv.org/abs/2203.01455v1
 
-Proposes triadic accountability relationships centering impacted publics in algorithmic assessment documentation. Argues current systems exclude those harmed from participating in governance of algorithmic harms.
+Proposes triadic accountability relationships among developers, publics, and regulators. Analyzes how documentation access enables impacted communities to contest algorithmic harms. Challenges expertise gatekeeping in accountability processes.
 
-Why this scored well: Strong fit for community accountability and governance architecture. Argues that affected publics should participate in algorithmic assessment, directly supporting co-produced governance. Preprint status and theoretical focus limit actionability for immediate curriculum implementation, but the relational accountability framework meaningfully informs tool evaluation and charter development.
-Suggested segments: W2-S2, toolkit-rubric, toolkit-charter
+Why this scored well: Directly addresses governance accountability and community participation in algorithmic systems. Preprint status limits rigor slightly. Highly relevant to community accountability curriculum segment and tool evaluation. Actionable for governance architecture design. Less directly applicable to AI literacy or tool selection workflows.
+Suggested segments: W2-S2, W3-S2, toolkit-charter
 Found via: arXiv: "algorithmic impact assessment" OR "AI impact assessment"
-
-
-### Automated Quantitative Impact Assessment Framework for Artificial Intelligence Systems: Bridging Governance and Engineering Practices (7/10)
-
-Yu-Chih Wei, Y C Chen, Journal of the Association for Information Systems, 2026
-https://openalex.org/W7164703267
-
-Quantitative framework operationalizing seven dimensions of AI impact assessment (explainability, privacy, fairness, reliability, robustness, data quality, environmental impact) to bridge ISO governance standards and engineering practice.
-
-Why this scored well: Directly addresses tool evaluation, a core curriculum component. Bridges governance principles (ISO standards) with technical metrics across seven dimensions relevant to mission-driven organizations assessing AI systems. Peer-reviewed venue and reproducible methodology strengthen rigor. Actionable framework for operationalizing impact assessment. Limited by lack of explicit community participation in governance and focus on technical teams rather than board/staff literacy.
-Suggested segments: W2-S2, toolkit-rubric
-Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
-
-
-### Book review: Public Governance and Emerging Technologies: Values, Trust, and Regulatory Compliance (7/10)
-
-Ahmad Farhan, Journal of Organizational Change Management, 2026
-https://doi.org/10.1108/jocm-07-2026-938
-
-Interdisciplinary collection on AI, blockchain, and public governance emphasizing sociomaterial approach, regulatory compliance, and public values. Covers governance networks and value tensions relevant to public agency leaders and boards.
-
-Why this scored well: Book review examines governance of emerging tech in public sector with sociomaterial framework recognizing multiple actors. Public agencies are core audience fit. Addresses governance architecture and values-based evaluation directly. Open access, NWO-supported collection adds rigor. Limited actionability: review synthesizes others' work rather than providing instruments, frameworks, or specific practices mission-driven orgs can immediately implement.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
-Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
-
-
-### Modular Legal Personhood for AI Use Cases: An Enterprise Systems Engineering Framework for Digital Transformation (7/10)
-
-Mayumi J. Okuno, Hiroshi G. Okuno, Preprints.org, 2026
-https://doi.org/10.20944/preprints202607.1515.v1
-
-Enterprise systems framework using modular legal structures to align governance across AI deployments. Develops layered use-case modules, seven governance functions, readiness gates, and assessment protocols for enterprise-wide AI oversight.
-
-Why this scored well: Strong governance architecture fit with validated enterprise systems engineering rigor. Preprint status limits score. Modular accountability framework directly addresses mission-driven organization needs around responsibility boundaries and deployment-specific oversight. Community participation in governance design needs clarification. Hospital scenario suggests healthcare sector applicability.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
-Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 
 
 ### LLMography: Transforming Human-AI Conversations into Traceability, Oversight, and Auditability Indicators (7/10)
@@ -1064,10 +1080,22 @@ Found via: OpenAlex: "algorithmic impact assessment" OR "AI impact assessment"
 Mohammed Bousmah, arXiv preprint, 2026
 http://arxiv.org/abs/2606.29437v1
 
-Framework for auditing human-AI conversation traces through structured indicators of provenance, human contribution, and AI dependency. Applicable to education and workforce contexts where traceability and accountability are governance priorities.
+LLMography framework documents human-AI conversation traces to generate auditability indicators. Applicable to educational and organizational contexts where transparency and accountability matter for AI-assisted work.
 
-Why this scored well: LLMography directly addresses governance accountability by documenting human-AI interaction traces. Strong fit for tool evaluation and community accountability in education and workforce settings. Preprint status and incomplete evaluation limit rigor. Framework is actionable for curriculum teaching transparent AI use.
+Why this scored well: Framework directly addresses governance of AI tool use in education and knowledge work through structured documentation of human-AI interaction. Audience fit is strong for mission-driven organizations adopting LLMs. Preprint status and incomplete evaluation limit rigor. High actionability for tool evaluation curriculum segment and community accountability through transparent interaction traces.
 Suggested segments: W2-S2, toolkit-rubric
+Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
+
+
+### Editorial Alignment: A Participatory Approach to Engaging Editorial Expertise in LLM-mediated Knowledge Dissemination (7/10)
+
+Simon Aagaard Enni, Malthe Stavning Erslev, Karl-Emil Kjær Bilstrup, Kristoffer Laigaard Nielbo, arXiv preprint, 2026
+http://arxiv.org/abs/2606.20258v1
+
+Demonstrates participatory design process for aligning LLM systems with institutional editorial standards. Shows how to embed organizational values into AI tool governance through structured stakeholder participation and design artifacts.
+
+Why this scored well: Strong co-production grounding with editors as structural participants in LLM alignment design. Public knowledge institutions align with curriculum audience. Addresses governance architecture and tool evaluation for AI systems. Preprint status limits rigor slightly. Direct applicability to how mission-driven organizations govern AI's role in their core functions.
+Suggested segments: W2-S1, W3-S2, toolkit-diagnostic
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -1076,22 +1104,10 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Shangbin Feng, Yike Wang, Weijia Shi, Luke Zettlemoyer, arXiv preprint, 2026
 http://arxiv.org/abs/2606.07812v1
 
-Modular AI systems built by diverse contributors outperform monolithic models. Shows technical feasibility of participatory AI design where stakeholders contribute specialized components reflecting their values and priorities.
+Proposes scaling participation in AI through modular systems where diverse stakeholders contribute models. Demonstrates performance gains and emergent capabilities from contributor diversity, grounding governance in structural stakeholder involvement.
 
-Why this scored well: Strong fit for co-production and governance architecture. Demonstrates how diverse stakeholders contribute to AI system design, directly relevant to community accountability in AI governance. Rigorous peer-reviewed work with measurable outcomes. Primary limitation: technical focus may require translation for non-technical practitioners. Actionable for organizations designing participatory AI governance models.
-Suggested segments: W2-S2, W3-S1, toolkit-charter
-Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
-
-
-### Voices in the Loop: Mapping Participatory AI (7/10)
-
-Rashid Mushkani, arXiv preprint, 2026
-http://arxiv.org/abs/2605.16827v1
-
-Open repository and atlas of participatory AI initiatives with reproducible discovery protocol and corpus analysis. Maps where and how participation occurs across organizational forms and initiative lifecycles.
-
-Why this scored well: Preprint mapping participatory AI initiatives across sectors including civic and humanitarian contexts. Directly supports co-production grounding and governance architecture curriculum segments. Corpus-level patterns on participation tiers and lifecycle loci provide actionable evidence for designing participation structures. Limited by preprint status and lack of mission-driven organization focus, though repository serves that audience.
-Suggested segments: W2-S1, W2-S2, toolkit-charter
+Why this scored well: Directly addresses co-production governance through modular, participatory AI architecture where diverse stakeholders contribute models reflecting their values and priorities. Strong rigor (peer-reviewed venue, empirical validation). Fits governance architecture curriculum segment. Primary gap: limited evidence of application in mission-driven org contexts; actionability depends on implementation accessibility for nonprofits and public agencies.
+Suggested segments: W2-S1, W2-S2, toolkit-rubric
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -1100,47 +1116,11 @@ Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in th
 Julia Barnett, Kimon Kieslich, Natali Helberger, Nicholas Diakopoulos, arXiv preprint, 2026
 http://arxiv.org/abs/2605.27395v2
 
-Methodology combining participatory evaluation, expert assessment, and simulation to identify viable AI policy options. Operationalizes deliberative balancing of stakeholder input, cost, and harm mitigation.
+Methodology for identifying viable AI policy options through participatory evaluation, expert cost assessment, and LLM-based harm mitigation analysis. Uses genetic algorithm simulation to explore policy combinations and balance stakeholder input.
 
-Why this scored well: Strong co-production grounding (participatory evaluation core to methodology) and direct governance architecture relevance. Preprint status limits rigor slightly. High actionability for policy assessment frameworks. Audience fit is policymakers and researchers rather than mission-driven organizations directly, though applicable to governance evaluation within those settings.
-Suggested segments: W2-S2, toolkit-diagnostic
+Why this scored well: Strong fit for governance architecture and community accountability. Preprint rigor limits score. The participatory policy simulation methodology directly addresses how mission-driven organizations can evaluate competing AI governance options. Genetic algorithm exploration of policy combinations offers actionable structure for deliberation. Primarily serves policymakers, though public agencies and schools could apply the method.
+Suggested segments: W2-S1, W2-S2, toolkit-rubric
 Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
-
-
-### Three Lessons from Citizen-Centric Participatory AI Design (7/10)
-
-Eike Schneiders, Sarah Kiden, Beining Zhang, Bruno Rafael Queiros Arcanjo, arXiv preprint, 2026
-http://arxiv.org/abs/2602.08554v2
-
-Three lessons from participatory workshops on designing AI agents with citizens. Addresses meaningful public engagement, expert-lay communication, and translating participation into practice. Demonstrates structural involvement of affected people in governance.
-
-Why this scored well: Strong co-production grounding with public participants shaping AI governance through participatory design. Directly applicable to curriculum on community accountability and governance architecture. Preprint status limits rigor. Actionable for teaching participatory methods, though focus on future agentic systems rather than near-term organizational adoption.
-Suggested segments: W2-S2, toolkit-charter
-Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
-
-
-### Lost in Translation: Policymakers are not really listening to Citizen Concerns about AI (7/10)
-
-Susan Ariel Aaronson, Michael Moreno, arXiv preprint, 2025
-http://arxiv.org/abs/2510.20568v1
-
-Comparative analysis of citizen participation in AI governance across Australia, Colombia, and US. Documents gaps between promised and practiced participatory processes, with recommendations for building meaningful dialogue between citizens and policymakers.
-
-Why this scored well: Strong fit for community accountability and governance architecture. Examines participatory processes in three countries, identifying barriers to meaningful citizen engagement in AI policy. Preprint status limits rigor slightly. Actionable findings on dialogue gaps and feedback loops directly inform how mission-driven organizations can structure community input into AI governance.
-Suggested segments: W2-S2, toolkit-charter
-Found via: arXiv: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
-
-
-### Participatory AI: Children and Families Co-designing and Collaborating with AI Systems (7/10)
-
-Elizabeth Bonsignore, Dinesh Kumar Nanduri, Elana Blinder, Yi-Hsieh Lin, OpenAlex, 2026
-https://doi.org/10.1108/s1534-085620260000021025
-
-Participatory design case studies of children and families co-creating with generative AI for creative expression and culturally responsive language learning. Demonstrates community-centered governance approaches applicable to educational organizations.
-
-Why this scored well: Strong co-production grounding with children and families as structural design participants. Directly applicable to schools and workforce development (cultural/language learning). Participatory design methodology is rigorous. Primary limitation: focuses on children rather than governance of organizational AI use, though education settings and community accountability insights transfer well to curriculum.
-Suggested segments: W1-S1, W2-S2, toolkit-diagnostic
-Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
 ### Co-production and Social Inclusion (7/10)
@@ -1148,10 +1128,22 @@ Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in
 Elaine McNeill, Beth Calverley, OpenAlex, 2026
 https://doi.org/10.4324/9781003666424-40
 
-Examines genuine co-production versus extractive consultation using Creative Health approaches. Illustrates methods for meaningful power-sharing and embedding lived experience in service design through case studies and quality frameworks.
+Distinguishes genuine co-production from consultation by examining power redistribution, decision-making equity, and creative methods for including underrepresented voices. Provides framework for embedding lived experience in service design and governance.
 
-Why this scored well: Strong co-production framework applicable to mission-driven organizations, particularly nonprofits and public agencies. Creative Health Quality Framework and case studies offer concrete methods. Directly addresses power redistribution and lived experience integration in governance. Venue is emerging (2026). Limited explicit AI connection reduces specificity for curriculum, though principles transfer to community accountability in AI governance.
-Suggested segments: W2-S2, toolkit-charter
+Why this scored well: Strong co-production framework applicable to governance work with mission-driven organizations. Creative Health methods and the critique of extractive consultation versus shared decision-making directly inform community accountability in AI governance. Case studies ground theory. Limited AI specificity and health sector focus reduce fit, though principles transfer well to organizational contexts.
+Suggested segments: W3-S2, toolkit-charter
+Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
+
+
+### Co-Production in Response to COVID-19 (7/10)
+
+Bagus Nuari Harmawan, Anggie Parawitha Lucca, Indira Arundinasari, Hrvatska i komparativna javna uprava, 2026
+https://doi.org/10.31297/hkju.26.2.1
+
+Qualitative case study of community co-production in pandemic response governance in Indonesia. Shows how affected residents participated in institutional design and decision-making alongside authorities and professionals.
+
+Why this scored well: Strong co-production grounding with community as structural participant in crisis governance. Rigorous qualitative case study with interviews and documents. Directly relevant to mission-driven organizations managing complex challenges. Limited immediate actionability for curriculum unless adapted to AI governance context. Community accountability approach transfers well.
+Suggested segments: W2-S2
 Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -1160,10 +1152,10 @@ Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in
 Bruno De Oliveira, Qualitative Research Journal, 2026
 https://doi.org/10.1108/qrj-04-2026-0156
 
-Framework distinguishing co-production, co-design, and PAR across five dimensions: purpose, participant roles, power, process, epistemology. Helps organizations select appropriate community engagement approaches.
+Clarifies conceptual distinctions between co-production, co-design, and PAR through five analytic dimensions. Provides practical framework for selecting appropriate participatory approach based on purpose, roles, power, process, and epistemology.
 
-Why this scored well: Strong conceptual clarity on participatory governance approaches directly applicable to community accountability in AI governance. Peer-reviewed work with actionable framework for choosing engagement methods. Audience fit is good for mission-driven organizations designing community participation. Limited by focus on health/social care rather than AI-specific contexts.
-Suggested segments: W3-S2, toolkit-charter
+Why this scored well: Directly addresses co-production governance, a core curriculum element. Peer-reviewed conceptual framework clarifies distinctions between participatory methods mission-driven organizations must choose among. Strong rigor and actionability for governance architecture. Audience fit is broad across sectors. Limited by focus on research design rather than organizational AI governance specifically.
+Suggested segments: W2-S1, W2-S2, toolkit-charter
 Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -1172,10 +1164,10 @@ Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in
 Jovita Nnenna Ugwu, Tom Ongesa Nyamboga, Irene Ayoo Oywa, Asiati Mbabazi, Frontiers in Sustainable Cities, 2026
 https://doi.org/10.3389/frsc.2026.1881417
 
-Framework specifying five mechanisms for citizen co-production via mobile technology in municipal governance. Integrates public value theory with digital governance. Propositional model requiring empirical validation.
+Digitally Mediated Municipal Co-production Framework synthesizes five mechanisms (reporting, monitoring, payment, mobilization, feedback) for citizen participation in municipal services via mobile technology in African contexts.
 
-Why this scored well: Strong fit for governance architecture and co-production grounding. Framework integrates citizen participation into digitally-mediated systems, directly applicable to mission-driven organizations in resource-constrained settings. Peer-reviewed policy review with actionable guidance. Limited by lack of AI-specific focus and absence of validation data, though framework design addresses community accountability structurally.
-Suggested segments: W2-S1, W3-S1, toolkit-charter
+Why this scored well: Strong fit for public sector governance audience and co-production emphasis. Framework directly addresses community participation in service delivery systems. Peer-reviewed venue and formal specification support rigor. Primary limitation: focus on mobile technology adoption rather than AI governance specifically, though digital governance principles transfer. Actionability high for municipal settings but requires adaptation for AI curriculum.
+Suggested segments: W2-S1, W3-S1
 Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -1184,10 +1176,22 @@ Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in
 Violeta Furlan, Violeta Cabello, Irmelin Gram-Hanssen, Mari Hanssen Korsbrekke, Zenodo (CERN European Organization for Nuclear Research), 2026
 https://doi.org/10.5281/zenodo.21648801
 
-Validated toolkit for evaluating knowledge co-production across five phases. Applicable to mission-driven organizations designing participatory governance processes. Treats affected communities as structural participants in evaluation design.
+Validated toolkit evaluating knowledge co-production across five European cities. Organizes evaluation into five phases with ethical guidelines. Methodology applicable to AI governance co-production despite different subject domain.
 
-Why this scored well: Strong co-production grounding and validated toolkit structure for evaluating collaborative processes. Directly applicable to mission-driven organizations assessing their own knowledge partnerships. Peer review pending limits rigor score. Actionable framework for governance architecture and community accountability evaluation, though nature-based solutions focus requires translation to broader AI governance context.
+Why this scored well: Directly applicable toolkit for evaluating co-production processes with validated methodology across five cities. Strong fit for community accountability and governance architecture. Primary limitation: context is nature-based solutions in urban settings, not AI governance. Peer review pending limits rigor score. High actionability for practitioners designing co-production evaluation frameworks.
 Suggested segments: W2-S2, toolkit-diagnostic
+Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
+
+
+### Co-Production dalam Pelayanan Kesehatan: Studi padaPosyandu Nusa Indah 22 (7/10)
+
+Damayanti Simangunsong, Imam Yudhi Prastya, Chaerey Ranba Sholeh, Jurnal Kajian Hukum Dan Kebijakan Publik | E-ISSN 3031-8882, 2026
+https://doi.org/10.62379/jkhkp.v4i1.2357
+
+Qualitative analysis of co-production across government, health workers, and community in Indonesian Posyandu program. Identifies cadres as essential bridging actors and barriers to full participation.
+
+Why this scored well: Peer-reviewed study of co-production governance in community health services. Demonstrates structural community participation through cadres as bridge actors. Directly applicable to mission-driven health organizations. Strong on co-production grounding and rigor. Limited actionability for AI governance curriculum, though co-production framework transfers to AI accountability contexts.
+Suggested segments: W2-S1, W3-S1
 Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in the loop" OR "co-production"
 
 
@@ -1197,133 +1201,124 @@ Found via: OpenAlex: "participatory AI" OR "community-led AI" OR "communities in
 
 
 - **AI-Integrated Scientific Inquiry: A Practice-Centered Vision for Science Education** (6/10) http://arxiv.org/abs/2607.21777v1
-  Strong fit for science education and AI literacy within classroom settings. Preprint status limits rigor. Treats students as authentic participants in inquiry rather than passive consumers. Actionable pedagogical framework for integrating AI into curriculum. Less directly relevant to nonprofit governance contexts, though workforce development programs teaching science could adapt approaches.
+  Strong fit for K-12 science education audiences and curriculum content on AI literacy grounded in practice. Preprint status and focus on student learning (not organizational governance) limit scores. Actionable for designing discipline-based AI literacy instruction. Less direct relevance to nonprofit/public agency governance of their own AI use.
 
-- **Programming Language Policy as an AI Literacy Equity Problem: A 15-Nation Comparative Analysis** (6/10) http://arxiv.org/abs/2607.11314v1
-  Strong curriculum fit for AI literacy and governance architecture through comparative policy analysis. Addresses equity gaps in foundational knowledge required for responsible AI deployment. Audience fit moderate: education systems are mission-driven, but primary users are policymakers and school administrators, not the nonprofit/social sector focus. Co-production grounding weak; student voice absent. Preprint stage limits rigor.
+- **Awareness of Technological Isomorphism: Integrating AI into Elementary Mathematics Teaching on Data and Prediction,A Case Study of the Compound Line Graph** (6/10) http://arxiv.org/abs/2606.09598v1
+  Elementary math education with AI integration directly serves K-12 schools in the curriculum audience. The framework of technological isomorphism offers actionable guidance for identifying where disciplinary content connects to AI concepts, strengthening AI literacy instruction. However, this is a preprint with a single case study (compound line graphs), limiting rigor. Co-production grounding is absent; students appear as research subjects, not governance participants.
 
-- **From Novelty to Normalisation: Tracking Changing Perceptions of AI in Higher Education, 2024-2026** (6/10) http://arxiv.org/abs/2607.16223v2
-  Longitudinal study of AI perceptions across higher education roles provides actionable evidence for governance architecture and AI literacy curriculum design. Peer-reviewed rigor and large sample strengthen value. However, focus on perceptions rather than governance practices limits direct applicability to mission-driven organizations beyond higher ed. Community accountability dimension minimal.
+- **From Metrics to Practice: Rethinking and Refining the AI Literacy Scale for Teachers** (6/10) https://doi.org/10.1007/s40299-026-01135-9
+  Peer-reviewed validation of an AI literacy scale for teachers directly supports curriculum content on staff AI literacy. The educational audience and measurement rigor score well. Limited actionability without seeing the refined scale itself, and no clear evidence of co-production with affected communities in governance decisions.
 
-- **AI anxiety and AI dependence among undergraduates: a moderated mediation model of AI self-efficacy and AI literacy** (6/10) https://doi.org/10.3389/fpsyg.2026.1884382
-  Peer-reviewed study with validated instruments examining AI literacy and psychological factors affecting technology adoption among undergraduates. Directly relevant to AI literacy curriculum component. Moderated mediation model provides actionable insight into how anxiety undermines effective AI use. Limited by focus on individual psychology rather than institutional governance or co-production with affected populations.
+- **The Essentials of AI for Life and Society: A Full-Scale AI Literacy Course Accessible to All** (6/10) http://arxiv.org/abs/2512.04110v1
+  Strong curriculum fit for AI literacy with validated pedagogical design (flipped classroom, real-world application, ethical reflection). However, limited co-production grounding: students analyze AI tools but curriculum design doesn't center affected communities as structural participants. Preprint status and higher education focus reduce actionability for broader mission-driven sector.
 
-- **A Compiler for Writers: Precompiled Narrative Architecture for Governed AI-Assisted Authorship** (6/10) https://doi.org/10.5281/zenodo.21249394
-  Strong governance architecture applicable to mission-driven writing (literacy, policy, educational content). Treats human authority as structural, not appended. Technical rigor and actionability clear. Limited direct fit to organizational AI governance, which centers on tool adoption and community accountability in service delivery, not authorship workflows.
-
-- **AI LITERACY, HUMAN–AI COLLABORATION AND WORKFORCE EFFECTIVENESS: A COMPETENCY FRAMEWORK FOR SUSTAINABLE ORGANIZATIONAL PERFORMANCE** (6/10) https://doi.org/10.5281/zenodo.21298521
-  Framework addresses AI literacy and organizational competencies directly relevant to mission-driven organizations. Grounded in established theories. However, it is a conceptual synthesis without validation data, empirical testing, or community participation in framework development. Actionability depends on whether the framework produces usable instruments or curriculum modifications.
-
-- **AI LITERACY, HUMAN–AI COLLABORATION AND WORKFORCE EFFECTIVENESS: A COMPETENCY FRAMEWORK FOR SUSTAINABLE ORGANIZATIONAL PERFORMANCE** (6/10) https://doi.org/10.5281/zenodo.21298520
-  Framework addresses AI literacy for organizational workforce, applicable to mission-driven settings. Grounded in established theories and synthesizes literature on competencies. Limited actionability without empirical validation or specific tools. No evidence of co-production with affected workers. Could inform curriculum architecture but needs implementation guidance.
+- **Developing an AI/ML Workforce: Curriculum Design and Professional Development in the AIM-AHEAD Research Fellowship Program** (6/10) https://doi.org/10.5281/zenodo.21795543
+  Strong fit for workforce development and AI literacy curriculum components. Rigorous program design with integrated partnerships and ethical grounding. Limited actionability for mission-driven orgs outside biomedical research. Co-production evidence unclear from abstract. Peer-reviewed venue supports rigor.
 
 - **Exploring the Impact of Artificial Intelligence (AI) and Digital Connectivity on Educational Management in Nigerian Polytechnics.** (6/10) https://doi.org/10.51583/ijltemas.2026.150600137
-  Nigerian polytechnics are mission-driven educational institutions, and the mixed-methods research with 200 participants across five schools provides empirical grounding. The work addresses governance-relevant topics: administrative efficiency, decision-making, and staff digital skills. However, it frames AI adoption as a technical challenge rather than governance architecture. Community accountability and co-production with affected stakeholders are absent. The study identifies barriers but does not center the voice of students or community partners in designing solutions.
+  Mixed-methods study of AI adoption in educational institutions (polytechnics) with governance relevance. Strong audience fit and rigor (peer-reviewed, 200 participants). Addresses infrastructure and skills barriers to AI adoption. Moderate curriculum fit on governance architecture and AI literacy. Limited on co-production grounding and tool evaluation specifics. Actionability depends on whether findings translate to governance frameworks.
 
-- **MENYEIMBANGKAN AUTOMASI DAN HUMANISASI: PERAN KEPEMIMPINAN VISIONER DALAM MENJAGA KESEJAHTERAAN PSIKOLOGIS KARYAWAN** (6/10) https://doi.org/10.67409/3ex97s98
-  Empirical study on leadership's role in managing AI-induced workforce disruption, grounded in validated theories (JD-R, SDT). Addresses psychological well-being during automation, relevant to workforce development contexts. SEM-PLS analysis shows rigor. Limited actionability for governance practice; focuses on leadership mindsets rather than concrete governance structures or tools mission-driven organizations can implement.
+- **AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment** (6/10) http://arxiv.org/abs/2607.03427v1
+  Multi-stakeholder assessment on AI governance frameworks and open-source standards has direct relevance to mission-driven organizations evaluating AI adoption. Rigorous methodology combining desk review, interviews, and survey strengthens credibility. However, focus on digital public goods and SDGs is somewhat removed from practical governance implementation for individual organizations. Community participation in assessment design unclear.
 
-- **A Study of the Impact of Artificial Intelligence-Based Teaching Training on the Mental Health of Teachers** (6/10) https://doi.org/10.32628/cseit26123394
-  Strong audience fit for educational organizations and workforce development. Directly addresses AI literacy for staff with validated mental health measurement. Moderate curriculum fit for AI literacy and staff governance. Limited co-production: teachers surveyed but not involved in designing training or interpreting findings. Reasonable rigor with standardized instruments and statistical analysis, though the AI questionnaire appears self-developed. Actionable for demonstrating AI training benefits to staff.
-
-- **Peer Review Report For: A Comparative Analysis of AI HRM Governance Approaches Across African Countries: Continental Patterns and Divergences [version 1; peer review: 1 approved with reservations]** (6/10) https://doi.org/10.5256/f1000research.203410.r499598
-  Strong audience fit for mission-driven orgs in African contexts; directly addresses AI governance in HRM, a core curriculum topic. Qualitative comparative analysis across countries provides rigor. However, HRM governance differs from the curriculum's broader organizational AI adoption focus. Limited evidence of co-production with affected workers. High actionability for regional contextualization of governance frameworks.
+- **AIDLC–governance indicator framework: a lifecycle-based approach to institutional AI governance** (6/10) https://doi.org/10.1007/s00146-026-03173-9
+  Peer-reviewed framework directly addressing AI governance in institutions. Lifecycle-based approach maps well to governance architecture curriculum segment. Limited actionability without seeing full methodology and whether it centers affected communities in governance decisions. Unclear if applicable across nonprofit, public agency, and education sectors the curriculum serves.
 
 - **Feminist epistemic justice: reimagining knowledge and power in EU politics** (6/10) https://doi.org/10.1080/09589236.2026.2683855
-  Strong framework for community accountability and co-production grounding. Directly addresses whose knowledge counts in governance, epistemic exclusion of marginalized subjects. Empirical studies across policy domains demonstrate rigor. However, limited direct actionability for mission-driven organizations implementing AI governance. More relevant to diagnostic thinking than tool-building or literacy curricula.
+  Strong fit for community accountability and governance architecture. Feminist epistemic justice directly addresses whose knowledge counts in institutional decision-making, applicable to how mission-driven orgs can center marginalized voices in AI governance. Peer-reviewed, rigorous framework. Limited by focus on EU politics rather than mission-driven organizations specifically, and unclear actionability for curriculum without seeing full paper.
 
-- **AI-Enabled Enterprise Digital Transformation Strategies for Public Sector Modernization in Saudi Arabia** (6/10) https://doi.org/10.64388/irev10i1-1719566
-  Public sector audience and governance focus align well with curriculum scope. Five strategic pillars including responsible AI governance and human-centered services address governance architecture and literacy needs. Narrative review methodology limits rigor. Middle-income context provides useful implementation perspective, though Saudi-specific framing reduces direct transferability to diverse mission-driven organizations globally. Actionable framework potential.
+- **SCITUS: A Multi-Jurisdictional Framework for Adapting NIST AI RMF to the Canadian Regulatory Context** (6/10) http://arxiv.org/abs/2607.15051v1
+  SCITUS directly addresses governance architecture for mission-driven organizations operating across jurisdictions, strengthening curriculum on AI governance frameworks and regulatory navigation. The multi-jurisdictional adaptation methodology is actionable. However, it lacks co-production grounding (affected communities not centered in governance design) and is a preprint, limiting rigor. Primarily serves Canadian context.
 
-- **Agent-Supported Foresight for AI Systemic Risks: AI Agents for Breadth, Experts for Judgment** (6/10) http://arxiv.org/abs/2602.08565v1
-  Directly addresses AI governance foresight for mission-driven orgs through systemic risk identification. Hybrid human-agent approach models co-production principles; laypeople perspectives included. Rigorous methodology with expert validation and benchmark comparisons. Preprint status and future-focused framing limit immediate actionability for current tool evaluation workflows, though risk taxonomy and foresight method could inform curriculum.
+- **The Governance Inversion Hypothesis: Why More AI Regulation May Produce Less Organisational Control** (6/10) http://arxiv.org/abs/2606.26117v2
+  The GIH addresses governance architecture directly, challenging assumptions mission-driven organizations likely hold about regulation and control. The theoretical framework could reshape how organizations design their own governance. However, it's a preprint without validation in organizational settings, and lacks grounding in how affected communities should participate in governance decisions. Actionability depends on whether practitioners can translate theory into specific governance design changes.
 
 - **Co-designing an AI Impact Assessment Report Template with AI Practitioners and AI Compliance Experts** (6/10) http://arxiv.org/abs/2407.17374v2
-  Strong co-design methodology with practitioners and experts grounds this in genuine governance needs. Template directly addresses AI impact assessment, relevant to tool evaluation and governance architecture. However, commercial tech company focus and EU/NIST frameworks limit applicability to mission-driven organizations with different resource constraints and regulatory contexts. Preprint status reduces rigor slightly.
+  Strong co-design methodology with practitioners and compliance experts grounds this work well. The impact assessment template directly supports tool evaluation and governance architecture for mission-driven organizations managing AI systems. Preprint status and focus on commercial enterprise rather than nonprofits/public agencies limits the score. However, the template's grounding in EU AI Act and NIST framework makes it actionable for any organization needing structured AI governance.
 
 - **Lessons Learned in Performing a Trustworthy AI and Fundamental Rights Assessment** (6/10) http://arxiv.org/abs/2404.14366v1
-  Public sector AI governance case study with practical assessment methodology directly applicable to mission-driven organizations. Demonstrates trustworthy AI framework in environmental monitoring context. Preprint status and focus on specific tool assessment limit rigor. Strong on governance architecture and tool evaluation; weaker on community accountability and co-production grounding.
-
-- **Assessing AI Impact Assessments: A Classroom Study** (6/10) http://arxiv.org/abs/2311.11193v1
-  Preprint study directly evaluating AI impact assessment instruments through structured classroom activity. Good fit for tool evaluation curriculum segment. Limited by small university student sample and lack of co-production with affected communities. Actionable findings on AIIA effectiveness could inform governance curriculum design.
-
-- **Dynamic Documentation for AI Systems** (6/10) http://arxiv.org/abs/2303.10854v1
-  Preprint on AI documentation standards with relevant governance application for mission-driven organizations evaluating tools. Compares Model Cards and impact assessment frameworks useful for toolkit-rubric development. Limited by lack of peer review and sparse actionable guidance for practitioners beyond framework critique. Does not center affected communities in documentation design.
+  Government agency (Province of Friesland) applying trustworthy AI assessment framework to real satellite-based environmental monitoring system. Preprint status limits rigor slightly. Directly applicable to governance architecture and tool evaluation. Limited community participation evidence in abstract, though environmental monitoring serves public interest.
 
 - **Bridging the Legal-technical Gap: AI Surveillance and Data Sovereignty in Africa** (6/10) https://doi.org/10.17159/1727-3781/2026/v29i0a23860
-  Strong fit for governance architecture and community accountability in public sector and educational contexts. The algorithmic sovereignty gap concept directly supports tool evaluation and institutional oversight design. Legal and technical rigor is solid. Limited actionability for mission-driven organizations outside government; most applicable to public agencies and policy educators. Truncated abstract prevents full assessment of prescriptive contributions.
+  Strong rigor and community impact analysis of AI governance barriers in public institutions (African governments). Directly addresses accountability and transparency gaps. Limits: prescriptive section incomplete; focuses policy/constitutional reform over practitioner tools; limited direct actionability for mission-driven organization governance decision-making.
 
 - **Algorithmic Sovereignty as a Constitutional Imperative: India’s Digital Governance Challenge** (6/10) https://doi.org/10.66918/juscorpus.v6i4.2026.38
-  Strong fit for governance architecture and community accountability curriculum segments. Rigorous legal framework grounded in constitutional doctrine. Addresses algorithmic accountability as structural governance issue. Actionable for public sector and social justice organizations. Limited direct application to mission-driven sector governance beyond public agencies. Community participation framing implicit rather than explicit.
+  Strong governance architecture fit for public agencies and policy makers. Constitutional framework for algorithmic accountability directly applies to mission-driven government and educational institutions. However, India-specific legal context limits broader applicability. Lacks community participation evidence in governance design. Academic rigor is solid but actionability depends on institutional adoption of proposed frameworks.
+
+- **Auditing Algorithmic Fairness in Healthcare: An Empirical Test of the AIMS Governance Framework on 99,492 Diabetes Readmissions** (6/10) https://doi.org/10.5281/zenodo.21443936
+  Strong rigor and actionability for tool evaluation in healthcare settings. The empirical fairness audit methodology and AIMS framework application directly inform governance architecture. However, audience fit is narrower (healthcare focus, technical depth) than the curriculum's broader mission-driven scope. Co-production grounding is weak; affected patients and clinicians appear absent from governance design.
 
 - **The Rise of AI in Weather and Climate Information and its Impact on Global Inequality** (6/10) http://arxiv.org/abs/2603.05710v2
-  Preprint with strong community accountability framing and governance relevance for mission-driven organizations working on climate and equity. Directly addresses co-production and power imbalances in AI systems. Limited by preprint status and geographic focus outside typical curriculum audience, though principles transfer to local/regional governance contexts.
+  The paper directly addresses AI governance for organizations serving vulnerable populations and emphasizes co-production as a core solution. It offers concrete concepts (Climate Digital Public Infrastructure, well-being metrics) applicable to mission-driven organizations working on climate adaptation. However, it is a preprint without peer review, and lacks detail on how organizations operationalize these governance principles in practice.
 
-- **Toolkit for evaluating the transformative potential of knowledge co-production processes** (6/10) https://doi.org/10.5281/zenodo.21648800
-  Directly addresses co-production evaluation with a validated toolkit across five cities, strong rigor grounding. Audience fit moderate: nature-based solutions focus limits direct applicability to mission-driven orgs' AI governance. Actionability high for co-production methodology but requires translation to AI context.
+- **Individual-level interventions against sycophantic AI reduce its appeal but not its persuasiveness** (5/10) http://arxiv.org/abs/2607.25166v3
+  Preprint on AI literacy and user vulnerability to sycophancy, directly relevant to governance and tool evaluation. Strong rigor (preregistered experiments, n=3,982 pooled) and actionable findings about awareness interventions. Limited community co-production focus; treats users as subjects of intervention rather than governance participants. Applicable to staff training and tool selection.
 
-- **Observing sycophantic AI validate others reduces its appeal but not its persuasiveness** (5/10) http://arxiv.org/abs/2607.25166v2
-  Directly addresses AI literacy through sycophancy detection and user awareness. Preprint with rigorous methodology (n=3,982, preregistered experiments). Useful for teaching critical AI evaluation and recognizing manipulation. Limited direct applicability to governance architecture or community co-production. Actionable for literacy curriculum design.
+- **Programming Language Policy as an AI Literacy Equity Problem: A 15-Nation Comparative Analysis** (5/10) http://arxiv.org/abs/2607.11314v1
+  Strong curriculum fit for AI literacy and governance architecture. Comparative analysis of how policy shapes educational access addresses equity in foundational knowledge. Preprint status and focus on secondary education limit immediate actionability for mission-driven organizations serving adults. Community accountability dimension underdeveloped.
 
-- **Socratic Mind: Impact of a Novel GenAI-Powered Formative Assessment Tool on Student Learning and Higher-Order Thinking** (5/10) https://doi.org/10.1007/s10758-026-10007-6
-  Strong fit for AI literacy and tool evaluation in higher education. Rigorous quasi-experimental design with mixed methods validates the assessment instrument. However, limited direct relevance to mission-driven governance architecture or community accountability. Educational setting strengthens audience fit, but work focuses on learning outcomes rather than organizational decision-making about AI adoption.
+- **Development and psychometric validation of the Thai AI Literacy Scale for Nursing Students in Thailand: a cross-sectional observational study** (5/10) https://doi.org/10.7910/dvn/1q5ivy
+  Validated AI literacy instrument with rigorous psychometric methodology scores well on rigor and audience fit, as nursing education is mission-driven. However, the work is narrowly specialized to nursing students in Thailand, limiting direct curriculum applicability. No evidence addresses co-production with affected populations or community accountability. Actionability depends on whether Intentional Data can adapt this instrument for broader staff and board contexts across mission-driven sectors.
 
-- **The Essentials of AI for Life and Society: A Full-Scale AI Literacy Course Accessible to All** (5/10) http://arxiv.org/abs/2512.04110v1
-  Course design with strong pedagogy and ethics focus serves broad audiences including staff and faculty. Flipped classroom and real-world problem sets are actionable for curriculum design. However, preprint status and lack of validated measurement instruments limit rigor. No evidence of co-production with affected communities in governance decisions.
+- **Development and psychometric validation of the Thai AI Literacy Scale for Nursing Students in Thailand: a cross-sectional observational study** (5/10) https://doi.org/10.3352/jeehp.2026.23.22
+  Rigorous psychometric validation of an AI literacy scale developed for nursing students provides a measurement instrument applicable across healthcare education. Nursing is a mission-driven field. The validated scale could inform AI literacy curriculum design. However, the work doesn't address governance architecture, tool evaluation, or community accountability. The Thailand context limits immediate applicability to the curriculum's primary North American audience.
 
 - **AI application in commerce and services: Digital skills training in SMEs** (5/10) https://doi.org/10.64632/jsde.42.2026.1008
-  SME workforce training aligns with curriculum audience and AI literacy strengthens governance. Mixed-methods rigor with 89 sampled organizations is solid. However, the work focuses on training adoption and perception gaps rather than governance architecture or community accountability in AI decision-making. Limited actionability for governance-specific curriculum beyond confirming training demand.
+  SME workforce training directly fits audience and curriculum scope on AI literacy and tool adoption. Mixed-methods study with 89 SME samples provides empirical rigor. Leader-employee capability gap finding is actionable for governance design. However, limited co-production structure (surveys append rather than embed affected workers in design), and no detail on accountability mechanisms or community impact assessment. Abstract cuts off before findings completion.
+
+- **Nigerian Nurses' and Nurse Educators' Readiness for Technology and Artificial Intelligence in Training and Practice: A Cross-Sectional Survey in Oyo State, Nigeria.** (5/10) https://openalex.org/W7172360226
+  Strong audience fit (nursing education and workforce development) and moderate curriculum relevance to AI literacy. However, the work is primarily descriptive of readiness levels rather than providing governance frameworks or co-production mechanisms. Survey methodology is rigorous but actionability is limited without guidance on implementation or community participation in technology adoption decisions.
 
 - **Understanding Generative AI-mediated User Engagement with Academic Library Resources** (5/10) https://openalex.org/W7170989318
-  Academic libraries are mission-driven institutions, and understanding AI-mediated discovery affects their governance of emerging tools and user experience. The empirical data on how AI systems surface resources has governance implications. However, the work is descriptive rather than prescriptive for governance architecture, tool evaluation, or community participation in decisions about AI integration.
+  The study provides empirical evidence about how AI systems interact with institutional resources, relevant to academic library governance. However, it focuses on discovery mechanics rather than governance, community accountability, or decision-making frameworks. The work informs tool evaluation but lacks co-production grounding and actionable guidance for governing AI use within mission-driven organizations.
+
+- **ChatGPT in Higher Education: Analyzing Student Perceptions, Ethical Considerations, and Pedagogical Impacts** (5/10) https://doi.org/10.3837/tiis.2026.07.002
+  Study of student perceptions toward AI in higher education addresses governance literacy needs. Peer-reviewed venue and statistical rigor score well. Limited actionability for mission-driven organizations beyond education; ethical concerns noted but lack structural co-production with affected students. Applicable primarily to W2 governance architecture.
 
 - **Global Index on Responsible AI: 2026 Report** (5/10) http://arxiv.org/abs/2607.14782v2
-  GIRAI provides valuable governance architecture insights and human rights grounding relevant to mission-driven organizations evaluating AI policy contexts. However, it focuses on national-level government assessment rather than organizational governance. The country-ranking approach and macro-policy focus limit direct actionability for nonprofits, schools, or workforce programs. Community accountability dimension is underexplored. Preprint status affects rigor slightly.
-
-- **AI Systems as Digital Public Goods -- Evidence and Recommendations from a Multi-Stakeholder Assessment** (5/10) http://arxiv.org/abs/2607.03427v1
-  Multi-stakeholder assessment of AI as digital public goods addresses governance architecture relevant to mission-driven organizations serving public missions. Rigorous methodology combining desk review, interviews, and survey. However, preprint status and focus on policy frameworks at systems level rather than organizational implementation limit actionability for governance training curricula.
-
-- **Legal infrastructure for transformative AI governance** (5/10) https://doi.org/10.1073/pnas.2509742123
-  Strong rigor and governance architecture relevance, but limited direct actionability for mission-driven organizations. Legal infrastructure design matters for the ecosystem these organizations inhabit, yet the work targets policymakers and regulators rather than practitioners governing their own AI use. Community accountability dimension absent.
-
-- **SCITUS: A Multi-Jurisdictional Framework for Adapting NIST AI RMF to the Canadian Regulatory Context** (5/10) http://arxiv.org/abs/2607.15051v1
-  SCITUS directly serves mission-driven organizations navigating multi-jurisdictional AI governance, adapting NIST RMF to Canadian context. Preprint status and governance architecture fit are strong. However, limited co-production grounding: no evidence of affected communities shaping the framework. Actionability depends on tool implementation details not visible in abstract.
+  GIRAI provides governance benchmarks and policy landscape data valuable for understanding institutional capacity requirements. However, it focuses on national governments rather than mission-driven organizations directly. The human rights grounding and civil society engagement pillar offer useful frameworks. The preprint status and focus on policy indicators rather than implementable practices for organizational governance limit actionability for the curriculum's primary audience.
 
 - **Explanation Fairness in Large Language Models: An Empirical Analysis of Disparities in How LLMs Justify Decisions Across Demographic Groups** (5/10) http://arxiv.org/abs/2605.08671v1
-  Strong rigor and actionability for tool evaluation. The Explanation Fairness Taxonomy and metrics directly support assessing LLM outputs before adoption. However, audience fit is moderate: the work targets LLM developers and auditors more than mission-driven organizations making deployment decisions. Co-production is absent; affected groups are not structural participants in framework design.
+  Strong rigor and actionability for tool evaluation; addresses fairness in AI explanations across decision domains relevant to mission-driven orgs. However, audience fit is moderate—the work is technical and requires sophistication to apply. Community accountability perspective minimal; affected groups not positioned as governance participants. Best supports curriculum on evaluating LLM-based systems before adoption.
 
 - **Big AI's Regulatory Capture: Mapping Industry Interference and Government Complicity** (5/10) http://arxiv.org/abs/2605.06806v1
-  Strong rigor and actionability for understanding regulatory dynamics affecting mission-driven orgs. However, audience fit is indirect: the paper targets policymakers and researchers rather than organizational practitioners. Community accountability angles present but not structural co-production. Useful for governance architecture curriculum segment on external constraint mapping.
+  Preprint providing rigorous taxonomy of regulatory capture mechanisms relevant to governance architecture and policy context. Actionable for understanding industry influence on AI rules mission-driven orgs navigate. However, lacks direct grounding in co-production with affected communities and doesn't address how organizations can govern their own AI use or evaluate tools.
 
 - **Reciprocal Trust and Distrust in Artificial Intelligence Systems: The Hard Problem of Regulation** (5/10) http://arxiv.org/abs/2604.05826v1
-  Theoretical framework on reciprocal trust in AI systems speaks to governance architecture and stakeholder relationships, fitting the curriculum's focus on accountability. However, the preprint lacks empirical validation or actionable guidance for mission-driven organizations implementing AI governance. It identifies tensions without concrete tools or processes they could adopt.
+  Preprint treating trust as bidirectional between humans and AI systems offers conceptual grounding for governance architecture and community accountability. Audience fit is strong for mission-driven organizations wrestling with AI adoption decisions. However, limited actionability for practitioners and minimal co-production grounding. No validated instruments or empirical evidence presented.
 
-- **Efficiency or intensification? A systematic review of generative AI and academic workload in higher education** (5/10) https://doi.org/10.1016/j.actpsy.2026.107353
-  Rigorous systematic review (PRISMA) with high methodological quality assessment directly addresses governance concern: workload transformation from GenAI adoption. Relevant to higher education institutions' staff governance. However, limited community accountability framing and no clear actionability for curriculum tools or activities beyond awareness.
+- **A context-sensitive scale for assessing GenAI-contextualized acceptance in conservation-related architectural education: development and initial validation** (5/10) https://doi.org/10.3389/feduc.2026.1861972
+  Validated measurement instrument (2 points) for AI acceptance in a specialized educational context. Audience fit is moderate (1 point): higher education counts, but conservation architecture is narrow; generalizability to workforce development and other mission-driven sectors unclear. Curriculum fit scores 1 point for tool evaluation dimension. Co-production grounding scores 0: student subjects lack structural governance participation. Actionability is moderate (1 point): the scale could inform AI literacy assessment but doesn't address governance architecture or community accountability.
 
 - **Deployment process for artificial intelligence applications in radiology practice** (5/10) https://doi.org/10.1016/j.ejmp.2026.105890
-  Healthcare deployment process offers governance architecture insights transferable to mission-driven settings. Stakeholder role definition, workflow integration, and impact assessment frameworks apply broadly. However, radiology-specific clinical context limits direct audience fit. Moderate rigor from peer-reviewed venue. Would strengthen governance architecture segment but lacks community accountability grounding and actionable tools for non-clinical organizations.
+  Peer-reviewed healthcare deployment framework with strong governance architecture fit. However, limited to radiology practice, not mission-driven organizations. No evidence of co-production with affected parties (clinicians, patients). Actionable for health systems but not the curriculum's primary audience. Useful for understanding AI governance stages and stakeholder coordination.
 
 - **Beyond Algorithmic Bias: A Socio-Computational Interrogation of the Google Search by Image Algorithm** (5/10) http://arxiv.org/abs/2105.12856v2
-  Rigorous algorithmic audit with peer-grounded theory strengthens tool evaluation competency. Preprint status and narrow focus on one commercial system limit use. Community accountability framework applies only implicitly. Work informs critical AI assessment practices for mission-driven organizations selecting or auditing tools.
+  Rigorous algorithmic audit grounded in social theory strengthens understanding of bias in deployed systems mission-driven organizations may use or be affected by. However, it focuses on audit methodology rather than governance architecture or community participation in decision-making. Preprint status and lack of direct actionability for organizational governance limit the score.
 
 - **Bridging the Proof Gap: Reconstructing Algorithmic Impact Assessment for Anti-Discrimination Litigation** (5/10) https://doi.org/10.32996/ijlps.2026.8.6.5
-  Strong rigor and actionability for governance architecture, particularly around accountability mechanisms and evidence standards. Directly addresses tool evaluation through algorithmic impact assessment frameworks. Audience fit is moderate: litigation-focused work applies most directly to public agencies and schools facing discrimination claims, less directly to typical mission-driven organizations. Co-production grounding is weak; affected individuals appear as litigation parties rather than structural governance participants.
+  Strong rigor and actionability for governance architecture, particularly accountability mechanisms. Addresses community impact through anti-discrimination focus. However, the litigation-centered framing limits direct applicability to mission-driven organizations' internal governance needs. Most relevant for organizations developing AI policies that must withstand scrutiny, less so for tool evaluation or literacy.
 
-- **Auditing Algorithmic Fairness in Healthcare: An Empirical Test of the AIMS Governance Framework on 99,492 Diabetes Readmissions** (5/10) https://doi.org/10.5281/zenodo.21443936
-  Strong rigor (empirical framework on real data) and actionable fairness audit methodology. However, healthcare-specific application limits audience fit for the broader curriculum. Governance architecture relevance is moderate: AIMS framework applicability to mission-driven sector unclear. Co-production grounding absent; no affected community input on fairness definitions or acceptable tradeoffs. Preprint status reduces rigor slightly.
+- **Enterprise AI Maturity: From Experimentation to an AI Operating Model** (5/10) https://doi.org/10.5281/zenodo.21853732
+  The maturity framework and assessment instrument have direct governance architecture relevance. However, the work targets enterprise organizations primarily. Mission-driven organizations can use maturity models, but the framework appears designed for large commercial AI operations. No evidence of co-production with affected communities. CERN publication signals rigor. Actionability is moderate: the toolkit and workflow could inform governance assessment practices.
+
+- **Enterprise AI Maturity: From Experimentation to an AI Operating Model** (5/10) https://doi.org/10.5281/zenodo.21853733
+  Enterprise maturity framework with assessment instruments and governance structure. Audience fit is moderate: enterprise-focused language limits mission-driven organization accessibility, though public agencies and large nonprofits operate similarly. Maturity models strengthen governance architecture. Low on co-production: framework appears top-down assessment without evidence of affected stakeholders structuring governance. Rigor moderate: Zenodo preprint venue with comprehensive toolkit but no peer review. Actionability high if adapted for nonprofit context.
+
+- **Effective Strategies to Improve AI Governance and Regulatory Compliance** (5/10) https://openalex.org/W7202016371
+  Addresses governance architecture and accountability mechanisms relevant to mission-driven organizations. Qualitative study with senior leaders provides actionable themes around oversight and transparency. However, focuses on commercial sector leadership rather than mission-driven contexts. Limited evidence of community participation in governance design. Walden dissertation adds some rigor but narrow sample of six participants.
 
 - **Auditing Algorithmic Fairness in Healthcare: An Empirical Test of the AIMS Governance Framework on 99,492 Diabetes Readmissions** (5/10) https://doi.org/10.5281/zenodo.21443937
-  Strong rigor and actionability for tool evaluation in healthcare settings. AIMS framework application demonstrates algorithmic fairness auditing relevant to governance architecture. However, limited direct relevance to mission-driven organization governance beyond healthcare, and no evidence of co-production with affected communities or patients in design. Incomplete abstract weakens assessment.
+  Strong rigor and actionability for tool evaluation. Empirical fairness audit on healthcare readmissions directly serves governance work. However, audience fit is narrow: the AIMS framework application is technical and requires ML expertise. Co-production grounding is weak; no evidence patients or affected communities structured the governance approach or fairness definitions.
 
 - **Cosmopolitics as the co-production of action** (5/10) https://doi.org/10.3389/fclim.2026.1794601
-  Strong co-production grounding and rigor (peer-reviewed, ethnographic). Indigenous knowledge frameworks directly relevant to community accountability in AI governance. However, limited direct audience fit for mission-driven organizations adopting AI tools. Actionability unclear: insights on distributed authority and refusal could inform governance architecture, but translation to AI context requires additional work.
+  Strong co-production grounding and rigor in ethnographic methodology addressing Indigenous governance practices under environmental pressure. Audience fit limited: Arctic Indigenous communities are not the curriculum's primary target of mission-driven organizations. Actionability unclear; theoretical framework on cosmopolitics and ontological plurality offers limited direct application to AI governance teaching or tool development.
 
 - **Co-Production under a Strong State** (5/10) https://doi.org/10.1093/9780198931096.003.0006
-  Strong fit for community accountability curriculum segment. Welsh case study examines co-production mandates in public governance, relevant to schools and agencies. However, abstract lacks detail on implementation mechanisms or governance tools mission-driven organizations could adopt. Limited actionability for curriculum development without fuller findings on resource constraints and operational barriers.
+  Strong theoretical grounding on co-production governance structures relevant to mission-driven organizations operating in regulated environments. Welsh case study offers practical insights on legislated co-production mandates. However, limited direct actionability for AI governance specifically, and no explicit connection to community participation in AI system design or oversight.
 
-- **How to Organise Transdisciplinary Research for Transformative Action and Knowledge Co-Production** (5/10) https://doi.org/10.4337/9781035346554
-  Directly addresses co-production governance and transdisciplinary collaboration relevant to mission-driven organizations. Published by reputable academic press. Abstract absent prevents full assessment of actionability and specific curriculum fit. Likely strongest for governance architecture and community accountability framing.
+- **Toolkit for evaluating the transformative potential of knowledge co-production processes** (5/10) https://doi.org/10.5281/zenodo.21648800
+  Strong co-production grounding and rigorous toolkit development for evaluating knowledge collaboration processes. Directly applicable to governance architecture and community accountability components. However, focused on nature-based solutions in European urban contexts rather than AI governance specifically. Limited immediate actionability for AI literacy or tool evaluation curriculum segments.
 
 
 

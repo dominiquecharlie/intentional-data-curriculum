@@ -665,39 +665,105 @@
       "score": 1,
       "reason": "below threshold",
       "date": "2026-08-03"
+    },
+    "doi:10.53819/81018102t2591": {
+      "title": "Effect of Continuous Learning on Employee Retention in Star-Rated Hotels in Nairobi County, Kenya",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.46799/ajesh.v5i4.808": {
+      "title": "Employability Anxiety and Employee Well-Being in Outcome-Based Consulting Transformation",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.5281/zenodo.21807014": {
+      "title": "The Picken Complete Taxonomy for AI Governance: A Unified Instrument Framework for Board-Level AI Governance Assessment, Liability Pricing, and Sector Contagion Modelling",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.5281/zenodo.21772523": {
+      "title": "The Picken Complete Taxonomy for AI Governance: A Unified Instrument Framework for Board-Level AI Governance Assessment, Liability Pricing, and Sector Contagion Modelling",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.5281/zenodo.21772522": {
+      "title": "The Picken Complete Taxonomy for AI Governance: A Unified Instrument Framework for Board-Level AI Governance Assessment, Liability Pricing, and Sector Contagion Modelling",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.5281/zenodo.21775161": {
+      "title": "The Picken Complete Taxonomy for AI Governance: A Unified Instrument Framework for Board-Level AI Governance Assessment, Liability Pricing, and Sector Contagion Modelling",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.1073/pnas.2509742123": {
+      "title": "Legal infrastructure for transformative AI governance",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "url:openalex.org/w7172557928": {
+      "title": "AI Governance for Institutional Readiness in Finance",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.5772/intechopen.1017117": {
+      "title": "Children’s Rights in the Age of Artificial Intelligence: Navigating Digital Safeguarding, Algorithmic Bias and the Right to a Future",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.5826/tuj.2026.18454": {
+      "title": "Seven Pillars for a Community-Led AI-POCUS Future – A WINFOCUS Manifesto",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
+    },
+    "doi:10.4337/9781035346554": {
+      "title": "How to Organise Transdisciplinary Research for Transformative Action and Knowledge Co-Production",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-10"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-08-03"
+    "checked": "2026-08-10"
   },
   "hash:tir-2026": {
-    "hash": "ac8a98b442742616507676f8315da475aa691c8f9d614ade8260bc8a26a750aa",
-    "checked": "2026-08-03"
+    "hash": "fcd02cf0b633a82442286e538289593835d5ea0843bd58336fdc6b579fd95391",
+    "checked": "2026-08-10"
   },
   "hash:care-model": {
-    "hash": "050bd2629a68df13ea9ebcc2b65eb57adafac7693a584602c6d493c3b9d2ad5e",
-    "checked": "2026-08-03"
+    "hash": "2fd7b28425a9e0f0b45bf2bac872391937a46c106f46726633e2073dd69775f1",
+    "checked": "2026-08-10"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-08-03"
+    "checked": "2026-08-10"
   },
   "hash:nist-airmf": {
-    "hash": "962ffc594fd9a51286af460255ad0d0f03f9e02aeeee4c4ef74b5c80187af61e",
-    "checked": "2026-08-03"
+    "hash": "dfa54508c4d5296174a25676032f74e6aa430bdff4ab1b6c4438f79a7f08d7a4",
+    "checked": "2026-08-10"
   },
   "hash:anthropic-exponential": {
-    "hash": "83309600eec8ee679b4625b68581169d361164d751b00a683a6afad564a3fa4a",
-    "checked": "2026-08-03"
+    "hash": "e555b0e99467d7240d24a4f1e0d95b053c4322c0846b9158210c0d9ac37b88f2",
+    "checked": "2026-08-10"
   },
   "hash:brookings-sb53": {
-    "hash": "a2bd5649c1a84f89847c99b7edbf1eace17dd258fd2b85a4965e5d0acad5f862",
-    "checked": "2026-08-03"
+    "hash": "d11185b0f9cd57a3d71f3db57dd161db5c76e782fd1b97f0cb7b3a6e200e7484",
+    "checked": "2026-08-10"
   },
   "hash:traiga": {
     "hash": "4a937a2f999d32627a7261bf4fc6a61befe685e95cc9d242b9f8c60f907ba11a",
-    "checked": "2026-08-03"
+    "checked": "2026-08-10"
   }
 }
