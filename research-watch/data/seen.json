@@ -731,39 +731,105 @@
       "score": 4,
       "reason": "below threshold",
       "date": "2026-08-10"
+    },
+    "doi:10.21203/rs.3.rs-10627520/v1": {
+      "title": "Conceptualising and Measuring Epistemic Dependence in AI-Mediated Learning: Development and Initial Validation of the ED-AIL Scale",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.1016/j.actpsy.2026.107558": {
+      "title": "Sustainability-oriented leadership and organizational citizenship behavior for the environment: How green job demands and AI literacy shape the relationship",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.17749/2070-4909/farmakoekonomika.2026.402": {
+      "title": "Survey of physicians, residents, and medical students on the use of artificial intelligence technologies in healthcare and medicine",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.51594/ijarss.v8i8.2345": {
+      "title": "Navigating the patchwork: A cross-jurisdictional legal compliance framework for U.S. corporations deploying high-risk AI systems",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.1016/j.psyche.2026.100035": {
+      "title": "AI-Mediated Relational Competence and Its Limits: Psychedelic-Assisted Therapy as a Stress Case and Policy Signal",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.1080/01639374.2026.2714375": {
+      "title": "Large Language Models as Judges for Human Subject Indexing",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "url:openalex.org/w7202016371": {
+      "title": "Effective Strategies to Improve AI Governance and Regulatory Compliance",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.1201/9781003612377-9": {
+      "title": "Ethics, Trust, and Responsible AI in Public Diplomacy",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.5281/zenodo.21933075": {
+      "title": "Co-production of the Digital Course",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.1017/9781009734530.014": {
+      "title": "Contradictory Co-production of Everyday Life with Children",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-17"
+    },
+    "doi:10.1108/978-1-80592-659-7": {
+      "title": "Bridging Design and Fandom",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-17"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-08-10"
+    "checked": "2026-08-17"
   },
   "hash:tir-2026": {
-    "hash": "fcd02cf0b633a82442286e538289593835d5ea0843bd58336fdc6b579fd95391",
-    "checked": "2026-08-10"
+    "hash": "386e9f8f6934892ac8c6fae75848522f9fad56f91fd5ef41605b7007d6be43cd",
+    "checked": "2026-08-17"
   },
   "hash:care-model": {
-    "hash": "2fd7b28425a9e0f0b45bf2bac872391937a46c106f46726633e2073dd69775f1",
-    "checked": "2026-08-10"
+    "hash": "fc5b3d7c020a200892d6d7afdf553f801ff9dd54260a0b560ebc52b8bff7a2de",
+    "checked": "2026-08-17"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-08-10"
+    "checked": "2026-08-17"
   },
   "hash:nist-airmf": {
-    "hash": "dfa54508c4d5296174a25676032f74e6aa430bdff4ab1b6c4438f79a7f08d7a4",
-    "checked": "2026-08-10"
+    "hash": "62284fefe81e2e65c0b8d86b6b2c314ab583fe83e6cb7fc249d7ed5de3bc4cba",
+    "checked": "2026-08-17"
   },
   "hash:anthropic-exponential": {
-    "hash": "e555b0e99467d7240d24a4f1e0d95b053c4322c0846b9158210c0d9ac37b88f2",
-    "checked": "2026-08-10"
+    "hash": "6cc99453c6f3df2bee0fbaaf1f0288a79106fab8abadb7b7d4ce022189a0f5b4",
+    "checked": "2026-08-17"
   },
   "hash:brookings-sb53": {
-    "hash": "d11185b0f9cd57a3d71f3db57dd161db5c76e782fd1b97f0cb7b3a6e200e7484",
-    "checked": "2026-08-10"
+    "hash": "678326d200c51c631df996ba595967535c5010dc8c64cce69e9e81209663aa85",
+    "checked": "2026-08-17"
   },
   "hash:traiga": {
     "hash": "4a937a2f999d32627a7261bf4fc6a61befe685e95cc9d242b9f8c60f907ba11a",
-    "checked": "2026-08-10"
+    "checked": "2026-08-17"
   }
 }
