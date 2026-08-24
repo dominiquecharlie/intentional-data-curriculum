@@ -797,39 +797,93 @@
       "score": 1,
       "reason": "below threshold",
       "date": "2026-08-17"
+    },
+    "doi:10.21203/rs.3.rs-10574518/v1": {
+      "title": "India’s Vocational Education Policy Response to Artificial Intelligence: Layering or Conversion?",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.5281/zenodo.21983371": {
+      "title": "Corpus Continuity and Canon Policy Record: Channel Hierarchy, Version Mapping, Citation Spine, Deposit-Order Lock, and Claim Ladder in the Applicability Boundary Doctrine",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.5281/zenodo.21985437": {
+      "title": "Semantic Crosswalk and Type-Separation Canon Locks: Load-Bearing Terms, Phase Boundaries, and Non-Substitution Rules for the Applicability Boundary Doctrine",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.1007/s12027-026-00892-w": {
+      "title": "Personal data protection in experimental AI governance",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "url:arxiv.org/abs/2608.15417v1": {
+      "title": "An Evaluation Framework for National AI Regulation",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.1016/j.dentre.2026.100437": {
+      "title": "Artificial Intelligence–Driven Smile Design in Prosthodontics: A Systematic Review and Meta-Analysis of Data Modalities, Validation and Clinical Utility",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.5281/zenodo.22013989": {
+      "title": "From Algorithms to Accountability: Rethinking Ethics, Law, and Governance in Artificial Intelligence",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.1177/13548565261467257": {
+      "title": "Negotiating the platform turn: Genre, format, and co-production in RTP’s fiction strategy",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-08-24"
+    },
+    "doi:10.1038/s41467-026-76278-w": {
+      "title": "Organelle-mimetic nanoreactors for scalable solar H2 and pyruvic acid co-production",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-08-24"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-08-17"
+    "checked": "2026-08-24"
   },
   "hash:tir-2026": {
-    "hash": "386e9f8f6934892ac8c6fae75848522f9fad56f91fd5ef41605b7007d6be43cd",
-    "checked": "2026-08-17"
+    "hash": "447c1310f112c79f19ecae0e7571fe5ff6433a077b8ef0ba216cf5a7724d5bc5",
+    "checked": "2026-08-24"
   },
   "hash:care-model": {
-    "hash": "fc5b3d7c020a200892d6d7afdf553f801ff9dd54260a0b560ebc52b8bff7a2de",
-    "checked": "2026-08-17"
+    "hash": "b8317c92e9b69487720a81dd6344bb55887eb97f70d92c9df92da63c86a9df0e",
+    "checked": "2026-08-24"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-08-17"
+    "checked": "2026-08-24"
   },
   "hash:nist-airmf": {
-    "hash": "62284fefe81e2e65c0b8d86b6b2c314ab583fe83e6cb7fc249d7ed5de3bc4cba",
-    "checked": "2026-08-17"
+    "hash": "bac72f9939d52ed77c9bc0989fb6c1e231658d0880e89a532d097158ba4a6c77",
+    "checked": "2026-08-24"
   },
   "hash:anthropic-exponential": {
-    "hash": "6cc99453c6f3df2bee0fbaaf1f0288a79106fab8abadb7b7d4ce022189a0f5b4",
-    "checked": "2026-08-17"
+    "hash": "9e2a869f488898c57713c2f6fef3fe509600ede4cc88bb31cdbdd9cdc437247f",
+    "checked": "2026-08-24"
   },
   "hash:brookings-sb53": {
-    "hash": "678326d200c51c631df996ba595967535c5010dc8c64cce69e9e81209663aa85",
-    "checked": "2026-08-17"
+    "hash": "1fc6d25b398b38e0e8b8971f1ad73df3e82aae09b2bce05efeac4c1ae6d6adcb",
+    "checked": "2026-08-24"
   },
   "hash:traiga": {
-    "hash": "4a937a2f999d32627a7261bf4fc6a61befe685e95cc9d242b9f8c60f907ba11a",
-    "checked": "2026-08-17"
+    "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
+    "checked": "2026-08-24"
   }
 }
