@@ -851,39 +851,99 @@
       "score": 0,
       "reason": "below threshold",
       "date": "2026-08-24"
+    },
+    "doi:10.70917/ijcisim-2026-5180": {
+      "title": "Enhancing Human Resource Operations in the Hospitality Industry Through AI Technologies",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.1177/02663821261483509": {
+      "title": "Re-imagining the library: A systematic review of people, place, platform and policy in smart library ecosystems",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.67238/jaid.2026.v1.18": {
+      "title": "Ai-Driven Digital Transformation and Performance Efficiency in Accounting Information Systems",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.4018/979-8-2600-1735-7": {
+      "title": "Responsible AI Governance in Higher Education Management for Creative Public Sector Innovation",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.3389/fpos.2026.1874183": {
+      "title": "Parliamentary discourse and legislative approaches to artificial intelligence regulation: a comparative analysis of five jurisdictions",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.5281/zenodo.21853732": {
+      "title": "Enterprise AI Maturity: From Experimentation to an AI Operating Model",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.5281/zenodo.22132152": {
+      "title": "Isotope Co-Production and 14\\,MeV Materials Qualification at a Spherical-Tokamak Breeder",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.5281/zenodo.21933074": {
+      "title": "Co-production of the Digital Course",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.1016/s1872-2067(26)65088-7": {
+      "title": "Built-in electric field coupled with non-noble metal plasma cocatalyst boosts photocatalytic CO2 reduction of MIL-125",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-08-31"
+    },
+    "doi:10.5281/zenodo.22132151": {
+      "title": "Isotope Co-Production and 14\\,MeV Materials Qualification at a Spherical-Tokamak Breeder",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-08-31"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-08-24"
+    "checked": "2026-08-31"
   },
   "hash:tir-2026": {
     "hash": "447c1310f112c79f19ecae0e7571fe5ff6433a077b8ef0ba216cf5a7724d5bc5",
-    "checked": "2026-08-24"
+    "checked": "2026-08-31"
   },
   "hash:care-model": {
-    "hash": "b8317c92e9b69487720a81dd6344bb55887eb97f70d92c9df92da63c86a9df0e",
-    "checked": "2026-08-24"
+    "hash": "01bfb6390204a97ff0fabd9919c1c6f3cd13f07af3f3ff2549facbef527d1263",
+    "checked": "2026-08-31"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-08-24"
+    "checked": "2026-08-31"
   },
   "hash:nist-airmf": {
-    "hash": "bac72f9939d52ed77c9bc0989fb6c1e231658d0880e89a532d097158ba4a6c77",
-    "checked": "2026-08-24"
+    "hash": "784abe5069bdbcbc1b990890963a40d3774a9edbe6ed7b6efb5030581b02d122",
+    "checked": "2026-08-31"
   },
   "hash:anthropic-exponential": {
-    "hash": "9e2a869f488898c57713c2f6fef3fe509600ede4cc88bb31cdbdd9cdc437247f",
-    "checked": "2026-08-24"
+    "hash": "c0046f540c9c730cc92b156b5a8cc8e67e6d2b09a4c7496f7be48fcd21778289",
+    "checked": "2026-08-31"
   },
   "hash:brookings-sb53": {
-    "hash": "1fc6d25b398b38e0e8b8971f1ad73df3e82aae09b2bce05efeac4c1ae6d6adcb",
-    "checked": "2026-08-24"
+    "hash": "395a37a7f0176b4c5af91b86e564a5abd1a1db9ec5edb502b1ad9187f88bb900",
+    "checked": "2026-08-31"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-08-24"
+    "checked": "2026-08-31"
   }
 }
