@@ -911,39 +911,93 @@
       "score": 0,
       "reason": "below threshold",
       "date": "2026-08-31"
+    },
+    "doi:10.13140/rg.2.2.20778.58568": {
+      "title": "GLAT-CN: Nationwide Validation of the Chinese Generative AI Literacy Assessment Test among Higher Education Students",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.61436/bsscd/v5i3.pp212-225": {
+      "title": "Artficial Intelligence and Creative Worker In Indonesia: The Double Edge Sword Effect",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.1016/j.telpol.2026.103315": {
+      "title": "Branching regulatory biographies of GPT-4 and DeepSeek-R1: A BOAP-informed analysis of regulatory reachability in the European Union, the United States and China",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.34190/eckm.27.1.5191": {
+      "title": "Knowledge Management Skills in the Agentic Era: Insights from Knowledge Management Academics",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.32388/lrqpsd.2": {
+      "title": "Are AI Peer Reviewers More Demanding Than Humans? A Cross-Disciplinary Study of AI-Based Manuscript Evaluation",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.33545/26648679.2026.v8.i9a.385": {
+      "title": "Pricing and Consumer Welfare in AI Marketplaces: Special Reference to Bangalore",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.5281/zenodo.22310837": {
+      "title": "glosa — Rigour Without Infrastructure: A Standalone Scholar Methodology for Human–AI Knowledge Co-Production",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.20879/acr.2026.23.016": {
+      "title": "Circuits of K-content: Co-productions, Collaborations, and Connections",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-09-07"
+    },
+    "doi:10.1080/13576275.2026.2730469": {
+      "title": "Ecological afterlives: media and legal co-production of terramation and natural burial",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-09-07"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-08-31"
+    "checked": "2026-09-07"
   },
   "hash:tir-2026": {
     "hash": "447c1310f112c79f19ecae0e7571fe5ff6433a077b8ef0ba216cf5a7724d5bc5",
-    "checked": "2026-08-31"
+    "checked": "2026-09-07"
   },
   "hash:care-model": {
-    "hash": "01bfb6390204a97ff0fabd9919c1c6f3cd13f07af3f3ff2549facbef527d1263",
-    "checked": "2026-08-31"
+    "hash": "359ab721d954184df07b3d07c6c8f858a7c49637fb3abd756b48b83a39d6689b",
+    "checked": "2026-09-07"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-08-31"
+    "checked": "2026-09-07"
   },
   "hash:nist-airmf": {
-    "hash": "784abe5069bdbcbc1b990890963a40d3774a9edbe6ed7b6efb5030581b02d122",
-    "checked": "2026-08-31"
+    "hash": "ac6e7dad3e1159762b179b344e808d417f3d2bd7da8c1943d69ddd9d74e5779b",
+    "checked": "2026-09-07"
   },
   "hash:anthropic-exponential": {
-    "hash": "c0046f540c9c730cc92b156b5a8cc8e67e6d2b09a4c7496f7be48fcd21778289",
-    "checked": "2026-08-31"
+    "hash": "ea9f175fcf28e04497a6b044f1dd21509145d0fdf2ced792c7526a0dfb9cd586",
+    "checked": "2026-09-07"
   },
   "hash:brookings-sb53": {
-    "hash": "395a37a7f0176b4c5af91b86e564a5abd1a1db9ec5edb502b1ad9187f88bb900",
-    "checked": "2026-08-31"
+    "hash": "1de7cbae95609a5311ad910c1221d77a23ba18c0a33804a735d17a191ad33af8",
+    "checked": "2026-09-07"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-08-31"
+    "checked": "2026-09-07"
   }
 }
