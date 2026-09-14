@@ -965,39 +965,69 @@
       "score": 1,
       "reason": "below threshold",
       "date": "2026-09-07"
+    },
+    "doi:10.65773/tscr.2.3.154": {
+      "title": "AI-Driven Leadership in Manufacturing Supply Chains: A Systematic Literature Review, Research Gaps Analysis, and Exploratory Study of Egyptian Manufacturing Firms",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-09-14"
+    },
+    "doi:10.1007/s43681-026-01336-4": {
+      "title": "A normatively grounded hybrid model of AI governance: insights from the teaching of Leo XIV",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-14"
+    },
+    "doi:10.1111/ablj.70020": {
+      "title": "AI washing",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-14"
+    },
+    "doi:10.47116/apjcri.2026.08.35": {
+      "title": "A Foucauldian Analysis of the Transformation of Disability Rights Under Surveillance Capitalism: Reconfiguring Rights Structures Through Digital Governmentality",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-14"
+    },
+    "doi:10.5281/zenodo.22645691": {
+      "title": "Hyperion as a Strategic-Materials Platform: Gain, Tritium Breeding, He-3 Co-Production, and 14 MeV Neutron Output from a Compact Spherical-Tokamak",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-09-14"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-09-07"
+    "checked": "2026-09-14"
   },
   "hash:tir-2026": {
-    "hash": "447c1310f112c79f19ecae0e7571fe5ff6433a077b8ef0ba216cf5a7724d5bc5",
-    "checked": "2026-09-07"
+    "hash": "3d96799f0eeccbafe3f96402742257fe8b220d54758b9101a3e7db72ff273041",
+    "checked": "2026-09-14"
   },
   "hash:care-model": {
-    "hash": "359ab721d954184df07b3d07c6c8f858a7c49637fb3abd756b48b83a39d6689b",
-    "checked": "2026-09-07"
+    "hash": "552216c24c4b1a31e835cd39923ec5c079c432a485cad24d855195c30c671481",
+    "checked": "2026-09-14"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-09-07"
+    "checked": "2026-09-14"
   },
   "hash:nist-airmf": {
-    "hash": "ac6e7dad3e1159762b179b344e808d417f3d2bd7da8c1943d69ddd9d74e5779b",
-    "checked": "2026-09-07"
+    "hash": "8cd35fa8dccad8ddf22b8b45398f31a2b3aa91c302e5dac17a033edf229f13ac",
+    "checked": "2026-09-14"
   },
   "hash:anthropic-exponential": {
-    "hash": "ea9f175fcf28e04497a6b044f1dd21509145d0fdf2ced792c7526a0dfb9cd586",
-    "checked": "2026-09-07"
+    "hash": "f5fa6ebc0b6a49b3fa6f3cd2a09461687fe9df06f8343c4cbc5d15fd08702951",
+    "checked": "2026-09-14"
   },
   "hash:brookings-sb53": {
-    "hash": "1de7cbae95609a5311ad910c1221d77a23ba18c0a33804a735d17a191ad33af8",
-    "checked": "2026-09-07"
+    "hash": "6315f41ffa49e0c4187a190ec9d9cc924488c6e8362066d2aafbfae0f2bd6e85",
+    "checked": "2026-09-14"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-09-07"
+    "checked": "2026-09-14"
   }
 }
