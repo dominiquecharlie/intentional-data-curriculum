@@ -995,39 +995,81 @@
       "score": 1,
       "reason": "below threshold",
       "date": "2026-09-14"
+    },
+    "url:arxiv.org/abs/2609.18394v1": {
+      "title": "Cultural Competence in Context: A Large Language Model Passes the Turing Test in Finland",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-09-21"
+    },
+    "doi:10.5281/zenodo.22685656": {
+      "title": "AI Literacy and Attitudes in Bulgaria 2025: Validation of the General Attitudes toward Artificial Intelligence Scale (GAAIS) and the Meta AI Literacy Scale (MAILS)",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-21"
+    },
+    "url:arxiv.org/abs/2608.14562v1": {
+      "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-21"
+    },
+    "doi:10.47191/ijsshr/v9-i8-74": {
+      "title": "From Content Moderation to Algorithmic Accountability: Rethinking Social Media Platform Governance in India",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-21"
+    },
+    "doi:10.36948/ijfmr.2026.v08i05.87925": {
+      "title": "The Right to Privacy in the Age of Algorithmic Surveillance: Is Puttaswamy Future-Proof?",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-21"
+    },
+    "doi:10.5281/zenodo.22340255": {
+      "title": "glosa — Rigour Without Infrastructure: A Standalone Scholar Methodology for Human–AI Knowledge Co-Production",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-21"
+    },
+    "doi:10.1038/s41560-026-02130-6": {
+      "title": "A 250-kilowatt system for co-production of hydrogen and fresh water from seawater",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-09-21"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-09-14"
+    "checked": "2026-09-21"
   },
   "hash:tir-2026": {
-    "hash": "3d96799f0eeccbafe3f96402742257fe8b220d54758b9101a3e7db72ff273041",
-    "checked": "2026-09-14"
+    "hash": "b831b00118964653c0cadd6684d3c4b0ba1ee71e959f20cbdbe98ac9a8be3033",
+    "checked": "2026-09-21"
   },
   "hash:care-model": {
-    "hash": "552216c24c4b1a31e835cd39923ec5c079c432a485cad24d855195c30c671481",
-    "checked": "2026-09-14"
+    "hash": "639ebab82e6127b8c31f1071d1500a5c8be0115e83151b8278e3fb336dbdf33d",
+    "checked": "2026-09-21"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-09-14"
+    "checked": "2026-09-21"
   },
   "hash:nist-airmf": {
-    "hash": "8cd35fa8dccad8ddf22b8b45398f31a2b3aa91c302e5dac17a033edf229f13ac",
-    "checked": "2026-09-14"
+    "hash": "271a277a58550e3e190bc20708c1c050eb2fcca2516b25d21ff994818a7019e9",
+    "checked": "2026-09-21"
   },
   "hash:anthropic-exponential": {
-    "hash": "f5fa6ebc0b6a49b3fa6f3cd2a09461687fe9df06f8343c4cbc5d15fd08702951",
-    "checked": "2026-09-14"
+    "hash": "b88f79e33246dbd7590fc186988ce308f5acf1a6a64937bb1280ebc1ccca17d3",
+    "checked": "2026-09-21"
   },
   "hash:brookings-sb53": {
-    "hash": "6315f41ffa49e0c4187a190ec9d9cc924488c6e8362066d2aafbfae0f2bd6e85",
-    "checked": "2026-09-14"
+    "hash": "226110efe360735ed7e848b6d05716705267adc96e70b133c1dfd17277954809",
+    "checked": "2026-09-21"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-09-14"
+    "checked": "2026-09-21"
   }
 }
