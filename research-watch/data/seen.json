@@ -1037,39 +1037,57 @@
       "score": 1,
       "reason": "below threshold",
       "date": "2026-09-21"
+    },
+    "doi:10.1111/1742-6723.70353": {
+      "title": "Artificial Intelligence Triage of Urgent Versus Non‐Urgent CT Brain Findings to Support Expedited Emergency Department Disposition: A Retrospective Validation Study",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-09-28"
+    },
+    "doi:10.29140/ajal.2026.104487": {
+      "title": "AI-generated self-assessment as a metacognitive scaffold in EFL learning",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-09-28"
+    },
+    "doi:10.1111/jsr.70462": {
+      "title": "Why Co‐Production Should Be Standard Practice in Sleep Research",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-09-28"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-09-21"
+    "checked": "2026-09-28"
   },
   "hash:tir-2026": {
-    "hash": "b831b00118964653c0cadd6684d3c4b0ba1ee71e959f20cbdbe98ac9a8be3033",
-    "checked": "2026-09-21"
+    "hash": "d64f04b0a7ee07657c40ed094a0f38aeba93093fa6ec6ec6138f448eb935698e",
+    "checked": "2026-09-28"
   },
   "hash:care-model": {
-    "hash": "639ebab82e6127b8c31f1071d1500a5c8be0115e83151b8278e3fb336dbdf33d",
-    "checked": "2026-09-21"
+    "hash": "aaa16c7d91469fc831c3b07b804dfd6bb55037c9461a43310a2d092b424220db",
+    "checked": "2026-09-28"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-09-21"
+    "checked": "2026-09-28"
   },
   "hash:nist-airmf": {
-    "hash": "271a277a58550e3e190bc20708c1c050eb2fcca2516b25d21ff994818a7019e9",
-    "checked": "2026-09-21"
+    "hash": "00578296988b458cf54658001870c241c7cca081648e9bcb8eec328aabee4368",
+    "checked": "2026-09-28"
   },
   "hash:anthropic-exponential": {
-    "hash": "b88f79e33246dbd7590fc186988ce308f5acf1a6a64937bb1280ebc1ccca17d3",
-    "checked": "2026-09-21"
+    "hash": "074e8052e8699c87e92d08a2653c322975aa26ffd813e204b2a472285645e0d6",
+    "checked": "2026-09-28"
   },
   "hash:brookings-sb53": {
-    "hash": "226110efe360735ed7e848b6d05716705267adc96e70b133c1dfd17277954809",
-    "checked": "2026-09-21"
+    "hash": "52b56c036fd70fcc4fdb55581f64909b59aea257cbd1d8634b93bf968bfd10d9",
+    "checked": "2026-09-28"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-09-21"
+    "checked": "2026-09-28"
   }
 }
