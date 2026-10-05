@@ -1055,39 +1055,333 @@
       "score": 3,
       "reason": "below threshold",
       "date": "2026-09-28"
+    },
+    "doi:10.48550/arxiv.2508.16072": {
+      "title": "InMind: Evaluating LLMs in Capturing and Applying Individual Human Reasoning Styles",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1186/s40359-025-03320-9": {
+      "title": "The 8-Factor reasoning styles scale: development, validation, and psychometric evaluation",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1002/cpp.70051": {
+      "title": "Psychotic‐Like Reasoning Styles in Patients With Borderline Personality Disorder? An Experimental Investigation of the Jumping to Conclusions Bias",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.30762/factor_m.v6i1.1108": {
+      "title": "Students' mathematical reasoning ability with visual, auditorial and kinesthetic learning styles in solving HOTS problems",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.26466/opus.779768": {
+      "title": "Investigation of Reasoning Styles and Causal Attributions for Success of Teacher Candidates",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "url:semanticscholar.org/paper/ad629758c2b2f587c6e7fd652a581bb4750ba0be": {
+      "title": "Investigation of Reasoning Styles and Causal",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.15354/sief.22.or072": {
+      "title": "Laboratory as an Instrument in Improving the Scientific Reasoning Skills of Pre-Service Science Teachers with Different Cognitive Styles",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1007/s10649-021-10046-z": {
+      "title": "Styles of reasoning for mathematics education",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.13187/ejced.2019.3.489": {
+      "title": "Investigation of the Reasoning Styles of the Teacher Candidates in terms of Decision Making Styles, Learning Modalities and Gender (Süleyman Demirel University Education Faculty Case)",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.13189/ujer.2019.070506": {
+      "title": "Development of Reasoning Styles Scale",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.29408/jel.v8i2.5696": {
+      "title": "Secondary students’ mathematical reasoning in terms of learning styles on online learning",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "url:semanticscholar.org/paper/b562fb223bd3df1bc27f967a88eeba26590c3984": {
+      "title": "Disciplined reasoning: Styles of reasoning and the mainstream-heterodoxy divide in Swedish economics",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.3389/fpsyg.2021.736838": {
+      "title": "Conspiratorial Beliefs and Cognitive Styles: An Integrated Look on Analytic Thinking, Critical Thinking, and Scientific Reasoning in Relation to (Dis)trust in Conspiracy Theories",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.48550/arxiv.2504.21659": {
+      "title": "AdaR1: From Long-CoT to Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1080/03057240.2021.1933401": {
+      "title": "Associations of parenting styles with moral reasoning in children and adolescents: A meta-analysis",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1080/0361073x.2017.1398508": {
+      "title": "Does the Cognitive Reflection Test Actually Capture Heuristic Versus Analytic Reasoning Styles in Older Adults?",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.48550/arxiv.2404.11584": {
+      "title": "The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1002/curj.120": {
+      "title": "What styles of reasoning are important in primary English?",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.52202/085713-1986": {
+      "title": "Ada-R1: Hybrid-CoT via Bi-Level Adaptive Reasoning Optimization",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.48550/arxiv.2502.12470": {
+      "title": "Reasoning on a Spectrum: Aligning LLMs to System 1 and System 2 Thinking",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22984254": {
+      "title": "AI Literacy Training for Employees: Paloren",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22984255": {
+      "title": "AI Literacy Training for Employees: Paloren",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1016/j.actpsy.2026.107816": {
+      "title": "AI literacy and employee green innovation behavior: A multilevel moderated mediation model",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22984308": {
+      "title": "AI Training Programs for Companies: Paloren",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22984309": {
+      "title": "AI Training Programs for Companies: Paloren",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22690475": {
+      "title": "Glossario dell'intelligenza artificiale. Termini, norme, professioni",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22894845": {
+      "title": "Learn AI, ML & Python with Practical Training",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22894844": {
+      "title": "Learn AI, ML & Python with Practical Training",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.37359/jope.v38(3)2026.2441": {
+      "title": "The Reality of Artificial Intelligence Utilization in Administrative Work in Iraqi Sports Clubs from the Perspective of Administrative Board Members",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22984310": {
+      "title": "AI Upskilling for Employees: Paloren",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.22984311": {
+      "title": "AI Upskilling for Employees: Paloren",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.23050049": {
+      "title": "Replication materials for: Algorithmic–Institutional Decoupling in Research on Public Sector Generative AI Governance",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.23050048": {
+      "title": "Replication materials for: Algorithmic–Institutional Decoupling in Research on Public Sector Generative AI Governance",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.62692/gppd.2026.01": {
+      "title": "The First Global Dialogue on AI Governance: Who Gets to Govern AI?",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.23072305": {
+      "title": "Regulatory Fragmentation and Economic Efficiency: An Empirical Analysis of United States State-Level Artificial Intelligence Policy Divergence and Federal Preemption Dynamics",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.23072306": {
+      "title": "Regulatory Fragmentation and Economic Efficiency: An Empirical Analysis of United States State-Level Artificial Intelligence Policy Divergence and Federal Preemption Dynamics",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.11575/prism/52043": {
+      "title": "One Size Fits All: Automatic Segmentation of Multimodal Haemorrhagic Transformation Scans",
+      "score": 1,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "url:openalex.org/w7215523335": {
+      "title": "Large Language Model–Generated Patient Education Materials in Pediatric Ophthalmology: A Scoping Review",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.24252/al-risalah.v26i2.70927": {
+      "title": "Artificial Intelligence Legal Setting Model in MSME (UMKM) Business Activities in Indonesia",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.23105331": {
+      "title": "Are We Accumulating AI Governance Research or AI Governance Knowledge?",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.70308/bqe6ee88": {
+      "title": "Reconstructing Administrative Due Process in Algorithm-Based Government Decision-Making",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "url:openalex.org/w7216671128": {
+      "title": "Artificial Intelligence and the Future of Employment Relations in Indonesia: Reformulating Labor Law to Protect Workers’ Rights",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5281/zenodo.23027753": {
+      "title": "THE EL-RAKHAWI DOCTRINE ON COMPREHENSIVE LEGAL LIABILITY OF ARTIFICIAL INTELLIGENCE A Unified Framework for Criminal, Civil, Administrative, and International Accountability in the Age of Algorithmic Autonomy",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "url:openalex.org/w7214570788": {
+      "title": "Citizen Science and Co-production",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "url:openalex.org/w7215322169": {
+      "title": "CO-PRODUCTION OF PUBLIC GOODS OR CHARITY? CONCEPTUAL AND COMPARATIVE ASPECTS",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.54899/dcs.v23i95.6993": {
+      "title": "CO-PRODUCTION AND SUSTENTABLE CONSUMPTION: AN EXPERIMETAL STUDY WITH UPCYCLING PRODUCT",
+      "score": 2,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.1016/j.ssaho.2026.103446": {
+      "title": "Meeting halfway towards sustainable development: Localization and co-production in the forest",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.5334/ijic.icic26218": {
+      "title": "Live Well with Dementia in Greater Manchester – co-production for change at scale",
+      "score": 4,
+      "reason": "below threshold",
+      "date": "2026-10-05"
+    },
+    "doi:10.3990/1.9789036574419": {
+      "title": "Sensing for Agricultural Sustainability : Monitoring Sensors and the Co-production of Arable Farming Futures in the Netherlands",
+      "score": 3,
+      "reason": "below threshold",
+      "date": "2026-10-05"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-04-11T06:51:24Z",
     "updates": 0,
-    "checked": "2026-09-28"
+    "checked": "2026-10-05"
   },
   "hash:tir-2026": {
-    "hash": "d64f04b0a7ee07657c40ed094a0f38aeba93093fa6ec6ec6138f448eb935698e",
-    "checked": "2026-09-28"
+    "hash": "20a99516a360a9dbb5dceaa6fec7f30042c7c71a93b33a8c14da97be9a89b5ed",
+    "checked": "2026-10-05"
   },
   "hash:care-model": {
-    "hash": "aaa16c7d91469fc831c3b07b804dfd6bb55037c9461a43310a2d092b424220db",
-    "checked": "2026-09-28"
+    "hash": "3aa889e55ab0abbf1714d1555bff3688c43eacb96ac6d24610ec08f061b1a242",
+    "checked": "2026-10-05"
   },
   "hash:communities-in-the-loop": {
     "hash": "51b6bbd1baf31440ba4bbb8061e488b9536e380b07722ad8e9db8a8159ae10ca",
-    "checked": "2026-09-28"
+    "checked": "2026-10-05"
   },
   "hash:nist-airmf": {
-    "hash": "00578296988b458cf54658001870c241c7cca081648e9bcb8eec328aabee4368",
-    "checked": "2026-09-28"
+    "hash": "bd392b3b32bc79872db8c2158bef2529d533afb45b9517d311f4a6719a889f63",
+    "checked": "2026-10-05"
   },
   "hash:anthropic-exponential": {
-    "hash": "074e8052e8699c87e92d08a2653c322975aa26ffd813e204b2a472285645e0d6",
-    "checked": "2026-09-28"
+    "hash": "8e6b14ab0349be52908c6bcc1ed7a7f721e10b1fa551f1e7000d59ab3387a9c1",
+    "checked": "2026-10-05"
   },
   "hash:brookings-sb53": {
-    "hash": "52b56c036fd70fcc4fdb55581f64909b59aea257cbd1d8634b93bf968bfd10d9",
-    "checked": "2026-09-28"
+    "hash": "854218a160518e1119ed96eb18c66c203ae8667948cf968f65a6235947b6d9ec",
+    "checked": "2026-10-05"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-09-28"
+    "checked": "2026-10-05"
   }
 }
