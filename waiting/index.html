@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Public AI Tools: Join the Waiting List | Intentional Data</title>
+<meta name="description" content="Community members are shaping the public AI literacy, governance and auditing tools from Intentional Data. Leave your email and we will message you when they are ready.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--forest:#2D6A2F;--dark:#1E4A20;--lime:#8CC63E;--orange:#E87722;--warm:#FAF9F7;--sage:#CFE3D8;--ink:#1c2b1d}
+*{box-sizing:border-box}
+body{margin:0;font-family:Poppins,system-ui,sans-serif;background:var(--warm);color:var(--ink);line-height:1.6;font-size:18px}
+.wrap{max-width:680px;margin:0 auto;padding:48px 20px 64px;position:relative}
+.blob{position:fixed;top:-90px;right:-90px;width:240px;height:240px;border-radius:50%;background:var(--lime);z-index:0}
+.blob2{position:fixed;bottom:-40px;left:-40px;width:110px;height:110px;border-radius:50%;background:var(--orange);z-index:0}
+main{position:relative;z-index:1}
+.kicker{color:var(--forest);font-weight:700;font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px}
+h1{font-size:clamp(30px,6vw,42px);line-height:1.15;color:var(--dark);margin:0 0 18px}
+p{margin:0 0 16px}
+.card{background:#fff;border:1px solid #dfe6dc;border-radius:16px;padding:26px;margin-top:28px;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+label{display:block;font-weight:600;margin-bottom:8px;color:var(--dark)}
+input[type=email]{width:100%;font:inherit;padding:14px 16px;border:2px solid var(--sage);border-radius:12px;background:var(--warm)}
+input[type=email]:focus{outline:3px solid var(--lime);border-color:var(--forest)}
+button{margin-top:14px;font:inherit;font-weight:700;background:var(--orange);color:#fff;border:0;border-radius:999px;padding:14px 28px;cursor:pointer}
+button:hover{background:#cf6713}
+button[disabled]{opacity:.6;cursor:default}
+.note{font-size:14px;color:#51604f;margin-top:12px}
+.msg{margin-top:14px;font-weight:600;min-height:1.6em}
+.ok{color:var(--forest)}.err{color:#a43a12}
+ul{padding-left:1.1em;margin:0 0 16px}
+li{margin-bottom:6px}
+footer{margin-top:36px;font-size:14px;color:#51604f}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+</style>
+</head>
+<body>
+<div class="blob" aria-hidden="true"></div><div class="blob2" aria-hidden="true"></div>
+<div class="wrap"><main>
+  <p class="kicker">Intentional Data</p>
+  <h1>The public AI tools are cooking</h1>
+  <p>Community members are shaping these tools right now. They are being informed by the people who live with AI decisions, and they will be ready for public use toward the end of 2026.</p>
+  <p>The first set covers three areas:</p>
+  <ul>
+    <li>AI literacy</li>
+    <li>AI governance</li>
+    <li>AI auditing</li>
+  </ul>
+  <div class="card">
+    <form id="f" novalidate>
+      <label for="email">Your email, so we can message you when the tools are ready</label>
+      <input id="email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.org" required>
+      <div class="hp" aria-hidden="true"><label>Leave this empty<input id="hp" name="company" tabindex="-1" autocomplete="off"></label></div>
+      <button id="b" type="submit">Join the waiting list</button>
+      <div id="m" class="msg" role="status" aria-live="polite"></div>
+      <p class="note">We use your email for one purpose: telling you when the tools open. We do not share it.</p>
+    </form>
+  </div>
+  <footer>Intentional Data · Ethical and Efficient · <a href="https://intentionaldata.org" style="color:var(--forest)">intentionaldata.org</a></footer>
+</main></div>
+<script>
+// Paste the Google Apps Script web app URL between the quotes after deploying it.
+var ENDPOINT = "";
+var f=document.getElementById('f'),m=document.getElementById('m'),b=document.getElementById('b');
+f.addEventListener('submit',function(e){
+  e.preventDefault();
+  var email=document.getElementById('email').value.trim();
+  if(document.getElementById('hp').value){return;}
+  if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){m.className='msg err';m.textContent='Please enter a valid email address.';return;}
+  if(!ENDPOINT){m.className='msg err';m.textContent='Sign-ups are almost open. Please try again soon.';return;}
+  b.disabled=true;m.className='msg';m.textContent='Saving...';
+  var body=new URLSearchParams({email:email,source:'conference-qr'});
+  fetch(ENDPOINT,{method:'POST',mode:'no-cors',body:body}).then(function(){
+    m.className='msg ok';m.textContent='You are on the list. We will email you when the tools are ready.';f.reset();
+  }).catch(function(){
+    b.disabled=false;m.className='msg err';m.textContent='Something went wrong. Please try again.';
+  });
+});
+</script>
+</body>
+</html>
