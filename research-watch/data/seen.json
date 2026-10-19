@@ -2129,39 +2129,399 @@
       "score": 0,
       "reason": "below threshold",
       "date": "2026-10-12"
+    },
+    "doi:10.48550/arxiv.2512.15489": {
+      "title": "Nemotron-Math: Efficient Long-Context Distillation of Mathematical Reasoning from Multi-Mode Supervision",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2609.29473v1": {
+      "title": "Judgment-Centred Software Engineering Education: A Post-Hype Review and Framework for AI-Augmented Learning",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2609.16784v1": {
+      "title": "AI literacy over tool design: a mixed-methods study of scaffolded versus unrestricted generative AI in programming education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2609.15624v1": {
+      "title": "Beyond AI Literacy: A Structured Review and Exploratory Meta-Analysis of Measures for Competent Generative-AI Use",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2608.25815v1": {
+      "title": "GenAIT: Development and Validation of an Objective Generative AI Literacy Test for High School Students",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2608.11540v1": {
+      "title": "A Conceptual Framework for Enhancing Workforce Readiness for Smart Manufacturing in the AI Era",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2608.01705v1": {
+      "title": "Rethinking Generative AI Literacy: An Integrative, Developmental, and Dialectical Framework for K-12 Teacher Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2608.21391v1": {
+      "title": "A Survey Instrument to Assess Students' AI and Generative AI Knowledge",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2607.25166v3": {
+      "title": "Individual-level interventions against sycophantic AI reduce its appeal but not its persuasiveness",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2607.21777v1": {
+      "title": "AI-Integrated Scientific Inquiry: A Practice-Centered Vision for Science Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2607.14301v1": {
+      "title": "Measuring How Students Rely on Generative AI in Academic Writing: Development and Multi-Source Validation of the Generative AI Reliance Types Scale (GenAI-RTS)",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2607.11314v1": {
+      "title": "Programming Language Policy as an AI Literacy Equity Problem: A 15-Nation Comparative Analysis",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2608.16910v1": {
+      "title": "Education-centered critical policy analysis of AI: Ghana's AI strategy as a case",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2608.14605v1": {
+      "title": "Psychological Determinants of Academic Integrity in the Use of Generative AI in Higher Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1007/s42438-026-00711-y": {
+      "title": "Reading Generative AI as Discourse: a Discourse-Analytic Framework for AI Literacy",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1080/10494820.2026.2744398": {
+      "title": "Examining measurement properties of AI literacy instruments in the era of generative artificial intelligence: a review study",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1556/2059.2026.00152": {
+      "title": "Behind the AI policies: A critical examination of the underlying conceptions of assessment in higher education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1186/s12909-026-10613-z": {
+      "title": "Development and validation of the AI literacy questionnaire for health professions students using Rasch analysis",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1007/s10798-026-10128-0": {
+      "title": "Measuring AI literacy in design education: development and validation of the artificial intelligence literacy scale for design students",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.33210/ca.v15i2.568": {
+      "title": "¿Prohibir, declarar o enseñar? Gobernanza universitaria de la inteligencia artificial generativa en América Latina: revisión integrativa",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.21203/rs.3.rs-10632038/v1": {
+      "title": "Development and validation of the artificial intelligence literacy scale for medical students (AILS-MS)",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.26803/ijlter.25.9.21": {
+      "title": "Reconceptualising Learner Autonomy in Generative AI-Supported Higher Education: A Technology-Mediated Framework",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.37792/erhfvg60": {
+      "title": "AI-ENABLED INNOVATION AND ENTREPRENEURSHIP COURSES IN HIGHER EDUCATION: RESEARCH HOTSPOTS, EVOLUTIONARY TRAJECTORIES, AND EMERGING FRONTIERS",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5281/zenodo.23192926": {
+      "title": "Measuring Artificial Intelligence Literacy in Higher Education: Validation of the ECAE-AI Scale",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5281/zenodo.23033676": {
+      "title": "Reimagining Business Education in the Generative AI Era: A Strategic Framework for Curriculum, Pedagogy, and Graduate Competencies",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.61784/wjikm3030": {
+      "title": "MEASURING AI LITERACY: A REVIEW OF GENERAL-PURPOSE SCALES AND A SIX-DIMENSIONAL FRAMEWORK",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5281/zenodo.22964082": {
+      "title": "AI Literacy Self-Assessment Framework",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5334/uproc.276": {
+      "title": "Reconfiguring to Teach: Pedagogical Responses to the Integration of Artificial Intelligence in Teacher Professional Development",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.31234/osf.io/afuq2_v1": {
+      "title": "TAIL: A Test of AI Literacy for Adolescents and Teachers",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2606.20994v1": {
+      "title": "Bridging Technical AI, Societal Impacts, and Workforce Competencies in AI Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2607.16223v2": {
+      "title": "From Novelty to Normalisation: Tracking Changing Perceptions of AI in Higher Education, 2024-2026",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:openalex.org/w7221740169": {
+      "title": "Lecturer-to-Lecturer Learning Model for Artificial Intelligence Adoption in African Universities: Opportunities and Challenges",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.29333/ejmste/19564": {
+      "title": "Teachers’ perceptions of ChatGPT support across TPACK domains: A cross-sectional survey in UAE schools",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:openalex.org/w7222857460": {
+      "title": "Reimagining Support for DV/IPV Service Providers Through AI Literacy",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.2196/107290": {
+      "title": "Beyond AI Literacy: Understanding Health Care Workforce AI Enablement in the Generative AI Era",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.37680/ssa.10955": {
+      "title": "AI Adoption, AI Literacy, and Employee Performance: The Mediating Role of Work Autonomy in MSMEs",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.36491/apjsb.48.3.2": {
+      "title": "An Exploratory Study on the Effects of a Generative AI Training Program for SME CEOs Based on the SER-M Strategic Framework",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.3389/frai.2026.1931300": {
+      "title": "Landscape and training opportunities in artificial intelligence for biosciences in Latin America: the BiotrAIn project",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1080/10447318.2026.2740885": {
+      "title": "Assessing AI-Supported Problem-Solving in Young Adults Reporting Previous Learning-Disorder Diagnoses: Adaptation and Validation of the PS-AIRES and Preliminary Evaluation of a Claude-Based Training Program",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.4324/9781003662914-8": {
+      "title": "Building AI-Ready Teams and Cultures",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:arxiv.org/abs/2610.16916v1": {
+      "title": "Transparent Information Flow Modeling for Role-Aware AI Act Assessment",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1609/aies.v9i4.43367": {
+      "title": "From Visibility to Accountability: Designing Actionable Transparency Infrastructures for Public-Sector AI",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1002/ban.31984": {
+      "title": "New program offers special certification for nonprofit AI users",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:openalex.org/w7222859155": {
+      "title": "THE AUTOMATED ADMINISTRATION MAGAZINE",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1609/aies.v9i4.43361": {
+      "title": "Community-Centered AI Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.36713/epra31842": {
+      "title": "AI GOVERNANCE AND FINANCIAL RISK : DISCLOSURE BASED AI READINESS INDEX FOR INDIAN BANKS",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5281/zenodo.23310759": {
+      "title": "PolyGovern: AI governance advisory for regulated industries in Australia and New Zealand (company overview)",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5281/zenodo.23190858": {
+      "title": "AI GOVERNANCE AND PRACTICE IN LIBRARIES: A FRAMEWORK FOR POLICY, OPERATIONS, INSTRUCTION AND RESEARCH SUPPORT",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.21203/rs.3.rs-10662896/v1": {
+      "title": "AI Governance and Ethical Implications for Organizational Oversight in Cybersecurity",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1017/bhj.2026.10055": {
+      "title": "Leveraging Human Rights Frameworks for Agentic AI Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "url:openalex.org/w7218244705": {
+      "title": "A Student-Centered Model for Ethically Evaluating AI Integration in Learning Support Services and Beyond",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.48550/arxiv.2610.19810": {
+      "title": "ReproBAIT: Can coding agents build their own biological AI tools?",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.65655/ocp.m29.c103": {
+      "title": "Artificial Intelligence, Assessment Integrity, and the Future of Curriculum and Teaching",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.2147/jmdh.s635220": {
+      "title": "Assessment of Perceptions, Trust, and Adoption of Clinical Artificial Intelligence Tools Among Physicians and Dentists, Riyadh, Saudi Arabia",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1002/apj.70292": {
+      "title": "Advancing Environmental Sustainability: The Role of Artificial Intelligence in Monitoring, Predicting, and Controlling Sulfur Dioxide Emissions",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.13140/rg.2.2.35328.80647": {
+      "title": "The Right to Meaningful Repair after Automated Decisions",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.5281/zenodo.23058907": {
+      "title": "Όροι σύμβασης για ανθρώπινη εποπτεία που αποδεικνύεται: υπόδειγμα συμπληρωματικών όρων για την προμήθεια συστημάτων τεχνητής νοημοσύνης από φορείς του δημοσίου",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1080/09540962.2026.2741898": {
+      "title": "Motivation in third sector co-production settings: A Self-Determination Theory perspective on sequential co-production",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.32388/7z50q1.2": {
+      "title": "Source involved in co-production of intervention",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
+    },
+    "doi:10.1021/acsami.6c14646": {
+      "title": "Efficient CO2/Pure Water Co-Electrolysis for CO Production at 100 °C",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-19"
     }
   },
   "crossref:sails-2026": {
-    "indexed": "2026-04-11T06:51:24Z",
+    "indexed": "2026-10-17T03:01:48Z",
     "updates": 0,
-    "checked": "2026-10-12"
+    "checked": "2026-10-19"
   },
   "hash:tir-2026": {
-    "hash": "9a3f1ff3f066f895073737a2b0eefe2eadb52145f2aa9f0b2eaa36062947153b",
-    "checked": "2026-10-12"
+    "hash": "8868a6e934455816223cdb6729313cb3ae1322e5db075874b1d59927c1be2506",
+    "checked": "2026-10-19"
   },
   "hash:care-model": {
-    "hash": "d2c70e489084c6b85356743667654e5bd286b5e94e7c81fa81deee183f5b9c2f",
-    "checked": "2026-10-12"
+    "hash": "55fa12050c032c1e42ef17391a3990ee448f412b60bfdc0c5364c35c739aff60",
+    "checked": "2026-10-19"
   },
   "hash:communities-in-the-loop": {
-    "hash": "795f574a6cff6adf23735d9cf232201d1a5e085558b1a2ff3d3e415b7f5a225e",
-    "checked": "2026-10-12"
+    "hash": "42553b173cf036f3b9c23d5c0ae591b85280204d2b827f52554eb62a6ff40880",
+    "checked": "2026-10-19"
   },
   "hash:nist-airmf": {
-    "hash": "192b6430fb601dbe633b9feab0fe20a9d97df19460ba2f4d7bf69d377708450a",
-    "checked": "2026-10-12"
+    "hash": "a63d83a9bf1bd73ce78f794573b4d775e53eeb3736e5fc4574b6c8adfaa59b11",
+    "checked": "2026-10-19"
   },
   "hash:anthropic-exponential": {
-    "hash": "e76453916f0ff220ab9c370c204d078faa68f05bea089f1a6ab74eef02c14c3d",
-    "checked": "2026-10-12"
+    "hash": "6f11d0de3c4ce848cf6c2e14d2db1d5607f2cbfed731bf963bd3e0b659aa4697",
+    "checked": "2026-10-19"
   },
   "hash:brookings-sb53": {
-    "hash": "9f1b547f284df57e7663054a15fd22aa82becb3a83497a93047b9efbd14824e6",
-    "checked": "2026-10-12"
+    "hash": "14d33a3127db68c0d581e62764e4472fd1f4458e666bb371241190e09e4ca78d",
+    "checked": "2026-10-19"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-10-12"
+    "checked": "2026-10-19"
   }
 }
