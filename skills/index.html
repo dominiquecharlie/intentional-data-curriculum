@@ -1,0 +1,1031 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four Free Tools to Shape How Your Organization Uses AI | Intentional Data</title>
+<meta name="description" content="Four free tools that help community organizations put their values, voice, AI use policy and leadership commitment into words.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#2D6A2F; --dark:#1E4A20; --lime:#8CC63E; --orange:#E87722; --orange-text:#B85A0F;
+  --warm:#FAF9F7; --sage:#CFE3D8; --ink:#1D2A1E; --white:#fff;
+}
+*{box-sizing:border-box}
+html{font-size:100%;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--white);color:var(--ink);font-family:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;font-size:1.125rem;line-height:1.65;overflow-x:hidden}
+h1,h2,h3,h4{color:var(--green);line-height:1.2;margin:0 0 .6em;font-weight:700}
+h1{font-size:clamp(2.1rem,7vw,3.4rem);color:var(--dark)}
+h2{font-size:clamp(1.65rem,4.5vw,2.2rem)}
+h3{font-size:1.4rem}
+h4{font-size:1.1rem;color:var(--dark)}
+p,li,dd{max-width:38rem}
+p{margin:0 0 1em}
+a{color:var(--green);text-decoration-thickness:2px;text-underline-offset:3px}
+a:hover{color:var(--dark)}
+:focus-visible{outline:3px solid var(--dark);outline-offset:3px;box-shadow:0 0 0 6px var(--lime);border-radius:6px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 16px;position:relative}
+.skip{position:absolute;left:16px;top:-80px;background:var(--dark);color:#fff;padding:.7rem 1rem;border-radius:10px;z-index:100;font-weight:600}
+.skip:focus{top:12px}
+
+/* header */
+.site-header{background:var(--white);border-bottom:3px solid var(--sage)}
+.site-header .wrap{display:flex;flex-wrap:wrap;gap:.5rem 2rem;align-items:center;justify-content:space-between;padding-top:14px;padding-bottom:14px}
+.brand{margin:0;line-height:1.1}
+.wordmark{font-weight:700;letter-spacing:.14em;color:var(--green);font-size:1.15rem;display:block}
+.tagline{font-size:.9rem;color:var(--orange-text);font-weight:600;display:block;letter-spacing:.02em}
+nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.2rem 1.1rem}
+nav li{max-width:none}
+nav a{font-weight:600;font-size:.95rem;display:inline-block;padding:.35rem 0}
+
+/* hero */
+.hero{position:relative;overflow:hidden;background:var(--white);padding:56px 0 48px}
+.dot{position:absolute;border-radius:50%;pointer-events:none}
+.dot.lime{background:var(--lime)}
+.dot.orange{background:var(--orange)}
+.hero .d1{width:300px;height:300px;right:-110px;top:-110px}
+.hero .d2{width:160px;height:160px;right:70px;top:150px;opacity:.9}
+.hero .d3{width:220px;height:220px;left:-100px;bottom:-110px}
+.hero .wrap{z-index:1}
+@media(max-width:48rem){.hero .d1{width:150px;height:150px;right:-70px;top:-70px}.hero .d2{display:none}.hero .d3{width:120px;height:120px;left:-60px;bottom:-60px}.hero .wrap{position:relative}}
+.lead{font-size:1.25rem;max-width:36rem}
+.need{background:var(--warm);border:3px solid var(--sage);border-radius:28px;padding:22px 26px;margin:28px 0 20px;max-width:36rem}
+.need h2{font-size:1.2rem;margin-bottom:.4em}
+.need ul{margin:0;padding-left:1.2rem}
+.privacy{background:#FFF3E6;border:3px solid var(--orange);border-radius:28px;padding:22px 26px;max-width:36rem}
+.privacy h2{font-size:1.2rem;color:var(--dark);margin-bottom:.4em}
+.privacy p{margin:0;font-weight:500}
+
+/* sections */
+section.band{padding:56px 0;position:relative;overflow:hidden}
+section.band.alt{background:var(--warm)}
+.section-dot{width:200px;height:200px;right:-90px;top:-80px}
+.card{background:var(--white);border:3px solid var(--sage);border-radius:28px;padding:26px 28px;margin:0 0 24px}
+.cards{display:grid;gap:24px}
+@media(min-width:56rem){.cards.two{grid-template-columns:1fr 1fr}}
+.card h3{margin-bottom:.3em}
+.order{display:inline-block;font-size:.85rem;font-weight:700;color:#fff;background:var(--green);border-radius:999px;padding:.1rem .8rem;margin-bottom:.6rem}
+.chips{list-style:none;margin:.3rem 0 1rem;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.chips li{max-width:none}
+.chip{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.95rem;font-weight:600;background:var(--lime);color:var(--dark);border-radius:999px;padding:.15rem .9rem;display:inline-block}
+dl.skill{margin:0}
+dl.skill dt{font-weight:700;color:var(--dark);margin-top:1rem}
+dl.skill dd{margin:.15rem 0 0}
+.path{background:var(--white);border:3px solid var(--sage);border-radius:28px;padding:26px 28px}
+.path h3{margin-bottom:.4em}
+.path h4{margin:1.4rem 0 .4rem}
+.path ol{padding-left:1.3rem;margin:.4rem 0}
+.path li{margin-bottom:.6rem}
+.note{background:var(--warm);border-left:8px solid var(--lime);border-radius:12px;padding:14px 18px;max-width:38rem;margin:1rem 0}
+.note p{margin:0}
+
+/* prompts */
+.lib-skill{margin:0 0 44px}
+.lib-skill>h3{border-bottom:3px solid var(--sage);padding-bottom:.3em}
+.prompt{background:var(--white);border:3px solid var(--sage);border-radius:28px;padding:20px 22px;margin:0 0 20px}
+.prompt.whole{border-color:var(--green)}
+.prompt h4{margin:0 0 .6rem}
+pre{margin:0;background:var(--warm);border:2px solid var(--sage);border-radius:16px;padding:14px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92rem;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal;max-width:72ch;max-height:22rem;overflow:auto;color:var(--ink);user-select:text}
+.copy-row{display:flex;align-items:center;gap:14px;margin-top:12px;flex-wrap:wrap}
+.btn{font-family:inherit;font-size:1rem;font-weight:600;background:var(--green);color:#fff;border:3px solid var(--green);border-radius:999px;padding:.55rem 1.4rem;cursor:pointer;min-height:44px}
+.btn:hover{background:var(--dark);border-color:var(--dark)}
+.btn.secondary{background:var(--white);color:var(--dark);border-color:var(--green)}
+.btn.secondary:hover{background:var(--sage)}
+.copy-status{font-weight:600;color:var(--dark);min-height:1.5em}
+details.steps{border:3px solid var(--sage);border-radius:28px;padding:6px 22px;margin:0 0 20px;background:var(--warm)}
+details.steps>summary{cursor:pointer;font-weight:700;color:var(--dark);padding:12px 0;font-size:1.05rem}
+.steps-body{padding:6px 0 10px}
+
+/* form */
+form{max-width:40rem}
+fieldset{border:3px solid var(--sage);border-radius:28px;padding:18px 22px 14px;margin:0 0 22px;min-width:0}
+legend{font-weight:700;color:var(--dark);padding:0 .5rem}
+.opt{display:flex;align-items:flex-start;gap:.7rem;margin:.55rem 0;max-width:none}
+.opt input{width:1.4rem;height:1.4rem;margin:.3rem 0 0;flex:none;accent-color:var(--green)}
+.opt label{cursor:pointer}
+.field{margin:0 0 22px}
+.field label{display:block;font-weight:700;color:var(--dark);margin-bottom:.35rem}
+.hint{font-size:.95rem;color:#3d4a3e;margin:0 0 .4rem}
+input[type=text],textarea{width:100%;font-family:inherit;font-size:1rem;line-height:1.5;padding:.7rem .9rem;border:3px solid var(--sage);border-radius:16px;background:#fff;color:var(--ink)}
+input[type=text]:focus,textarea:focus{border-color:var(--green)}
+textarea{min-height:7rem;resize:vertical}
+.hp{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+#form-status{max-width:40rem;margin-top:18px;padding:0}
+#form-status:not(:empty){border:3px solid var(--green);background:var(--warm);border-radius:20px;padding:16px 20px}
+#form-status.problem:not(:empty){border-color:var(--orange-text)}
+
+/* footer */
+.site-footer{background:var(--dark);color:#fff;padding:44px 0;position:relative;overflow:hidden}
+.site-footer p{margin:0 0 .5rem}
+.site-footer a{color:#fff}
+.site-footer .wordmark{color:#fff}
+.site-footer .d4{width:200px;height:200px;right:-80px;bottom:-90px;background:var(--lime)}
+.site-footer .wrap{z-index:1}
+@media(max-width:30rem){
+  .card,.path,.need,.privacy{padding:20px 18px;border-radius:24px}
+  .prompt{padding:16px 14px;border-radius:24px}
+  details.steps{padding:4px 14px}
+  pre{font-size:.85rem}
+}
+
+/* ---- click-through flow ---- */
+body{font-size:1rem;line-height:1.55}
+.wrap.wide{max-width:96rem}
+.page[hidden]{display:none!important}
+.page{padding:20px 0 0;position:relative;overflow:clip}
+.page.alt{background:var(--warm)}
+.site-footer{padding:16px 0}.site-footer .dot{display:none}.site-footer .wrap{display:flex;flex-wrap:wrap;gap:.3rem 1.5rem;align-items:center}.site-footer p{margin:0}
+.page h1{font-size:clamp(1.9rem,4vw,2.6rem);margin-bottom:.3em}
+.page h2{font-size:clamp(1.5rem,3vw,2rem)}
+.steps-nav{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.4rem 1rem}
+.steps-nav li{max-width:none;font-weight:600;font-size:.9rem;color:#4a574b}
+.steps-nav li[aria-current="step"]{color:var(--dark);border-bottom:3px solid var(--lime)}
+.grid4{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:40rem){.grid4{grid-template-columns:1fr 1fr}}
+@media(min-width:72rem){.grid4{grid-template-columns:repeat(4,1fr);gap:20px}}
+.grid2{display:grid;gap:22px;grid-template-columns:1fr}
+@media(min-width:56rem){.grid2{grid-template-columns:1fr 1fr}}
+.card.mini{margin:0;padding:18px 20px;border-radius:22px}
+.card.mini h3{font-size:1.2rem}
+.card.mini p{margin:.3rem 0 0}
+.card.tall{margin:0;padding:16px 18px;border-radius:22px;font-size:.88rem;line-height:1.45}
+.card.tall h3{font-size:1.15rem}
+.card.tall dl.skill dt{margin-top:.7rem;font-size:.9rem}
+.card.tall p,.card.tall dd{max-width:none}
+.chip{font-size:.82rem}
+.info{display:grid;gap:16px;margin:14px 0 6px}
+@media(min-width:48rem){.info{grid-template-columns:1fr 1fr}}
+.info .need,.info .privacy{margin:0;max-width:none;padding:16px 20px;border-radius:22px}
+.info h2{font-size:1.05rem}
+.info ul,.info p{font-size:.95rem}
+.path{padding:20px 22px;border-radius:22px;font-size:.95rem;display:flex;flex-direction:column}
+.path h3{font-size:1.3rem}
+.path h4{margin:.9rem 0 .3rem;font-size:1rem}
+.path li{margin-bottom:.35rem}
+.path p,.path li{max-width:none}
+.path .choose{margin:.2rem 0 .8rem}
+.pager{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px;padding:12px 0;flex-wrap:wrap;position:sticky;bottom:0;background:#fff;border-top:2px solid var(--sage);z-index:5}
+.page.alt .pager{background:var(--warm)}
+.page h1:focus,.page h2:focus{outline:none;box-shadow:none}
+@media(min-width:72rem){.card.tall{max-height:calc(100vh - 21rem);overflow-y:auto}}
+.pager .spacer{flex:1}
+.pcol{background:var(--white);border:3px solid var(--sage);border-radius:22px;padding:16px 16px 14px;min-width:0}
+.pcol h3{font-size:1.15rem;margin-bottom:.4rem}
+.sel{display:block;font-weight:600;font-size:.85rem;color:var(--dark)}
+.psel{display:block;width:100%;margin:.2rem 0 .6rem;font-family:inherit;font-size:.9rem;padding:.5rem .6rem;border:3px solid var(--sage);border-radius:12px;background:#fff;color:var(--ink)}
+.pbox .prompt{border:0;padding:0;margin:0;border-radius:0}
+.pbox .prompt h4{position:absolute;left:-10000px}
+.pbox pre{font-size:.8rem;line-height:1.45;max-height:calc(100vh - 25rem);min-height:9rem}
+.pbox .prompt.is-hidden{display:none}
+.pbox .btn{font-size:.9rem;padding:.4rem 1rem;min-height:40px}
+.page .band{padding:0}
+.page form{max-width:none}
+.fbgrid{display:grid;gap:0 24px}
+@media(min-width:56rem){.fbgrid{grid-template-columns:1fr 1fr}}
+.page fieldset{padding:12px 18px 8px;margin:0 0 14px}
+.page .field{margin:0 0 14px}
+.page textarea{min-height:5rem}
+
+/* ---- in-the-moment feedback and help chat ---- */
+.rate{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:10px}
+.rate .lbl{position:absolute;left:-10000px}
+.rbtn{font-family:inherit;font-size:.9rem;font-weight:600;background:#fff;color:var(--dark);border:3px solid var(--sage);border-radius:999px;padding:.2rem .6rem;cursor:pointer;min-height:40px;display:inline-flex;align-items:center;gap:.4rem}
+.rbtn svg{width:1.1rem;height:1.1rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rbtn:hover{background:var(--sage)}
+.rbtn[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.rate-done{font-size:.85rem;font-weight:600;color:var(--dark)}
+dialog.fbd{border:3px solid var(--green);border-radius:24px;padding:22px 24px;max-width:min(32rem,92vw);width:100%;background:#fff;color:var(--ink);font-family:inherit}
+dialog.fbd::backdrop{background:rgba(30,74,32,.45)}
+dialog.fbd h2{font-size:1.25rem;margin:0 0 .3rem}
+dialog.fbd .ctx{font-size:.9rem;margin:0 0 .8rem;color:#3d4a3e}
+dialog.fbd textarea{min-height:6rem}
+dialog.fbd .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.fbmsg{font-weight:600;margin-top:10px;min-height:1.4em}
+.chat-fab{position:fixed;right:16px;bottom:78px;z-index:50;font-family:inherit;font-weight:700;background:var(--orange-text);color:#fff;border:3px solid var(--orange-text);border-radius:999px;padding:.6rem 1.2rem;cursor:pointer;min-height:48px;box-shadow:0 4px 14px rgba(0,0,0,.2)}
+.chat-fab:hover{background:#9a4a0b;border-color:#9a4a0b}
+.chat{position:fixed;right:16px;bottom:78px;z-index:60;width:min(26rem,calc(100vw - 32px));height:min(34rem,calc(100vh - 110px));background:#fff;border:3px solid var(--green);border-radius:24px;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 8px 28px rgba(0,0,0,.25)}
+.chat[hidden]{display:none!important}
+.chat header{display:flex;justify-content:space-between;align-items:center;gap:8px;background:var(--green);color:#fff;padding:10px 14px}
+.chat header strong{font-size:1rem}
+.chat header button{background:transparent;color:#fff;border:2px solid #fff;border-radius:999px;font-family:inherit;font-weight:600;padding:.15rem .8rem;cursor:pointer;min-height:36px}
+.chat .log{flex:1;overflow:auto;padding:12px 14px;display:flex;flex-direction:column;gap:10px;font-size:.92rem;line-height:1.5}
+.msg{max-width:92%;padding:.55rem .8rem;border-radius:16px;white-space:pre-wrap;overflow-wrap:anywhere}
+.msg.bot{background:var(--warm);border:2px solid var(--sage);align-self:flex-start}
+.msg.me{background:var(--lime);color:var(--dark);align-self:flex-end;font-weight:500}
+.chat form{display:flex;gap:8px;padding:10px;border-top:3px solid var(--sage);max-width:none}
+.chat form input{flex:1;min-width:0;font-family:inherit;font-size:.95rem;padding:.55rem .8rem;border:3px solid var(--sage);border-radius:999px}
+.chat form .btn{padding:.4rem 1rem;min-height:44px}
+.chat .fine{font-size:.78rem;padding:0 14px 8px;margin:0;color:#4a574b;max-width:none}
+@media(max-width:40rem){.chat-fab{bottom:84px}}
+
+/* ---- skill pickers and panels ---- */
+.pick-h{font-size:1.1rem;margin:14px 0 8px}
+.skpick{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:40rem){.skpick{grid-template-columns:1fr 1fr}}
+@media(min-width:64rem){.skpick{grid-template-columns:repeat(4,1fr)}}
+.skbtn{font-family:inherit;text-align:left;background:#fff;border:3px solid var(--sage);border-radius:20px;padding:12px 16px;cursor:pointer;min-height:64px;display:flex;flex-direction:column;gap:6px;align-items:flex-start;color:var(--dark)}
+.skbtn:hover{background:var(--sage)}
+.skbtn[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.skbtn[aria-pressed="true"] .chip{background:var(--lime);color:var(--dark)}
+.skn{font-weight:700;font-size:1.05rem}
+.hintline{margin:10px 0 0;font-size:.95rem;max-width:none}
+.how{background:#fff;border-left:8px solid var(--lime);border-radius:12px;padding:10px 16px;margin:6px 0 4px}
+.how p{margin:.2rem 0;font-size:.95rem;max-width:none}
+.needs{margin:14px 0 10px;font-size:.95rem;max-width:none}
+.pwrap{display:grid;gap:18px;grid-template-columns:1fr}
+@media(min-width:56rem){.pwrap{grid-template-columns:minmax(16rem,22rem) 1fr;align-items:start}}
+.plist{background:#fff;border:3px solid var(--sage);border-radius:20px;padding:10px 14px;max-height:calc(100vh - 21rem);overflow:auto}
+.gh{font-size:.9rem;margin:.8rem 0 .3rem;color:var(--dark)}
+.gh:first-child{margin-top:.2rem}
+.pl{list-style:none;margin:0;padding:0}
+.pl li{max-width:none;margin:0 0 4px}
+.pitem{font-family:inherit;font-size:.9rem;text-align:left;width:100%;background:#fff;border:2px solid var(--sage);border-radius:12px;padding:.4rem .7rem;cursor:pointer;color:var(--ink);min-height:40px}
+.pitem:hover{background:var(--sage)}
+.pitem[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff;font-weight:600}
+.pview{background:#fff;border:3px solid var(--sage);border-radius:20px;padding:14px 18px;min-width:0}
+.pview .prompt{border:0;padding:0;margin:0;border-radius:0}
+.pview .prompt h4{position:static;left:auto;font-size:1.1rem;margin:0 0 .5rem}
+.pview pre{font-size:.9rem;max-height:calc(100vh - 29rem);min-height:10rem}
+.pview .prompt.is-hidden{display:none}
+.s1grid{display:grid;gap:18px;margin-top:14px;grid-template-columns:1fr}
+@media(min-width:56rem){.s1grid{grid-template-columns:1.2fr 1fr;align-items:start}}
+#pg-skills .card.tall{max-height:none;overflow:visible;font-size:.92rem}
+.card.dl{margin:0;padding:18px 20px;border-radius:22px;font-size:.92rem;border-color:var(--green)}
+.card.dl h3{font-size:1.2rem}
+.card.dl h4{margin:.8rem 0 .3rem;font-size:1rem}
+.card.dl ol{margin:.2rem 0;padding-left:1.2rem}
+.card.dl li,.card.dl p{max-width:none}
+.card.dl .fine{font-size:.85rem;margin:.5rem 0 0}
+.dlbtn{display:inline-block;text-decoration:none;color:#fff;text-align:center}
+.dlbtn:hover{color:#fff}
+.skpanel[hidden]{display:none!important}
+
+.fun{list-style:none;margin:6px 0 16px;padding:0;display:grid;gap:8px 20px;grid-template-columns:1fr}
+@media(min-width:48rem){.fun{grid-template-columns:1fr 1fr}}
+@media(min-width:72rem){.fun{grid-template-columns:repeat(3,1fr)}}
+.fun li{max-width:none;position:relative;padding:.45rem .9rem .45rem 2.4rem;background:var(--warm);border:2px solid var(--sage);border-radius:16px;font-size:.95rem;line-height:1.4}
+.fun li::before{content:"";position:absolute;left:.8rem;top:.75rem;width:.9rem;height:.9rem;border-radius:50%;background:var(--lime)}
+.fun li:nth-child(3n+2)::before{background:var(--orange)}
+.fun strong{color:var(--dark)}
+.card.mini .benefit{font-weight:600;color:var(--dark);font-size:.95rem;margin:.4rem 0 .3rem}
+.card.mini .howit{font-size:.88rem;line-height:1.4;margin:0}
+.skb{font-size:.88rem;font-weight:500;line-height:1.3}
+.skbtn[aria-pressed="true"] .skb{color:#fff}
+
+.fun{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px}
+.fun li{flex:1 1 100%}
+@media(min-width:48rem){.fun li{flex:0 1 calc(50% - 10px)}}
+@media(min-width:72rem){.fun li{flex:0 1 calc(33.333% - 14px)}}
+.card.mini.start{background:var(--sage);border-color:var(--green)}
+.card.mini.start .chip{background:var(--white)}
+.starttag{display:inline-block;margin-left:.4rem;font-size:.85rem;font-weight:700;color:#fff;background:var(--orange-text);border-radius:999px;padding:.1rem .8rem}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap">
+    <p class="brand"><span class="wordmark">INTENTIONAL DATA</span><span class="tagline">Ethical and Efficient.</span></p>
+    <nav aria-label="Progress"><ol class="steps-nav" id="stepsnav"><li data-step="welcome">1 Welcome</li><li data-step="choose">2 Choose a path</li><li data-step="detail">3 Tools or prompts</li><li data-step="feedback">4 Feedback</li></ol></nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page" id="pg-welcome" data-page="welcome" aria-labelledby="top-h">
+  <div class="wrap wide">
+    <h1 id="top-h" tabindex="-1">Four free tools to shape how your organization uses AI</h1>
+    <ul class="fun" aria-label="About these tools">
+      <li><strong>Free and public.</strong> They are yours to keep.</li>
+      <li><strong>Co-produced.</strong> Intentional Data co-produced them with community organizations.</li>
+      <li><strong>How it works.</strong> Each tool asks you questions one at a time, and you answer in your own words.</li>
+      <li><strong>Works in any AI tool.</strong> Install the tools in Claude or ChatGPT, or copy the prompts into any AI tool.</li>
+      <li><strong>Custom files that guide your AI.</strong> Your values and voice files shape how AI works for you from here on, and your policy and commitment give your team and board something to adopt.</li>
+    </ul>
+    <div class="grid4"><article class="card mini start"><span class="order">Tool 1</span><span class="starttag">Start here</span><h3>Ethics tool</h3><ul class="chips" aria-label="File you get"><li><span class="chip">values.md</span></li></ul><p class="benefit">You put your organization's values into words, and get a values check you can use on any draft, tool or plan.</p><p class="howit"><strong>How it works:</strong> You answer questions about your work, one at a time, and the tool helps you put your organization's values into words. It writes them down for you to review. After that, it works as your values check. You can ask it whether a draft, a tool or a plan lines up with what you wrote.</p></article><article class="card mini"><span class="order">Tool 2</span><h3>Voice tool</h3><ul class="chips" aria-label="File you get"><li><span class="chip">voice-profile.md</span></li></ul><p class="benefit">Your writing sounds like you, even when AI helps with the draft.</p><p class="howit"><strong>How it works:</strong> You answer questions about your values, by typing or by talking, and the tool helps you decide how you want to sound. After that, you can give it a piece of writing whose content you are happy with, and it adjusts the style so it sounds like you. Your facts, numbers and sources stay exactly as they are.</p></article><article class="card mini"><span class="order">Tool 3</span><h3>AI Use Policy tool</h3><ul class="chips" aria-label="Files you get"><li><span class="chip">sorting.md</span></li><li><span class="chip">use-policy.md</span></li></ul><p class="benefit">Your team agrees on which AI uses are fine, which need a pause and which are off limits, and gets a policy draft in its own words.</p><p class="howit"><strong>How it works:</strong> It walks your team through the ways you use AI, or want to, one question at a time. For each one, your team decides who benefits, who could be harmed, and whether it is fine, needs a pause or is off limits. Then it drafts your AI use policy in your words.</p></article><article class="card mini"><span class="order">Tool 4</span><h3>Leadership Commitment tool</h3><ul class="chips" aria-label="File you get"><li><span class="chip">leadership-commitment.md</span></li></ul><p class="benefit">Your leaders name who is accountable for AI, who can pause a tool and how people are told.</p><p class="howit"><strong>How it works:</strong> It reads your use policy, then asks your leaders who is responsible for what: who is accountable for AI at your organization, how often they report, who can pause a tool, and how people are told when AI touches their case.</p></article></div>
+    <div class="info">
+      <div class="need"><h2>What you will need</h2><ul><li>Any AI tool</li><li>About 20 minutes per tool</li></ul></div>
+      <div class="privacy"><h2>Please read this first</h2><p>Do not paste confidential details into any AI tool. That includes client names, case notes and donor information. Remove names and details first.</p></div>
+    </div>
+    <div class="pager"><span class="spacer"></span><button type="button" class="btn" data-go="choose">Next: pick how to use them</button></div>
+  </div>
+</section>
+
+<section class="page alt" id="pg-choose" data-page="choose" hidden aria-labelledby="how-h">
+  <div class="wrap wide">
+    <h2 id="how-h" tabindex="-1">Pick how you want to use them</h2>
+    <p>You have two paths. Choose the one that fits your day. You can switch later.</p>
+    <div class="grid2"><div class="path p1">
+        <h3>Path 1: Install the tools</h3><p class="choose"><button type="button" class="btn" data-go="skills">Choose Path 1: choose a tool to download</button></p>
+        <p>You add each tool to your AI tool once. After that, you ask for the job in plain words. Installing gives you the fuller version, with templates.</p>
+        <h4>In Claude</h4>
+        <ol>
+          <li>Pick a tool on the next page and download its zip folder. Do not unzip it.</li>
+          <li>Open Customize, then Skills.</li>
+          <li>Upload the zip, one tool at a time, and turn it on.</li>
+          <li>Start a chat and ask for the job in plain words.</li>
+        </ol>
+        <h4>In ChatGPT</h4>
+        <ol>
+          <li>In the sidebar, open Plugins.</li>
+          <li>Open the Plugin Directory and choose the Skills tab.</li>
+          <li>Choose Create, then Upload from your computer, and pick the zip.</li>
+          <li>Read the scan result. Needs Review means read it first. Blocked cannot be used.</li>
+          <li>Start a chat and ask for the job in plain words.</li>
+        </ol>
+        <div class="note"><p>ChatGPT skills are on Business, Enterprise, Healthcare and Edu plans. An admin can turn them off.</p></div>
+        <!-- PLACEHOLDER: add the link or location where people download the four tool folders once it is decided. -->
+      </div><div class="path">
+        <h3>Path 2: Just copy the prompts</h3><p class="choose"><button type="button" class="btn" data-go="prompts">Choose Path 2: copy the prompts</button></p>
+        <p>You need no install. Open any AI tool, copy a prompt from the next page, paste it into a chat and answer the questions one at a time.</p>
+        <ol>
+          <li>Pick a tool. Copy its three prompts one at a time, in order.</li>
+          <li>Paste it into a new chat.</li>
+          <li>Answer each question in your own words.</li>
+          <li>Save the result in a file on your computer, such as values.md. Save it as a plain text or notes file if that is easier.</li>
+          <li>Paste that file into the next prompt when it asks for it.</li>
+        </ol>
+        <div class="note"><p>Copied prompts are a lighter version of the tools. Installing the tools gives you the fuller version, with templates.</p></div>
+      </div></div>
+    <div class="pager"><button type="button" class="btn secondary" data-go="welcome">Back</button><span class="spacer"></span></div>
+  </div>
+</section>
+
+<section class="page" id="pg-skills" data-page="skills" hidden aria-labelledby="sk-h">
+  <div class="wrap wide">
+    <h2 id="sk-h" tabindex="-1">Path 1: Choose a tool to download</h2>
+    <p style="max-width:70rem">Pick one tool. You will see what it does and what you bring, then a download button with steps for adding it to Claude or ChatGPT. Ethics writes values.md. Voice reads it and writes voice-profile.md. AI Use Policy reads values.md and writes sorting.md and use-policy.md. Leadership Commitment reads use-policy.md and writes leadership-commitment.md.</p>
+    <h3 class="pick-h" id="pickA-h">1. Which tool do you want?</h3>
+    <div class="skpick" role="group" aria-labelledby="pickA-h"><button type="button" class="skbtn" data-skill="ethics" aria-pressed="false"><span class="skn">Ethics tool</span><span class="skb">Say what your organization stands for.</span><span class="chip">values.md</span></button><button type="button" class="skbtn" data-skill="voice" aria-pressed="false"><span class="skn">Voice tool</span><span class="skb">Make AI-assisted writing sound like you.</span><span class="chip">voice-profile.md</span></button><button type="button" class="skbtn" data-skill="policy" aria-pressed="false"><span class="skn">AI Use Policy tool</span><span class="skb">Agree as a team when AI is fine, paused or off limits.</span><span class="chip">sorting.md and use-policy.md</span></button><button type="button" class="skbtn" data-skill="lead" aria-pressed="false"><span class="skn">Leadership Commitment tool</span><span class="skb">Name who is accountable for AI.</span><span class="chip">leadership-commitment.md</span></button></div>
+    <p class="hintline" id="pickA-hint">Choose a tool to see it. Or <a href="downloads/all-four-skills.zip" download>download all four at once</a>.</p>
+    <div class="skpanel" data-skill="ethics" data-name="Ethics skill" hidden>
+  <div class="s1grid"><article class="card tall" aria-labelledby="d-ethics">
+        <span class="order">Tool 1</span>
+        <h3 id="d-ethics">Ethics tool</h3>
+        <ul class="chips" aria-label="File you get"><li><span class="chip">values.md</span></li></ul>
+        <dl class="skill">
+          <dt>What it does</dt>
+          <dd>You answer questions about your work, one at a time, and the tool helps you put your organization's values into words. It writes them down for you to review. After that, it works as your values check. You can ask it whether a draft, a tool or a plan lines up with what you wrote.</dd>
+          <dt>What you bring</dt>
+          <dd>Real stories from your work: a time you did right by someone, a time something felt off, a hard choice your team still talks about. Bring your team if you can. Think about who in your community should read your draft before it is final.</dd>
+          <dt>What you get</dt>
+          <dd>A file called values.md. It is a draft statement of your values, in your own words. Your private notes sit at the bottom under a divider, and you remove them before you share.</dd>
+          <dt>How you use it</dt>
+          <dd>Once your community has reviewed your draft, you can share it publicly with funders, partners and anyone who wants to know what you stand for. After you finish the exercise, you can call on the tool in any future chat. Use it to make sure whatever you produce with your AI tool lines up with your values.</dd>
+          <dt>What it feeds</dt>
+          <dd>Every other tool reads values.md first. Your values shape the voice walkthrough, your use policy and your leadership commitment.</dd>
+        </dl>
+      </article><aside class="card dl" aria-labelledby="dl-ethics">
+  <h3 id="dl-ethics">Download the Ethics tool</h3>
+  <p><a class="btn dlbtn" href="downloads/ethics-grounding.zip" download>Download ethics-grounding.zip</a></p>
+  <p class="fine">It is a small zip folder. Do not open or unzip it. Upload it as it is.</p>
+  <h4>Add it to Claude</h4>
+  <ol><li>Open Customize, then Skills.</li><li>Upload the zip and turn it on.</li><li>Start a chat and ask for the job in plain words, such as "help me write down our values."</li></ol>
+  <h4>Add it to ChatGPT</h4>
+  <ol><li>In the sidebar, open Plugins, then the Plugin Directory, then the Skills tab.</li><li>Choose Create, then Upload from your computer, and pick the zip.</li><li>Read the scan result. Needs Review means read it first. Blocked cannot be used.</li><li>Start a chat and ask for the job in plain words.</li></ol>
+  <p class="fine">ChatGPT skills are on Business, Enterprise, Healthcare and Edu plans. An admin can turn them off.</p>
+  <p class="fine">Tools work best in order: Ethics, Voice, AI Use Policy, Leadership Commitment. Each one reads the file the one before it wrote.</p>
+</aside></div>
+</div><div class="skpanel" data-skill="voice" data-name="Voice skill" hidden>
+  <div class="s1grid"><article class="card tall" aria-labelledby="d-voice">
+        <span class="order">Tool 2</span>
+        <h3 id="d-voice">Voice tool</h3>
+        <ul class="chips" aria-label="File you get"><li><span class="chip">voice-profile.md</span></li></ul>
+        <dl class="skill">
+          <dt>What it does</dt>
+          <dd>You answer questions about your values, by typing or by talking, and the tool helps you decide how you want to sound. After that, you can give it a piece of writing whose content you are happy with, and it adjusts the style so it sounds like you. Your facts, numbers and sources stay exactly as they are.</dd>
+          <dt>What you bring</dt>
+          <dd>Your answers to its questions. At least three answers gives it enough to start. If you have 3 to 5 pieces of your own writing, such as emails, posts or reports, bring those too. More of your own words gives a closer match.</dd>
+          <dt>What you get</dt>
+          <dd>A file called voice-profile.md that describes how you sound, using your own words and quotes. When you run it on a piece of writing, you also get a new version in your voice and a short list of what changed.</dd>
+          <dt>How you use it</dt>
+          <dd>Use it on any piece of writing whose content you are happy with, such as a funder email, a post or a report. Read the result out loud, check every fact, and make the last edit yourself. Update your profile any time your voice changes.</dd>
+          <dt>What it feeds</dt>
+          <dd>It starts from your values.md. It is yours to use on any writing you do.</dd>
+        </dl>
+      </article><aside class="card dl" aria-labelledby="dl-voice">
+  <h3 id="dl-voice">Download the Voice tool</h3>
+  <p><a class="btn dlbtn" href="downloads/voice-finisher.zip" download>Download voice-finisher.zip</a></p>
+  <p class="fine">It is a small zip folder. Do not open or unzip it. Upload it as it is.</p>
+  <h4>Add it to Claude</h4>
+  <ol><li>Open Customize, then Skills.</li><li>Upload the zip and turn it on.</li><li>Start a chat and ask for the job in plain words, such as "help me write down our values."</li></ol>
+  <h4>Add it to ChatGPT</h4>
+  <ol><li>In the sidebar, open Plugins, then the Plugin Directory, then the Skills tab.</li><li>Choose Create, then Upload from your computer, and pick the zip.</li><li>Read the scan result. Needs Review means read it first. Blocked cannot be used.</li><li>Start a chat and ask for the job in plain words.</li></ol>
+  <p class="fine">ChatGPT skills are on Business, Enterprise, Healthcare and Edu plans. An admin can turn them off.</p>
+  <p class="fine">Tools work best in order: Ethics, Voice, AI Use Policy, Leadership Commitment. Each one reads the file the one before it wrote.</p>
+</aside></div>
+</div><div class="skpanel" data-skill="policy" data-name="AI Use Policy skill" hidden>
+  <div class="s1grid"><article class="card tall" aria-labelledby="d-policy">
+        <span class="order">Tool 3</span>
+        <h3 id="d-policy">AI Use Policy tool</h3>
+        <ul class="chips" aria-label="Files you get"><li><span class="chip">sorting.md</span></li><li><span class="chip">use-policy.md</span></li></ul>
+        <dl class="skill">
+          <dt>What it does</dt>
+          <dd>It walks your team through the ways you use AI, or want to, one question at a time. For each one, your team decides who benefits, who could be harmed, and whether it is fine, needs a pause or is off limits. Then it drafts your AI use policy in your words.</dd>
+          <dt>What you bring</dt>
+          <dd>Your team in one conversation, including people who work directly with the community. Your values.md. That is all. The tool asks you how you use AI today, how you want to, and which tools you use or are being pitched.</dd>
+          <dt>What you get</dt>
+          <dd>A file called sorting.md (every use, where your team placed it and why) and a file called use-policy.md. The policy is a draft with sections for: why you have a policy, what you use AI for, what needs a pause, what you never use it for, what information goes in and never goes in, who checks the results, what happens if the community is harmed, how you choose vendors, how you tell people, how to raise a concern, and when you review it.</dd>
+          <dt>How you use it</dt>
+          <dd>Your governing body reads it and decides whether to adopt it. Once it is adopted, share it with funders and staff. Come back to the tool when you get a new tool or a community concern.</dd>
+          <dt>What it feeds</dt>
+          <dd>The Leadership Commitment tool reads use-policy.md before it asks anything.</dd>
+        </dl>
+      </article><aside class="card dl" aria-labelledby="dl-policy">
+  <h3 id="dl-policy">Download the AI Use Policy tool</h3>
+  <p><a class="btn dlbtn" href="downloads/use-policy.zip" download>Download use-policy.zip</a></p>
+  <p class="fine">It is a small zip folder. Do not open or unzip it. Upload it as it is.</p>
+  <h4>Add it to Claude</h4>
+  <ol><li>Open Customize, then Skills.</li><li>Upload the zip and turn it on.</li><li>Start a chat and ask for the job in plain words, such as "help me write down our values."</li></ol>
+  <h4>Add it to ChatGPT</h4>
+  <ol><li>In the sidebar, open Plugins, then the Plugin Directory, then the Skills tab.</li><li>Choose Create, then Upload from your computer, and pick the zip.</li><li>Read the scan result. Needs Review means read it first. Blocked cannot be used.</li><li>Start a chat and ask for the job in plain words.</li></ol>
+  <p class="fine">ChatGPT skills are on Business, Enterprise, Healthcare and Edu plans. An admin can turn them off.</p>
+  <p class="fine">Tools work best in order: Ethics, Voice, AI Use Policy, Leadership Commitment. Each one reads the file the one before it wrote.</p>
+</aside></div>
+</div><div class="skpanel" data-skill="lead" data-name="Leadership Commitment skill" hidden>
+  <div class="s1grid"><article class="card tall" aria-labelledby="d-lead">
+        <span class="order">Tool 4</span>
+        <h3 id="d-lead">Leadership Commitment tool</h3>
+        <ul class="chips" aria-label="File you get"><li><span class="chip">leadership-commitment.md</span></li></ul>
+        <dl class="skill">
+          <dt>What it does</dt>
+          <dd>It reads your use policy, then asks your leaders who is responsible for what: who is accountable for AI at your organization, how often they report, who can pause a tool, and how people are told when AI touches their case.</dd>
+          <dt>What you bring</dt>
+          <dd>Your leaders in one conversation. Your use-policy.md and values.md. A name for each role, even if one person holds more than one.</dd>
+          <dt>What you get</dt>
+          <dd>A file called leadership-commitment.md. It is a draft that names a strategy owner, an operations owner and an independent reviewer, how often they report, who can pause a tool and how you tell people. Signature lines stay blank.</dd>
+          <dt>How you use it</dt>
+          <dd>Your governing body reads it and decides whether to ratify it. After that, show it to funders as your AI conduct standard, and review it on the date you set.</dd>
+          <dt>What it feeds</dt>
+          <dd>Your governing body's decision. No tool signs for anyone.</dd>
+        </dl>
+      </article><aside class="card dl" aria-labelledby="dl-lead">
+  <h3 id="dl-lead">Download the Leadership Commitment tool</h3>
+  <p><a class="btn dlbtn" href="downloads/leadership-commitment.zip" download>Download leadership-commitment.zip</a></p>
+  <p class="fine">It is a small zip folder. Do not open or unzip it. Upload it as it is.</p>
+  <h4>Add it to Claude</h4>
+  <ol><li>Open Customize, then Skills.</li><li>Upload the zip and turn it on.</li><li>Start a chat and ask for the job in plain words, such as "help me write down our values."</li></ol>
+  <h4>Add it to ChatGPT</h4>
+  <ol><li>In the sidebar, open Plugins, then the Plugin Directory, then the Skills tab.</li><li>Choose Create, then Upload from your computer, and pick the zip.</li><li>Read the scan result. Needs Review means read it first. Blocked cannot be used.</li><li>Start a chat and ask for the job in plain words.</li></ol>
+  <p class="fine">ChatGPT skills are on Business, Enterprise, Healthcare and Edu plans. An admin can turn them off.</p>
+  <p class="fine">Tools work best in order: Ethics, Voice, AI Use Policy, Leadership Commitment. Each one reads the file the one before it wrote.</p>
+</aside></div>
+</div>
+    <div class="pager"><button type="button" class="btn secondary" data-go="choose">Back</button><span class="spacer"></span><button type="button" class="btn" data-go="feedback">Next: tell us what to change</button></div>
+  </div>
+</section>
+
+<section class="page alt" id="pg-prompts" data-page="prompts" hidden aria-labelledby="pr-h">
+  <div class="wrap wide">
+    <h2 id="pr-h" tabindex="-1">Path 2: Copy the prompts</h2>
+    <div class="how">
+      <p><strong>How the prompts work.</strong> Pick a tool. Each tool has three prompts. Use them in order, in one chat. When the AI shows you a result and you are ready, paste in the next prompt. Together the three take you to the same finished file the installed tool makes. If you start a new chat, paste your saved file in first. You answer one question at a time and you decide every line. Extras are nice to haves and you can skip them.</p>
+      <p>Copy a prompt, paste it into any AI tool, and replace the words in square brackets with your own. Leave out names and confidential details. Copied prompts are a lighter version of the tools. Installing the tools gives you the fuller version, with templates.</p>
+    </div>
+    <h3 class="pick-h" id="pick-h">1. Which tool do you want to work with?</h3>
+    <div class="skpick" role="group" aria-labelledby="pick-h"><button type="button" class="skbtn" data-skill="ethics" aria-pressed="false"><span class="skn">Ethics tool</span><span class="skb">Say what your organization stands for.</span><span class="chip">values.md</span></button><button type="button" class="skbtn" data-skill="voice" aria-pressed="false"><span class="skn">Voice tool</span><span class="skb">Make AI-assisted writing sound like you.</span><span class="chip">voice-profile.md</span></button><button type="button" class="skbtn" data-skill="policy" aria-pressed="false"><span class="skn">AI Use Policy tool</span><span class="skb">Agree as a team when AI is fine, paused or off limits.</span><span class="chip">sorting.md and use-policy.md</span></button><button type="button" class="skbtn" data-skill="lead" aria-pressed="false"><span class="skn">Leadership Commitment tool</span><span class="skb">Name who is accountable for AI.</span><span class="chip">leadership-commitment.md</span></button></div>
+    <p class="hintline" id="pick-hint">Choose a tool to see its prompts.</p>
+    <div class="skpanel" data-skill="ethics" data-name="Ethics skill" data-first="p1" hidden>
+  <p class="needs"><strong>You will need:</strong> Nothing to start. These prompts write values.md.</p>
+  <div class="pwrap"><nav class="plist" aria-label="Prompts for the Ethics skill"><h3 class="gh">Use these in order</h3><ul class="pl"><li><button type="button" class="pitem" data-p="p1" aria-pressed="false">Prompt 1 of 3: Find your values</button></li><li><button type="button" class="pitem" data-p="p2" aria-pressed="false">Prompt 2 of 3: Check your values and write values.md</button></li><li><button type="button" class="pitem" data-p="p3" aria-pressed="false">Prompt 3 of 3: Use your values as a check, any time</button></li></ul></nav><div class="pview" aria-live="polite"><div class="prompt whole is-hidden"><h4 id="p1-h">Prompt 1 of 3: Find your values</h4><pre id="p1" tabindex="0" aria-labelledby="p1-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help me put my organization&#x27;s values into words. Work in this order and wait for me before each move to the next step.
+
+Step 1, stories. Ask me to tell you about a time my organization did right by someone in our community: what happened, and what made it right. Then ask me about a time something felt off, or a decision my team still talks about. Ask these one at a time. Do not suggest any values yet.
+
+Step 2, name what you hear. Reflect back the words I used and ask which ones matter most to me. Offer no new labels. Let me name three to seven values in my own words.
+
+Step 3, define each value. For each value, one at a time, ask me: What does this look like on an ordinary Tuesday? What would our team do, and what would it stop doing? Write my answers in my words and read them back to me.
+
+Step 4, test each value on a hard case. For each value, one at a time, ask me for one real situation where this value costs time or money. Ask what my team chose. If we chose against the value, ask me what that tells us. Record my answers as they are.
+
+At the end, show me my stories, my values, their definitions and my hard cases in one list, so I can save it in a notes file. </pre><div class="copy-row"><button type="button" class="btn copy" data-target="p1" aria-describedby="p1-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p2-h">Prompt 2 of 3: Check your values and write values.md</h4><pre id="p2" tabindex="0" aria-labelledby="p2-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help me finish my organization&#x27;s values statement. Work in this order and wait for me before each move to the next step.
+
+Step 5, place my values beside five core values. Show me these five core values as a reference: (1) Reject patriarchy and extractive power structures. (2) Human-centered design and practice. (3) Equity-centered analysis and design. (4) Anti-racist practice. (5) Community voice as architecture. Then ask me which of my values match one of them, which sit between two, and which have no match. I may adopt, adapt or leave out any core value, and I write down why. Do not push me toward the core list.
+
+Step 6, bring in my community. This is a stop point. Ask me: Who in my community should weigh in on this list of values before it is final? How will I ask them, and how will I pay them for their time? Write my plan in the flags list. Keep my statement marked as a draft until I tell you that community input happened and what changed. Nothing goes to funders or onto a public page until I decide it is ready.
+
+Step 7, write the draft. Write my draft public values statement in my own words, using only what I told you. Put a Draft line at the top with today&#x27;s date and a review date I choose. Add a short opening that says who the statement is for. Then add one short section per value with the name, the definition, what it looks like on an ordinary Tuesday, and what we will stop doing. End with how we will check ourselves against it. Below a divider headed &quot;Private notes, remove before sharing&quot;, keep the stories, the hard cases, who was in the conversation and any disagreement. Show it to me so I can read it and approve every line. I will save it in a file called values.md.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p2" aria-describedby="p2-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p3-h">Prompt 3 of 3: Use your values as a check, any time</h4><pre id="p3" tabindex="0" aria-labelledby="p3-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Use my values as a check on my work. First ask me what I want to do. Offer these choices and let me pick one at a time, in any order, as often as I like.
+
+Choice A, check a draft, tool or plan against my values. Ask me questions about where it lines up and where two of my values pull in different directions. I decide which value governs, and you record my decision in the flags list.
+
+Choice B, talk a problem through. Ask who is affected and who has already been asked. Then ask who benefits from the way the problem is framed, who benefits from the AI tool I am using, and who benefits from each possible action. Write my answers in the flags list as open questions I can carry into conversation. If the stakes are high, suggest I bring the picture to my community before I act. Say plainly that your summary is a partial picture and that the people closest to the problem know things you do not.
+
+Choice C, run a strength and opportunity framing pass on a draft that describes people, organizations or communities. Point at sentences and ask me questions. I decide what changes. Check four things. (1) When a sentence says what funders, institutions or systems did or failed to do, that actor should be the subject of the sentence. (2) A cost claim should never close a paragraph that contains an accomplishment. (3) An evidence gap is an opening, and whoever named it gets credit. (4) Report the range, the exceptions and the cases that complicate the argument. Keep structural claims at full strength. Keep costs and harms in the record, and attribute each to the conditions that produce it.
+
+Choice D, run a co-production check. Ask me these seven questions and write my answers down. Gaps go in the flags list. (1) Who is affected? (2) Who shaped it, and how did it change? (3) Who is paid for their expertise, and for how much time? (4) Who can contest it, and who answers them? (5) Who sees what comes back, and in what form? (6) Who is left out, and what will I do about it? (7) Does the knowledge stay in a closed loop of experts? Name one way to open the loop. If I cannot answer a question, tell me that is my next piece of work.
+
+Choice E, run a data and privacy check before I share or paste anything. Ask whether the text contains names, case details, client or participant records, or anything shared in confidence. Ask me to replace identifying detail with a plain placeholder. Ask whether I have checked the tool&#x27;s data settings, including whether it stores my inputs, trains on them, or lets staff read them. Remind me that community data belongs to the community.
+
+Choice F, write one plain sentence that tells readers how I used AI. Ask me what the AI did and what I did, and whether I checked every fact, number, quote and citation against the primary source. Mark any claim I could not check as unverified in the flags list. Draft the sentence from my answers only.
+
+My values:
+[paste your values.md here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p3" aria-describedby="p3-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div></div></div>
+</div><div class="skpanel" data-skill="voice" data-name="Voice skill" data-first="p4" hidden>
+  <p class="needs"><strong>You will need:</strong> Your values.md from the Ethics prompts, or a few lines about what matters to you. If you have 3 to 5 pieces of your own writing, bring those too.</p>
+  <div class="pwrap"><nav class="plist" aria-label="Prompts for the Voice skill"><h3 class="gh">Use these in order</h3><ul class="pl"><li><button type="button" class="pitem" data-p="p4" aria-pressed="false">Prompt 1 of 3: Gather your answers</button></li><li><button type="button" class="pitem" data-p="p5" aria-pressed="false">Prompt 2 of 3: Build your voice profile</button></li><li><button type="button" class="pitem" data-p="p6" aria-pressed="false">Prompt 3 of 3: Use your profile on a settled draft, any time</button></li></ul></nav><div class="pview" aria-live="polite"><div class="prompt whole is-hidden"><h4 id="p4-h">Prompt 1 of 3: Gather your answers</h4><pre id="p4" tabindex="0" aria-labelledby="p4-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help me design how I sound in writing. Work in this order and wait for me before each move to the next step.
+
+Step 1, start from my values. I will paste my values below. Read them and tell me in two sentences what you understand them to say, then ask me to correct you. The rest of our work builds on my values and my own words.
+
+Step 2, answer questions about each value. For each of my values, ask me one or two questions, one at a time. Use questions such as: Tell me about a time this value showed up in your work. How would you explain this value to someone new on your team? What would you say to a funder who asked you to drop it? I will answer by typing, or by talking into a voice note or dictation tool and pasting the transcript. Spoken answers are as welcome as written ones. Ask for a few sentences each, and gather at least three answers.
+
+Step 3, keep every answer exactly as given. Save each of my answers word for word under a heading called &quot;Samples used&quot;. Fix a transcription error only when I tell you to. Show me the list so I can check it and save it in a notes file.
+
+My values (paste your values.md, or write a few lines about what matters to you):
+[paste here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p4" aria-describedby="p4-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p5-h">Prompt 2 of 3: Build your voice profile</h4><pre id="p5" tabindex="0" aria-labelledby="p5-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help me build my voice profile from my own words. Work in this order and wait for me before each move to the next step. Use only my own writing and never imitate anyone else.
+
+Step 4, reflect the patterns. Read my answers and show me what you notice: how my sentences run, how my answers open and close, words that come back, and how I explain something. Then ask me to mark what sounds like me and what does not, and what made it feel right or wrong.
+
+Step 5, name my qualities. Ask me to describe my voice in three to five words or short phrases of my own. Then ask me to point to a line in my answers where each quality shows up. Offer no adjectives of your own.
+
+Step 6, my words and my rules. Ask me which words and phrases I love, which words and phrases I refuse to use, and what sentence I would never write. Record my answers exactly as I give them.
+
+Step 7, language, dialect and community phrasing. Ask me which languages, dialects and community phrases belong in my writing. Keep them exactly as I say them and never correct or smooth them. If I write for a funder or a panel, ask where I want to adjust and where I want to keep my own sound.
+
+Step 8, try it. Write one short paragraph about one of my values, using my draft voice profile and only facts I supplied. Then ask me to mark what sounds like me and what does not. Revise and try again once or twice.
+
+Step 9, save my voice profile. Fill in a voice profile from my own words and quotes only. Use these sections: sentence length and rhythm, how my pieces open, how they close, words and phrases I use often, words and phrases I avoid, punctuation habits, how I cite sources, tone, and the samples used. Back each entry with a short quote or a described pattern from my samples, and leave an entry blank when the samples do not show it. Add today&#x27;s date and a review date I choose. Show it to me so I can read every line and approve it. I will save it in a file called voice-profile.md.
+
+If I also have 3 to 5 samples of my own writing, such as emails, posts or reports, with names and confidential details removed, I will paste them below. Tell me how many you have. If there are fewer than 3, say so and mark the profile as thin in the flags list if I go ahead. My word overrides the samples.
+
+My writing samples, if I have them:
+[paste your samples here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p5" aria-describedby="p5-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p6-h">Prompt 3 of 3: Use your profile on a settled draft, any time</h4><pre id="p6" tabindex="0" aria-labelledby="p6-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+My draft is settled. The content, order and evidence are agreed. Using my voice profile, work sentence by sentence and change rhythm, word choice, openings, closings and punctuation to match it. Hold these fixed: every claim, number, name, date and quote, every citation and its source, the section order and the headings, and the framing choices, including who is the subject of each sentence. If a profile habit would weaken a claim or bring back deficit framing, keep the claim and note the conflict in the flags list. Leave a sentence unchanged when the profile gives no guidance for it.
+
+Then give me the new version as a separate piece of text and keep my settled draft as it was. Give me a short list of what changed, grouped by kind: openings and closings, word swaps, rhythm and punctuation. List every sentence you felt unsure about and say why, and keep that list apart from the draft. Suggest one sentence I can paste in to say how I used AI, and I will adjust it.
+
+Last, ask me to confirm six things. (1) Every number, name, date, quote and citation matches. (2) Funders and systems remain the subjects of sentences about what they did or failed to do. (3) Quotes from community members keep their original wording and credit. (4) The samples and the draft contain no names or confidential material I have not cleared. (5) I have read the final text and it sounds like me. (6) The draft carries a plain AI-use sentence that I wrote.
+
+End by saying: &quot;The draft is yours now. Read it aloud, check each fact against its primary source, and make the final edit.&quot;
+
+My voice profile:
+[paste your voice-profile.md here]
+
+My settled draft:
+[paste your draft here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p6" aria-describedby="p6-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div></div></div>
+</div><div class="skpanel" data-skill="policy" data-name="AI Use Policy skill" data-first="p7" hidden>
+  <p class="needs"><strong>You will need:</strong> Your values.md and your team in one conversation, including people who work directly with the community.</p>
+  <div class="pwrap"><nav class="plist" aria-label="Prompts for the AI Use Policy skill"><h3 class="gh">Use these in order</h3><ul class="pl"><li><button type="button" class="pitem" data-p="p7" aria-pressed="false">Prompt 1 of 3: Sort your uses together</button></li><li><button type="button" class="pitem" data-p="p8" aria-pressed="false">Prompt 2 of 3: Draft the policy</button></li><li><button type="button" class="pitem" data-p="p9" aria-pressed="false">Prompt 3 of 3: Settle the draft and save use-policy.md</button></li></ul><h3 class="gh">Extras (nice to haves)</h3><ul class="pl"><li><button type="button" class="pitem" data-p="p10" aria-pressed="false">Extra: Light version, one prompt, about 1 hour (instead of Prompts 1 to 3)</button></li><li><button type="button" class="pitem" data-p="p11" aria-pressed="false">Extra: Community review plan (nice to have, after Prompt 3)</button></li><li><button type="button" class="pitem" data-p="p12" aria-pressed="false">Extra: Governing body hand-off (nice to have, after Prompt 3)</button></li></ul></nav><div class="pview" aria-live="polite"><div class="prompt whole is-hidden"><h4 id="p7-h">Prompt 1 of 3: Sort your uses together</h4><pre id="p7" tabindex="0" aria-labelledby="p7-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my team sort how we use AI. Work in this order and wait for me before each move to the next step.
+
+Step 1, who is here. Ask who is in the conversation and what each person&#x27;s role is. Then ask who is missing, especially anyone who lives with the outcomes of our work. Record my answers at the top of a document called the sorting notes.
+
+Step 2, start from values. Ask my team to say, in a sentence, which of our values a use of AI could strain. I will paste our values below. If I have none yet, tell me I can run the Ethics prompts first.
+
+Step 3, pick the scenarios. Ask my team to list how we use AI today and how we want to use it, one use at a time. Then ask which tools we use or are being pitched. Nobody has to bring anything with them.
+
+Step 4, ask five questions of each use. Take the uses one at a time. For each use, ask these five questions, one at a time. (1) What is the use, in one sentence? (2) Who benefits? (3) Who carries the risk? (4) Would the people most affected call this fair, safe and respectful, and who in our community have we asked? (5) What would the team need to see before saying yes? Never tell us where a use belongs and never say whether a use is allowed. Write our reasons in our words.
+
+Step 5, place each use on the grid. The vertical axis is community impact. The horizontal axis is systemic risk and legal exposure. The four places are: Value drivers (high community impact, low risk, prioritize with standard guidelines), Ethical tension zone (high community impact, high risk, needs the governing body&#x27;s oversight), Admin utility (low community impact, low risk, standard careful use), and Shadow risk (low community impact, high risk, candidates to restrict right away). My team reaches its own consensus on each placement. Record disagreements as they stand. A placement the team can defend is a good result.
+
+Step 6, name the patterns. Ask my team what it notices about the sort: where most uses landed, which uses we need now, and which we would stop. Record our answers in our words.
+
+Step 7, bring in the community. This is a stop point. Ask my team: Who should see the sort before it turns into policy, and how will we ask them? Write the plan in the flags list. We can go on to the policy, and the policy stays a draft until community input is recorded.
+
+At the end, show me the sorting notes so I can save them in a file called sorting.md.
+
+Our values:
+[paste your values.md here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p7" aria-describedby="p7-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p8-h">Prompt 2 of 3: Draft the policy</h4><pre id="p8" tabindex="0" aria-labelledby="p8-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my team draft our AI use policy, one section at a time, in our words. For each of the eleven sections below, ask us the one question given, write our answer in our words and read it back to us. If we have no answer yet, write the question in the flags list and mark the section open. Do not state what the law requires. For anything about legal duties, write &quot;ask counsel&quot; in the flags list. Wait for me before each move to the next section.
+
+1. Purpose. Ask us: why the team wants a policy. If we have no answer yet, write the question in the flags list and mark the section open. Draw on our values.
+2. What we use AI for. Ask us: which uses, and which standard guidelines apply. Draw on the value drivers and admin utility uses from our sort.
+3. What we pause and ask about. Ask us: who decides, who reviews, and what the team needs to see. Draw on the ethical tension zone uses from our sort.
+4. What we do not use AI for. Ask us: what the team rules out. Draw on the shadow risk uses from our sort and anything else we ruled out.
+5. Data in and never in. Ask us: what information may go into an AI tool and what never does. Ask about client names, case notes, health and immigration details, and anything shared in confidence.
+6. People in the loop. Ask us: who checks AI output before it reaches a person, and how community members take part in checking. A human reading a result catches some problems. People who live with the outcome catch others.
+7. Community harm is a red flag. Ask us: who can call a pause when a community member reports harm, erasure or misrepresentation, and how that report reaches them.
+8. Vendors and models. Ask us: what the team wants to know before it adopts a tool. If we have a tool evaluation rubric, I will paste it and you use it to answer.
+9. Telling people. Ask us: when a person is told that AI touched their case, and how.
+10. Raising a concern. Ask us: how a staff member, volunteer or partner raises a concern safely, and who receives it.
+11. Review. Ask us: how often the team will review the policy and who will lead it.
+
+When all eleven sections are done, show me the whole draft policy so I can read it.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p8" aria-describedby="p8-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p9-h">Prompt 3 of 3: Settle the draft and save use-policy.md</h4><pre id="p9" tabindex="0" aria-labelledby="p9-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+My team says the draft policy is settled. Add today&#x27;s date, who was in the conversation, and the review date we choose. Mark it &quot;Draft: not yet adopted&quot;. Adoption is a decision for our governing body.
+
+Then run a framing pass on the finished text: check that funders and systems are the subjects of sentences about what they did or failed to do, and that no sentence leaves a cost sitting on the people who carry it.
+
+Then ask the seven co-production questions: who is affected, who shaped it and how it changed, who is paid for their expertise, who can contest it, who sees what comes back, who is left out, and whether the knowledge stays in a closed loop. A policy that no community member has seen stays a draft.
+
+At the end, show me the policy so I can save it in a file called use-policy.md.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p9" aria-describedby="p9-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p10-h">Extra: Light version, one prompt, about 1 hour (instead of Prompts 1 to 3)</h4><pre id="p10" tabindex="0" aria-labelledby="p10-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my team with the Light version of an AI use policy. This takes about 1 hour. Step 1: ask who is in the conversation and who is missing. Step 2: ask for a handful of ways we use AI or want to, one at a time. Step 3: for each one, ask who benefits, who carries the risk, and what we would need to see before saying yes. Step 4: help us place each use on the grid (value drivers, ethical tension zone, admin utility, shadow risk) by our own consensus. Step 5: draft a short policy with five sections, one at a time, in our words: purpose, what we use AI for, what we pause and ask about, what we do not use AI for, and data in and never in. Mark it &quot;Draft: not yet adopted&quot;. Ask who in our community should see it before it is final, and write that plan in the flags list. Do not state what the law requires. For legal duties write &quot;ask counsel&quot;.
+
+Our values:
+[paste your values.md here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p10" aria-describedby="p10-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p11-h">Extra: Community review plan (nice to have, after Prompt 3)</h4><pre id="p11" tabindex="0" aria-labelledby="p11-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my team make a community review plan for our draft AI use policy. Ask us who in our community will review the draft, how we will ask them, how we will pay them for their time, how their feedback will be recorded, and how we will show them what changed. Write the plan in our words and read it back to us. A policy that no community member has seen stays a draft. Do not state what the law requires. For legal duties write &quot;ask counsel&quot; in the flags list.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p11" aria-describedby="p11-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p12-h">Extra: Governing body hand-off (nice to have, after Prompt 3)</h4><pre id="p12" tabindex="0" aria-labelledby="p12-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my team hand our draft AI use policy to our governing body. Ask us what our governing body needs in order to decide on adoption. Then help us write a one-page hand-off that lists what the policy says, the community input recorded, the open items in the flags list, and the decision we are asking for. Adoption is the governing body&#x27;s decision, and the policy stays a draft until then. Do not state what the law requires. For legal duties write &quot;ask counsel&quot; in the flags list.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p12" aria-describedby="p12-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div></div></div>
+</div><div class="skpanel" data-skill="lead" data-name="Leadership Commitment skill" data-first="p13" hidden>
+  <p class="needs"><strong>You will need:</strong> Your use-policy.md, your values.md and your leaders in one conversation.</p>
+  <div class="pwrap"><nav class="plist" aria-label="Prompts for the Leadership Commitment skill"><h3 class="gh">Use these in order</h3><ul class="pl"><li><button type="button" class="pitem" data-p="p13" aria-pressed="false">Prompt 1 of 3: Read the policy and name the people</button></li><li><button type="button" class="pitem" data-p="p14" aria-pressed="false">Prompt 2 of 3: Rhythm, pause, telling people and signers</button></li><li><button type="button" class="pitem" data-p="p15" aria-pressed="false">Prompt 3 of 3: Check it and save leadership-commitment.md</button></li></ul></nav><div class="pview" aria-live="polite"><div class="prompt whole is-hidden"><h4 id="p13-h">Prompt 1 of 3: Read the policy and name the people</h4><pre id="p13" tabindex="0" aria-labelledby="p13-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my leaders write our leadership commitment. Work in this order and wait for me before each move to the next step.
+
+Step 1, read the policy. Read my organization&#x27;s AI use policy and values below. Say in two sentences what you understand the policy to promise. Then ask me to correct you.
+
+Step 2, who is here. Ask me who is in the conversation, the size of our organization, and its legal form (nonprofit, public agency, social enterprise or cooperative). Record my answers.
+
+Step 3, three accountabilities. Ask who holds each of three accountabilities, in plain terms, one at a time. The strategy owner is accountable for AI strategy, resources and ethical alignment, and reports to the governing body on a stated rhythm. The operations owner runs governance day to day: watching the tools in use, updating the policy, coordinating training and checking vendors. The independent reviewer checks that the controls work as written and reports to the governing body outside the management chain. One person can hold more than one accountability, with one exception: whoever administers the AI tools cannot be the person who audits them. Ask how we will keep that separation at our size. If staff capacity is thin, the independence can come from the governing body, with a named person who will actually look.
+
+Step 4, five layers. Walk me through five layers one at a time: policy, oversight, controls, audit and disclosure. For each, ask who holds it at our size and what they do. Record a named person for each, whatever their job title.
+
+At the end, show me my answers so I can save them in a notes file.
+
+Our use policy:
+[paste your use-policy.md here]
+
+Our values:
+[paste your values.md here]</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p13" aria-describedby="p13-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p14-h">Prompt 2 of 3: Rhythm, pause, telling people and signers</h4><pre id="p14" tabindex="0" aria-labelledby="p14-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Help my leaders finish our leadership commitment. Work in this order and wait for me before each move to the next step. Write each answer in my leaders&#x27; words and read it back.
+
+Step 5, how often, and how you will know. Ask how often the owners report to the governing body and what the report contains. Then ask me: &quot;How will you know it is working?&quot; Tie the rhythm to the review date in our use policy.
+
+Step 6, pause and stop. Ask who can pause or stop an AI use, which triggers call for it, and what it takes to turn a tool back on. If we agree, include the policy&#x27;s community harm red flag among the triggers.
+
+Step 7, telling people. Ask how our organization tells a person when an AI system materially touches their case. Ask whom else we tell, such as funders, the board, residents or members. Write &quot;ask counsel&quot; in the flags list for any legal duty. Do not state what the law requires.
+
+Step 8, raising a concern. Ask how people inside and around our organization report a problem without fear of retaliation, and who receives the report.
+
+Step 9, who signs. List the signers my leaders name. Leave the signature lines and the signing dates blank. Never fill in a signature, a date of signing or a name we did not give you.
+
+When these are done, write the draft commitment from everything we have said, so I can read it.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p14" aria-describedby="p14-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div><div class="prompt is-hidden"><h4 id="p15-h">Prompt 3 of 3: Check it and save leadership-commitment.md</h4><pre id="p15" tabindex="0" aria-labelledby="p15-h">How to work with me: Ask me one question at a time and wait for my answer. Never supply an answer, a value or a sentence for me to adopt. If I ask for examples, give two or three, say they are examples, and return to my words. I decide every line. Keep any flags, open questions or things to check in a separate list apart from the draft. I will remove names and confidential details before I paste anything.
+
+Run a framing pass and a co-production check on our draft commitment. For the framing pass, check that funders and systems are the subjects of sentences about what they did or failed to do. For the co-production check, ask who is affected, who shaped it, who is paid, who can contest it, who sees what comes back, who is left out, and whether the knowledge stays in a closed loop. Then ask who in our community should hear about the commitment, and how.
+
+When my leaders say the commitment is settled, add today&#x27;s date and the review date we choose. Mark it &quot;Draft: not yet ratified&quot;. Remind me that our governing body ratifies it and that no tool signs for anyone. A commitment that names no person, no rhythm and no pause authority stays a draft.
+
+At the end, show me the commitment so I can save it in a file called leadership-commitment.md.</pre><div class="copy-row"><button type="button" class="btn copy" data-target="p15" aria-describedby="p15-h">Copy prompt</button><span class="copy-status" role="status" aria-live="polite"></span></div></div></div></div>
+</div>
+    <div class="pager"><button type="button" class="btn secondary" data-go="choose">Back</button><span class="spacer"></span><button type="button" class="btn" data-go="feedback">Next: tell us what to change</button></div>
+  </div>
+</section>
+
+<section class="page" id="pg-feedback" data-page="feedback" hidden aria-labelledby="fb-h">
+  <div class="wrap wide">
+    
+    <h2 id="fb-h">Tell us what to change</h2>
+    <p>Your feedback shapes the next version. Every question is optional. Answer the ones you want to.</p>
+    <form id="fb" novalidate><div class="fbgrid">
+      <fieldset>
+        <legend>Which tools did you try?</legend>
+        <p class="opt"><input type="checkbox" id="sk-ethics" name="tools" value="Ethics"><label for="sk-ethics">Ethics</label></p>
+        <p class="opt"><input type="checkbox" id="sk-voice" name="tools" value="Voice"><label for="sk-voice">Voice</label></p>
+        <p class="opt"><input type="checkbox" id="sk-policy" name="tools" value="AI Use Policy"><label for="sk-policy">AI Use Policy</label></p>
+        <p class="opt"><input type="checkbox" id="sk-lead" name="tools" value="Leadership Commitment"><label for="sk-lead">Leadership Commitment</label></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>How did you use them?</legend>
+        <p class="opt"><input type="radio" id="hu-installed" name="howUsed" value="I installed the tools"><label for="hu-installed">I installed the tools</label></p>
+        <p class="opt"><input type="radio" id="hu-copied" name="howUsed" value="I copied the prompts"><label for="hu-copied">I copied the prompts</label></p>
+        <p class="opt"><input type="radio" id="hu-both" name="howUsed" value="Both"><label for="hu-both">Both</label></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Did the questions make sense?</legend>
+        <p class="opt"><input type="radio" id="ms-yes" name="makesSense" value="Yes"><label for="ms-yes">Yes</label></p>
+        <p class="opt"><input type="radio" id="ms-mostly" name="makesSense" value="Mostly"><label for="ms-mostly">Mostly</label></p>
+        <p class="opt"><input type="radio" id="ms-not" name="makesSense" value="Not really"><label for="ms-not">Not really</label></p>
+      </fieldset>
+
+      <div class="field">
+        <label for="feltOff">What felt off</label>
+        <textarea id="feltOff" name="feltOff" rows="4"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="showWho">Who in your community would you show the result to</label>
+        <input type="text" id="showWho" name="showWho" autocomplete="off">
+      </div>
+
+      <div class="field">
+        <label for="change">What should change</label>
+        <textarea id="change" name="change" rows="4"></textarea>
+      </div>
+
+      <fieldset>
+        <legend>Can we use your name?</legend>
+        <p class="opt"><input type="radio" id="nm-named" name="nameChoice" value="Name me"><label for="nm-named">Name me</label></p>
+        <p class="opt"><input type="radio" id="nm-anon" name="nameChoice" value="Keep me anonymous" checked><label for="nm-anon">Keep me anonymous</label></p>
+        <div class="field" id="nameBox" hidden style="margin:12px 0 6px">
+          <label for="nameOrg">Your name and organization</label>
+          <input type="text" id="nameOrg" name="nameOrg" autocomplete="organization">
+        </div>
+      </fieldset>
+
+      <!-- Honeypot: people never see this field. Submissions with it filled are ignored. -->
+      <div class="hp" aria-hidden="true">
+        <label for="website">Leave this field empty</label>
+        <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+      </div>
+
+      </div><button type="submit" class="btn">Send feedback</button>
+    </form>
+    <div id="form-status" role="status" aria-live="polite"></div>
+  
+    
+    <h2 id="chg-h" style="margin-top:28px;font-size:1.3rem">What changed because of you</h2>
+    <p>After the pilot, we will list here every change that came from your feedback. You will see what you asked for and what we did.</p>
+    <p>Want to suggest an edit yourself? You can do that in our public repository.</p>
+    <!-- PLACEHOLDER: replace href="#" with the public repo link when it exists. -->
+    <p><a href="#">Suggest an edit in the public repository</a></p>
+  
+    <div class="pager"><button type="button" class="btn secondary" data-go="back">Back</button><span class="spacer"></span><button type="button" class="btn secondary" data-go="welcome">Start over</button></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <span class="dot d4" aria-hidden="true"></span>
+  <div class="wrap">
+    <p class="wordmark">INTENTIONAL DATA</p>
+    <p><a href="https://intentionaldata.org">intentionaldata.org</a></p>
+    <p>The pilot with Measure helped shape these tools.</p>
+  </div>
+</footer>
+
+<dialog class="fbd" id="fbd" aria-labelledby="fbd-h">
+  <form method="dialog" id="fbd-form" style="max-width:none">
+    <h2 id="fbd-h">Tell us about this one</h2>
+    <p class="ctx" id="fbd-ctx"></p>
+    <div class="field"><label for="fbd-text" id="fbd-q">What worked, and what felt off?</label>
+      <textarea id="fbd-text" rows="4"></textarea></div>
+    <div class="hp" aria-hidden="true"><label for="fbd-hp">Leave this field empty</label><input type="text" id="fbd-hp" tabindex="-1" autocomplete="off"></div>
+    <p class="hint">Please leave out names and confidential details.</p>
+    <div class="row"><button type="submit" class="btn" id="fbd-send" value="send">Send</button><button type="button" class="btn secondary" id="fbd-skip">Skip</button></div>
+    <div class="fbmsg" id="fbd-msg" role="status" aria-live="polite"></div>
+  </form>
+</dialog>
+<button type="button" class="chat-fab" id="chat-open" aria-controls="chat" aria-expanded="false" hidden>Ask for help</button>
+<section class="chat" id="chat" aria-label="Help chat" hidden>
+  <header><strong>Help with these tools</strong><button type="button" id="chat-close">Close</button></header>
+  <div class="log" id="chat-log" role="log" aria-live="polite"></div>
+  <p class="fine">An AI assistant answers here and can make mistakes. Do not type names or confidential details.</p>
+  <form id="chat-form"><label class="hp" for="chat-in">Your question</label><input type="text" id="chat-in" placeholder="Ask a question" autocomplete="off"><button type="submit" class="btn" id="chat-send">Send</button></form>
+</section>
+
+<script>
+// Fill in the address that receives feedback. While it is empty, the form keeps answers on the page.
+const FEEDBACK_ENDPOINT = "";
+
+(function () {
+  // ----- Copy buttons -----
+  function selectText(node) {
+    var range = document.createRange();
+    range.selectNodeContents(node);
+    var sel = window.getSelection();
+    sel.removeAllRanges();
+    sel.addRange(range);
+  }
+  document.querySelectorAll("button.copy").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var pre = document.getElementById(btn.dataset.target);
+      var status = btn.parentElement.querySelector(".copy-status");
+      var text = pre.textContent;
+      function say(msg) {
+        status.textContent = "";
+        setTimeout(function () { status.textContent = msg; }, 30);
+        setTimeout(function () { status.textContent = ""; }, 5000);
+      }
+      function fallback() {
+        selectText(pre);
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+        say(ok ? "Copied" : "The text is selected. Press Control and C, or Command and C, to copy.");
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { say("Copied"); }, fallback);
+      } else {
+        fallback();
+      }
+    });
+  });
+
+  // ----- Feedback form -----
+  var form = document.getElementById("fb");
+  var statusBox = document.getElementById("form-status");
+  var nameBox = document.getElementById("nameBox");
+
+  function syncName() {
+    var named = document.getElementById("nm-named").checked;
+    nameBox.hidden = !named;
+  }
+  form.querySelectorAll('input[name="nameChoice"]').forEach(function (r) {
+    r.addEventListener("change", syncName);
+  });
+  syncName();
+
+  function show(msg, isProblem) {
+    statusBox.classList.toggle("problem", !!isProblem);
+    statusBox.textContent = "";
+    setTimeout(function () { statusBox.textContent = msg; }, 30);
+  }
+  function radio(name) {
+    var el = form.querySelector('input[name="' + name + '"]:checked');
+    return el ? el.value : "";
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var honeypot = document.getElementById("website").value;
+    if (honeypot) { return; } // ignore submissions where the honeypot is filled
+
+    var payload = {
+      timestamp: new Date().toISOString(),
+      skills: Array.prototype.map.call(form.querySelectorAll('input[name="skills"]:checked'), function (c) { return c.value; }),
+      makesSense: radio("makesSense"),
+      feltOff: document.getElementById("feltOff").value,
+      showWho: document.getElementById("showWho").value,
+      change: document.getElementById("change").value,
+      nameChoice: radio("nameChoice"),
+      nameOrg: radio("nameChoice") === "Name me" ? document.getElementById("nameOrg").value : "",
+      howUsed: radio("howUsed"),
+      website: honeypot
+    };
+
+    if (!FEEDBACK_ENDPOINT) {
+      show("Thank you for your time. Feedback is not connected yet, so nothing was sent. Your answers are still on this page. You can keep them and try again later.", true);
+      return;
+    }
+
+    fetch(FEEDBACK_ENDPOINT, {
+      method: "POST",
+      mode: "no-cors",
+      headers: { "Content-Type": "text/plain" },
+      body: JSON.stringify(payload)
+    }).then(function () {
+      show("Thank you. Your feedback was sent. We read every response.", false);
+      form.reset();
+      syncName();
+    }).catch(function () {
+      show("Your feedback did not send. Your answers are still on this page. Please try again in a moment.", true);
+    });
+  });
+})();
+</script>
+<script>
+(function(){
+  var order={welcome:"welcome",choose:"choose",skills:"detail",prompts:"detail",feedback:"feedback"};
+  var last="skills";
+  function go(name,push){
+    if(name==="back")name=last;
+    if(!document.getElementById("pg-"+name))name="welcome";
+    if(name==="skills"||name==="prompts")last=name;
+    document.querySelectorAll(".page").forEach(function(p){p.hidden=(p.dataset.page!==name);});
+    document.querySelectorAll("#stepsnav li").forEach(function(li){
+      if(li.dataset.step===order[name])li.setAttribute("aria-current","step");else li.removeAttribute("aria-current");
+    });
+    if(push!==false)history.pushState({p:name},"","#"+name);
+    window.scrollTo(0,0);
+    var h=document.querySelector("#pg-"+name+" h1, #pg-"+name+" h2");
+    if(h)h.focus({preventScroll:true});
+  }
+  document.addEventListener("click",function(e){
+    var b=e.target.closest("[data-go]");
+    if(b){e.preventDefault();go(b.dataset.go);}
+  });
+  window.addEventListener("popstate",function(){go((location.hash||"#welcome").slice(1),false);});
+  // skill pickers
+  window.__sel={prompts:null,skills:null,prompt:null};
+  function selectPrompt(panel,id){
+    panel.querySelectorAll(".prompt").forEach(function(p){p.classList.toggle("is-hidden",p.querySelector("h4").id!==id+"-h");});
+    panel.querySelectorAll(".pitem").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.p===id?"true":"false");});
+    window.__sel.prompt=id;
+  }
+  function pickSkill(pageId,key){
+    var pg=document.getElementById(pageId);
+    pg.querySelectorAll(".skbtn").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.skill===key?"true":"false");});
+    pg.querySelectorAll(".skpanel").forEach(function(p){p.hidden=(p.dataset.skill!==key);});
+    var hint=pg.querySelector(".hintline");if(hint&&pageId==="pg-prompts")hint.hidden=true;
+    var panel=pg.querySelector('.skpanel[data-skill="'+key+'"]');
+    window.__sel[pageId==="pg-prompts"?"prompts":"skills"]=key;
+    if(pageId==="pg-prompts"){selectPrompt(panel,panel.dataset.first);}
+    if(panel&&panel.scrollIntoView)panel.scrollIntoView({block:"nearest",behavior:"smooth"});
+  }
+  document.querySelectorAll("#pg-prompts .skbtn").forEach(function(b){b.addEventListener("click",function(){pickSkill("pg-prompts",b.dataset.skill);});});
+  document.querySelectorAll("#pg-skills .skbtn").forEach(function(b){b.addEventListener("click",function(){pickSkill("pg-skills",b.dataset.skill);});});
+  document.querySelectorAll(".pitem").forEach(function(b){b.addEventListener("click",function(){selectPrompt(b.closest(".skpanel"),b.dataset.p);});});
+  go((location.hash||"#welcome").slice(1),false);
+})();
+</script>
+
+<script>
+(function(){
+  var ENDPOINT=(typeof FEEDBACK_ENDPOINT!=="undefined")?FEEDBACK_ENDPOINT:"";
+  var dlg=document.getElementById("fbd"),ctx=document.getElementById("fbd-ctx"),txt=document.getElementById("fbd-text");
+  var msg=document.getElementById("fbd-msg"),cur=null;
+  function icon(up){return up?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11v9H4v-9h3zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9h5.2a2 2 0 0 1 2 2.3l-1.2 7A2 2 0 0 1 17.5 20H7"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 13V4h3v9h-3zM17 13l-4 8c-1.5 0-2.5-1-2.5-2.5V15H5.3a2 2 0 0 1-2-2.3l1.2-7A2 2 0 0 1 6.5 4H17"/></svg>';}
+  function addRating(host,kind,skill,title){
+    var row=document.createElement("div");row.className="rate";
+    row.innerHTML='<span class="lbl">Was this helpful?</span>';
+    [["up","Helpful"],["down","Not helpful"]].forEach(function(r){
+      var b=document.createElement("button");b.type="button";b.className="rbtn";b.setAttribute("aria-pressed","false");
+      b.setAttribute("aria-label",r[1]+": "+title);
+      b.innerHTML=icon(r[0]==="up")+"<span>"+r[1]+"</span>";
+      b.addEventListener("click",function(){
+        row.querySelectorAll(".rbtn").forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});
+        openDialog({kind:kind,skill:skill,item:title,rating:r[0],row:row,opener:b});
+      });
+      row.appendChild(b);
+    });
+    host.appendChild(row);
+  }
+  function openDialog(c){
+    cur=c;msg.textContent="";txt.value="";
+    document.getElementById("fbd-h").textContent=c.rating==="up"?"Glad it helped":"Sorry it did not help";
+    document.getElementById("fbd-q").textContent=c.rating==="up"?"What worked well?":"What felt off, or what should change?";
+    ctx.textContent=(c.kind==="skill"?"Skill: ":"Prompt: ")+c.item+(c.kind==="prompt"?" ("+c.skill+")":"");
+    if(dlg.showModal)dlg.showModal();else dlg.setAttribute("open","");
+    txt.focus();
+  }
+  function closeDialog(){if(dlg.close)dlg.close();else dlg.removeAttribute("open");if(cur&&cur.opener)cur.opener.focus();}
+  document.getElementById("fbd-skip").addEventListener("click",closeDialog);
+  document.getElementById("fbd-form").addEventListener("submit",function(e){
+    e.preventDefault();
+    if(document.getElementById("fbd-hp").value)return;
+    var payload={timestamp:new Date().toISOString(),type:"inline",kind:cur.kind,skill:cur.skill,item:cur.item,rating:cur.rating,comment:txt.value};
+    var done=function(m){
+      var d=cur.row.querySelector(".rate-done");if(!d){d=document.createElement("span");d.className="rate-done";d.setAttribute("role","status");cur.row.appendChild(d);}
+      d.textContent=m;closeDialog();
+    };
+    if(!ENDPOINT){done("Thanks. Feedback is not connected yet, so this was not sent.");return;}
+    fetch(ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)})
+      .then(function(){done("Thank you. Sent.");},function(){msg.textContent="That did not send. Please try again.";});
+  });
+  // prompts and skills
+  document.querySelectorAll("#pg-prompts .skpanel").forEach(function(panel){
+    var skill=panel.dataset.name;
+    panel.querySelectorAll(".prompt").forEach(function(pr){addRating(pr,"prompt",skill,pr.querySelector("h4").textContent);});
+    panel.querySelectorAll(".pitem").forEach(function(b){b.addEventListener("click",function(){panel.querySelectorAll(".rbtn").forEach(function(x){x.setAttribute("aria-pressed","false");});panel.querySelectorAll(".rate-done").forEach(function(d){d.textContent="";});});});
+  });
+  document.querySelectorAll("#pg-skills .skpanel").forEach(function(panel){
+    var card=panel.querySelector(".card.tall");var t=panel.dataset.name;addRating(card,"skill",t,t);
+  });
+
+  // ----- help chat -----
+  var openBtn=document.getElementById("chat-open"),box=document.getElementById("chat"),log=document.getElementById("chat-log");
+  var form=document.getElementById("chat-form"),inp=document.getElementById("chat-in"),sendBtn=document.getElementById("chat-send");
+  var sample=null,history=[],busy=false,ctrl=null;
+  function add(cls,t){var d=document.createElement("div");d.className="msg "+cls;d.textContent=t;log.appendChild(d);log.scrollTop=log.scrollHeight;return d;}
+  function pageFacts(){
+    var parts=[];
+    document.querySelectorAll("#pg-welcome .card.mini, #pg-choose .path, #pg-skills .card.tall, #pg-skills .card.dl").forEach(function(n){parts.push(n.innerText.replace(/\s+\n/g,"\n"));});
+    return parts.join("\n---\n").slice(0,20000);
+  }
+  function where(){
+    var pg=document.querySelector(".page:not([hidden])");var name=pg?pg.dataset.page:"welcome";
+    var extra="";
+    var sel=window.__sel||{};
+    if(name==="prompts"&&sel.prompts){var pp=document.querySelector('.skpanel[data-skill="'+sel.prompts+'"] .prompt:not(.is-hidden) h4');extra=" The reader chose the "+sel.prompts+" tool"+(pp?" and is viewing the prompt titled: "+pp.textContent:"")+".";}
+    if(name==="skills"&&sel.skills){extra=" The reader chose the "+sel.skills+" skill on the download page.";}
+    return "The reader is on the page named "+name+"."+extra;
+  }
+  var SYSTEM="You are a friendly help guide on a free, public web page from Intentional Data. The page offers four tools that help community organizations put their values, voice, AI use policy and leadership commitment into words. There are two ways to use them: Path 1 installs the tools in Claude or ChatGPT, Path 2 copies prompts into any AI tool. Answer questions about what the page offers, how to pick a path, how to install, and how to use a prompt. Use plain, warm, short language, two to five sentences. Use only the page facts below. If the answer is not there, say you do not know and suggest the feedback form. Never write the organization's values, policy or commitment for the reader, because the tools ask them questions and they decide every line. Do not use em dashes. Remind readers not to paste names or confidential details if they start to share any.";
+  function setReady(s){
+    sample=s;openBtn.hidden=false;
+    add("bot","Hi. I can help you pick a path, install the tools or use a prompt. What would you like to know?");
+  }
+  function openChat(){box.hidden=false;openBtn.hidden=true;openBtn.setAttribute("aria-expanded","true");inp.focus();}
+  function closeChat(){box.hidden=true;openBtn.hidden=false;openBtn.setAttribute("aria-expanded","false");openBtn.focus();}
+  openBtn.addEventListener("click",openChat);
+  document.getElementById("chat-close").addEventListener("click",closeChat);
+  box.addEventListener("keydown",function(e){if(e.key==="Escape")closeChat();});
+  form.addEventListener("submit",function(e){
+    e.preventDefault();if(busy||!sample)return;
+    var q=inp.value.trim();if(!q)return;inp.value="";add("me",q);
+    history.push({role:"user",content:q});
+    busy=true;sendBtn.disabled=true;var out=add("bot","Thinking...");
+    var convo=history.slice(-8);
+    var first=convo[0];
+    var input=[{role:"user",content:SYSTEM+"\n\n"+where()+"\n\nPage facts:\n"+pageFacts()+"\n\nConversation so far follows. Answer the last question.\n"+convo.map(function(m){return (m.role==="user"?"Reader: ":"Guide: ")+m.content;}).join("\n")}];
+    sample(input,{cache:false,modelTier:"quick",onText:function(t){out.textContent=t.text;log.scrollTop=log.scrollHeight;}})
+      .then(function(r){out.textContent=r.text;history.push({role:"assistant",content:r.text});})
+      .catch(function(err){out.textContent=(err&&err.code==="rate_limited")?"Lots of questions right now. Please try again in a minute.":"I could not answer just now. You can leave a note on the feedback page.";})
+      .then(function(){busy=false;sendBtn.disabled=false;inp.focus();});
+  });
+  if(window.claude&&window.claude.use){
+    window.claude.use("sample").then(function(s){if(s)setReady(s);},function(){});
+  }
+})();
+</script>
+
+</body>
+</html>
