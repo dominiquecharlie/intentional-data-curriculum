@@ -2489,39 +2489,213 @@
       "score": 0,
       "reason": "below threshold",
       "date": "2026-10-19"
+    },
+    "doi:10.1016/j.tsc.2026.102394": {
+      "title": "Critical Thinking in Generative AI Use: Development and Validation of the GAICU Scale for University Students",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:arxiv.org/abs/2608.25815v2": {
+      "title": "GenAIT: Development and Validation of an Objective Generative AI Literacy Test for High School Students",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.35542/osf.io/ej7uz_v1": {
+      "title": "The AI Fluency Imperative: Cognitive Tax, the Diamond Workforce, and the Case for Consequence-Based Learning",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.35542/osf.io/ej7uz_v3": {
+      "title": "The AI Fluency Imperative: Cognitive Tax, the Diamond Workforce, and the Case for Consequence-Based Learning",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.56975/ijvra.v4i10.711798": {
+      "title": "The Impact of AI Literacy on Employee Career Resilience and Adaptability in the Workplace",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.68504/spmj.2026.v2.i5.401269": {
+      "title": "AI Literacy for Teachers: An Ethical Imperative",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.25258/ijddt.16.74s.51": {
+      "title": "Knowledge and Attitudes among Psychiatric Healthcare Providers regard Utilization of Artificial Intelligence Technology in Psychotherapy",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.33423/30am6f93": {
+      "title": "What Factors Shape the Responsible AI in Accounting and Auditing - Evidence from Japan",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.5772/intechopen.1016004": {
+      "title": "AI-Enabled Digital Co-Founders and Solo Entrepreneurship in Emerging Economies",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.5281/zenodo.23554963": {
+      "title": "A Socio-Technical Analysis of AI-Driven Legacy System Modernization in the Public Sector",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.5281/zenodo.23536641": {
+      "title": "Operationalizing AI Ethics in the Brazilian Public Sector: Practitioners' Perspectives on Sociotechnical Challenges",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.5281/zenodo.23561547": {
+      "title": "Unseen AI: what Europe's public sector buys, and what its procurement registers cannot show",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.1093/bjsw/bcag260": {
+      "title": "Rethinking AI governance for social work through the triple mandate",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:arxiv.org/abs/2610.32576v1": {
+      "title": "From Regulation to Engineering: Organizational Privacy Climate as Mediator",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:arxiv.org/abs/2610.30822v1": {
+      "title": "TESSA: A Governance-Oriented Custom GPT for SME Guidance under the EU AI Act: Design, Implementation, and Evaluation",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:arxiv.org/abs/2610.29669v1": {
+      "title": "Conflicted Records: Typed Adversarial Contracts for Auditable LLM Output Quality Enforcement",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.1108/rsr-07-2026-0113": {
+      "title": "Prompting the archive: evaluating GenAI for primary source discovery in reference services",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.21203/rs.3.rs-11061868/v1": {
+      "title": "Analysis of Artificial Intelligence in Education Systems Based on an Advanced Fuzzy Decision-Making Model",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:openalex.org/w7223434584": {
+      "title": "Bridging the Digital Divide Through Artificial Intelligence: An Inclusive Approach to Sustainable Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.3389/fpsyg.2026.1963363": {
+      "title": "An experimental study on the mediating roles of career decision-making self-efficacy between digital media literacy and employment choices of university students",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.5281/zenodo.23625156": {
+      "title": "Is Your Data Ready for AI? What Five Years of Reports from 26 Regulators Reveal About Data and AI Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.5281/zenodo.23618316": {
+      "title": "Responsible AI at Scale_ Proposed Global Guidelines",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.1007/978-981-95-0465-7_31": {
+      "title": "Fuzzy Trapezoidal TOPSIS Perspective on Artificial Intelligence in Various Power Electric Stations and Industrial Experiments",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.4324/9781003782551-6": {
+      "title": "The Co-Production of Respect",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.25405/ncl.34552893": {
+      "title": "Popular planning: integrating co-production, insurgency and prefiguration in Latin American cities",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.1177/00208523261494789": {
+      "title": "Scaling out while staying local: Maintaining inclusive co-production with vulnerable citizens",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "doi:10.1002/pad.70123": {
+      "title": "Co‐Production as State‐Building: Relational Capacity and the Prevention of Violent Extremism in the Global South",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:openalex.org/w7221273461": {
+      "title": "Co-Production: 22q Healthcare Passport Involving Young People Living with 22q11DS in Healthcare Solutions",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
+    },
+    "url:openalex.org/w7221283841": {
+      "title": "Embedding Co-production as a Way of Working to Strengthen Integrated Social Work: Quality Improvement Model",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-10-26"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-10-17T03:01:48Z",
     "updates": 0,
-    "checked": "2026-10-19"
+    "checked": "2026-10-26"
   },
   "hash:tir-2026": {
-    "hash": "8868a6e934455816223cdb6729313cb3ae1322e5db075874b1d59927c1be2506",
-    "checked": "2026-10-19"
+    "hash": "a5f9369bcf92d3eb5e198cc2bb1940eaf59b5dc351b57f18ff8d0e0d6a028ae2",
+    "checked": "2026-10-26"
   },
   "hash:care-model": {
-    "hash": "55fa12050c032c1e42ef17391a3990ee448f412b60bfdc0c5364c35c739aff60",
-    "checked": "2026-10-19"
+    "hash": "767137654c2199120eda66106c6eb08fc2efc6cc1207c918b7abd23c970ddd29",
+    "checked": "2026-10-26"
   },
   "hash:communities-in-the-loop": {
-    "hash": "42553b173cf036f3b9c23d5c0ae591b85280204d2b827f52554eb62a6ff40880",
-    "checked": "2026-10-19"
+    "hash": "17afe5d02c42b52f3c9226cc4ca1944c4f2dd9a3d2c6397802da6a875499f40d",
+    "checked": "2026-10-26"
   },
   "hash:nist-airmf": {
-    "hash": "a63d83a9bf1bd73ce78f794573b4d775e53eeb3736e5fc4574b6c8adfaa59b11",
-    "checked": "2026-10-19"
+    "hash": "acda400b31b407188ee4aaf6d66e5643bec7be138a6f30bd38452996da1dc528",
+    "checked": "2026-10-26"
   },
   "hash:anthropic-exponential": {
-    "hash": "6f11d0de3c4ce848cf6c2e14d2db1d5607f2cbfed731bf963bd3e0b659aa4697",
-    "checked": "2026-10-19"
+    "hash": "cdbfa460cb70206b851f918633a330c57a9de7d8e928a7a21e76d5b1261824bb",
+    "checked": "2026-10-26"
   },
   "hash:brookings-sb53": {
-    "hash": "14d33a3127db68c0d581e62764e4472fd1f4458e666bb371241190e09e4ca78d",
-    "checked": "2026-10-19"
+    "hash": "4f9da912c5d28498d1413da170da3dca57bfc15ad260c01344b6871273e59d97",
+    "checked": "2026-10-26"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-10-19"
+    "checked": "2026-10-26"
   }
 }
