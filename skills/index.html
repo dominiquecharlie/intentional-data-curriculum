@@ -206,6 +206,7 @@ body{font-size:1rem;line-height:1.55}
 .pview .prompt>.copy-row{grid-column:1;grid-row:3}
 .pview .prompt>.fbside{grid-column:2;grid-row:2/4;position:sticky;top:12px}
 }
+@media(min-width:56rem){.s1grid>.card.tall{grid-row:1/3}.s1grid>.card.dl{grid-row:1}.s1grid>.fbside{grid-column:2;grid-row:2;margin-top:0}}
 .fbside{background:var(--warm,#faf7f2);border:3px solid var(--sage);border-radius:18px;padding:12px 14px;margin-top:12px}
 .fbside h5{font-size:1rem;margin:0 0 .4rem;color:var(--dark)}
 .fbside label{display:block;font-size:.88rem;font-weight:600;margin:.4rem 0 .2rem}
@@ -963,16 +964,16 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
     });
     if(after&&after.parentNode===host){host.insertBefore(row,after.nextSibling);}else{host.appendChild(row);}
   }
-  function addSide(pr,skill,title){
+  function addSide(pr,skill,title,kind){kind=kind||"prompt";
     var box=document.createElement("div");box.className="fbside";
     var id="fs"+Math.random().toString(36).slice(2,8);
-    box.innerHTML='<h5>Tell us about this prompt</h5><div class="rate"><button type="button" class="rbtn" data-r="up" aria-pressed="false">'+icon(true)+'<span>Helpful</span></button><button type="button" class="rbtn" data-r="down" aria-pressed="false">'+icon(false)+'<span>Not helpful</span></button></div><label for="'+id+'">What worked, and what felt off?</label><textarea id="'+id+'" rows="3"></textarea><div class="hp" aria-hidden="true"><input type="text" tabindex="-1" autocomplete="off" aria-label="Leave empty"></div><div class="row"><button type="button" class="btn">Send</button></div><div class="fbmsg" role="status" aria-live="polite"></div>';
+    box.innerHTML='<h5>Tell us about this '+kind+'</h5><div class="rate"><button type="button" class="rbtn" data-r="up" aria-pressed="false">'+icon(true)+'<span>Helpful</span></button><button type="button" class="rbtn" data-r="down" aria-pressed="false">'+icon(false)+'<span>Not helpful</span></button></div><label for="'+id+'">What worked, and what felt off?</label><textarea id="'+id+'" rows="3"></textarea><div class="hp" aria-hidden="true"><input type="text" tabindex="-1" autocomplete="off" aria-label="Leave empty"></div><div class="row"><button type="button" class="btn">Send</button></div><div class="fbmsg" role="status" aria-live="polite"></div>';
     var rating="",btns=box.querySelectorAll(".rbtn"),ta=box.querySelector("textarea"),m=box.querySelector(".fbmsg"),send=box.querySelector(".btn");
     btns.forEach(function(b){b.setAttribute("aria-label",(b.dataset.r==="up"?"Helpful":"Not helpful")+": "+title);b.addEventListener("click",function(){rating=b.dataset.r;btns.forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});});});
     send.addEventListener("click",function(){
       if(box.querySelector(".hp input").value)return;
       if(!rating&&!ta.value.trim()){m.textContent="Pick a thumb or write a note first.";return;}
-      var payload={timestamp:new Date().toISOString(),type:"inline",kind:"prompt",skill:skill,item:title,rating:rating,comment:ta.value};
+      var payload={timestamp:new Date().toISOString(),type:"inline",kind:kind,skill:skill,item:title,rating:rating,comment:ta.value};
       var ok=function(t){m.textContent=t;ta.value="";rating="";btns.forEach(function(x){x.setAttribute("aria-pressed","false");});};
       if(!ENDPOINT){ok("Thanks. Feedback is not connected yet, so this was not sent.");return;}
       fetch(ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}).then(function(){ok("Thank you. Sent.");},function(){m.textContent="That did not send. Please try again.";});
@@ -1008,7 +1009,7 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
     panel.querySelectorAll(".pitem").forEach(function(b){b.addEventListener("click",function(){panel.querySelectorAll(".rbtn").forEach(function(x){x.setAttribute("aria-pressed","false");});panel.querySelectorAll(".rate-done,.fbside .fbmsg").forEach(function(d){d.textContent="";});});});
   });
   document.querySelectorAll("#pg-skills .skpanel").forEach(function(panel){
-    var card=panel.querySelector(".card.dl")||panel.querySelector(".card.tall");var t=panel.dataset.name;var dlp=card.querySelector(".dlbtn");addRating(card,"skill",t,t,dlp?dlp.closest("p"):null);
+    var g=panel.querySelector(".s1grid");if(g)addSide(g,t0(panel),panel.dataset.name,"skill");function t0(p){return p.dataset.name;}
   });
 
   // ----- help chat -----
