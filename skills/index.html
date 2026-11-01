@@ -178,7 +178,7 @@ body{font-size:1rem;line-height:1.55}
 .psel{display:block;width:100%;margin:.2rem 0 .6rem;font-family:inherit;font-size:.9rem;padding:.5rem .6rem;border:3px solid var(--sage);border-radius:12px;background:#fff;color:var(--ink)}
 .pbox .prompt{border:0;padding:0;margin:0;border-radius:0}
 .pbox .prompt h4{position:absolute;left:-10000px}
-.pbox pre{font-size:.8rem;line-height:1.45;max-height:calc(100vh - 25rem);min-height:9rem}
+.pbox pre{font-size:.8rem;line-height:1.45;max-height:calc(100vh - 32rem);min-height:9rem}
 .pbox .prompt.is-hidden{display:none}
 .pbox .btn{font-size:.9rem;padding:.4rem 1rem;min-height:40px}
 .page .band{padding:0}
@@ -191,7 +191,7 @@ body{font-size:1rem;line-height:1.55}
 
 /* ---- in-the-moment feedback and help chat ---- */
 .rate{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:10px}
-.rate .lbl{position:absolute;left:-10000px}
+.rate .lbl{font-size:.9rem;font-weight:600;color:var(--dark)}
 .rbtn{font-family:inherit;font-size:.9rem;font-weight:600;background:#fff;color:var(--dark);border:3px solid var(--sage);border-radius:999px;padding:.2rem .6rem;cursor:pointer;min-height:40px;display:inline-flex;align-items:center;gap:.4rem}
 .rbtn svg{width:1.1rem;height:1.1rem;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
 .rbtn:hover{background:var(--sage)}
@@ -933,7 +933,7 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
   var dlg=document.getElementById("fbd"),ctx=document.getElementById("fbd-ctx"),txt=document.getElementById("fbd-text");
   var msg=document.getElementById("fbd-msg"),cur=null;
   function icon(up){return up?'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11v9H4v-9h3zM7 11l4-8c1.5 0 2.5 1 2.5 2.5V9h5.2a2 2 0 0 1 2 2.3l-1.2 7A2 2 0 0 1 17.5 20H7"/></svg>':'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 13V4h3v9h-3zM17 13l-4 8c-1.5 0-2.5-1-2.5-2.5V15H5.3a2 2 0 0 1-2-2.3l1.2-7A2 2 0 0 1 6.5 4H17"/></svg>';}
-  function addRating(host,kind,skill,title){
+  function addRating(host,kind,skill,title,after){
     var row=document.createElement("div");row.className="rate";
     row.innerHTML='<span class="lbl">Was this helpful?</span>';
     [["up","Helpful"],["down","Not helpful"]].forEach(function(r){
@@ -946,7 +946,7 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
       });
       row.appendChild(b);
     });
-    host.appendChild(row);
+    if(after&&after.parentNode===host){host.insertBefore(row,after.nextSibling);}else{host.appendChild(row);}
   }
   function openDialog(c){
     cur=c;msg.textContent="";txt.value="";
@@ -973,11 +973,11 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
   // prompts and skills
   document.querySelectorAll("#pg-prompts .skpanel").forEach(function(panel){
     var skill=panel.dataset.name;
-    panel.querySelectorAll(".prompt").forEach(function(pr){addRating(pr,"prompt",skill,pr.querySelector("h4").textContent);});
+    panel.querySelectorAll(".prompt").forEach(function(pr){var cr=pr.querySelector(".copy-row");addRating(cr||pr,"prompt",skill,pr.querySelector("h4").textContent);});
     panel.querySelectorAll(".pitem").forEach(function(b){b.addEventListener("click",function(){panel.querySelectorAll(".rbtn").forEach(function(x){x.setAttribute("aria-pressed","false");});panel.querySelectorAll(".rate-done").forEach(function(d){d.textContent="";});});});
   });
   document.querySelectorAll("#pg-skills .skpanel").forEach(function(panel){
-    var card=panel.querySelector(".card.tall");var t=panel.dataset.name;addRating(card,"skill",t,t);
+    var card=panel.querySelector(".card.dl")||panel.querySelector(".card.tall");var t=panel.dataset.name;var dlp=card.querySelector(".dlbtn");addRating(card,"skill",t,t,dlp?dlp.closest("p"):null);
   });
 
   // ----- help chat -----
