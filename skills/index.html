@@ -197,6 +197,23 @@ body{font-size:1rem;line-height:1.55}
 .rbtn:hover{background:var(--sage)}
 .rbtn[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
 .rate-done{font-size:.85rem;font-weight:600;color:var(--dark)}
+
+/* ---- feedback box beside each prompt ---- */
+@media(min-width:64rem){
+.pview .prompt{display:grid;grid-template-columns:minmax(0,1fr) 17rem;column-gap:20px;align-items:start}
+.pview .prompt>h4{grid-column:1/-1}
+.pview .prompt>pre{grid-column:1;grid-row:2}
+.pview .prompt>.copy-row{grid-column:1;grid-row:3}
+.pview .prompt>.fbside{grid-column:2;grid-row:2/4;position:sticky;top:12px}
+}
+.fbside{background:var(--warm,#faf7f2);border:3px solid var(--sage);border-radius:18px;padding:12px 14px;margin-top:12px}
+.fbside h5{font-size:1rem;margin:0 0 .4rem;color:var(--dark)}
+.fbside label{display:block;font-size:.88rem;font-weight:600;margin:.4rem 0 .2rem}
+.fbside textarea{width:100%;min-height:4.5rem;font-family:inherit;font-size:.9rem;box-sizing:border-box}
+.fbside .rate{margin-top:0}
+.fbside .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:8px}
+.fbside .btn{font-size:.9rem;padding:.4rem 1rem;min-height:40px}
+.fbside .fbmsg{font-size:.85rem;font-weight:600;margin-top:6px}
 dialog.fbd{border:3px solid var(--green);border-radius:24px;padding:22px 24px;max-width:min(32rem,92vw);width:100%;background:#fff;color:var(--ink);font-family:inherit}
 dialog.fbd::backdrop{background:rgba(30,74,32,.45)}
 dialog.fbd h2{font-size:1.25rem;margin:0 0 .3rem}
@@ -745,8 +762,7 @@ At the end, show me the commitment so I can save it in a file called leadership-
     <h2 id="chg-h" style="margin-top:28px;font-size:1.3rem">What changed because of you</h2>
     <p>After the pilot, we will list here every change that came from your feedback. You will see what you asked for and what we did.</p>
     <p>Want to suggest an edit yourself? You can do that in our public repository.</p>
-    <!-- PLACEHOLDER: replace href="#" with the public repo link when it exists. -->
-    <p><a href="#">Suggest an edit in the public repository</a></p>
+    <p><a href="https://github.com/dominiquecharlie/Ethical-AI-Tools">Suggest an edit in the public repository</a></p>
   
     <div class="pager"><button type="button" class="btn secondary" data-go="back">Back</button><span class="spacer"></span><button type="button" class="btn secondary" data-go="welcome">Start over</button></div>
   </div>
@@ -948,6 +964,22 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
     });
     if(after&&after.parentNode===host){host.insertBefore(row,after.nextSibling);}else{host.appendChild(row);}
   }
+  function addSide(pr,skill,title){
+    var box=document.createElement("div");box.className="fbside";
+    var id="fs"+Math.random().toString(36).slice(2,8);
+    box.innerHTML='<h5>Tell us about this prompt</h5><div class="rate"><button type="button" class="rbtn" data-r="up" aria-pressed="false">'+icon(true)+'<span>Helpful</span></button><button type="button" class="rbtn" data-r="down" aria-pressed="false">'+icon(false)+'<span>Not helpful</span></button></div><label for="'+id+'">What worked, and what felt off?</label><textarea id="'+id+'" rows="3"></textarea><div class="hp" aria-hidden="true"><input type="text" tabindex="-1" autocomplete="off" aria-label="Leave empty"></div><div class="row"><button type="button" class="btn">Send</button></div><div class="fbmsg" role="status" aria-live="polite"></div>';
+    var rating="",btns=box.querySelectorAll(".rbtn"),ta=box.querySelector("textarea"),m=box.querySelector(".fbmsg"),send=box.querySelector(".btn");
+    btns.forEach(function(b){b.setAttribute("aria-label",(b.dataset.r==="up"?"Helpful":"Not helpful")+": "+title);b.addEventListener("click",function(){rating=b.dataset.r;btns.forEach(function(x){x.setAttribute("aria-pressed",x===b?"true":"false");});});});
+    send.addEventListener("click",function(){
+      if(box.querySelector(".hp input").value)return;
+      if(!rating&&!ta.value.trim()){m.textContent="Pick a thumb or write a note first.";return;}
+      var payload={timestamp:new Date().toISOString(),type:"inline",kind:"prompt",skill:skill,item:title,rating:rating,comment:ta.value};
+      var ok=function(t){m.textContent=t;ta.value="";rating="";btns.forEach(function(x){x.setAttribute("aria-pressed","false");});};
+      if(!ENDPOINT){ok("Thanks. Feedback is not connected yet, so this was not sent.");return;}
+      fetch(ENDPOINT,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(payload)}).then(function(){ok("Thank you. Sent.");},function(){m.textContent="That did not send. Please try again.";});
+    });
+    pr.appendChild(box);
+  }
   function openDialog(c){
     cur=c;msg.textContent="";txt.value="";
     document.getElementById("fbd-h").textContent=c.rating==="up"?"Glad it helped":"Sorry it did not help";
@@ -973,8 +1005,8 @@ const FEEDBACK_ENDPOINT = "https://script.google.com/macros/s/AKfycbw-qKUpDWFdI3
   // prompts and skills
   document.querySelectorAll("#pg-prompts .skpanel").forEach(function(panel){
     var skill=panel.dataset.name;
-    panel.querySelectorAll(".prompt").forEach(function(pr){var cr=pr.querySelector(".copy-row");addRating(cr||pr,"prompt",skill,pr.querySelector("h4").textContent);});
-    panel.querySelectorAll(".pitem").forEach(function(b){b.addEventListener("click",function(){panel.querySelectorAll(".rbtn").forEach(function(x){x.setAttribute("aria-pressed","false");});panel.querySelectorAll(".rate-done").forEach(function(d){d.textContent="";});});});
+    panel.querySelectorAll(".prompt").forEach(function(pr){addSide(pr,skill,pr.querySelector("h4").textContent);});
+    panel.querySelectorAll(".pitem").forEach(function(b){b.addEventListener("click",function(){panel.querySelectorAll(".rbtn").forEach(function(x){x.setAttribute("aria-pressed","false");});panel.querySelectorAll(".rate-done,.fbside .fbmsg").forEach(function(d){d.textContent="";});});});
   });
   document.querySelectorAll("#pg-skills .skpanel").forEach(function(panel){
     var card=panel.querySelector(".card.dl")||panel.querySelector(".card.tall");var t=panel.dataset.name;var dlp=card.querySelector(".dlbtn");addRating(card,"skill",t,t,dlp?dlp.closest("p"):null);
