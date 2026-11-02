@@ -2663,39 +2663,297 @@
       "score": 0,
       "reason": "below threshold",
       "date": "2026-10-26"
+    },
+    "doi:10.35542/osf.io/ej7uz_v2": {
+      "title": "The AI Fluency Imperative: Cognitive Tax, the Diamond Workforce, and the Case for Consequence-Based Learning",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.4018/979-8-2600-4926-6.ch006": {
+      "title": "AI Literacy",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.21203/rs.3.rs-10640571/v1": {
+      "title": "A Sovereignty Centred Model of AI Literacy for African Higher Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.5281/zenodo.23433158": {
+      "title": "Distinguishing Practical GenAI Use from Creative Human–AI Engagement: Development and Validation of a Multidimensional AI Literacy Scale",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.30935/ijpdll/19665": {
+      "title": "K-12 AI literacy frameworks after generative AI: A scoping review",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.46787/ijaipil.v1i4.8069": {
+      "title": "Exploring AI Literacy Through a Semester-Long Course",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1080/15391523.2026.2735312": {
+      "title": "Understanding generative artificial intelligence literacy in higher education: Development and validation of an instrument",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1080/17425964.2026.2753651": {
+      "title": "A Self-Study of Teacher Educators’ AI Literacy and Professional Development from a Digital Agency Perspective",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1108/lht-05-2026-0158": {
+      "title": "Academic librarians' perceptions of new skills, competencies and professional development needs in the AI age",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1108/lm-01-2026-0002": {
+      "title": "Intelligent workspaces: how AI tools are changing service models and workforce skills in academic libraries",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1111/flan.70082": {
+      "title": "Co‐existing and co‐constructing with AI: Beliefs, practices, and professional readiness of online language coaches",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.58578/ajecee.v4i5.12331": {
+      "title": "AI Teacher-Preparation Interventions and Readiness in Sub-Saharan Africa: A Scoping Review for Tanzanian Primary Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.6084/m9.figshare.32643831": {
+      "title": "Artificial Intelligence Training Program for Medical Students: A Pilot Evaluation of Its Effectiveness",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "url:openalex.org/w7225026996": {
+      "title": "CHALLENGES AND ETHICAL CONSIDERATIONS IN UTILIZING ARTIFICIAL INTELLIGENCE FOR RESEARCH AMONG BUSINESS EDUCATION POSTGRADUATE STUDENTS",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.33193/jalhss.133.2026.1736": {
+      "title": "واقع استخدام أدوات الذكاء الاصطناعي التوليدي لدى معلمي ومعلمات صعوبات التعلم في مدارس التعليم العام بمدينة جدة",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.52133/ijrsp.v7.84.6": {
+      "title": "فاعلية استخدام تطبيقات الذكاء الاصطناعي في تنمية المهارات الرقمية المتوسطة لدى طالبات السنة التحضيرية بجامعة الملك عبد العزيز",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.61737/zmaf6128": {
+      "title": "État des lieux d’initiatives en littératie de l’IA pour le personnel enseignant et les élèves",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.18231/j.jmra.17182.1790316281": {
+      "title": "AI literacy: Gen Z expectations vs. organisational practices in India's dynamic job market",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "url:arxiv.org/abs/2610.38077v2": {
+      "title": "Infrastructure and its Discontents: Contestations of Power in Canada's AI Governance Scaffold",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1201/9781003771326-5": {
+      "title": "Democratizing AI Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.25405/ncl.34547598": {
+      "title": "AI Chatbots in the Voluntary Sector: A Sociotechnical Perspective on Access, Risk, and Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.17605/osf.io/4vapn": {
+      "title": "SLR: Board-level AI Governance in Financial Services",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.63371/ic.v5.n4.a1787": {
+      "title": "Capacidad institucional para la adopción responsable de inteligencia artificial en el sector público ecuatoriano: Desafíos y oportunidades para la gestión pública",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1007/979-8-8688-3353-3_18": {
+      "title": "The Future of AI Governance in Financial Services",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.48550/arxiv.2610.38077": {
+      "title": "Infrastructure and its Discontents: Contestations of Power in Canada's AI Governance Scaffold",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "url:arxiv.org/abs/2610.33605v1": {
+      "title": "Data Governance for Generative and Agentic AI : Technology, Law, Economics, and Security",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "url:arxiv.org/abs/2610.33112v1": {
+      "title": "Conformance as a Distribution: Delegation Contracts, Error Budgets, and the Allocation of Evaluation Authority in Use-Based AI Regulation",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.37641/jabkes.v6i2.5764": {
+      "title": "Generative AI in Managerial Decision-Making: A Systematic Literature Review of Trust, AI Literacy, and Decision Quality",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1002/ohn.70500": {
+      "title": "Version‐Specific Performance of ChatGPT in Audiogram Interpretation: Comparison of ChatGPT‐4.0 and ChatGPT‐5.1",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.3389/frai.2026.1945247": {
+      "title": "Large language model-assisted modern programming pedagogy model: a perspective on teaching programming in the era of LLMs",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "url:openalex.org/w7225066459": {
+      "title": "Book Review: Artificial intelligence, real teaching: A guide to AI in ELT",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.21203/rs.3.rs-10912780/v1": {
+      "title": "Artificial intelligence anxiety and literacy among higher vocational nursing students: the mediating role of artificial intelligence self-efficacy in a cross-sectional study",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.5281/zenodo.23625155": {
+      "title": "Is Your Data Ready for AI? What Five Years of Reports from 26 Regulators Reveal About Data and AI Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.5281/zenodo.23639275": {
+      "title": "CDIE: Risk Extension and Traceable Uncertainty in Organizational AI Risk Assessment",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.67440/ahj.vi.2913": {
+      "title": "When Consent Cannot Bear the weight: Artificial Intelligence, Algorithmic POWER and the Limits of Data Privacy Self-Management in Nigeria",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.5281/zenodo.23662573": {
+      "title": "Artificial Intelligence and Constitutional Rights in India: Regulating Algorithmic Decision-Making, Bias and Accountability",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.5281/zenodo.23662996": {
+      "title": "The Fallacy of Algorithmic Infallibility: Socio-Legal Challenges to Economic Public Order and State Liability in the Era of Automated Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.64429/wvijsh.02.03.051": {
+      "title": "Critical Perspectives on Algorithmic Bias and Due Process in Criminal Adjudication",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.30923/230260643": {
+      "title": "Sistemas de medición y estándares sobre la IA",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.5281/zenodo.23186662": {
+      "title": "Impact AI Method – Full material",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.59909/khm.06.02.011": {
+      "title": "İnsan Hakları v. Yapay Zekâ: Avrupa Konseyi Yapay Zekâ ve İnsan Hakları, Demokrasi ve Hukukun Üstünlüğü Hakkında Çerçeve Sözleşmesi",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.1093/9780197871782.003.0018": {
+      "title": "What Is the Role of Elite Policymaking vs. Co-Production?",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
+    },
+    "doi:10.55927/mudima.v6i10.138": {
+      "title": "Co-production in Community Empowerment through the Kampung Lali Gadget Social Innovation",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-02"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-10-17T03:01:48Z",
     "updates": 0,
-    "checked": "2026-10-26"
+    "checked": "2026-11-02"
   },
   "hash:tir-2026": {
-    "hash": "a5f9369bcf92d3eb5e198cc2bb1940eaf59b5dc351b57f18ff8d0e0d6a028ae2",
-    "checked": "2026-10-26"
+    "hash": "07e9e55e602114ed45b20ecf0f298dcaf04d5f76f565b4ee509a9a012b4de44b",
+    "checked": "2026-11-02"
   },
   "hash:care-model": {
-    "hash": "767137654c2199120eda66106c6eb08fc2efc6cc1207c918b7abd23c970ddd29",
-    "checked": "2026-10-26"
+    "hash": "30340cfe977ab77dd05d6bb7e8fbc7056fc6b4bbe239051e6fb78ec9d35215a6",
+    "checked": "2026-11-02"
   },
   "hash:communities-in-the-loop": {
-    "hash": "17afe5d02c42b52f3c9226cc4ca1944c4f2dd9a3d2c6397802da6a875499f40d",
-    "checked": "2026-10-26"
+    "hash": "38971472ec581fa405bc9e13f4f5deb051c864d9d32c12a991dd9f8ee869ddd4",
+    "checked": "2026-11-02"
   },
   "hash:nist-airmf": {
-    "hash": "acda400b31b407188ee4aaf6d66e5643bec7be138a6f30bd38452996da1dc528",
-    "checked": "2026-10-26"
+    "hash": "15ffb69b722d98e7a7f385de536440ac119e216632853066094b14b7fa3d8abc",
+    "checked": "2026-11-02"
   },
   "hash:anthropic-exponential": {
-    "hash": "cdbfa460cb70206b851f918633a330c57a9de7d8e928a7a21e76d5b1261824bb",
-    "checked": "2026-10-26"
+    "hash": "f7be25f23cb6653f0958794609f8a8b3294486298a1e7641282dd247a592fefa",
+    "checked": "2026-11-02"
   },
   "hash:brookings-sb53": {
-    "hash": "4f9da912c5d28498d1413da170da3dca57bfc15ad260c01344b6871273e59d97",
-    "checked": "2026-10-26"
+    "hash": "89c60dabe052fb88989b462c6f8a2b1fd18f0fa66d020fd9a2bf654b3953f7d5",
+    "checked": "2026-11-02"
   },
   "hash:traiga": {
     "hash": "4da13c2ad04aec5625a398c5a697b9a3c11f53acb865cd6fd5c33e5baf949494",
-    "checked": "2026-10-26"
+    "checked": "2026-11-02"
   }
 }
