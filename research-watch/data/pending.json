@@ -64,5 +64,16 @@
     "venue": "",
     "year": null,
     "note": "The page content changed since the last check. Review for a new edition, errata, or a revision."
+  },
+  {
+    "kind": "tier_a_change",
+    "id": "traiga",
+    "title": "Change detected: TRAIGA, Texas HB 149",
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149",
+    "doi": "",
+    "authors": "",
+    "venue": "",
+    "year": null,
+    "note": "The page content changed since the last check. Review for a new edition, errata, or a revision."
   }
 ]
