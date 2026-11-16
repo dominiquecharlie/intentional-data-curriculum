@@ -1,6 +1,6 @@
-# Research Watch, 2026-11-09
+# Research Watch, 2026-11-16
 
-7 item(s) for review.
+6 item(s) for review.
 
 
 ## Changes to the existing evidence base
@@ -29,10 +29,6 @@
 - **Change detected: Brookings on California SB 53**
   The page content changed since the last check. Review for a new edition, errata, or a revision.
   https://www.brookings.edu/articles/what-is-californias-ai-safety-law/
-
-- **Change detected: TRAIGA, Texas HB 149**
-  The page content changed since the last check. Review for a new edition, errata, or a revision.
-  https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB149
 
 
 
