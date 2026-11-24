@@ -3569,39 +3569,325 @@
       "score": 0,
       "reason": "below threshold",
       "date": "2026-11-16"
+    },
+    "url:arxiv.org/abs/2611.19111v1": {
+      "title": "Conditional Endorsement: Simulating How Adults with Different Skills Evaluate Canada's National AI Strategy",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1370/afm.24.s1.9308": {
+      "title": "Characterizing AI literacy and competency assessment tools for family physicians: A scoping review",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24377021": {
+      "title": "How Artificial Intelligence Is Transforming Higher Education",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.55927/fjst.v5i10.2": {
+      "title": "Reclaiming Teacher Agency in AI Mediated Classrooms Exploring Professional Autonomy and Pedagogical Decision Making",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.51583/ijltemas.2026.151100011": {
+      "title": "Developing and Validating a Digital Competency Framework for Public Employees in Vietnam's Finance-Sector Public Service Institutions",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.4324/9781003737872-20": {
+      "title": "Training Social Workers for the AI Era",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.21900/j.alise.2026.2316": {
+      "title": "Continuing Education as Ethical Infrastructure: Informal AI Learning in Academic Librarianship",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.3389/feduc.2026.1876200": {
+      "title": "Bridging the AI literacy gap: mixed-methods evidence from employers on workforce readiness and curriculum priorities",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.2196/preprints.116898": {
+      "title": "Training to Build Confidence in Clinical Artificial Intelligence for Global Health: Cross-sectional evaluations of a synchronous virtual course (Preprint)",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.70175/hclreview.2020.40.4.3": {
+      "title": "The Experience Advantage: Age-Inclusive AI Upskilling for the Longevity Workforce",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1201/9788743814573-13": {
+      "title": "The Future of Beekeeping – An AI-driven Business Strategy for Sustainability",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24359055": {
+      "title": "The Missing Middle of AI Governance: Nonprofit Contributions to AI Innovation and Regulations",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24348597": {
+      "title": "The Digital Fossil of Deliberation: A Human-Centered Architecture for AI Governance and Decision Accountability",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.17605/osf.io/wnze5": {
+      "title": "Agentic artificial intelligence in the public sector: a scoping review of applications, enablers, barriers and governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.62915/2472-2707.1361": {
+      "title": "A Conceptual Framework for Understanding the Potential Effects of Digital Literacy Gaps on Artificial Intelligence in the Cybersecurity of the Mozambican Public Sector",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24426960": {
+      "title": "AI Acceptable-Use Policy: a plain-language template for small governments and nonprofits",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.17605/osf.io/u68ab": {
+      "title": "SLR: Board-level AI Governance in Financial Services",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "url:arxiv.org/abs/2611.26050v1": {
+      "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "url:arxiv.org/abs/2611.21948v1": {
+      "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1201/9781003685999-7": {
+      "title": "AI Regulations",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.59224/dti8.ch8": {
+      "title": "AI Regulation in Latin America",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.59224/dti8.ch7": {
+      "title": "Canada’s Middle Power AI Regulation",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.71389/a3706s25": {
+      "title": "Integrating AI Regulation and Policy with Animal Law and Policy",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.59224/dti8": {
+      "title": "Law, Technology and Innovation, v. 8: AI Regulation Landscape",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.59224/dti8.ch12": {
+      "title": "Divergent Paths in AI Regulation: Australia and Brazil at a Moment of Global Recalibration",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.22363/2312-9220-2026-31-2-420-431": {
+      "title": "Constructing the Risks of AI Regulation: Russian Media Discourse on the EU AI Act",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.64628/ab.kfqr6kauh": {
+      "title": "What AI regulation could learn from the most hazardous industries in the world",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.48550/arxiv.2611.21948": {
+      "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.29305/tj.2026.11.215.799": {
+      "title": "The Constrained Optimum in AI Regulation: Regulatory Duplication, Compliance Cost Asymmetry, and ‘Optimal Competition Impact Assessment’",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.48550/arxiv.2611.26050": {
+      "title": "Studying AI Act Mentions: A first look at the impact of the European Union's AI regulation on Hugging Face",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.21203/rs.3.rs-11679788/v1": {
+      "title": "Risk-Aware AI Procurement in the U.S. Public Sector: Stochastic Optimization and Technology Governance",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24429450": {
+      "title": "Guía para directivos: plan de implementación de IA en una institución educativa en 90 días",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.14429/djlit.22207": {
+      "title": "Shadow AI to Institutional Governance: A Lifecycle Framework for Generative AI in Scholarly Communication",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1145/3858355": {
+      "title": "Fairness Theatre: Evaluating Post-Hoc Fairness Interventions in Vendor-Controlled Early Warning Systems",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1080/1051712x.2026.2759955": {
+      "title": "How Does Buyer AI-Enabled Environmental Governance Influence Supplier GHG Emissions? The Moderating Role of Institutional Factors",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24357818": {
+      "title": "Artificial Intelligence & The United States Federal Government: A Policy Analysis of Governance, Private Sector Participation, and Public Value Across Administrations",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24373958": {
+      "title": "aia-prefill-canada: a reproducible corpus of Canada's published Algorithmic Impact Assessments, score reproduction and a pre-specified evaluation protocol",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.47191/ijsshr/v9-i11-24": {
+      "title": "Artificial Intelligence and the Socialist Rule-of-Law State in Vietnam: Rethinking the Exercise and Control of Public Power",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.5281/zenodo.24362851": {
+      "title": "GOVERNING TECHNOLOGICAL CONVERGENCE Legal Ethical and Regulatory Frameworks for Neural Data Organoid Intelligence and Autonomous Systems",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.63355/iab1827": {
+      "title": "Decoding Moral Vulnerability in AI Environments:A Case Study of Algorithmic Governance and Policy Implications",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.21154/jelhum.v5i2.4938": {
+      "title": "Strengthening Disability Rights Protections in The Digital Age Through Islamic Justice",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1145/3847401.3857184": {
+      "title": "Designing AI at the Rural Edge: A Micro-Social Venture Framework for Community-Led Digital Innovation",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1080/14606925.2026.2754377": {
+      "title": "Co-creating principles for human–AI collaboration: A participatory approach to organizational GenAI integration",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1111/jnp.70084": {
+      "title": "Co‐evaluation of co‐production in mind and brain research: A dialogical approach",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1080/14719037.2026.2765743": {
+      "title": "Beyond the bright-dark binary of co-production: a paradox lens on co-assessment",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1177/23800844261500130": {
+      "title": "An Embedded Case Study on Co-production in Dental and Municipal Old Age Care",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
+    },
+    "doi:10.1136/spcare-2026-huk.38": {
+      "title": "Dementia unmuted 2026: Evolving a community dementia festival through co-production, inclusion and lived experience",
+      "score": 0,
+      "reason": "below threshold",
+      "date": "2026-11-24"
     }
   },
   "crossref:sails-2026": {
     "indexed": "2026-11-04T16:03:06Z",
     "updates": 0,
-    "checked": "2026-11-16"
+    "checked": "2026-11-24"
   },
   "hash:tir-2026": {
-    "hash": "b5c36dfba1fa1f2138568332f158ba24b6947a4045b2e7d6715110c4c62665f0",
-    "checked": "2026-11-16"
+    "hash": "ee1c329612d6b9b644a0a50e63e70d03c756d9c07441036e0c4384ad474a14bc",
+    "checked": "2026-11-24"
   },
   "hash:care-model": {
-    "hash": "e7886cca7a15d4e02017c43ec58006c2a350ae4e666df1a7d0ad8802591d201e",
-    "checked": "2026-11-16"
+    "hash": "d7ec8e30e05bd54229a910b41302b5d886157ec5979dd42811fd290bb410e133",
+    "checked": "2026-11-24"
   },
   "hash:communities-in-the-loop": {
-    "hash": "1a698a165fffd06851290fcd46a687e6e408dd2a8d41e5c51a9b4eb0c0418d72",
-    "checked": "2026-11-16"
+    "hash": "1df750fbb4ae9927a73513da6d2654126722aaea7ed1f82f90f9f7daea46995a",
+    "checked": "2026-11-24"
   },
   "hash:nist-airmf": {
-    "hash": "cf088c233ca098afb2cae1601376c52f5c7a86275dedd42404e1463784bf5c2b",
-    "checked": "2026-11-16"
+    "hash": "333c53957c43b2a6d1ab278f2262bb01342c8e4703d68279841a472265d78b72",
+    "checked": "2026-11-24"
   },
   "hash:anthropic-exponential": {
-    "hash": "5580d42973a77ef0c5faaec4a8648f49567b23fcb38f286acd830c22cb124821",
-    "checked": "2026-11-16"
+    "hash": "d36e4b6fcc51c9ca75a9d39b2997f0b5beccad6e597e71d33ac3b6e50ce9e91f",
+    "checked": "2026-11-24"
   },
   "hash:brookings-sb53": {
-    "hash": "dcc32415d503d1082a71892099d2d6f52def48078de1c336fd83f6c62cb17430",
-    "checked": "2026-11-16"
+    "hash": "76e14e14ca603b5ae74d85f9b2ed460dc54ecc58341b221bcd5f39f373b4f621",
+    "checked": "2026-11-24"
   },
   "hash:traiga": {
     "hash": "c025f6a309f562320ae4d307d8a85d06756f65684a0fd83e1caf7b92c22df225",
-    "checked": "2026-11-16"
+    "checked": "2026-11-24"
+  },
+  "hash:fedorich-stack": {
+    "hash": "3d087625998217be12c7e0d9da90cb55ef3d68ecf051046ad0cc79922d69ca70",
+    "checked": "2026-11-24"
   }
 }
